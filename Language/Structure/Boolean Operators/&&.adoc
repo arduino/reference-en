@@ -1,0 +1,58 @@
+= && (and)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Boolean Operators can be used inside the condition of an `if` statement. +
+&& is true only if both operands are true, for instance in this example:
+
+[source,arduino]
+----
+if (digitalRead(2) == HIGH  && digitalRead(3) == HIGH) { // read two switches 
+  // ...
+} 
+
+is true only if both inputs are high.
+----
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example
+
+
+[source,arduino]
+----
+if (a >= 10 && a <= 20){}   // true if a is between 10 and 20
+----
+[%hardbreaks]
+
+
+[float]
+=== Notes and Warnings
+Make sure you don't mistake the boolean AND operator, && (double ampersand) for the bitwise AND operator & (single ampersand). They are entirely different beasts.
+
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE# http://arduino.cc/en/Reference/BitwiseAnd[&] (bitwise AND)
+* #LANGUAGE# http://arduino.cc/en/Reference/BitwiseAnd[|] (bitwise OR)
+* #LANGUAGE# http://arduino.cc/en/Reference/BitwiseXorNot[~] (bitwise NOT)
+* #LANGUAGE# http://arduino.cc/en/Reference/If[if]
+
+--
+// HOW TO USE SECTION ENDS

@@ -1,0 +1,52 @@
+= setup()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The `setup()` function is called when a sketch starts. Use it to initialize variables, pin modes, when you start using libraries, etc. The setup function will only run once, after each powerup or reset of the Arduino board.
+[%hardbreaks]
+
+[float]
+=== Syntax
+`setup()`
+
+[float]
+=== Returns
+Nothing
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example
+
+[source,arduino]
+----
+int buttonPin = 3;
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(buttonPin, INPUT);
+}
+
+void loop()
+{
+  // ...
+}
+----
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS

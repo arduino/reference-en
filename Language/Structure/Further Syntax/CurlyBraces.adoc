@@ -1,0 +1,99 @@
+= {} Curly Braces
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Curly braces (also referred to as just "braces" or as "curly brackets") are a major part of the C programming language. They are used in several different constructs, outlined below, and this can sometimes be confusing for beginners. +
+An opening curly brace "{" must always be followed by a closing curly brace "}". This is a condition that is often referred to as the braces being balanced. The Arduino IDE (Integrated Development Environment) includes a convenient feature to check the balance of curly braces. Just select a brace, or even click the insertion point immediately following a brace, and its logical companion will be highlighted.
+[%hardbreaks]
+Beginners programmers, and programmers coming to C from the BASIC language often find using braces confusing or daunting. After all, the same curly braces replace the RETURN statement in a subroutine (function), the ENDIF statement in a conditional and the NEXT statement in a FOR loop.
+[%hardbreaks]
+Unbalanced braces can often lead to cryptic, impenetrable compiler errors that can sometimes be hard to track down in a large program. Because of their varied usages, braces are also incredibly important to the syntax of a program and moving a brace one or two lines will often dramatically affect the meaning of a program.
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example
+The main uses of curly braces are listed in the examples below.
+
+
+
+[float]
+==== Functions
+
+
+[source,arduino]
+----
+void myfunction(datatype argument){
+  statements(s)
+}
+----
+[%hardbreaks]
+
+
+
+
+[float]
+==== Loops
+
+
+[source,arduino]
+----
+while (boolean expression)
+{
+ statement(s)
+}
+
+do
+{
+ statement(s)
+} while (boolean expression);
+
+for (initialisation; termination condition; incrementing expr)
+{
+ statement(s)
+} 
+----
+[%hardbreaks]
+
+
+
+
+[float]
+==== Functions
+
+
+[source,arduino]
+----
+if (boolean expression)
+{
+ statement(s)
+}
+
+else if (boolean expression)
+{
+ statement(s)
+} 
+else
+{
+ statement(s)
+}
+----
+[%hardbreaks]
+
+
+--
+// HOW TO USE SECTION ENDS

@@ -1,0 +1,88 @@
+= analogWrite()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to `analogWrite()`, the pin will generate a steady square wave of the specified duty cycle until the next call to `analogWrite()` (or a call to `digitalRead()` or `digitalWrite()` on the same pin). The frequency of the PWM signal on most pins is approximately 490 Hz. On the Uno and similar boards, pins 5 and 6 have a frequency of approximately 980 Hz.
+[%hardbreaks]
+
+image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`analogWrite(pin, value)`
+
+
+[float]
+=== Parameters
+`pin`: the pin to write to. +
+`value`: the duty cycle: between 0 (always off) and 255 (always on).
+
+
+[float]
+=== Returns
+Nothing
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example
+Sets the output to the LED proportional to the value read from the potentiometer.
+
+
+[source,arduino]
+----
+int ledPin = 9;      // LED connected to digital pin 9
+int analogPin = 3;   // potentiometer connected to analog pin 3
+int val = 0;         // variable to store the read value
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);   // sets the pin as output
+}
+
+void loop()
+{
+  val = analogRead(analogPin);   // read the input pin
+  analogWrite(ledPin, val / 4);  // analogRead values go from 0 to 1023, analogWrite values from 0 to 255
+}
+----
+[%hardbreaks]
+
+
+[float]
+=== Notes and Warnings
+This is because of interactions with the `millis()` and `delay()` functions
+[%hardbreaks]
+image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
+[%hardbreaks]
+
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE# http://arduino.cc/en/Reference/AnalogRead[analogRead()]
+* #LANGUAGE# http://arduino.cc/en/Reference/AnalogRead[analogRead()]
+
+[role="definition"]
+* #DEFINITION# http://arduino.cc/en/Tutorial/PWM[PWM]
+
+[role="example"]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Blink[Blink]
+
+--
+// HOW TO USE SECTION ENDS

@@ -1,0 +1,73 @@
+= Serial()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART): Serial. It communicates on digital pins 0 (RX) and 1 (TX) as well as with the computer via USB. Thus, if you use these functions, you cannot also use pins 0 and 1 for digital input or output. +
+You can use the Arduino environment's built-in serial monitor to communicate with an Arduino board. Click the serial monitor button in the toolbar and select the same baud rate used in the call to `begin()`.
+[%hardbreaks]
+The *Arduino Mega* has three additional serial ports: `Serial1` on pins 19 (RX) and 18 (TX), `Serial2` on pins 17 (RX) and 16 (TX), `Serial3` on pins 15 (RX) and 14 (TX). To use these pins to communicate with your personal computer, you will need an additional USB-to-serial adaptor, as they are not connected to the Mega's USB-to-serial adaptor. To use them to communicate with an external TTL serial device, connect the TX pin to your device's RX pin, the RX to your device's TX pin, and the ground of your Mega to your device's ground. (Don't connect these pins directly to an RS232 serial port; they operate at +/- 12V and can damage your Arduino board.)
+[%hardbreaks]
+The *Arduino DUE* has three additional 3.3V TTL serial ports: `Serial1` on pins 19 (RX) and 18 (TX); `Serial2` on pins 17 (RX) and 16 (TX), `Serial3` on pins 15 (RX) and 14 (TX). Pins 0 and 1 are also connected to the corresponding pins of the ATmega16U2 USB-to-TTL Serial chip, which is connected to the USB debug port. Additionally, there is a native USB-serial port on the SAM3X chip, SerialUSB'.
+[%hardbreaks]
+The *Arduino Leonardo* board uses `Serial1` to communicate via TTL (5V) serial on pins 0 (RX) and 1 (TX). `Serial` is reserved for USB CDC communication. For more information, refer to the Leonardo getting started page and hardware page.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+// FUNCTIONS SECTION STARTS
+[#functions]
+--
+
+'''
+
+[float]
+=== Functions
+http://arduino.cc[if] (Serial) +
+http://arduino.cc[available()] +
+http://arduino.cc[begin()] +
+http://arduino.cc[end()] +
+http://arduino.cc[find()] +
+http://arduino.cc[findUntil()] +
+http://arduino.cc[flush()] +
+http://arduino.cc[parseFloat()] +
+http://arduino.cc[parseInt()] +
+http://arduino.cc[peek()] +
+http://arduino.cc[print()] +
+http://arduino.cc[println()] +
+http://arduino.cc[read()] +
+http://arduino.cc[readBytes()] +
+http://arduino.cc[readBytesUntil()] +
+http://arduino.cc[setTimeout()] +
+http://arduino.cc[write()] +
+http://arduino.cc[serialEvent()]
+
+'''
+
+--
+// FUNCTIONS SECTION ENDS
+
+
+// SEEALSO SECTION STARTS
+[#seealso]
+--
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE# http://arduino.cc/en/Reference/AnalogRead[analogRead()]
+* #LANGUAGE# http://arduino.cc/en/Reference/AnalogRead[analogRead()]
+
+[role="definition"]
+* #DEFINITION# http://arduino.cc/en/Tutorial/PWM[PWM]
+
+[role="example"]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Blink[Blink]
+
+--
+// SEEALSO SECTION ENDS
