@@ -12,4 +12,6 @@ If you want to contribute to the Language Reference or edit existing content, yo
 * Use AsciiDoc_Template-Single_Entity.adoc for terms such as [`analogWrite`](http://arduino.cc/en/Reference/AnalogWrite).
 * Use AsciiDoc_Template-Parent_Of_Entities.adoc for groups of functions such as [`Serial`](http://arduino.cc/en/Reference/Serial).
 
-Please note that every Reference file should include as least a Description, some Example Code, and links to other relevant infos (See Also section). If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
+Please note that every Reference file should include as least a Description, some Example Code, and links to other relevant infos (See Also section). 
+
+If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
