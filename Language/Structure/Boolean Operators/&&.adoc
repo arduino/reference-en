@@ -1,3 +1,7 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
 = && (and)
 
 
@@ -49,10 +53,10 @@ Make sure you don't mistake the boolean AND operator, && (double ampersand) for 
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# http://arduino.cc/en/Reference/BitwiseAnd[&] (bitwise AND)
-* #LANGUAGE# http://arduino.cc/en/Reference/BitwiseAnd[|] (bitwise OR)
-* #LANGUAGE# http://arduino.cc/en/Reference/BitwiseXorNot[~] (bitwise NOT)
-* #LANGUAGE# http://arduino.cc/en/Reference/If[if]
+* #LANGUAGE# link:BitwiseAnd{ext-relative}[&^] (bitwise AND)
+* #LANGUAGE# link:BitwiseOr{ext-relative}[|^] (bitwise OR)
+* #LANGUAGE# link:BitwiseXorNot{ext-relative}[~^] (bitwise NOT)
+* #LANGUAGE# link:If{ext-relative}[if^]
 
 --
 // HOW TO USE SECTION ENDS

@@ -16,3 +16,25 @@ If you want to contribute to the Language Reference or edit existing content, yo
 Please note that every Reference file should include as least a Description, some Example Code, and links to other relevant infos (See Also section). 
 
 If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
+
+##Folder Structure
+```
+reference-en
+├─ AsciiDoc_sample
+│   ├── AsciiDoc_Dictionary
+│   │   ├── AsciiDoc_Template-Dictionary.adoc
+│   │   └── attachments
+│   └── Reference_Terms
+│       ├── AsciiDoc_Template-Parent_Of_Entities.adoc
+│       ├── AsciiDoc_Template-Single_Entity.adoc
+│       └── attachments
+├── Language
+│   ├── Functions
+│   ├── Structure
+│   └── Variables
+├── LICENCE.md
+└── README.md
+
+```
+
+Within the Language folder, the file tree follows the same structure as in the [Arduino Reference webpage](http://arduino.cc/en/Reference/HomePage).
