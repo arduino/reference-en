@@ -1,6 +1,6 @@
 // ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 :source-highlighter: pygments
-:pygments-style: arduinogit push -u origin 
+:pygments-style: arduino
 
 // RELATIVE LINK EXTENSION ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 // This attribute is used to change the extension of relative links from .adoc to .html during compilation
