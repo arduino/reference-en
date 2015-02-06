@@ -12,16 +12,11 @@
 [float]
 === Description
 Boolean Operators can be used inside the condition of an `if` statement. +
-&& is true only if both operands are true, for instance in this example:
+`&&` is true only if both operands are true, for instance in this example: +
 
-[source,arduino]
-----
-if (digitalRead(2) == HIGH  && digitalRead(3) == HIGH) { // read two switches 
-  // ...
-} 
-
+`if (digitalRead(2) == HIGH  && digitalRead(3) == HIGH)`
+[%hardbreaks]
 is true only if both inputs are high.
-----
 [%hardbreaks]
 
 --
@@ -35,7 +30,7 @@ is true only if both inputs are high.
 --
 
 [float]
-=== Example
+=== Example Code
 
 
 [source,arduino]
@@ -47,7 +42,7 @@ if (a >= 10 && a <= 20){}   // true if a is between 10 and 20
 
 [float]
 === Notes and Warnings
-Make sure you don't mistake the boolean AND operator, && (double ampersand) for the bitwise AND operator & (single ampersand). They are entirely different beasts.
+Make sure you don't mistake the boolean AND operator, `&&` (double ampersand) for the bitwise AND operator `&` (single ampersand). They are entirely different beasts.
 
 
 [float]

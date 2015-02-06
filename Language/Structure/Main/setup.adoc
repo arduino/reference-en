@@ -33,7 +33,7 @@ Nothing
 --
 
 [float]
-=== Example
+=== Example Code
 
 [source,arduino]
 ----

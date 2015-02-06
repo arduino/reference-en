@@ -30,7 +30,7 @@ Unbalanced braces can often lead to cryptic, impenetrable compiler errors that c
 --
 
 [float]
-=== Example
+=== Example Code
 The main uses of curly braces are listed in the examples below.
 
 
@@ -77,7 +77,7 @@ for (initialisation; termination condition; incrementing expr)
 
 
 [float]
-==== Functions
+==== Conditional Statements
 
 
 [source,arduino]
