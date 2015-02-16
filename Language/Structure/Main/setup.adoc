@@ -1,3 +1,7 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
 = setup()
 
 
@@ -29,7 +33,7 @@ Nothing
 --
 
 [float]
-=== Example
+=== Example Code
 
 [source,arduino]
 ----
@@ -50,3 +54,8 @@ void loop()
 
 --
 // HOW TO USE SECTION ENDS
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE# link:Loop{ext-relative}[loop^]

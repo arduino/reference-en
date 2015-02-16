@@ -1,3 +1,7 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
 = {} Curly Braces
 
 
@@ -26,7 +30,7 @@ Unbalanced braces can often lead to cryptic, impenetrable compiler errors that c
 --
 
 [float]
-=== Example
+=== Example Code
 The main uses of curly braces are listed in the examples below.
 
 
@@ -73,7 +77,7 @@ for (initialisation; termination condition; incrementing expr)
 
 
 [float]
-==== Functions
+==== Conditional Statements
 
 
 [source,arduino]
@@ -93,6 +97,14 @@ else
 }
 ----
 [%hardbreaks]
+
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE# link:SemiColon{ext-relative}[;^] (semicolon)
+* #LANGUAGE# link:SingleComment{ext-relative}[//^] (single line comment)
+* #LANGUAGE# link:MultiComments{ext-relative}[/* */^] (multi-line comment)
 
 
 --

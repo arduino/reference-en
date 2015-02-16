@@ -1,3 +1,7 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
 = && (and)
 
 
@@ -8,16 +12,11 @@
 [float]
 === Description
 Boolean Operators can be used inside the condition of an `if` statement. +
-&& is true only if both operands are true, for instance in this example:
+`&&` is true only if both operands are true, for instance in this example: +
 
-[source,arduino]
-----
-if (digitalRead(2) == HIGH  && digitalRead(3) == HIGH) { // read two switches 
-  // ...
-} 
-
+`if (digitalRead(2) == HIGH  && digitalRead(3) == HIGH)`
+[%hardbreaks]
 is true only if both inputs are high.
-----
 [%hardbreaks]
 
 --
@@ -31,7 +30,7 @@ is true only if both inputs are high.
 --
 
 [float]
-=== Example
+=== Example Code
 
 
 [source,arduino]
@@ -43,16 +42,16 @@ if (a >= 10 && a <= 20){}   // true if a is between 10 and 20
 
 [float]
 === Notes and Warnings
-Make sure you don't mistake the boolean AND operator, && (double ampersand) for the bitwise AND operator & (single ampersand). They are entirely different beasts.
+Make sure you don't mistake the boolean AND operator, `&&` (double ampersand) for the bitwise AND operator `&` (single ampersand). They are entirely different beasts.
 
 
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# http://arduino.cc/en/Reference/BitwiseAnd[&] (bitwise AND)
-* #LANGUAGE# http://arduino.cc/en/Reference/BitwiseAnd[|] (bitwise OR)
-* #LANGUAGE# http://arduino.cc/en/Reference/BitwiseXorNot[~] (bitwise NOT)
-* #LANGUAGE# http://arduino.cc/en/Reference/If[if]
+* #LANGUAGE# link:BitwiseAnd{ext-relative}[&^] (bitwise AND)
+* #LANGUAGE# link:BitwiseOr{ext-relative}[|^] (bitwise OR)
+* #LANGUAGE# link:BitwiseXorNot{ext-relative}[~^] (bitwise NOT)
+* #LANGUAGE# link:If{ext-relative}[if^]
 
 --
 // HOW TO USE SECTION ENDS
