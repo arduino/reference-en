@@ -1,3 +1,7 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
 = Serial()
 
 
@@ -28,24 +32,24 @@ The *Arduino Leonardo* board uses `Serial1` to communicate via TTL (5V) serial o
 
 [float]
 === Functions
-http://arduino.cc[if] (Serial) +
-http://arduino.cc[available()] +
-http://arduino.cc[begin()] +
-http://arduino.cc[end()] +
-http://arduino.cc[find()] +
-http://arduino.cc[findUntil()] +
-http://arduino.cc[flush()] +
-http://arduino.cc[parseFloat()] +
-http://arduino.cc[parseInt()] +
-http://arduino.cc[peek()] +
-http://arduino.cc[print()] +
-http://arduino.cc[println()] +
-http://arduino.cc[read()] +
-http://arduino.cc[readBytes()] +
-http://arduino.cc[readBytesUntil()] +
-http://arduino.cc[setTimeout()] +
-http://arduino.cc[write()] +
-http://arduino.cc[serialEvent()]
+link:IfSerial{ext-relative}[If] (Serial) +
+link:Available{ext-relative}[available()] +
+link:Begin{ext-relative}[begin()] +
+link:End{ext-relative}[end()] +
+link:Find{ext-relative}[find()] +
+link:FindUntil{ext-relative}[findUntil()] +
+link:Flush{ext-relative}[flush()] +
+link:ParseFloat{ext-relative}[parseFloat()] +
+link:ParseInt{ext-relative}[parseInt()] +
+link:Peek{ext-relative}[peek()] +
+link:Print{ext-relative}[print()] +
+link:PrintLn{ext-relative}[println()] +
+link:Read{ext-relative}[read()] +
+link:ReadBytes{ext-relative}[readBytes()] +
+link:ReadBytesUntil{ext-relative}[readBytesUntil()] +
+link:SetTimeout{ext-relative}[setTimeout()] +
+link:Write{ext-relative}[write()] +
+link:SerialEvent{ext-relative}[serialEvent()]
 
 '''
 
@@ -59,15 +63,16 @@ http://arduino.cc[serialEvent()]
 
 [float]
 === See also
-[role="language"]
-* #LANGUAGE# http://arduino.cc/en/Reference/AnalogRead[analogRead()]
-* #LANGUAGE# http://arduino.cc/en/Reference/AnalogRead[analogRead()]
-
-[role="definition"]
-* #DEFINITION# http://arduino.cc/en/Tutorial/PWM[PWM]
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Blink[Blink]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/ReadAsciiString[ReadAsciiString^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/ASCIITable[ASCII TAble^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Dimmer[Dimmer^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Graph[Graph^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/PhysicalPixel[Physical Pixel^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/SerialCallResponse[Serial Call Response^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/SerialCallResponseASCII[Serial Call Response ASCII^]
+
 
 --
 // SEEALSO SECTION ENDS
