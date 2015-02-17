@@ -1,0 +1,89 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= delay()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Pauses the program for the amount of time (in miliseconds) specified as parameter. (There are 1000 milliseconds in a second.)
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`delay(ms)`
+
+
+[float]
+=== Parameters
+`ms`: the number of milliseconds to pause (`unsigned long`) 
+
+[float]
+=== Returns
+Nothing
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+The code pauses the program for one second before toggling the output pin.
+
+[source,arduino]
+----
+int ledPin = 13;                 // LED connected to digital pin 13
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);      // sets the digital pin as output
+}
+
+void loop()
+{
+  digitalWrite(ledPin, HIGH);   // sets the LED on
+  delay(1000);                  // waits for a second
+  digitalWrite(ledPin, LOW);    // sets the LED off
+  delay(1000);                  // waits for a second
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+While it is easy to create a blinking LED with the `delay()` function, and many sketches use short delays for such tasks as switch debouncing, the use of `delay()` in a sketch has significant drawbacks. No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. For alternative approaches to controlling timing see the link:millis{ext-relative}[millis()] function and the sketch sited below. More knowledgeable programmers usually avoid the use of `delay()` for timing of events longer than 10's of milliseconds unless the Arduino sketch is very simple.
+
+Certain things do go on while the delay() function is controlling the Atmega chip however, because the delay function does not disable interrupts. Serial communication that appears at the RX pin is recorded, PWM (link:analogWrite{ext-relative}[analogWrite]) values and pin states are maintained, and link:attachInterrupt{ext-relative}[interrupts] will work as they should.
+[%hardbreaks]
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITIThis function works very accurately in the range 3 microseconds and up. We cannot assure that delayMicroseconds will perform precisely for smaller delay-times.
+
+As of Arduino 0018, delayMicroseconds() no longer disables interrupts. ON#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[role="language"]
+* #LANGUAGE# link:millis{ext-relative}[millis()] +
+* #LANGUAGE# link:micros{ext-relative}[micros()] +
+* #LANGUAGE# link:delayMicroseconds{ext-relative}[delayMicroseconds()]
+
+[role="example"]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/BlinkWithoutDelay[Blink Without Delay]
+
+--
+// HOW TO USE SECTION ENDS

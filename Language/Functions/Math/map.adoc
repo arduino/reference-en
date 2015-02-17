@@ -1,0 +1,67 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= map(value, fromLow, fromHigh, toLow, toHigh)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+
+
+
+[float]
+=== Parameters
+
+
+[float]
+=== Returns
+Nothing
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+
+[source,arduino]
+----
+
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+[%hardbreaks]
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[role="language"]
+* #LANGUAGE#
+* #DEFINITION#
+* #EXAMPLE#
+
+--
+// HOW TO USE SECTION ENDS
