@@ -1,0 +1,62 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= shiftIn()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Shifts in a byte of data one bit at a time. Starts from either the most (i.e. the leftmost) or least (rightmost) significant bit. For each bit, the clock pin is pulled high, the next bit is read from the data line, and then the clock pin is taken low.
+
+If you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the first call to `shiftIn()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
+
+Note: this is a software implementation; Arduino also provides an link:SPI{ext-relative}[SPI library] that uses the hardware implementation, which is faster but only works on specific pins.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`byte incoming = shiftIn(dataPin, clockPin, bitOrder)`
+
+
+[float]
+=== Parameters
+`dataPin`: the pin on which to input each bit (int)
+
+`clockPin`: the pin to toggle to signal a read from *dataPin*
+
+`bitOrder`: which order to shift in the bits; either *MSBFIRST* or *LSBFIRST*.
+(Most Significant Bit First, or, Least Significant Bit First)
+
+[float]
+=== Returns
+the value read (byte)
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+[role="language"]
+* #LANGUAGE# link:shiftOut{ext-relative}[shiftOut()] +
+* #LANGUAGE# link:SPI{ext-relative}[SPI]
+
+--
+// HOW TO USE SECTION ENDS

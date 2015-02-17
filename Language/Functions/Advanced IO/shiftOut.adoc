@@ -1,0 +1,132 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= shiftOut()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Shifts out a byte of data one bit at a time. Starts from either the most (i.e. the leftmost) or least (rightmost) significant bit. Each bit is written in turn to a data pin, after which a clock pin is pulsed (taken high, then low) to indicate that the bit is available.
+
+Note- if you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the call to `shiftOut()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
+
+This is a software implementation; see also the link:SPI{ext-relative}[SPI library], which provides a hardware implementation that is faster but works only on specific pins.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`shiftOut(dataPin, clockPin, bitOrder, value)`
+
+
+[float]
+=== Parameters
+`dataPin`: the pin on which to output each bit (int)
+
+`clockPin`: the pin to toggle once the dataPin has been set to the correct value (int)
+
+`bitOrder`: which order to shift out the bits; either MSBFIRST or LSBFIRST.
+(Most Significant Bit First, or, Least Significant Bit First)
+
+`value`: the data to shift out. (byte)
+
+[float]
+=== Returns
+Nothing
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+For accompanying circuit, see the http://arduino.cc/en/Tutorial/ShiftOut[tutorial on controlling a 74HC595 shift register].
+
+[source,arduino]
+----
+//**************************************************************//
+//  Name    : shiftOutCode, Hello World                         //
+//  Author  : Carlyn Maw,Tom Igoe                               //
+//  Date    : 25 Oct, 2006                                      //
+//  Version : 1.0                                               //
+//  Notes   : Code for using a 74HC595 Shift Register           //
+//          : to count from 0 to 255                            //
+//****************************************************************
+
+//Pin connected to ST_CP of 74HC595
+int latchPin = 8;
+//Pin connected to SH_CP of 74HC595
+int clockPin = 12;
+////Pin connected to DS of 74HC595
+int dataPin = 11;
+
+void setup() {
+  //set pins to output because they are addressed in the main loop
+  pinMode(latchPin, OUTPUT);
+  pinMode(clockPin, OUTPUT);
+  pinMode(dataPin, OUTPUT);
+}
+
+void loop() {
+  //count up routine
+  for (int j = 0; j < 256; j++) {
+    //ground latchPin and hold low for as long as you are transmitting
+    digitalWrite(latchPin, LOW);
+    shiftOut(dataPin, clockPin, LSBFIRST, j);
+    //return the latch pin high to signal chip that it
+    //no longer needs to listen for information
+    digitalWrite(latchPin, HIGH);
+    delay(1000);
+  }
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+The dataPin and clockPin must already be configured as outputs by a call to link:pinMode{ext-relative}[pinMode()].
+
+shiftOut is currently written to output 1 byte (8 bits) so it requires a two step operation to output values larger than 255.
+[source,arduino]
+----
+// Do this for MSBFIRST serial
+int data = 500;
+// shift out highbyte
+shiftOut(dataPin, clock, MSBFIRST, (data >> 8));
+// shift out lowbyte
+shiftOut(dataPin, clock, MSBFIRST, data);
+
+// Or do this for LSBFIRST serial
+data = 500;
+// shift out lowbyte
+shiftOut(dataPin, clock, LSBFIRST, data);
+// shift out highbyte
+shiftOut(dataPin, clock, LSBFIRST, (data >> 8));
+----
+[%hardbreaks]
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+[role="language"]
+* #LANGUAGE# link:shiftIn{ext-relative}[shiftIn()] +
+* #LANGUAGE# link:SPI{ext-relative}[SPI]
+
+--
+// HOW TO USE SECTION ENDS
