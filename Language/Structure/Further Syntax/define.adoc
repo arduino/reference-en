@@ -1,0 +1,78 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= #define
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+`#define` is a useful C component that allows the programmer to give a name to a constant value before the program is compiled. Defined constants in arduino don't take up any program memory space on the chip. The compiler will replace references to these constants with the defined value at compile time.
+[%hardbreaks]
+
+This can have some unwanted side effects though, if for example, a constant name that had been #defined is included in some other constant or variable name. In that case the text would be replaced by the #defined number (or text).
+[%hardbreaks]
+
+In general, the link:../../Variables/Variable%20Scope%20&%20Qualifiers/const{ext-relative}[const] keyword is preferred for defining constants and should be used instead of #define.
+[%hardbreaks]
+
+[float]
+=== Syntax
+[source,arduino]
+----
+#define constantName value
+----
+Note that the # is necessary.
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+#define ledPin 3
+// The compiler will replace any mention of ledPin with the value 3 at compile time.
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+There is no semicolon after the #define statement. If you include one, the compiler will throw cryptic errors further down the page.
+
+[source,arduino]
+----
+#define ledPin 3;    // this is an error 
+----
+
+Similarly, including an equal sign after the #define statement will also generate a cryptic compiler error further down the page.
+
+[source,arduino]
+----
+#define ledPin  = 3  // this is also an error 
+----
+[%hardbreaks]
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE#	link:../../Variables/Variable%20Scope%20&%20Qualifiers/const{ext-relative}[const]
+* #LANGUAGE#	link:../../Variables/Constants/integerConstants{ext-relative}[Constants]
+
+--
+// HOW TO USE SECTION ENDS

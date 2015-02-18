@@ -1,0 +1,48 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= ; Semicolon
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Used to end a statement.
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+int a = 13;
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+Forgetting to end a line in a semicolon will result in a compiler error. The error text may be obvious, and refer to a missing semicolon, or it may not. If an impenetrable or seemingly illogical compiler error comes up, one of the first things to check is a missing semicolon, in the immediate vicinity, preceding the line at which the compiler complained.
+[%hardbreaks]
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE# link:semicolon{ext-relative}[; Semicolon]
+
+--
+// HOW TO USE SECTION ENDS

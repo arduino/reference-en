@@ -1,0 +1,54 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= #include
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+`#include` is used to include outside libraries in your sketch. This gives the programmer access to a large group of standard C libraries (groups of pre-made functions), and also libraries written especially for Arduino.
+[%hardbreaks]
+
+The main reference page for AVR C libraries (AVR is a reference to the Atmel chips on which the Arduino is based) is http://www.nongnu.org/avr-libc/user-manual/modules.html[here^].
+[%hardbreaks]
+
+Note that `#include`, similar to link:define{ext-relative}[`#define`], has no semicolon terminator, and the compiler will yield cryptic error messages if you add one.
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+This example includes a library that is used to put data into the program space _flash_ instead of _ram_. This saves the ram space for dynamic memory needs and makes large lookup tables more practical.
+
+
+[source,arduino]
+----
+#include <avr/pgmspace.h>
+
+prog_uint16_t myConstants[] PROGMEM = {0, 21140, 702  , 9128,  0, 25764, 8456,
+0,0,0,0,0,0,0,0,29810,8968,29762,29762,4500};
+----
+[%hardbreaks]
+
+
+[float]
+=== See also
+
+
+--
+// HOW TO USE SECTION ENDS
