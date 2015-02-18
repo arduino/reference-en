@@ -1,0 +1,62 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= while loop
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+[%hardbreaks]
+A `while` loop will loop continuously, and infinitely, until the expression inside the parenthesis, () becomes false. Something must change the tested variable, or the while loop will never exit. This could be in your code, such as an incremented variable, or an external condition, such as testing a sensor.
+
+[float]
+=== Syntax
+[source,arduino]
+----
+while(condition){
+  // statement(s)
+}
+----
+The `condition` is a boolean expression that evaluates to `true` or `false`.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+var = 0;
+while(var < 200){
+  // do something repetitive 200 times
+  var++;
+}
+----
+[%hardbreaks]
+
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:doWhile{ext-relative}[do...while]
+
+[role="example"]
+* #EXAMPLE#	http://arduino.cc/en/Tutorial/WhileLoop[While Loop Tutorial^]
+
+--
+// HOW TO USE SECTION ENDS
