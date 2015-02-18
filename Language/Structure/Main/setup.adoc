@@ -2,6 +2,7 @@
 :pygments-style: arduino
 :ext-relative: adoc
 
+
 = setup()
 
 
@@ -11,21 +12,11 @@
 
 [float]
 === Description
-The `setup()` function is called when a sketch starts. Use it to initialize variables, pin modes, when you start using libraries, etc. The setup function will only run once, after each powerup or reset of the Arduino board.
+The `setup()` function is called when a sketch starts. Use it to initialize variables, pin modes, start using libraries, etc. The `setup()` function will only run once, after each powerup or reset of the Arduino board.
 [%hardbreaks]
-
-[float]
-=== Syntax
-`setup()`
-
-[float]
-=== Returns
-Nothing
 
 --
 // OVERVIEW SECTION ENDS
-
-
 
 
 // HOW TO USE SECTION STARTS
@@ -52,10 +43,11 @@ void loop()
 ----
 [%hardbreaks]
 
---
-// HOW TO USE SECTION ENDS
-
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:Loop{ext-relative}[loop^]
+* #LANGUAGE# link:loop{ext-relative}[loop()]
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
