@@ -1,0 +1,82 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= % Modulo
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+*Modulo* operation calculates the remainder when one integer is divided by another. It is useful for keeping a variable within a particular range (e.g. the size of an array). The `%` (percent) symbol is used to carry out modulo operation.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+remainder = dividend % divisor;
+----
+
+[float]
+=== Parameters
+`remainder` : variable. *Allowed data types:* int, float, double +
+`dividend` : variable or constant. *Allowed data types:* int +
+`divisor` : *non zero* variable or constant. *Allowed data types:* int
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+int x = 0;
+x = 7 % 5;    // x now contains 2
+x = 9 % 5;    // x now contains 4
+x = 5 % 5;    // x now contains 0
+x = 4 % 5;    // x now contains 4
+----
+
+[source,arduino]
+----
+/* update one value in an array each time through a loop */
+
+int values[10];
+int i = 0;
+
+void setup() {}
+
+void loop()
+{
+  values[i] = analogRead(0);
+  i = (i + 1) % 10;   // modulo operator rolls over variable
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+The modulo operator does not work on floats.
+[%hardbreaks]
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:division{ext-relative}[Division]
+--
+// HOW TO USE SECTION ENDS
