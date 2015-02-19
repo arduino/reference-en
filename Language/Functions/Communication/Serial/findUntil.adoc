@@ -12,11 +12,11 @@
 
 [float]
 === Description
-Serial.findUntil() reads data from the serial buffer until a target string of given length or terminator string is found.
+`Serial.findUntil()` reads data from the serial buffer until a target string of given length or terminator string is found.
 
 The function returns true if the target string is found, false if it times out.
 
-Serial.findUntil() inherits from the link:stream{ext-relative}[Stream] utility class.
+`Serial.findUntil()` inherits from the link:stream{ext-relative}[Stream] utility class.
 [%hardbreaks]
 
 

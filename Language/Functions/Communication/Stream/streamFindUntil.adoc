@@ -3,7 +3,7 @@
 :ext-relative: adoc
 
 
-= Entity title()
+= `findUntil()`
 
 
 // OVERVIEW SECTION STARTS
