@@ -1,0 +1,60 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= do...while loop
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+[%hardbreaks]
+The `do...while` loop works in the same manner as the link:while{ext-relative}[while] loop, with the exception that the condition is tested at the end of the loop, so the do loop will always run at least once.
+
+[float]
+=== Syntax
+[source,arduino]
+----
+do
+{
+    // statement block
+} while (condition);
+----
+The `condition` is a boolean expression that evaluates to `true` or `false`.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+do
+{
+  delay(50);          // wait for sensors to stabilize
+  x = readSensors();  // check the sensors
+
+} while (x < 100);
+----
+[%hardbreaks]
+
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE#	link:for{ext-relative}[for]
+* #LANGUAGE#	link:while{ext-relative}[while]
+--
+// HOW TO USE SECTION ENDS

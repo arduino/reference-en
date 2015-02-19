@@ -1,0 +1,73 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= if...else
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The `if...else` allows greater control over the flow of code than the basic link:if{ext-relative}[if] statement, by allowing multiple tests to be grouped together. An `else` clause (if at all exists) will be executed if the condition in the `if` statement results in `false`. The `else` can proceed another `if` test, so that multiple, mutually exclusive tests can be run at the same time.
+[%hardbreaks]
+
+Each test will proceed to the next one until a true test is encountered. When a true test is found, its associated block of code is run, and the program then skips to the line following the entire if/else construction. If no test proves to be true, the default `else` block is executed, if one is present, and sets the default behavior.
+[%hardbreaks]
+
+Note that an `else if` block may be used with or without a terminating `else` block and vice versa. An unlimited number of such `else if` branches is allowed.
+
+[float]
+=== Syntax
+[source,arduino]
+----
+if (condition1)
+{
+  // do Thing A
+}
+else if (condition2)
+{
+  // do Thing B
+}
+else
+{
+  // do Thing C
+}
+----
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+[float]
+=== Example Code
+Below is an extract from a code for temperature sensor system
+[source,arduino]
+----
+if (temperature >= 70)
+{
+  //Danger! Shut down the system
+}
+else if (temperature >= 60 && temperature < 70)
+{
+  //Warning! User attention required
+}
+else
+{
+  //Safe! Continue usual tasks...
+}
+----
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE#	link:switchCase{ext-relative}[switch case]
+
+--
+// HOW TO USE SECTION ENDS

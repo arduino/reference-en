@@ -1,0 +1,78 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= ^ Bitwise XOR
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+There is a somewhat unusual operator in C++ called bitwise EXCLUSIVE OR, also known as bitwise XOR. (In English this is usually pronounced "eks-or".) The bitwise XOR operator is written using the caret symbol `^`. A bitwise XOR operation results in a 1 only if the input bits are different, else it results in a 0.
+[%hardbreaks]
+
+Precisely,
+
+    0  0  1  1    operand1
+    0  1  0  1    operand2
+    ----------
+    0  1  1  0    (operand1 ^ operand2) - returned result
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+int x = 12;     // binary: 1100
+int y = 10;     // binary: 1010
+int z = x ^ y;  // binary: 0110, or decimal 6
+----
+[%hardbreaks]
+
+The ^ operator is often used to toggle (i.e. change from 0 to 1, or 1 to 0) some of the bits in an integer expression. In a bitwise OR operation if there is a 1 in the mask bit, that bit is inverted; if there is a 0, the bit is not inverted and stays the same. Below is a program to blink digital pin 5.
+
+[source,arduino]
+----
+// Blink_Pin_5
+// demo for Exclusive OR
+void setup(){
+DDRD = DDRD | B00100000; // set digital pin five as OUTPUT
+Serial.begin(9600);
+}
+
+void loop(){
+PORTD = PORTD ^ B00100000;  // invert bit 5 (digital pin 5), leave others untouched
+delay(100);
+}
+----
+[%hardbreaks]
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:bitwiseAnd{ext-relative}[& Bitwise AND]
+* #LANGUAGE# link:bitwiseOr{ext-relative}[| Bitwise OR]
+* #LANGUAGE# link:bitwiseNot{ext-relative}[~ Bitwise NOT]
+
+
+[role="example"]
+* #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
+
+
+--
+// HOW TO USE SECTION ENDS

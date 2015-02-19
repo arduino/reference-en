@@ -1,0 +1,53 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= continue
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+[%hardbreaks]
+The `continue` statement skips the rest of the current iteration of a loop (link:for{ext-relative}[for], link:while{ext-relative}[while], or link:doWhile{ext-relative}[do...while]). It continues by checking the conditional expression of the loop, and proceeding with any subsequent iterations.
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+The following code writes the value of 0 to 255 to the `PWMpin`, but skips the values in the range of 41 to 119.
+[source,arduino]
+----
+for (x = 0; x <= 255; x ++)
+{
+    if (x > 40 && x < 120){      // create jump in values
+        continue;
+    }
+
+    digitalWrite(PWMpin, x);
+    delay(50);
+}
+----
+[%hardbreaks]
+
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE#	link:break{ext-relative}[break]
+
+--
+// HOW TO USE SECTION ENDS

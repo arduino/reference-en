@@ -1,0 +1,62 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= -- Decrement
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Decrements the value of a variable by 1.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+x-- ;   // decrement x by one and returns the old value of x
+--x ;   // decrement x by one and returns the new value of x
+----
+
+[float]
+=== Parameters
+`x`: variable. *Allowed data types:* integer, long (possibly unsigned)
+
+[float]
+=== Returns
+The original or newly decremented value of the variable.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+x = 2;
+y = --x;      // x now contains 1, y contains 1
+y = x--;      // x contains 0, but y still contains 1
+----
+[%hardbreaks]
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE#  link:increment{ext-relative}[Increment]
+* #LANGUAGE#  link:compoundSubtraction{ext-relative}[Compound Subtraction]
+--
+// HOW TO USE SECTION ENDS
