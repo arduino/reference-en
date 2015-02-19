@@ -1,0 +1,87 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= map(value, fromLow, fromHigh, toLow, toHigh)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Re-maps a number from one range to another. That is, a value of *fromLow* would get mapped to *toLow*, a value of *fromHigh* to *toHigh*, values in-between to values in-between, etc.
+
+Does not constrain values to within the range, because out-of-range values are sometimes intended and useful. The `constrain()` function may be used either before or after this function, if limits to the ranges are desired.
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+
+
+
+[float]
+=== Parameters
+`value`: the number to map
+
+`fromLow`: the lower bound of the value's current range
+
+`fromHigh`: the upper bound of the value's current range
+
+`toLow`: the lower bound of the value's target range
+
+`toHigh`: the upper bound of the value's target range
+
+[float]
+=== Returns
+The mapped value.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+
+[source,arduino]
+----
+/* Map an analog value to 8 bits (0 to 255) */
+void setup() {}
+
+void loop()
+{
+  int val = analogRead(0);
+  val = map(val, 0, 1023, 0, 255);
+  analogWrite(9, val);
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+[%hardbreaks]
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[role="language"]
+* #LANGUAGE#
+* #DEFINITION#
+* #EXAMPLE#
+
+--
+// HOW TO USE SECTION ENDS

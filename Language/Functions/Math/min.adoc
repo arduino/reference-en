@@ -1,0 +1,80 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= min(x, y)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Calculates the minimum of two numbers.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`min(x, y)`
+
+
+[float]
+=== Parameters
+`x`: the first number, any data type
+
+`y`: the second number, any data type
+
+[float]
+=== Returns
+The smaller of the two numbers.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+The code ensures that it never gets above 100.
+
+[source,arduino]
+----
+sensVal = min(sensVal, 100); // assigns sensVal to the smaller of sensVal or 100
+                             // ensuring that it never gets above 100.
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+Perhaps counter-intuitively, `max()` is often used to constrain the lower end of a variable's range, while `min()` is used to constrain the upper end of the range.
+
+Because of the way the `min()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results
+[source,arduino]
+----
+min(a++, 100);   // avoid this - yields incorrect results
+
+a++;
+min(a, 100);    // use this instead - keep other math outside the function
+----
+[%hardbreaks]
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[role="language"]
+* #LANGUAGE# link:max{ext-relative}[max()] +
+* #LANGUAGE# link:constrain{ext-relative}[constrain()]
+
+--
+// HOW TO USE SECTION ENDS

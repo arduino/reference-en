@@ -1,0 +1,101 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= Mouse.press()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Sends a button press to a connected computer. A press is the equivalent of clicking and continuously holding the mouse button. A press is cancelled with link:mouseRelease{ext-relative}[Mouse.release()].
+
+Before using `Mouse.press()`, you need to start communication with link:mouseBegin{ext-relative}[Mouse.begin()].
+
+`Mouse.press()` defaults to a left button press.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`Mouse.press();` +
+`Mouse.press(button)`
+
+
+[float]
+=== Parameters
+`button`: which mouse button to press - `char`
+
+* `MOUSE_LEFT (default)`
+
+* `MOUSE_RIGHT`
+
+* `MOUSE_MIDDLE`
+
+[float]
+=== Returns
+Nothing
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+
+[source,arduino]
+----
+void setup(){
+  //The switch that will initiate the Mouse press
+  pinMode(2,INPUT);
+  //The switch that will terminate the Mouse press
+  pinMode(3,INPUT);
+  //initiate the Mouse library
+  Mouse.begin();
+}
+
+void loop(){
+  //if the switch attached to pin 2 is closed, press and hold the right mouse button
+  if(digitalRead(2) == HIGH){
+    Mouse.press();
+  }
+  //if the switch attached to pin 3 is closed, release the right mouse button
+  if(digitalRead(3) == HIGH){
+    Mouse.release();
+  }
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+When you use the `Mouse.press()` command, the Arduino takes over your mouse! Make sure you have control before you use the command. A pushbutton to toggle the mouse control state is effective.
+[%hardbreaks]
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[role="language"]
+* #LANGUAGE# link:mouseClick{ext-relative}[Mouse.click] +
+* #LANGUAGE# link:mouseEnd{ext-relative}[Mouse.end] +
+* #LANGUAGE# link:mouseMove{ext-relative}[Mouse.move] +
+* #LANGUAGE# link:mousePress{ext-relative}[Mouse.press] +
+* #LANGUAGE# link:mouseRelease{ext-relative}[Mouse.release] +
+* #LANGUAGE# link:mouseIsPressed{ext-relative}[Mouse.releaseAll]
+
+--
+// HOW TO USE SECTION ENDS

@@ -1,0 +1,58 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= abs(x)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Calculates the absolute of two numbers.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`abs(x)`
+
+[float]
+=== Parameters
+`x`: the number
+
+[float]
+=== Returns
+`x`: if x is greater than or equal to 0.
+
+`-x`: if x is less than 0.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+
+[float]
+=== Notes and Warnings
+Because of the way the abs() function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results.
+[source,arduino]
+----
+abs(a++);   // avoid this - yields incorrect results
+
+a++;          // use this instead -
+abs(a);       // keep other math outside the function
+----
+[%hardbreaks]
+
+
+--
+// HOW TO USE SECTION ENDS

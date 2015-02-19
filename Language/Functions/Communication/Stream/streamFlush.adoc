@@ -1,0 +1,53 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= flush()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+`flush()` clears the buffer once all outgoing characters have been sent.
+
+This function is part of the Stream class, and is called by any class that inherits from it (Wire, Serial, etc). See the link:stream{ext-relative}[stream class] main page for more information.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`stream.flush()`
+
+
+[float]
+=== Parameters
+`stream` : an instance of a class that inherits from Stream.
+
+[float]
+=== Returns
+`boolean`
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[role="language"]
+* #LANGUAGE# link:stream{ext-relative}[stream]
+
+--
+// HOW TO USE SECTION ENDS

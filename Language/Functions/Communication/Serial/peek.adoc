@@ -1,0 +1,68 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= peek()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Returns the next byte (character) of incoming serial data without removing it from the internal serial buffer. That is, successive calls to `peek()` will return the same character, as will the next call to `read()`. `peek()` inherits from the link:stream{ext-relative}[Stream] utility class.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`Serial.peek()`
+
+_Arduino Mega only:_
+
+`Serial1.peek()` +
+`Serial2.peek()` +
+`Serial3.peek()`
+
+
+[float]
+=== Parameters
+Nothing
+
+[float]
+=== Returns
+The first byte of incoming serial data available (or -1 if no data is available) - `int`
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[role="language"]
+* #LANGUAGE# link:begin{ext-relative}[begin()] +
+* #LANGUAGE# link:end{ext-relative}[end()] +
+* #LANGUAGE# link:available{ext-relative}[available()] +
+* #LANGUAGE# link:read{ext-relative}[read()] +
+* #LANGUAGE# link:peek{ext-relative}[peek()] +
+* #LANGUAGE# link:flush{ext-relative}[flush()] +
+* #LANGUAGE# link:print{ext-relative}[print()] +
+* #LANGUAGE# link:println{ext-relative}[println()] +
+* #LANGUAGE# link:write{ext-relative}[write()] +
+* #LANGUAGE# link:serialEvent{ext-relative}[SerialEvent()] +
+* #LANGUAGE# link:streamPeek{ext-relative}[Stream.peek()]
+
+
+--
+// HOW TO USE SECTION ENDS

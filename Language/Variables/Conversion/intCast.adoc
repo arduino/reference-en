@@ -1,0 +1,52 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= int()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Converts a value to the link:int{ext-relative}[int] data type.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`int(x)`
+
+
+[float]
+=== Parameters
+`x`: a value of any type
+
+[float]
+=== Returns
+`int`
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[role="language"]
+* #LANGUAGE# link:int{ext-relative}[int]
+
+
+--
+// HOW TO USE SECTION ENDS

@@ -1,0 +1,96 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= if (Serial)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Indicates if the specified Serial port is ready.
+
+On the Leonardo, `if (Serial)` indicates wether or not the USB CDC serial connection is open. For all other instances, including `if (Serial1)` on the Leonardo, this will always returns true.
+
+This was introduced in Arduino 1.0.1.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+_All boards:_
+
+`if (Serial)`
+
+_Arduino Leonardo specific:_
+
+`if (Serial1)`
+
+_Arduino Mega specific:_
+
+`if (Serial1)` +
+`if (Serial2)` +
+`if (Serial3)`
+
+[float]
+=== Parameters
+Nothing
+
+[float]
+=== Returns
+`boolean` : returns true if the specified serial port is available. This will only return false if querying the Leonardo's USB CDC serial connection before it is ready.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+
+[source,arduino]
+----
+void setup() {
+ //Initialize serial and wait for port to open:
+  Serial.begin(9600);
+  while (!Serial) {
+    ; // wait for serial port to connect. Needed for Leonardo only
+  }
+}
+
+void loop() {
+ //proceed normally
+}
+----
+[%hardbreaks]
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[role="language"]
+* #LANGUAGE# link:begin{ext-relative}[begin()] +
+* #LANGUAGE# link:end{ext-relative}[end()] +
+* #LANGUAGE# link:available{ext-relative}[available()] +
+* #LANGUAGE# link:read{ext-relative}[read()] +
+* #LANGUAGE# link:peek{ext-relative}[peek()] +
+* #LANGUAGE# link:flush{ext-relative}[flush()] +
+* #LANGUAGE# link:print{ext-relative}[print()] +
+* #LANGUAGE# link:println{ext-relative}[println()] +
+* #LANGUAGE# link:write{ext-relative}[write()] +
+* #LANGUAGE# link:serialEvent{ext-relative}[SerialEvent()]
+
+--
+// HOW TO USE SECTION ENDS
