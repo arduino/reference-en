@@ -1,0 +1,81 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= return
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Terminate a function and return a value from a function to the calling function, if desired.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+return;
+
+return value; // both forms are valid
+----
+
+
+[float]
+=== Parameters
+`value': any variable or constant type
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+A function to compare a sensor input to a threshold
+
+[source,arduino]
+----
+ int checkSensor(){
+    if (analogRead(0) > 400) {
+        return 1;
+    else{
+        return 0;
+    }
+}
+----
+
+The return keyword is handy to test a section of code without having to "comment out" large sections of possibly buggy code.
+[source,arduino]
+----
+void loop(){
+
+// brilliant code idea to test here
+
+return;
+
+// the rest of a dysfunctional sketch here
+// this code will never be executed
+}
+----
+[%hardbreaks]
+
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE# link:break{ext-relative}[break]
+* #LANGUAGE# link:continue{ext-relative}[continue]
+
+--
+// HOW TO USE SECTION ENDS

@@ -1,0 +1,89 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= << Bitshift Left
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The left shift operator `<<` causes the bits of the left operand to be shifted *left* by the number of positions specified by the right operand.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+variable << number_of_bits;
+----
+
+[float]
+=== Parameters
+`variable`: *Allowed data types:* byte, int, long +
+`number_of_bits`: a number that is < = 32. *Allowed data types:* int
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+int a = 5;        // binary: 0000000000000101
+int b = a << 3;   // binary: 0000000000101000, or 40 in decimal
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+When you shift a value x by y bits (x << y), the leftmost y bits in x are lost, literally shifted out of existence:
+
+[source,arduino]
+----
+int x = 5;        // binary: 0000000000000101
+int y = 14;
+int result = x << y;  // binary: 0100000000000000 - the first 1 in 101 was discarded
+----
+
+If you are certain that none of the ones in a value are being shifted into oblivion, a simple way to think of the left-shift operator is that it multiplies the left operand by 2 raised to the right operand power. For example, to generate powers of 2, the following expressions can be employed:
+
+[source,arduino]
+----
+   Operation  Result
+   ---------  ------
+    1 <<  0      1
+    1 <<  1      2
+    1 <<  2      4
+    1 <<  3      8
+    ...
+    1 <<  8    256
+    1 <<  9    512
+    1 << 10   1024
+    ...
+----
+[%hardbreaks]
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:bitshiftRight{ext-relative}[>> Bitshift Right]
+
+[role="example"]
+* #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
+
+--
+// HOW TO USE SECTION ENDS

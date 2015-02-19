@@ -1,0 +1,76 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= / Division
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+*Division* is one of the four primary arithmetic operations. The operator `/` (slash) operates on two operands to produce the result.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+result = numerator / denominator;
+----
+
+[float]
+=== Parameters
+`result` : variable. *Allowed data types:* int, float, double, byte, short, long  +
+`numerator` : variable or constant. *Allowed data types:* int, float, double, byte, short, long  +
+`denominator` : *non zero* variable or constant. *Allowed data types:* int, float, double, byte, short, long
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+int a = 50, b = 10, c = 0;
+c = a / b; // the variable 'c' gets a value of 5 after this statement is executed
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+1. If one of the numbers (operands) are of the type float or of type double, floating point math will be used for the calculation.
+
+2. If the operands are of float / double data type and the variable that stores the sum is an integer, then only the integral part is stored and the fractional part of the number is lost.
+
+[source,arduino]
+----
+float a = 55.5, b = 6.6;
+int c = 0;
+c = a / b; // the variable 'c' stores a value of 8 only as opposed to the expected result of 8.409
+----
+[%hardbreaks]
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:addition{ext-relative}[addition]
+* #LANGUAGE# link:subtraction{ext-relative}[subtraction]
+* #LANGUAGE# link:multiplication{ext-relative}[multiplication]
+
+--
+// HOW TO USE SECTION ENDS

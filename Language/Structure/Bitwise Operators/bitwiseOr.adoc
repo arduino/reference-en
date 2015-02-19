@@ -1,0 +1,66 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= | Bitwise OR
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The bitwise OR operator in C++ is the vertical bar symbol, |. Like the & operator, | operates independently each bit in its two surrounding integer expressions, but what it does is different (of course). The bitwise OR of two bits is 1 if either or both of the input bits is 1, otherwise it is 0.
+[%hardbreaks]
+
+In other words:
+
+    0  0  1  1    operand1
+    0  1  0  1    operand2
+    ----------
+    0  1  1  1    (operand1 | operand2) - returned result
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+int a =  92;    // in binary: 0000000001011100
+int b = 101;    // in binary: 0000000001100101
+int c = a | b;  // result:    0000000001111101, or 125 in decimal.
+----
+[%hardbreaks]
+
+One of the most common uses of the Bitwise OR is to set multiple bits in a bit-packed number.
+
+[source,arduino]
+----
+DDRD = DDRD | B11111100; // set direction bits for pins 2 to 7, leave 0 and 1 untouched (xx | 00 == xx)
+// same as pinMode(pin, OUTPUT) for pins 2 to 7
+----
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:bitwiseAnd{ext-relative}[& Bitwise AND]
+* #LANGUAGE# link:bitwiseNot{ext-relative}[~ Bitwise NOT]
+* #LANGUAGE# link:../Boolean%20Operators/logicalOr{ext-relative}[|| Logical OR]
+
+[role="example"]
+* #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
+
+--
+// HOW TO USE SECTION ENDS

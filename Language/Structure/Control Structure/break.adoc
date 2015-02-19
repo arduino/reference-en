@@ -1,0 +1,52 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+
+= break
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+[%hardbreaks]
+`break` is used to exit from a link:for{ext-relative}[for], link:while{ext-relative}[while] or link:doWhile{ext-relative}[do...while] loop, bypassing the normal loop condition. It is also used to exit from a link:switchCase{ext-relative}[switch case] statement.
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+[float]
+=== Example Code
+In the following code, the control exits the `for` loop when the sensor value exceeds the threshold.
+[source,arduino]
+----
+for (x = 0; x < 255; x ++)
+{
+    digitalWrite(PWMpin, x);
+    sens = analogRead(sensorPin);
+    if (sens > threshold){      // bail out on sensor detect
+       x = 0;
+       break;
+    }
+    delay(50);
+}
+----
+[%hardbreaks]
+
+[float]
+=== See also
+[role="language"]
+* #LANGUAGE#	link:continue{ext-relative}[continue]
+
+--
+// HOW TO USE SECTION ENDS
