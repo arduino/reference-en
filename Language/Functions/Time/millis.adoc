@@ -42,7 +42,7 @@ Number of milliseconds since the program started (unsigned long)
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code reads the milllisecond since the Arduino board bagan.
+The code reads the milllisecond since the Arduino board began.
 
 [source,arduino]
 ----
