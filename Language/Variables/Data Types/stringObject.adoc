@@ -3,7 +3,7 @@
 :ext-relative: adoc
 
 
-= Entity title()
+= String
 
 
 // OVERVIEW SECTION STARTS

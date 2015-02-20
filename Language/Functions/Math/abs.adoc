@@ -12,7 +12,7 @@
 
 [float]
 === Description
-Calculates the maximum of two numbers.
+Calculates the absolute of two numbers.
 [%hardbreaks]
 
 
@@ -22,13 +22,13 @@ Calculates the maximum of two numbers.
 
 [float]
 === Parameters
-`x`: the number 
+`x`: the number
 
 [float]
 === Returns
 `x`: if x is greater than or equal to 0.
 
-`-x`: if x is less than 0. 
+`-x`: if x is less than 0.
 
 --
 // OVERVIEW SECTION ENDS
