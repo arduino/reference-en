@@ -3,7 +3,7 @@
 :ext-relative: adoc
 
 
-= Entity title()
+= unsigned char
 
 
 // OVERVIEW SECTION STARTS
