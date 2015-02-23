@@ -17,6 +17,9 @@ Please note that every Reference file should include as least a Description, som
 
 If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
 
+##Contribute Content on Github##
+If you are not familiar with Git you can contribute content directly on Github. [Follow this guide](https://help.github.com/articles/editing-files-in-another-user-s-repository/) to learn how to edit an .adoc file and propose a file change to the Arduino team. Please follow the guidelines of the Reference template files.
+
 ##Folder Structure
 ```
 reference-en
