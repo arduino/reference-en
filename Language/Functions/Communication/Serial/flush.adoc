@@ -63,7 +63,7 @@ Nothing
 * #LANGUAGE# link:println{ext-relative}[println()] +
 * #LANGUAGE# link:write{ext-relative}[write()] +
 * #LANGUAGE# link:serialEvent{ext-relative}[SerialEvent()] +
-* #LANGUAGE# link:streamFlush{ext-relative}[Stream.flush()]
+* #LANGUAGE# link:../Stream/streamFlush{ext-relative}[Stream.flush()]
 
 --
 // HOW TO USE SECTION ENDSp

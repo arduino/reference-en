@@ -47,7 +47,7 @@ The cos of the angle (`double`).
 [role="language"]
 * #LANGUAGE# link:sin{ext-relative}[sin()] +
 * #LANGUAGE# link:tan{ext-relative}[tan()] +
-* #LANGUAGE# link:float{ext-relative}[float] +
-* #LANGUAGE# link:double{ext-relative}[double]
+* #LANGUAGE# link:../../Variables/Data%20Types/float{ext-relative}[float] +
+* #LANGUAGE# link:../../Variables/Data%20Types/double{ext-relative}[double]
 --
 // HOW TO USE SECTION ENDS

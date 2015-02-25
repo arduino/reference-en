@@ -61,7 +61,7 @@ The first byte of incoming serial data available (or -1 if no data is available)
 * #LANGUAGE# link:println{ext-relative}[println()] +
 * #LANGUAGE# link:write{ext-relative}[write()] +
 * #LANGUAGE# link:serialEvent{ext-relative}[SerialEvent()] +
-* #LANGUAGE# link:streamPeek{ext-relative}[Stream.peek()]
+* #LANGUAGE# link:../Stream/streamPeek{ext-relative}[Stream.peek()]
 
 
 --

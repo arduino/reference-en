@@ -66,8 +66,8 @@ void loop()
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
 * #LANGUAGE# link:noInterrupts{ext-relatives}[noInterrupts()] +
-* #LANGUAGE# link:attachInterrupts{ext-relatives}[attachInterrupts()] +
-* #LANGUAGE# link:detachInterrupts{ext-relatives}[detachInterrupts()]
+* #LANGUAGE# link:../External Interrupts/attachInterrupts{ext-relatives}[attachInterrupts()] +
+* #LANGUAGE# link:../External Interrupts/detachInterrupts{ext-relatives}[detachInterrupts()]
 
 --
 // HOW TO USE SECTION ENDS
