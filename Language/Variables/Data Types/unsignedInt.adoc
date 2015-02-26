@@ -68,8 +68,8 @@ unsigned int x
 * #DEFINITION# link:int{ext-relative}[int] +
 * #DEFINITION# link:Long{ext-relative}[long] +
 * #DEFINITION# link:unsignedLong{ext-relative}[unsigned long] +
-* #DEFINITION# link:integerConstant{ext-relative}[Integer Constants] +
-* #DEFINITION# link:variableDeclaration{ext-relative}[Variable Declaration]
+* #DEFINITION# link:../Constants/integerConstant{ext-relative}[Integer Constants] +
+* #DEFINITION# link:../variableDeclaration{ext-relative}[Variable Declaration]
 
 --
 // HOW TO USE SECTION ENDS

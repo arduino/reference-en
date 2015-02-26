@@ -71,7 +71,7 @@ If doing math with floats, you need to add a decimal point, otherwise it will be
 [role="definition"]
 * #DEFINITION# link:int{ext-relative}[int] +
 * #DEFINITION# link:double{ext-relative}[double] +
-* #DEFINITION# link:variableDeclaration{ext-relative}[Variable Declaration]
+* #DEFINITION# link:../variableDeclaration{ext-relative}[Variable Declaration]
 
 --
 // HOW TO USE SECTION ENDS

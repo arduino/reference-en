@@ -52,7 +52,7 @@ unsigned char myChar = 240;
 * #DEFINITION# link:array{ext-relative}[array]
 
 [role="language"]
-* #LANGUAGE# link:println{ext-relative}[Serial.println]
+* #LANGUAGE# link:../../Functions/Communication/Serial/println{ext-relative}[Serial.println]
 
 --
 // HOW TO USE SECTION ENDS

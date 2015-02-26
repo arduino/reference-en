@@ -67,7 +67,7 @@ void loop()
 [role="definition"]
 * #DEFINITION# link:constants{ext-relative}[constants] +
 * #DEFINITION# link:boolean{ext-relative}[boolean operators] +
-* #DEFINITION# link:variableDeclaration{ext-relative}[Variable Declaration]
+* #DEFINITION# link:../variableDeclaration{ext-relative}[Variable Declaration]
 
 --
 // HOW TO USE SECTION ENDS
