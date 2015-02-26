@@ -1,4 +1,4 @@
-#Refrence-en#
+#Reference-en#
 Reference-en is the repo for the Language Reference documentation of the Arduino syntax in **English**.  
 All the Reference terms files are in AsciiDoc format. Manutius, the Arduino platform to manage and publish content, turns Asciidoc documents into HTML pages, PDFs, and more.
 
