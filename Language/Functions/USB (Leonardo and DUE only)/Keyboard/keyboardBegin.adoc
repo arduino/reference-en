@@ -79,6 +79,6 @@ void loop() {
 * #LANGUAGE# link:keyboardPrintln{ext-relative}[keyboard.println] +
 * #LANGUAGE# link:keyboardRelease{ext-relative}[keyboard.release] +
 * #LANGUAGE# link:keyboardReleaseAll{ext-relative}[keyboard.releaseAll] +
-* #LANGUAGE# link:keyboardWrite{ext-relative}[keyboard.write] +
+* #LANGUAGE# link:keyboardWrite{ext-relative}[keyboard.write]
 --
 // HOW TO USE SECTION ENDS

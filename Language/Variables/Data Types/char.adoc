@@ -54,7 +54,7 @@ The char datatype is a signed type, meaning that it encodes numbers from -128 to
 * #DEFINITION# link:array{ext-relative}[array]
 
 [role="language"]
-* #LANGUAGE# link:println{ext-relative}[Serial.println]
+* #LANGUAGE# link:../../Functions/Communication/Serial/println{ext-relative}[Serial.println]
 
 --
 // HOW TO USE SECTION ENDS

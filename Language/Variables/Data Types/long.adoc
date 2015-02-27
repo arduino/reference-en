@@ -57,8 +57,8 @@ If doing math with integers, at least one of the numbers must be followed by an 
 * #DEFINITION# link:int{ext-relative}[int] +
 * #DEFINITION# link:unsignedInt{ext-relative}[unsigned int] +
 * #DEFINITION# link:unsignedLong{ext-relative}[unsigned long] +
-* #DEFINITION# link:integerConstant{ext-relative}[Integer Constants] +
-* #DEFINITION# link:variableDeclaration{ext-relative}[Variable Declaration]
+* #DEFINITION# link:../Constants/integerConstant{ext-relative}[Integer Constants] +
+* #DEFINITION# link:../variableDeclaration{ext-relative}[Variable Declaration]
 
 --
 // HOW TO USE SECTION ENDS

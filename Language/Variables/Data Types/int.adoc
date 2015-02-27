@@ -76,7 +76,7 @@ int x;
 * #DEFINITION# link:unsignedInt{ext-relative}[unsigned int] +
 * #DEFINITION# link:Long{ext-relative}[long] +
 * #DEFINITION# link:unsignedLong{ext-relative}[unsigned long] +
-* #DEFINITION# link:integerConstant{ext-relative}[Integer Constants] +
-* #DEFINITION# link:variableDeclaration{ext-relative}[Variable Declaration]
+* #DEFINITION# link:../Constants/integerConstant{ext-relative}[Integer Constants] +
+* #DEFINITION# link:../variableDeclaration{ext-relative}[Variable Declaration]
 --
 // HOW TO USE SECTION ENDS

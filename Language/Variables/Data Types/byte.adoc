@@ -47,7 +47,7 @@ A byte stores an 8-bit unsigned number, from 0 to 255.
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="definition"]
 * #DEFINITION# link:word{ext-relative}[word] +
-* #DEFINITION# link:byteCast{ext-relative}[byte()] +
-* #DEFINITION# link:variableDeclaration{ext-relative}[Variable Declaration]
+* #DEFINITION# link:../Conversion/byteCast{ext-relative}[byte()] +
+* #DEFINITION# link:../variableDeclaration{ext-relative}[Variable Declaration]
 --
 // HOW TO USE SECTION ENDS

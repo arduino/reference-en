@@ -46,7 +46,7 @@ byte
 
 [role="language"]
 * #LANGUAGE# link:highByte{ext-relative}[highByte()] +
-* #LANGUAGE# link:word{ext-relative}[word()]
+* #LANGUAGE# link:../../Variable/Data%20Types/word{ext-relative}[word()]
 
 --
 // HOW TO USE SECTION ENDS

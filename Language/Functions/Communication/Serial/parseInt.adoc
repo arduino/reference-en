@@ -64,7 +64,7 @@ Nothing
 * #LANGUAGE# link:println{ext-relative}[println()] +
 * #LANGUAGE# link:write{ext-relative}[write()] +
 * #LANGUAGE# link:serialEvent{ext-relative}[SerialEvent()] +
-* #LANGUAGE# link:streamParsefloat{ext-relative}[Stream.parseFloat()]
+* #LANGUAGE# link:../Stream/streamParsefloat{ext-relative}[Stream.parseFloat()]
 
 --
 // HOW TO USE SECTION ENDS

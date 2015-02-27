@@ -29,7 +29,7 @@ const dataType variableName[] PROGMEM = {data0, data1, data3...};`
 `dataType` - any variable type
 `variableName` - the name for your array of data
 
-Note that because PROGMEM is a variable modifier, there is no hard and fast rule about where it should go, so the Arduino compiler accepts all of the definitions below, which are also synonymous. However experiments have indicated that, in various versions of Arduino (having to do with GCC version), PROGMEM may work in one location and not in another. The "string table" example below has been tested to work with Arduino 13. Earlier versions of the IDE may work better if PROGMEM is included after the variable name. 
+Note that because PROGMEM is a variable modifier, there is no hard and fast rule about where it should go, so the Arduino compiler accepts all of the definitions below, which are also synonymous. However experiments have indicated that, in various versions of Arduino (having to do with GCC version), PROGMEM may work in one location and not in another. The "string table" example below has been tested to work with Arduino 13. Earlier versions of the IDE may work better if PROGMEM is included after the variable name.
 
 `const dataType variableName[] PROGMEM = {};   // use this form` +
 `const PROGMEM  dataType  variableName[] = {}; // or this one`+
@@ -179,7 +179,7 @@ void loop()
 * #EXAMPLE# http://www.arduino.cc/playground/Learning/Memory[Types of memory available on an Arduino board]
 
 [role="definition"]
-* #DEFINITION# link:array{ext-relative}[array] +
-* #DEFINITION# link:string{ext-relative}[string]
+* #DEFINITION# link:../Data%20Types/array{ext-relative}[array] +
+* #DEFINITION# link:../Data%20Types/string{ext-relative}[string]
 --
 // HOW TO USE SECTION ENDS
