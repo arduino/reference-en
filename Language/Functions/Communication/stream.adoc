@@ -1,0 +1,56 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+:ext-relative: adoc
+
+= Stream
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Stream is the base class for character and binary based streams. It is not called directly, but invoked whenever you use a function that relies on it.
+
+Stream defines the reading functions in Arduino. When using any core functionality that uses a `read()` or similar method, you can safely assume it calls on the Stream class. For functions like `print()`, Stream inherits from the Print class.
+
+Some of the libraries that rely on Stream include :
+
+* link:serial{ext-relative}[Serial] +
+* link:{ext-relative}[Wire] +
+* link:{ext-relative}[Ethernet Client] +
+* link:{ext-relative}[Ethernet Server] +
+* link:{ext-relative}[SD]
+
+
+--
+// OVERVIEW SECTION ENDS
+
+
+// FUNCTIONS SECTION STARTS
+[#functions]
+--
+
+'''
+
+[float]
+=== Functions
+link:/Stream/streamAvailable{ext-relative}[available()] +
+link:/Stream/streamRead{ext-relative}[read()] +
+link:/Stream/streamFlush{ext-relative}[flush()] +
+link:/Stream/streamFind{ext-relative}[find()] +
+link:/Stream/streamFindUntil{ext-relative}[findUntil()] +
+link:/Stream/streamPeek{ext-relative}[peek()] +
+link:/Stream/streamReadBytes{ext-relative}[readBytes()] +
+link:/Stream/streamReadBytesUntil{ext-relative}[readBytesUntil()] +
+link:/Stream/streamReadString{ext-relative}[readString()] +
+link:/Stream/streamReadStringUntil{ext-relative}[readStringUntil()] +
+link:/Stream/streamParseInt{ext-relative}[parseInt()] +
+link:/Stream/streamParseFloat{ext-relative}[parseFloat()] +
+link:/Stream/streamSetTimeout{ext-relative}[setTimeout()]
+
+'''
+
+--
+// FUNCTIONS SECTION ENDS
