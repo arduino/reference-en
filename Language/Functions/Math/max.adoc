@@ -61,8 +61,8 @@ Because of the way the `max()` function is implemented, avoid using other functi
 ----
 max(a--, 0);   // avoid this - yields incorrect results
 
-a--;           // use this instead -
-max(a, 0);     // keep other math outside the function
+max(a, 0);           // use this instead -
+a--;     // keep other math outside the function
 ----
 [%hardbreaks]
 

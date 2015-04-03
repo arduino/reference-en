@@ -62,8 +62,8 @@ Because of the way the `min()` function is implemented, avoid using other functi
 ----
 min(a++, 100);   // avoid this - yields incorrect results
 
-a++;
-min(a, 100);    // use this instead - keep other math outside the function
+min(a, 100);
+a++;    // use this instead - keep other math outside the function
 ----
 [%hardbreaks]
 
