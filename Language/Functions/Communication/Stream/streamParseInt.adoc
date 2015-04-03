@@ -12,7 +12,13 @@
 
 [float]
 === Description
-`parseInt()` returns the first valid (long) integer number from the current position. Initial characters that are not integers (or the minus sign) are skipped. `parseInt()` is terminated by the first character that is not a digit.
+`parseInt()` returns the first valid (long) integer number from the current position. Initial characters that are not integers (or the minus sign) are skipped.
+
+In particular:
+
+* Initial characters that are not digits or a minus sign, are skipped; +
+* Parsing stops when no characters have been read for a configurable time-out value, or a non-digit is read; +
+* If no valid digits were read when the time-out (see link:setTimeout{ext-relative}[Stream.setTimeout()]) occurs, 0 is returned;
 
 This function is part of the Stream class, and is called by any class that inherits from it (Wire, Serial, etc). See the link:stream{ext-relative}[Stream class] main page for more information.
 [%hardbreaks]
@@ -22,6 +28,7 @@ This function is part of the Stream class, and is called by any class that inher
 === Syntax
 `stream.parseInt(list)`
 
+`stream.parseInt(''list', char skipchar')`
 
 [float]
 === Parameters
@@ -29,9 +36,11 @@ This function is part of the Stream class, and is called by any class that inher
 
 `list` : the stream to check for ints (`char`)
 
+`skipChar`: used to skip the indicated char in the search. Used for example to skip thousands divider.
+
 [float]
 === Returns
-`int`
+`long`
 
 --
 // OVERVIEW SECTION ENDS
