@@ -53,17 +53,8 @@ The Arduino takes care of dealing with negative numbers for you, so that arithme
 
 [float]
 === Notes and Warnings
-When variables are made to exceed their maximum capacity they "roll over" back to their minimum capacity, note that this happens in both directions.
-[source,arduino]
-----
-int x;
-   x = -32768;
-   x = x - 1;       // x now contains 32,767 - rolls over in neg. direction
+When signed variables are made to exceed their maximum or minimum capacity they _overflow_.  The result of an overflow is unpredictable so this should be avoided.  A typical symptom of an overflow is the variable "rolling over" from its maximum capacity to its minimum or vice versa, but this is not always the case.  If you want this behavior, use link:unsignedInt{ext-relative}[unsigned int].
 
-   x = 32767;
-   x = x + 1;       // x now contains -32,768 - rolls over
-
-----
 [%hardbreaks]
 
 [float]
