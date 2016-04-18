@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = * Dereference Operator
@@ -46,7 +46,7 @@ Pointers are one of the complicated subjects for beginners in learning C, and it
 === See also
 
 [role="language"]
-* #LANGUAGE# link:reference{ext-relative}[& Reference Operator]
+* #LANGUAGE# link:../reference[& Reference Operator]
 
 [role="definition"]
 * #DEFINITION#  http://en.wikipedia.org/wiki/Pointer_%28computer_programming%29[Pointers^]

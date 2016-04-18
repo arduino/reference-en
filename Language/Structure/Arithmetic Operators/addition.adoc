@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = + Addition
@@ -69,8 +69,8 @@ c = a + b; // the variable 'c' stores a value of 12 only as opposed to the expec
 === See also
 
 [role="language"]
-* #LANGUAGE# link:subtraction{ext-relative}[Subtraction]
-* #LANGUAGE# link:multiplication{ext-relative}[Multiplication]
-* #LANGUAGE# link:division{ext-relative}[Division]
+* #LANGUAGE# link:../subtraction[Subtraction]
+* #LANGUAGE# link:../multiplication[Multiplication]
+* #LANGUAGE# link:../division[Division]
 --
 // HOW TO USE SECTION ENDS

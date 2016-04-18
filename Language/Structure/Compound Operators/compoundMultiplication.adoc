@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = *= Compound Multiplication
@@ -55,10 +55,10 @@ x *= 2;      // x now contains 4
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../Arithmetic%20Operators/multiplication{ext-relative}[Normal Multiplication]
-* #LANGUAGE#  link:compoundAddition{ext-relative}[Compound Addition]
-* #LANGUAGE#  link:compoundSubtraction{ext-relative}[Compound Subtraction]
-* #LANGUAGE#  link:compoundDivision{ext-relative}[Compound Division]
+* #LANGUAGE#  link:../../Arithmetic%20Operators/multiplication[Normal Multiplication]
+* #LANGUAGE#  link:../compoundAddition[Compound Addition]
+* #LANGUAGE#  link:../compoundSubtraction[Compound Subtraction]
+* #LANGUAGE#  link:../compoundDivision[Compound Division]
 
 --
 // HOW TO USE SECTION ENDS

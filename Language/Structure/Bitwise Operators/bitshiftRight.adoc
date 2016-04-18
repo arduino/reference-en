@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = >> Bitshift Right
@@ -79,7 +79,7 @@ int y = x >> 3;   // integer division of 1000 by 8, causing y = 125.
 === See also
 
 [role="language"]
-* #LANGUAGE# link:bitshiftLeft{ext-relative}[<< Bitshift Left]
+* #LANGUAGE# link:../bitshiftLeft[<< Bitshift Left]
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]

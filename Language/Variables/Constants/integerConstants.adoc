@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = Integer Constants
@@ -12,7 +12,7 @@
 
 [float]
 === Description
-Integer constants are numbers that are used directly in a sketch, like 123. By default, these numbers are treated as link:../Data%20Types{ext-relative}[int] but you can change this with the U and L modifiers (see below).
+Integer constants are numbers that are used directly in a sketch, like 123. By default, these numbers are treated as link:../../Data%20Types[int] but you can change this with the U and L modifiers (see below).
 [%hardbreaks]
 
 Normally, integer constants are treated as base 10 (decimal) integers, but special notation (formatters) may be used to enter numbers in other bases.
@@ -123,8 +123,8 @@ By default, an integer constant is treated as an int with the attendant limitati
 === See also
 
 [role="language"]
-* #LANGUAGE# link:constants{ext-relative}[Constants]
-* #LANGUAGE# link:floatingPointConstants{ext-relative}[Floating Point Constants]
+* #LANGUAGE# link:../constants[Constants]
+* #LANGUAGE# link:../floatingPointConstants[Floating Point Constants]
 
 --
 // HOW TO USE SECTION ENDS

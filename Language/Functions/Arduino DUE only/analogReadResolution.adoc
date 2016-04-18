@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 = analogReadResolution()
 
@@ -103,7 +103,7 @@ Using a 16 bit resolution (or any resolution *higher* than actual hardware capab
 * #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins]
 
 [role="language"]
-* #LANGUAGE# link:../Analog%20IO/analofRead{ext-relative}[analogRead()]
+* #LANGUAGE# link:../../Analog%20IO/analofRead[analogRead()]
 
 
 --

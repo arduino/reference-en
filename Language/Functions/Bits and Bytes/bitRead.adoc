@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = bitRead()
@@ -49,8 +49,8 @@ the value of the bit (0 or 1).
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:bit{ext-relative}[bit()] +
-* #LANGUAGE# link:bitWrite{ext-relative}[bitWrite()]
+* #LANGUAGE# link:../bit[bit()] +
+* #LANGUAGE# link:../bitWrite[bitWrite()]
 
 --
 // HOW TO USE SECTION ENDS

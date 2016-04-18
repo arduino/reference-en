@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = << Bitshift Left
@@ -80,7 +80,7 @@ If you are certain that none of the ones in a value are being shifted into obliv
 === See also
 
 [role="language"]
-* #LANGUAGE# link:bitshiftRight{ext-relative}[>> Bitshift Right]
+* #LANGUAGE# link:../bitshiftRight[>> Bitshift Right]
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]

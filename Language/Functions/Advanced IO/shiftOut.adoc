@@ -1,6 +1,12 @@
+---
+title: shiftOut
+categories: [ "Functions" ]
+subCategories: [ "Advanced I/O" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = shiftOut()
@@ -16,7 +22,7 @@ Shifts out a byte of data one bit at a time. Starts from either the most (i.e. t
 
 Note- if you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the call to `shiftOut()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
 
-This is a software implementation; see also the link:SPI{ext-relative}[SPI library], which provides a hardware implementation that is faster but works only on specific pins.
+This is a software implementation; see also the link:../SPI[SPI library], which provides a hardware implementation that is faster but works only on specific pins.
 [%hardbreaks]
 
 
@@ -97,7 +103,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-The dataPin and clockPin must already be configured as outputs by a call to link:pinMode{ext-relative}[pinMode()].
+The dataPin and clockPin must already be configured as outputs by a call to link:../pinMode[pinMode()].
 
 shiftOut is currently written to output 1 byte (8 bits) so it requires a two step operation to output values larger than 255.
 [source,arduino]
@@ -125,8 +131,8 @@ shiftOut(dataPin, clock, LSBFIRST, (data >> 8));
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:shiftIn{ext-relative}[shiftIn()] +
-* #LANGUAGE# link:SPI{ext-relative}[SPI]
+* #LANGUAGE# link:../shiftIn[shiftIn()] +
+* #LANGUAGE# link:../SPI[SPI]
 
 --
 // HOW TO USE SECTION ENDS

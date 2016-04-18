@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = setup()
@@ -46,7 +46,7 @@ void loop()
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:loop{ext-relative}[loop()]
+* #LANGUAGE# link:../loop[loop()]
 [%hardbreaks]
 
 --

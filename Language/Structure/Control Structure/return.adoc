@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = return
@@ -74,8 +74,8 @@ return;
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:break{ext-relative}[break]
-* #LANGUAGE# link:continue{ext-relative}[continue]
+* #LANGUAGE# link:../break[break]
+* #LANGUAGE# link:../continue[continue]
 
 --
 // HOW TO USE SECTION ENDS

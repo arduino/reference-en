@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = Keyboard.println()
@@ -14,7 +14,7 @@
 === Description
 Sends a keystroke to a connected computer, followed by a newline and carriage return.
 
-`Keyboard.println()` must be called after initiating link:keyboardBegin{ext-relative}[Keyboard.begin()].
+`Keyboard.println()` must be called after initiating link:../keyboardBegin[Keyboard.begin()].
 [%hardbreaks]
 
 
@@ -79,12 +79,12 @@ When you use the Keyboard.println() command, the Arduino takes over your keyboar
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:keyboardEnd{ext-relative}[keyboard.end] +
-* #LANGUAGE# link:keyboardPress{ext-relative}[keyboard.press] +
-* #LANGUAGE# link:keyboardPrint{ext-relative}[keyboard.print] +
-* #LANGUAGE# link:keyboardPrintln{ext-relative}[keyboard.println] +
-* #LANGUAGE# link:keyboardRelease{ext-relative}[keyboard.release] +
-* #LANGUAGE# link:keyboardReleaseAll{ext-relative}[keyboard.releaseAll] +
-* #LANGUAGE# link:keyboardWrite{ext-relative}[keyboard.write]
+* #LANGUAGE# link:../keyboardEnd[keyboard.end] +
+* #LANGUAGE# link:../keyboardPress[keyboard.press] +
+* #LANGUAGE# link:../keyboardPrint[keyboard.print] +
+* #LANGUAGE# link:../keyboardPrintln[keyboard.println] +
+* #LANGUAGE# link:../keyboardRelease[keyboard.release] +
+* #LANGUAGE# link:../keyboardReleaseAll[keyboard.releaseAll] +
+* #LANGUAGE# link:../keyboardWrite[keyboard.write]
 --
 // HOW TO USE SECTION ENDS

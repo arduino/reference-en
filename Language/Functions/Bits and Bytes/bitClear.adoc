@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = bitClear()
@@ -48,9 +48,9 @@ Nothing
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:bit{ext-relative}[bit()] +
-* #LANGUAGE# link:bitRead{ext-relative}[bitRead()] +
-* #LANGUAGE# link:bitWrite{ext-relative}[bitWrite()] +
-* #LANGUAGE# link:bitSet{ext-relative}[bitSet()]
+* #LANGUAGE# link:../bit[bit()] +
+* #LANGUAGE# link:../bitRead[bitRead()] +
+* #LANGUAGE# link:../bitWrite[bitWrite()] +
+* #LANGUAGE# link:../bitSet[bitSet()]
 --
 // HOW TO USE SECTION ENDS

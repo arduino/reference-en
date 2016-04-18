@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = while loop
@@ -53,7 +53,7 @@ while(var < 200){
 === See also
 
 [role="language"]
-* #LANGUAGE# link:doWhile{ext-relative}[do...while]
+* #LANGUAGE# link:../doWhile[do...while]
 
 [role="example"]
 * #EXAMPLE#	http://arduino.cc/en/Tutorial/WhileLoop[While Loop Tutorial^]

@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = sin(rad)
@@ -45,9 +45,9 @@ The sine of the angle (`double`).
 // definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
-* #LANGUAGE# link:cos{ext-relative}[cos()] +
-* #LANGUAGE# link:tan{ext-relative}[tan()] +
-* #LANGUAGE# link:../../Variables/Data%20Types/float{ext-relative}[float] +
-* #LANGUAGE# link:../../Variables/Data%20Types/double{ext-relative}[double]
+* #LANGUAGE# link:../cos[cos()] +
+* #LANGUAGE# link:../tan[tan()] +
+* #LANGUAGE# link:../../../Variables/Data%20Types/float[float] +
+* #LANGUAGE# link:../../../Variables/Data%20Types/double[double]
 --
 // HOW TO USE SECTION ENDS

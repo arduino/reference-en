@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = Floating Point Constants
@@ -62,8 +62,8 @@ Floating point constants can also be expressed in a variety of scientific notati
 === See also
 
 [role="language"]
-* #LANGUAGE# link:constants{ext-relative}[Constants]
-* #LANGUAGE# link:integerConstants{ext-relative}[Integer Constants]
+* #LANGUAGE# link:../constants[Constants]
+* #LANGUAGE# link:../integerConstants[Integer Constants]
 
 --
 // HOW TO USE SECTION ENDS

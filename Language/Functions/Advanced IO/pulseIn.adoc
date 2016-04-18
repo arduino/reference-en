@@ -1,6 +1,12 @@
+---
+title: pulseIn
+categories: [ "Functions" ]
+subCategories: [ "Advanced I/O" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = pulseIn()
@@ -28,7 +34,7 @@ The timing of this function has been determined empirically and will probably sh
 === Parameters
 `pin`: the number of the pin on which you want to read the pulse. (int)
 
-`value`: type of pulse to read: either link:HIGH{ext-relative}[HIGH] or link:LOW{ext-relative}[LOW]. (int)
+`value`: type of pulse to read: either link:../HIGH[HIGH] or link:../LOW[LOW]. (int)
 
 `timeout` (optional): the number of microseconds to wait for the pulse to start; default is one second (unsigned long)
 [float]

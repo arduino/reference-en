@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 = Stream
 
@@ -17,11 +17,11 @@ Stream defines the reading functions in Arduino. When using any core functionali
 
 Some of the libraries that rely on Stream include :
 
-* link:serial{ext-relative}[Serial] +
-* link:{ext-relative}[Wire] +
-* link:{ext-relative}[Ethernet Client] +
-* link:{ext-relative}[Ethernet Server] +
-* link:{ext-relative}[SD]
+* link:../serial[Serial] +
+* link:../[Wire] +
+* link:../[Ethernet Client] +
+* link:../[Ethernet Server] +
+* link:../[SD]
 
 
 --
@@ -36,19 +36,19 @@ Some of the libraries that rely on Stream include :
 
 [float]
 === Functions
-link:/Stream/streamAvailable{ext-relative}[available()] +
-link:/Stream/streamRead{ext-relative}[read()] +
-link:/Stream/streamFlush{ext-relative}[flush()] +
-link:/Stream/streamFind{ext-relative}[find()] +
-link:/Stream/streamFindUntil{ext-relative}[findUntil()] +
-link:/Stream/streamPeek{ext-relative}[peek()] +
-link:/Stream/streamReadBytes{ext-relative}[readBytes()] +
-link:/Stream/streamReadBytesUntil{ext-relative}[readBytesUntil()] +
-link:/Stream/streamReadString{ext-relative}[readString()] +
-link:/Stream/streamReadStringUntil{ext-relative}[readStringUntil()] +
-link:/Stream/streamParseInt{ext-relative}[parseInt()] +
-link:/Stream/streamParseFloat{ext-relative}[parseFloat()] +
-link:/Stream/streamSetTimeout{ext-relative}[setTimeout()]
+link:..//Stream/streamAvailable[available()] +
+link:..//Stream/streamRead[read()] +
+link:..//Stream/streamFlush[flush()] +
+link:..//Stream/streamFind[find()] +
+link:..//Stream/streamFindUntil[findUntil()] +
+link:..//Stream/streamPeek[peek()] +
+link:..//Stream/streamReadBytes[readBytes()] +
+link:..//Stream/streamReadBytesUntil[readBytesUntil()] +
+link:..//Stream/streamReadString[readString()] +
+link:..//Stream/streamReadStringUntil[readStringUntil()] +
+link:..//Stream/streamParseInt[parseInt()] +
+link:..//Stream/streamParseFloat[parseFloat()] +
+link:..//Stream/streamSetTimeout[setTimeout()]
 
 '''
 

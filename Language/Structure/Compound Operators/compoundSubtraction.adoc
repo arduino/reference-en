@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = -= Compound Subtraction
@@ -55,10 +55,10 @@ x -= 2;      // x now contains 18
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../Arithmetic%20Operators/subtraction{ext-relative}[Normal Subtraction]
-* #LANGUAGE#  link:compoundAddition{ext-relative}[Compound Addition]
-* #LANGUAGE#  link:compoundMultiplication{ext-relative}[Compound Multiplication]
-* #LANGUAGE#  link:compoundDivision{ext-relative}[Compound Division]
+* #LANGUAGE#  link:../../Arithmetic%20Operators/subtraction[Normal Subtraction]
+* #LANGUAGE#  link:../compoundAddition[Compound Addition]
+* #LANGUAGE#  link:../compoundMultiplication[Compound Multiplication]
+* #LANGUAGE#  link:../compoundDivision[Compound Division]
 
 --
 // HOW TO USE SECTION ENDS

@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-//:ext-relative: adoc
+//
 
 
 = analogReference()
@@ -64,7 +64,7 @@ Alternatively, you can connect the external reference voltage to the AREF pin th
 * #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of analog input pins]
 
 [role="language"]
-* #LANGUAGE# link:analogRead{ext-relative}[analogRead()]
+* #LANGUAGE# link:../analogRead[analogRead()]
 
 --
 // HOW TO USE SECTION ENDS

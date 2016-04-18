@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = continue
@@ -13,7 +13,7 @@
 [float]
 === Description
 [%hardbreaks]
-The `continue` statement skips the rest of the current iteration of a loop (link:for{ext-relative}[for], link:while{ext-relative}[while], or link:doWhile{ext-relative}[do...while]). It continues by checking the conditional expression of the loop, and proceeding with any subsequent iterations.
+The `continue` statement skips the rest of the current iteration of a loop (link:../for[for], link:../while[while], or link:../doWhile[do...while]). It continues by checking the conditional expression of the loop, and proceeding with any subsequent iterations.
 [%hardbreaks]
 
 --
@@ -47,7 +47,7 @@ for (x = 0; x <= 255; x ++)
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:break{ext-relative}[break]
+* #LANGUAGE#	link:../break[break]
 
 --
 // HOW TO USE SECTION ENDS

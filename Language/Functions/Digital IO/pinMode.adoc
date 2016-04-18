@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-//:ext-relative: adoc
+//
 :ext-relative: .html
 
 = pinMode()
@@ -79,8 +79,8 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 * #DEFINITION# constants + // add link
 
 [role="language"]
-* #LANGUAGE# link:digitalWrite{ext-relative}[digitalWrite()] +
-* #LANGUAGE# link:digitalRead{ext-relative}[digitalRead()]
+* #LANGUAGE# link:../digitalWrite[digitalWrite()] +
+* #LANGUAGE# link:../digitalRead[digitalRead()]
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Description of the pins on an Arduino board^]

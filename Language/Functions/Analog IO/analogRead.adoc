@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = analogRead()
@@ -12,7 +12,7 @@
 
 [float]
 === Description
-Reads the value from the specified analog pin. The Arduino board contains a 6 channel (8 channels on the Mini and Nano, 16 on the Mega), 10-bit analog to digital converter. This means that it will map input voltages between 0 and 5 volts into integer values between 0 and 1023. This yields a resolution between readings of: 5 volts / 1024 units or, .0049 volts (4.9 mV) per unit. The input range and resolution can be changed using link:analogReference{ext-relative}[analogReference()]`.
+Reads the value from the specified analog pin. The Arduino board contains a 6 channel (8 channels on the Mini and Nano, 16 on the Mega), 10-bit analog to digital converter. This means that it will map input voltages between 0 and 5 volts into integer values between 0 and 1023. This yields a resolution between readings of: 5 volts / 1024 units or, .0049 volts (4.9 mV) per unit. The input range and resolution can be changed using link:../analogReference[analogReference()]`.
 
 It takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second.
 [%hardbreaks]
@@ -77,8 +77,8 @@ If the analog input pin is not connected to anything, the value returned by anal
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:analogReference{ext-relative}[analogreference()] +
-* #LANGUAGE# link:../Arduino%20DUE%20only/analogReadResolution{ext-relative}[analogReadResolution()] +
+* #LANGUAGE# link:../analogReference[analogreference()] +
+* #LANGUAGE# link:../../Arduino%20DUE%20only/analogReadResolution[analogReadResolution()] +
 * #LANGUAGE# http://arduino.cc/en/Tutorial/AnalogInputPins[Tutorial: Analog Input Pins]
 
 

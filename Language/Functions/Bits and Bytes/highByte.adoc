@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = highByte()
@@ -46,8 +46,8 @@ byte
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:lowByte{ext-relative}[lowByte()] +
-* #LANGUAGE# link:../../Variable/Data%20Types/word{ext-relative}[word()]
+* #LANGUAGE# link:../lowByte[lowByte()] +
+* #LANGUAGE# link:../../../Variable/Data%20Types/word[word()]
 
 --
 // HOW TO USE SECTION ENDS

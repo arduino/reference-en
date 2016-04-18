@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = /= Compound Division
@@ -55,10 +55,10 @@ x /= 2;      // x now contains 1
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../Arithmetic%20Operators/division{ext-relative}[Normal Division]
-* #LANGUAGE#  link:compoundAddition{ext-relative}[Compound Addition]
-* #LANGUAGE#  link:compoundSubtraction{ext-relative}[Compound Subtraction]
-* #LANGUAGE#  link:compoundMultiplication{ext-relative}[Compound Multiplication]
+* #LANGUAGE#  link:../../Arithmetic%20Operators/division[Normal Division]
+* #LANGUAGE#  link:../compoundAddition[Compound Addition]
+* #LANGUAGE#  link:../compoundSubtraction[Compound Subtraction]
+* #LANGUAGE#  link:../compoundMultiplication[Compound Multiplication]
 
 --
 // HOW TO USE SECTION ENDS

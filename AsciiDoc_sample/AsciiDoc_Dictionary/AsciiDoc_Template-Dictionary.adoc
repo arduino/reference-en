@@ -71,7 +71,7 @@ _This is italic <em> text_ +
 // LINKS
 // Please note that all external links need to be opened in a new window/tab by adding ^ right before the last square brackets
 http://arduino.cc[This is an external <a href> link^] in a new tab +
-link:index.html[This is a relative <a href> link] +
+link:../index.html[This is a relative <a href> link] +
 mailto:webmaster@arduino.cc[This is an e-mail link]
 [%hardbreaks]
 

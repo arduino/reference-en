@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = delay()
@@ -65,9 +65,9 @@ void loop()
 
 [float]
 === Notes and Warnings
-While it is easy to create a blinking LED with the `delay()` function, and many sketches use short delays for such tasks as switch debouncing, the use of `delay()` in a sketch has significant drawbacks. No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. For alternative approaches to controlling timing see the link:millis{ext-relative}[millis()] function and the sketch sited below. More knowledgeable programmers usually avoid the use of `delay()` for timing of events longer than 10's of milliseconds unless the Arduino sketch is very simple.
+While it is easy to create a blinking LED with the `delay()` function, and many sketches use short delays for such tasks as switch debouncing, the use of `delay()` in a sketch has significant drawbacks. No other reading of sensors, mathematical calculations, or pin manipulation can go on during the delay function, so in effect, it brings most other activity to a halt. For alternative approaches to controlling timing see the link:../millis[millis()] function and the sketch sited below. More knowledgeable programmers usually avoid the use of `delay()` for timing of events longer than 10's of milliseconds unless the Arduino sketch is very simple.
 
-Certain things do go on while the delay() function is controlling the Atmega chip however, because the delay function does not disable interrupts. Serial communication that appears at the RX pin is recorded, PWM (link:analogWrite{ext-relative}[analogWrite]) values and pin states are maintained, and link:attachInterrupt{ext-relative}[interrupts] will work as they should.
+Certain things do go on while the delay() function is controlling the Atmega chip however, because the delay function does not disable interrupts. Serial communication that appears at the RX pin is recorded, PWM (link:../analogWrite[analogWrite]) values and pin states are maintained, and link:../attachInterrupt[interrupts] will work as they should.
 [%hardbreaks]
 
 [float]
@@ -78,9 +78,9 @@ Certain things do go on while the delay() function is controlling the Atmega chi
 As of Arduino 0018, delayMicroseconds() no longer disables interrupts. ON#), and examples of Projects and Tutorials
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
-* #LANGUAGE# link:millis{ext-relative}[millis()] +
-* #LANGUAGE# link:micros{ext-relative}[micros()] +
-* #LANGUAGE# link:delayMicroseconds{ext-relative}[delayMicroseconds()]
+* #LANGUAGE# link:../millis[millis()] +
+* #LANGUAGE# link:../micros[micros()] +
+* #LANGUAGE# link:../delayMicroseconds[delayMicroseconds()]
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/BlinkWithoutDelay[Blink Without Delay]

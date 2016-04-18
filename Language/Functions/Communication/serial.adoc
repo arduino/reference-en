@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 = Serial()
 
@@ -32,24 +32,24 @@ The *Arduino Leonardo* board uses `Serial1` to communicate via TTL (5V) serial o
 
 [float]
 === Functions
-link:/Serial/IfSerial{ext-relative}[If] (Serial) +
-link:/Serial/Available{ext-relative}[available()] +
-link:/Serial/Begin{ext-relative}[begin()] +
-link:/Serial/End{ext-relative}[end()] +
-link:/Serial/Find{ext-relative}[find()] +
-link:/Serial/FindUntil{ext-relative}[findUntil()] +
-link:/Serial/Flush{ext-relative}[flush()] +
-link:/Serial/ParseFloat{ext-relative}[parseFloat()] +
-link:/Serial/ParseInt{ext-relative}[parseInt()] +
-link:/Serial/Peek{ext-relative}[peek()] +
-link:/Serial/Print{ext-relative}[print()] +
-link:/Serial/PrintLn{ext-relative}[println()] +
-link:/Serial/Read{ext-relative}[read()] +
-link:/Serial/ReadBytes{ext-relative}[readBytes()] +
-link:/Serial/ReadBytesUntil{ext-relative}[readBytesUntil()] +
-link:/Serial/SetTimeout{ext-relative}[setTimeout()] +
-link:/Serial/Write{ext-relative}[write()] +
-link:/Serial/SerialEvent{ext-relative}[serialEvent()]
+link:..//Serial/IfSerial[If] (Serial) +
+link:..//Serial/Available[available()] +
+link:..//Serial/Begin[begin()] +
+link:..//Serial/End[end()] +
+link:..//Serial/Find[find()] +
+link:..//Serial/FindUntil[findUntil()] +
+link:..//Serial/Flush[flush()] +
+link:..//Serial/ParseFloat[parseFloat()] +
+link:..//Serial/ParseInt[parseInt()] +
+link:..//Serial/Peek[peek()] +
+link:..//Serial/Print[print()] +
+link:..//Serial/PrintLn[println()] +
+link:..//Serial/Read[read()] +
+link:..//Serial/ReadBytes[readBytes()] +
+link:..//Serial/ReadBytesUntil[readBytesUntil()] +
+link:..//Serial/SetTimeout[setTimeout()] +
+link:..//Serial/Write[write()] +
+link:..//Serial/SerialEvent[serialEvent()]
 
 '''
 
