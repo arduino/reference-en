@@ -1,3 +1,9 @@
+---
+title: decrement
+categories: [ "Structure" ]
+subCategories: [ "Compound Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

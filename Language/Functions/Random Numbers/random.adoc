@@ -1,3 +1,9 @@
+---
+title: random
+categories: [ "Functions" ]
+subCategories: [ "Random Numbers" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

@@ -1,3 +1,9 @@
+---
+title: millis
+categories: [ "Functions" ]
+subCategories: [ "Time" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

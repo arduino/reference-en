@@ -1,3 +1,9 @@
+---
+title: curlyBraces
+categories: [ "Structure" ]
+subCategories: [ "Further Syntax" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

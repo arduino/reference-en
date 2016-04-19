@@ -1,3 +1,9 @@
+---
+title: static
+categories: [ "Variables" ]
+subCategories: [ "Variable Scope & Qualifiers" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

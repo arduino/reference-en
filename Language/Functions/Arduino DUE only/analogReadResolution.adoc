@@ -1,3 +1,9 @@
+---
+title: analogReadResolution
+categories: [ "Functions" ]
+subCategories: [ "Arduino DUE only" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

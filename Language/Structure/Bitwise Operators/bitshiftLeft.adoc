@@ -1,3 +1,9 @@
+---
+title: bitshiftLeft
+categories: [ "Structure" ]
+subCategories: [ "Bitwise Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

@@ -1,3 +1,9 @@
+---
+title: compoundSubtraction
+categories: [ "Structure" ]
+subCategories: [ "Compound Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

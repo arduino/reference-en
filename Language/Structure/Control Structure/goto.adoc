@@ -1,3 +1,9 @@
+---
+title: goto
+categories: [ "Structure" ]
+subCategories: [ "Control Structure" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

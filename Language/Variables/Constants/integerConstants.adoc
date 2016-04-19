@@ -1,3 +1,9 @@
+---
+title: integerConstants
+categories: [ "Variables" ]
+subCategories: [ "Constants" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

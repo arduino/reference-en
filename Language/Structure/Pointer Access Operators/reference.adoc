@@ -1,3 +1,9 @@
+---
+title: reference
+categories: [ "Structure" ]
+subCategories: [ "Pointer Access Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

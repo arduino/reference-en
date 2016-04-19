@@ -1,3 +1,9 @@
+---
+title: sin
+categories: [ "Functions" ]
+subCategories: [ "Trigonometry" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

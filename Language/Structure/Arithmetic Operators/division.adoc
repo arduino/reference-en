@@ -1,3 +1,9 @@
+---
+title: division
+categories: [ "Structure" ]
+subCategories: [ "Arithmetic Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

@@ -1,3 +1,9 @@
+---
+title: pinMode
+categories: [ "Functions" ]
+subCategories: [ "Digital IO" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 //

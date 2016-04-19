@@ -1,3 +1,9 @@
+---
+title: serial
+categories: [ "Functions" ]
+subCategories: [ "Communication" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

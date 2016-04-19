@@ -1,3 +1,9 @@
+---
+title: bitClear
+categories: [ "Functions" ]
+subCategories: [ "Bits and Bytes" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

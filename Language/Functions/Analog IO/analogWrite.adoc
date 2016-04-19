@@ -1,3 +1,9 @@
+---
+title: analogWrite
+categories: [ "Functions" ]
+subCategories: [ "Analog IO" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

@@ -1,3 +1,9 @@
+---
+title: setup
+categories: [ "Structure" ]
+subCategories: [ "Main" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 

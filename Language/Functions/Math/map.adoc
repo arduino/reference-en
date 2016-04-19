@@ -1,3 +1,9 @@
+---
+title: map
+categories: [ "Functions" ]
+subCategories: [ "Math" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
 
