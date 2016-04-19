@@ -79,12 +79,12 @@ When you use the Keyboard.println() command, the Arduino takes over your keyboar
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:../keyboardEnd[keyboard.end] +
-* #LANGUAGE# link:../keyboardPress[keyboard.press] +
-* #LANGUAGE# link:../keyboardPrint[keyboard.print] +
-* #LANGUAGE# link:../keyboardPrintln[keyboard.println] +
-* #LANGUAGE# link:../keyboardRelease[keyboard.release] +
-* #LANGUAGE# link:../keyboardReleaseAll[keyboard.releaseAll] +
-* #LANGUAGE# link:../keyboardWrite[keyboard.write]
+* #LANGUAGE# link:../keyboardBegin[keyboard.begin]() +
+* #LANGUAGE# link:../keyboardEnd[keyboard.end]() +
+* #LANGUAGE# link:../keyboardPress[keyboard.press]() +
+* #LANGUAGE# link:../keyboardPrint[keyboard.print]() +
+* #LANGUAGE# link:../keyboardRelease[keyboard.release]() +
+* #LANGUAGE# link:../keyboardReleaseAll[keyboard.releaseAll]() +
+* #LANGUAGE# link:../keyboardWrite[keyboard.write]()
 --
 // HOW TO USE SECTION ENDS

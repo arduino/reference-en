@@ -1,0 +1,43 @@
+---
+title: serial
+
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+= Mouse
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The mouse functions enable a Leonardo, Micro, or Due to control cursor movement on a connected computer. When updating the cursor position, it is always relative to the cursor's previous location.
+--
+// OVERVIEW SECTION ENDS
+
+
+// FUNCTIONS SECTION STARTS
+[#functions]
+--
+
+'''
+
+[float]
+=== Functions
+link:..//Mouse/MouseBegin[Mouse.begin()] +
+link:..//Mouse/MouseClick[Mouse.click()] +
+link:..//Mouse/MouseEnd[Mouse.end()] +
+link:..//Mouse/MouseMove[Mouse.move()] +
+link:..//Mouse/MousePress[Mouse.press()] +
+link:..//Mouse/MouseRelease[Mouse.release()] +
+link:..//Mouse/MouseIsPressed[Mouse.isPressed()]
+
+'''
+
+--
+// FUNCTIONS SECTION ENDS

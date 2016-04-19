@@ -1,0 +1,68 @@
+---
+title: Keyboard
+
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+= Keyboard
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The keyboard functions enable a Leonardo, Micro, or Due to send keystrokes to an attached computer.
+[%hardbreaks]
+*Note: Not every possible ASCII character, particularly the non-printing ones, can be sent with the Keyboard library.* +
+The library supports the use of modifier keys. Modifier keys change the behavior of another key when pressed simultaneously. link:..//Keyboard/keyboardModifiers[See here] for additional information on supported keys and their use.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+// FUNCTIONS SECTION STARTS
+[#functions]
+--
+
+'''
+
+[float]
+=== Functions
+link:..//Keyboard/keyboardBegin[Keyboard.begin()] +
+link:..//Keyboard/keyboardEnd[Keyboard.end()] +
+link:..//Keyboard/keyboardPress[Keyboard.press()] +
+link:..//Keyboard/keyboardPrint[Keyboard.print()] +
+link:..//Keyboard/keyboardPrintln[Keyboard.println()] +
+link:..//Keyboard/keyboardRelease[Keyboard.release()] +
+link:..//Keyboard/keyboardReleaseAll[Keyboard.releaseAll()] +
+link:..//Keyboard/keyboardWrite[Keyboard.write()]
+
+'''
+
+--
+// FUNCTIONS SECTION ENDS
+
+
+// SEEALSO SECTION STARTS
+[#seealso]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardAndMouseControl[KeyboardAndMouseControl]: Demonstrates the Mouse and Keyboard commands in one program.
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardMessage[KeyboardMessage]: Sends a text string when a button is pressed.
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardLogout[KeyboardLogout]: Logs out the current user with key commands
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardSerial[KeyboardSerial]: Reads a byte from the serial port, and sends back a keystroke.
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardReprogram[KeyboardReprogram]: opens a new window in the Arduino IDE and reprograms the board with a simple blink program
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/ButtonMouseControl[ButtonMouseControl]: Control cursor movement with 5 pushbuttons.
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/JoystickMouseControl[JoystickMouseControl]: Controls a computer's cursor movement with a Joystick when a button is pressed.
+
+--
+// SEEALSO SECTION ENDS
