@@ -1,5 +1,6 @@
 ---
-title: compoundMultiplication
+title: "*="
+title_expanded: compoundMultiplication
 categories: [ "Structure" ]
 subCategories: [ "Compound Operators" ]
 ---

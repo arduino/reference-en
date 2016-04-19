@@ -1,5 +1,5 @@
 ---
-title: cos
+title: cos()
 categories: [ "Functions" ]
 subCategories: [ "Trigonometry" ]
 ---

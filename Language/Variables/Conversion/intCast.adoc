@@ -1,5 +1,5 @@
 ---
-title: intCast
+title: int()
 categories: [ "Variables" ]
 subCategories: [ "Conversion" ]
 ---

@@ -1,5 +1,5 @@
 ---
-title: floatCast
+title: float()
 categories: [ "Variables" ]
 subCategories: [ "Conversion" ]
 ---

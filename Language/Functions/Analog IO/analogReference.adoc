@@ -1,5 +1,5 @@
 ---
-title: analogReference
+title: analogReference()
 categories: [ "Functions" ]
 subCategories: [ "Analog I/O" ]
 ---

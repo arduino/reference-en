@@ -1,5 +1,6 @@
 ---
-title: compoundBitwiseOr
+title: "|="
+title_expanded: compoundBitwiseOr
 categories: [ "Structure" ]
 subCategories: [ "Compound Operators" ]
 ---

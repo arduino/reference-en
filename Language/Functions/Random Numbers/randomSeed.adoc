@@ -1,5 +1,5 @@
 ---
-title: randomSeed
+title: randomSeed()
 categories: [ "Functions" ]
 subCategories: [ "Random Numbers" ]
 ---

@@ -1,5 +1,6 @@
 ---
-title: subtraction
+title: "-"
+title_expanded: "subtraction"
 categories: [ "Structure" ]
 subCategories: [ "Arithmetic Operators" ]
 ---

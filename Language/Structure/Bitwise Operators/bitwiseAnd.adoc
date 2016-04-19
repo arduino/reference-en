@@ -1,5 +1,6 @@
 ---
-title: bitwiseAnd
+title: "&"
+title_expanded: bitwiseAnd
 categories: [ "Structure" ]
 subCategories: [ "Bitwise Operators" ]
 ---

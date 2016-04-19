@@ -1,5 +1,6 @@
 ---
-title: logicalNot
+title: "!"
+title_expanded: logical Not
 categories: [ "Structure" ]
 subCategories: [ "Boolean Operators" ]
 ---

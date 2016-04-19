@@ -1,5 +1,5 @@
 ---
-title: attachInterrupt
+title: attachInterrupt()
 categories: [ "Functions" ]
 subCategories: [ "External Interrupts" ]
 ---

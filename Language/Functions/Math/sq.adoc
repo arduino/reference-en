@@ -1,5 +1,5 @@
 ---
-title: sq
+title: sq()
 categories: [ "Functions" ]
 subCategories: [ "Math" ]
 ---

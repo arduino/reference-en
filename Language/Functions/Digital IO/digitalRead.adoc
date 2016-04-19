@@ -1,7 +1,7 @@
 ---
-title: digitalRead
+title: digitalRead()
 categories: [ "Functions" ]
-subCategories: [ "Digital IO" ]
+subCategories: [ "Digital I/O" ]
 ---
 
 :source-highlighter: pygments

@@ -1,5 +1,5 @@
 ---
-title: doWhile
+title: do...While
 categories: [ "Structure" ]
 subCategories: [ "Control Structure" ]
 ---

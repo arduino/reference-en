@@ -1,5 +1,6 @@
 ---
-title: compoundAddition
+title: "+="
+title_expanded: compoundAddition
 categories: [ "Structure" ]
 subCategories: [ "Compound Operators" ]
 ---

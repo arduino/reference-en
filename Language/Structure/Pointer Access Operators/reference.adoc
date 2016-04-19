@@ -1,5 +1,6 @@
 ---
-title: reference
+title: "*"
+title_expanded: reference
 categories: [ "Structure" ]
 subCategories: [ "Pointer Access Operators" ]
 ---

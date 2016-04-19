@@ -1,5 +1,5 @@
 ---
-title: delay
+title: delay()
 categories: [ "Functions" ]
 subCategories: [ "Time" ]
 ---
@@ -29,7 +29,7 @@ Pauses the program for the amount of time (in miliseconds) specified as paramete
 
 [float]
 === Parameters
-`ms`: the number of milliseconds to pause (`unsigned long`) 
+`ms`: the number of milliseconds to pause (`unsigned long`)
 
 [float]
 === Returns

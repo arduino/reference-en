@@ -1,5 +1,6 @@
 ---
-title: semicolon
+title: ";"
+title_expanded: semicolon
 categories: [ "Structure" ]
 subCategories: [ "Further Syntax" ]
 ---

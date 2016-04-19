@@ -1,5 +1,6 @@
 ---
-title: bitwiseXor
+title: "^"
+title_expanded: bitwiseXor
 categories: [ "Structure" ]
 subCategories: [ "Bitwise Operators" ]
 ---

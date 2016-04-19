@@ -1,5 +1,6 @@
 ---
-title: bitwiseOr
+title: "|"
+title_expanded: bitwiseOr
 categories: [ "Structure" ]
 subCategories: [ "Bitwise Operators" ]
 ---

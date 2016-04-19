@@ -1,5 +1,5 @@
 ---
-title: noInterrupts
+title: noInterrupts()
 categories: [ "Functions" ]
 subCategories: [ "Interrupts" ]
 ---

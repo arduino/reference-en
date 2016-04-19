@@ -1,5 +1,5 @@
 ---
-title: analogWriteResolution
+title: analogWriteResolution()
 categories: [ "Functions" ]
 subCategories: [ "Arduino DUE only" ]
 ---

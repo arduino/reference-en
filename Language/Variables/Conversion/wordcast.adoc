@@ -1,5 +1,5 @@
 ---
-title: wordcast
+title: word()
 categories: [ "Variables" ]
 subCategories: [ "Conversion" ]
 ---

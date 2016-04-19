@@ -1,5 +1,5 @@
 ---
-title: lowByte
+title: lowByte()
 categories: [ "Functions" ]
 subCategories: [ "Bits and Bytes" ]
 ---

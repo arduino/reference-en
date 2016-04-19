@@ -1,5 +1,5 @@
 ---
-title: pulseIn
+title: pulseIn()
 categories: [ "Functions" ]
 subCategories: [ "Advanced I/O" ]
 ---

@@ -1,5 +1,6 @@
 ---
-title: noTone
+title: noTone()
+title_expanded: ""
 categories: [ "Functions" ]
 subCategories: [ "Advanced I/O" ]
 ---

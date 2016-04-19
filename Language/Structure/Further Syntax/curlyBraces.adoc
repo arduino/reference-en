@@ -1,5 +1,6 @@
 ---
-title: curlyBraces
+title: "{}"
+title_expanded: curlyBraces
 categories: [ "Structure" ]
 subCategories: [ "Further Syntax" ]
 ---
