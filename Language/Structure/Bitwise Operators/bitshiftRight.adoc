@@ -1,5 +1,6 @@
 ---
-title: bitshiftRight
+title: ">>"
+title_expanded: bitshiftRight
 categories: [ "Structure" ]
 subCategories: [ "Bitwise Operators" ]
 ---

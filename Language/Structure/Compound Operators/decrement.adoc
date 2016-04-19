@@ -1,5 +1,6 @@
 ---
-title: decrement
+title: "--"
+title_expanded: decrement
 categories: [ "Structure" ]
 subCategories: [ "Compound Operators" ]
 ---

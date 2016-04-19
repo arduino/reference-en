@@ -1,5 +1,6 @@
 ---
-title: dereference
+title: "&"
+title_expanded_expanded: dereference operator
 categories: [ "Structure" ]
 subCategories: [ "Pointer Access Operators" ]
 ---

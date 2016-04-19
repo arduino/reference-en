@@ -1,7 +1,7 @@
 ---
-title: digitalWrite
+title: digitalWrite()
 categories: [ "Functions" ]
-subCategories: [ "Digital IO" ]
+subCategories: [ "Digital I/O" ]
 ---
 
 :source-highlighter: pygments

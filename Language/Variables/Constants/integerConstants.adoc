@@ -1,5 +1,5 @@
 ---
-title: integerConstants
+title: Integer Constants
 categories: [ "Variables" ]
 subCategories: [ "Constants" ]
 ---

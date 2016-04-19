@@ -1,5 +1,5 @@
 ---
-title: shiftIn
+title: shiftIn()
 categories: [ "Functions" ]
 subCategories: [ "Advanced I/O" ]
 ---

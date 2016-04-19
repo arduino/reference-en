@@ -1,5 +1,6 @@
 ---
-title: bitwiseNot
+title: "~"
+title_expanded: bitwiseNot
 categories: [ "Structure" ]
 subCategories: [ "Bitwise Operators" ]
 ---

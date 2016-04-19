@@ -1,5 +1,6 @@
 ---
-title: increment
+title: "++"
+title_expanded: increment
 categories: [ "Structure" ]
 subCategories: [ "Compound Operators" ]
 ---

@@ -1,5 +1,5 @@
 ---
-title: sin
+title: sin()
 categories: [ "Functions" ]
 subCategories: [ "Trigonometry" ]
 ---

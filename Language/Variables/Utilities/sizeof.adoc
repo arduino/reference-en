@@ -1,5 +1,5 @@
 ---
-title: sizeof
+title: sizeof()
 categories: [ "Variables" ]
 subCategories: [ "Utilities" ]
 ---

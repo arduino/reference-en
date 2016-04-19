@@ -1,5 +1,5 @@
 ---
-title: micros
+title: micros()
 categories: [ "Functions" ]
 subCategories: [ "Time" ]
 ---

@@ -1,5 +1,6 @@
 ---
-title: assignment
+title: "="
+title_expanded: "assignment operator"
 categories: [ "Structure" ]
 subCategories: [ "Arithmetic Operators" ]
 ---

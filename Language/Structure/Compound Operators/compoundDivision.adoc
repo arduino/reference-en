@@ -1,5 +1,6 @@
 ---
-title: compoundDivision
+title: "/="
+title_expanded: compoundDivision
 categories: [ "Structure" ]
 subCategories: [ "Compound Operators" ]
 ---

@@ -1,5 +1,5 @@
 ---
-title: bitWrite
+title: bitWrite()
 categories: [ "Functions" ]
 subCategories: [ "Bits and Bytes" ]
 ---

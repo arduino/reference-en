@@ -1,5 +1,5 @@
 ---
-title: tone
+title: tone()
 categories: [ "Functions" ]
 subCategories: [ "Advanced I/O" ]
 ---

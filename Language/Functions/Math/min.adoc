@@ -1,5 +1,5 @@
 ---
-title: min
+title: min()
 categories: [ "Functions" ]
 subCategories: [ "Math" ]
 ---

@@ -1,5 +1,6 @@
 ---
-title: include
+title: "#include"
+title_expanded: include
 categories: [ "Structure" ]
 subCategories: [ "Further Syntax" ]
 ---

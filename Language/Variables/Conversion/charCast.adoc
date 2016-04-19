@@ -1,5 +1,5 @@
 ---
-title: charCast
+title: char()
 categories: [ "Variables" ]
 subCategories: [ "Conversion" ]
 ---

@@ -1,5 +1,6 @@
 ---
-title: compoundSubtraction
+title: "-="
+title_expanded: compoundSubtraction
 categories: [ "Structure" ]
 subCategories: [ "Compound Operators" ]
 ---
