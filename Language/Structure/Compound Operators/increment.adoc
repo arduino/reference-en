@@ -1,6 +1,12 @@
+---
+title: increment
+categories: [ "Structure" ]
+subCategories: [ "Compound Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = ++ Increment
@@ -60,8 +66,8 @@ y = x++;      // x contains 4, but y still contains 3
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:decrement{ext-relative}[Decrement]
-* #LANGUAGE#  link:compoundAddition{ext-relative}[Compound Addition]
+* #LANGUAGE#  link:../decrement[Decrement]
+* #LANGUAGE#  link:../compoundAddition[Compound Addition]
 
 --
 // HOW TO USE SECTION ENDS

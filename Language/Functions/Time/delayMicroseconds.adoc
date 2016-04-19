@@ -1,6 +1,12 @@
+---
+title: delayMicroseconds
+categories: [ "Functions" ]
+subCategories: [ "Time" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = delayMicroseconds()
@@ -78,9 +84,9 @@ As of Arduino 0018, delayMicroseconds() no longer disables interrupts.
 // definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
-* #LANGUAGE# link:millis{ext-relative}[millis()] +
-* #LANGUAGE# link:micros{ext-relative}[micros()] +
-* #LANGUAGE# link:delay{ext-relative}[delay()]
+* #LANGUAGE# link:../millis[millis()] +
+* #LANGUAGE# link:../micros[micros()] +
+* #LANGUAGE# link:../delay[delay()]
 
 --
 // HOW TO USE SECTION ENDS

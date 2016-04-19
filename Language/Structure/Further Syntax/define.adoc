@@ -1,6 +1,12 @@
+---
+title: define
+categories: [ "Structure" ]
+subCategories: [ "Further Syntax" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = #define
@@ -18,7 +24,7 @@
 This can have some unwanted side effects though, if for example, a constant name that had been #defined is included in some other constant or variable name. In that case the text would be replaced by the #defined number (or text).
 [%hardbreaks]
 
-In general, the link:../../Variables/Variable%20Scope%20&%20Qualifiers/const{ext-relative}[const] keyword is preferred for defining constants and should be used instead of #define.
+In general, the link:../../../Variables/Variable%20Scope%20&%20Qualifiers/const[const] keyword is preferred for defining constants and should be used instead of #define.
 [%hardbreaks]
 
 [float]
@@ -71,8 +77,8 @@ Similarly, including an equal sign after the #define statement will also generat
 === See also
 
 [role="language"]
-* #LANGUAGE#	link:../../Variables/Variable%20Scope%20&%20Qualifiers/const{ext-relative}[const]
-* #LANGUAGE#	link:../../Variables/Constants/integerConstants{ext-relative}[Constants]
+* #LANGUAGE#	link:../../../Variables/Variable%20Scope%20&%20Qualifiers/const[const]
+* #LANGUAGE#	link:../../../Variables/Constants/integerConstants[Constants]
 
 --
 // HOW TO USE SECTION ENDS

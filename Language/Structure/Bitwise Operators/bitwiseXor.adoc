@@ -1,6 +1,12 @@
+---
+title: bitwiseXor
+categories: [ "Structure" ]
+subCategories: [ "Bitwise Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = ^ Bitwise XOR
@@ -65,9 +71,9 @@ delay(100);
 === See also
 
 [role="language"]
-* #LANGUAGE# link:bitwiseAnd{ext-relative}[& Bitwise AND]
-* #LANGUAGE# link:bitwiseOr{ext-relative}[| Bitwise OR]
-* #LANGUAGE# link:bitwiseNot{ext-relative}[~ Bitwise NOT]
+* #LANGUAGE# link:../bitwiseAnd[& Bitwise AND]
+* #LANGUAGE# link:../bitwiseOr[| Bitwise OR]
+* #LANGUAGE# link:../bitwiseNot[~ Bitwise NOT]
 
 
 [role="example"]

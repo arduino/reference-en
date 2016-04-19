@@ -1,6 +1,12 @@
+---
+title: bitwiseNot
+categories: [ "Structure" ]
+subCategories: [ "Bitwise Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = ~ Bitwise NOT
@@ -53,9 +59,9 @@ At times, the sign bit in a signed integer expression can cause some unwanted su
 === See also
 
 [role="language"]
-* #LANGUAGE# link:bitwiseAnd{ext-relative}[& Bitwise AND]
-* #LANGUAGE# link:bitwiseOr{ext-relative}[| Bitwise OR]
-* #LANGUAGE# link:../Boolean%20Operators/logicalNot{ext-relative}[! Logical NOT]
+* #LANGUAGE# link:../bitwiseAnd[& Bitwise AND]
+* #LANGUAGE# link:../bitwiseOr[| Bitwise OR]
+* #LANGUAGE# link:../../Boolean%20Operators/logicalNot[! Logical NOT]
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]

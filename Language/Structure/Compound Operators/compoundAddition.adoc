@@ -1,6 +1,12 @@
+---
+title: compoundAddition
+categories: [ "Structure" ]
+subCategories: [ "Compound Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = += Compound Addition
@@ -55,10 +61,10 @@ x += 4;      // x now contains 6
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../Arithmetic%20Operators/addition{ext-relative}[Normal Addition]
-* #LANGUAGE#  link:compoundSubtraction{ext-relative}[Compound Subtraction]
-* #LANGUAGE#  link:compoundMultiplication{ext-relative}[Compound Multiplication]
-* #LANGUAGE#  link:compoundDivision{ext-relative}[Compound Division]
+* #LANGUAGE#  link:../../Arithmetic%20Operators/addition[Normal Addition]
+* #LANGUAGE#  link:../compoundSubtraction[Compound Subtraction]
+* #LANGUAGE#  link:../compoundMultiplication[Compound Multiplication]
+* #LANGUAGE#  link:../compoundDivision[Compound Division]
 
 --
 // HOW TO USE SECTION ENDS

@@ -1,6 +1,12 @@
+---
+title: logicalOr
+categories: [ "Structure" ]
+subCategories: [ "Boolean Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = || Logical OR
@@ -26,7 +32,7 @@
 
 [float]
 === Example Code
-This operator can be used inside the condition of an link:../Control%20Structures/if[if] statement.
+This operator can be used inside the condition of an link:../../Control%20Structures/if[if] statement.
 
 [source,arduino]
 ----
@@ -46,9 +52,9 @@ Do not confuse the boolean || (double pipe) operator with the bitwise OR operato
 === See also
 
 [role="language"]
-* #LANGUAGE# link:logicalAnd{ext-relative}[&& Logical AND]
-* #LANGUAGE# link:logicalNot{ext-relative}[! Logical NOT]
-* #LANGUAGE# link:../Bitwise%20Operators/bitwiseNot{ext-relative}[| Bitwise OR]
+* #LANGUAGE# link:../logicalAnd[&& Logical AND]
+* #LANGUAGE# link:../logicalNot[! Logical NOT]
+* #LANGUAGE# link:../../Bitwise%20Operators/bitwiseNot[| Bitwise OR]
 
 --
 // HOW TO USE SECTION ENDS

@@ -1,6 +1,12 @@
+---
+title: switchCase
+categories: [ "Structure" ]
+subCategories: [ "Control Structure" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = switch...case statement
@@ -12,10 +18,10 @@
 
 [float]
 === Description
-Like link:if{ext-relative}[if] statements, link:switchCase{ext-relative}[switch case] controls the flow of programs by allowing programmers to specify different code that should be executed in various conditions. In particular, a switch statement compares the value of a variable to the values specified in case statements. When a case statement is found whose value matches that of the variable, the code in that case statement is run.
+Like link:../if[if] statements, link:../switchCase[switch case] controls the flow of programs by allowing programmers to specify different code that should be executed in various conditions. In particular, a switch statement compares the value of a variable to the values specified in case statements. When a case statement is found whose value matches that of the variable, the code in that case statement is run.
 [%hardbreaks]
 
-The link:break{ext-relative}[break] keyword exits the switch statement, and is typically used at the end of each case. Without a break statement, the switch statement will continue executing the following expressions ("falling-through") until a break, or the end of the switch statement is reached.
+The link:../break[break] keyword exits the switch statement, and is typically used at the end of each case. Without a break statement, the switch statement will continue executing the following expressions ("falling-through") until a break, or the end of the switch statement is reached.
 [%hardbreaks]
 
 
@@ -78,8 +84,8 @@ Nothing
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:else{ext-relative}[if...else]
-* #LANGUAGE#	link:break{ext-relative}[break]
+* #LANGUAGE#	link:../else[if...else]
+* #LANGUAGE#	link:../break[break]
 
 --
 // HOW TO USE SECTION ENDS

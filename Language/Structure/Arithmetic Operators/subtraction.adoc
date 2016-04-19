@@ -1,6 +1,12 @@
+---
+title: subtraction
+categories: [ "Structure" ]
+subCategories: [ "Arithmetic Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = - Subtraction
@@ -70,9 +76,9 @@ c = a - b; // the variable 'c' stores a value of -1 only as opposed to the expec
 === See also
 
 [role="language"]
-* #LANGUAGE# link:addition{ext-relative}[Addition]
-* #LANGUAGE# link:multiplication{ext-relative}[Multiplication]
-* #LANGUAGE# link:division{ext-relative}[division]
+* #LANGUAGE# link:../addition[Addition]
+* #LANGUAGE# link:../multiplication[Multiplication]
+* #LANGUAGE# link:../division[division]
 
 --
 // HOW TO USE SECTION ENDS

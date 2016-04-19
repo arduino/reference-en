@@ -1,6 +1,12 @@
+---
+title: string
+categories: [ "Variables" ]
+subCategories: [ "Data Types" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = string
@@ -12,7 +18,7 @@
 
 [float]
 === Description
-Text strings can be represented in two ways. you can use the String data type, which is part of the core as of version 0019, or you can make a string out of an array of type char and null-terminate it. This page described the latter method. For more details on the String object, which gives you more functionality at the cost of more memory, see the link:stringObject{ext-relative}[String object] page.
+Text strings can be represented in two ways. you can use the String data type, which is part of the core as of version 0019, or you can make a string out of an array of type char and null-terminate it. This page described the latter method. For more details on the String object, which gives you more functionality at the cost of more memory, see the link:../stringObject[String object] page.
 [%hardbreaks]
 
 [float]
@@ -104,10 +110,10 @@ for (int i = 0; i < 6; i++){
 // definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="definition"]
-* #DEFINITION# link:array{ext-relative}[array] +
-* #DEFINITION# link:../Utilities/PROGMEM{ext-relative}[PROGMEM] +
-* #DEFINITION# link:unsignedInt{ext-relative}[unsigned int] +
+* #DEFINITION# link:../array[array] +
+* #DEFINITION# link:../../Utilities/PROGMEM[PROGMEM] +
+* #DEFINITION# link:../unsignedInt[unsigned int] +
 
-* #DEFINITION# link:variableDeclaration{ext-relative}[Variable Declaration]
+* #DEFINITION# link:../variableDeclaration[Variable Declaration]
 --
 // HOW TO USE SECTION ENDS

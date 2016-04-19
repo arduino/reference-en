@@ -4,7 +4,7 @@
 
 // RELATIVE LINK EXTENSION ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 // This attribute is used to change the extension of relative links from .adoc to .html during compilation
-:ext-relative: adoc
+
 
 // PAGE TITLE   ►►►►► THIS IS MANDATORY ◄◄◄◄◄
 // This title will show up in the Index of all Reference terms
@@ -80,10 +80,10 @@ http://arduino.cc[serialEvent()]
 
 [role="language"]
 // Whenever you want to link to another Reference term, or more in general to a relative link,
-// use the syntax shown below. Please note that the file format is subsituted by {ext-relative} attribute.
+// use the syntax shown below. Please note that the file format is subsituted by  attribute.
 // Please note that you always need to replace spaces that you might find in folder/file names with %20
-* #LANGUAGE# link:AsciiDoc_Template-Single_Entity{ext-relative}[Single Entity]
-* #LANGUAGE# link:../AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary{ext-relative}[AsciiDoc Template Dictionary]
+* #LANGUAGE# link:../AsciiDoc_Template-Single_Entity[Single Entity]
+* #LANGUAGE# link:../../AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary[AsciiDoc Template Dictionary]
 
 [role="definition"]
 // Please note that all external links need to be opened in a new window/tab by adding ^ right before the last square brackets

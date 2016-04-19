@@ -1,6 +1,6 @@
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = Keyboard.press()
@@ -12,9 +12,9 @@
 
 [float]
 === Description
-When called, `Keyboard.press()` functions as if a key were pressed and held on your keyboard. Useful when using link:keyboardModifier{ext-relative}[modifier keys]. To end the key press, use link:keyboardRelease{ext-relative}[Keyboard.release()] or link:keyboardReleaseAll{ext-relative}[Keyboard.releaseAll()].
+When called, `Keyboard.press()` functions as if a key were pressed and held on your keyboard. Useful when using link:../keyboardModifier[modifier keys]. To end the key press, use link:../keyboardRelease[Keyboard.release()] or link:../keyboardReleaseAll[Keyboard.releaseAll()].
 
-It is necessary to call link:keyboardBegin{ext-relative}[Keyboard.begin()] before using `press()`.
+It is necessary to call link:../keyboardBegin[Keyboard.begin()] before using `press()`.
 [%hardbreaks]
 
 
@@ -87,12 +87,12 @@ void loop() {
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:keyboardEnd{ext-relative}[keyboard.end] +
-* #LANGUAGE# link:keyboardPress{ext-relative}[keyboard.press] +
-* #LANGUAGE# link:keyboardPrint{ext-relative}[keyboard.print] +
-* #LANGUAGE# link:keyboardPrintln{ext-relative}[keyboard.println] +
-* #LANGUAGE# link:keyboardRelease{ext-relative}[keyboard.release] +
-* #LANGUAGE# link:keyboardReleaseAll{ext-relative}[keyboard.releaseAll] +
-* #LANGUAGE# link:keyboardWrite{ext-relative}[keyboard.write]
+* #LANGUAGE# link:../keyboardEnd[keyboard.end] +
+* #LANGUAGE# link:../keyboardPress[keyboard.press] +
+* #LANGUAGE# link:../keyboardPrint[keyboard.print] +
+* #LANGUAGE# link:../keyboardPrintln[keyboard.println] +
+* #LANGUAGE# link:../keyboardRelease[keyboard.release] +
+* #LANGUAGE# link:../keyboardReleaseAll[keyboard.releaseAll] +
+* #LANGUAGE# link:../keyboardWrite[keyboard.write]
 --
 // HOW TO USE SECTION ENDS

@@ -1,6 +1,12 @@
+---
+title: logicalNot
+categories: [ "Structure" ]
+subCategories: [ "Boolean Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = ! Logical NOT
@@ -26,7 +32,7 @@
 
 [float]
 === Example Code
-This operator can be used inside the condition of an link:../Control%20Structures/if[if] statement.
+This operator can be used inside the condition of an link:../../Control%20Structures/if[if] statement.
 
 [source,arduino]
 ----
@@ -53,9 +59,9 @@ The bitwise not ~ (tilde) looks much different than the boolean not ! (exclamati
 === See also
 
 [role="language"]
-* #LANGUAGE# link:logicalAnd{ext-relative}[&& Logical AND]
-* #LANGUAGE# link:logicalOr{ext-relative}[|| Logical OR]
-* #LANGUAGE# link:../Bitwise%20Operators/bitwiseNot{ext-relative}[~ Bitwise NOT]
+* #LANGUAGE# link:../logicalAnd[&& Logical AND]
+* #LANGUAGE# link:../logicalOr[|| Logical OR]
+* #LANGUAGE# link:../../Bitwise%20Operators/bitwiseNot[~ Bitwise NOT]
 
 --
 // HOW TO USE SECTION ENDS

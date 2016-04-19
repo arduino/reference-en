@@ -1,6 +1,12 @@
+---
+title: PROGMEM
+categories: [ "Variables" ]
+subCategories: [ "Utilities" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = PROGMEM
@@ -179,7 +185,7 @@ void loop()
 * #EXAMPLE# http://www.arduino.cc/playground/Learning/Memory[Types of memory available on an Arduino board]
 
 [role="definition"]
-* #DEFINITION# link:../Data%20Types/array{ext-relative}[array] +
-* #DEFINITION# link:../Data%20Types/string{ext-relative}[string]
+* #DEFINITION# link:../../Data%20Types/array[array] +
+* #DEFINITION# link:../../Data%20Types/string[string]
 --
 // HOW TO USE SECTION ENDS

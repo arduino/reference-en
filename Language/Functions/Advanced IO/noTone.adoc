@@ -1,6 +1,12 @@
+---
+title: noTone
+categories: [ "Functions" ]
+subCategories: [ "Advanced I/O" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = noTone()
@@ -51,7 +57,7 @@ If you want to play different pitches on multiple pins, you need to call noTone(
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:tone{ext-relative}[tone()]
+* #LANGUAGE# link:../tone[tone()]
 
 --
 // HOW TO USE SECTION ENDS

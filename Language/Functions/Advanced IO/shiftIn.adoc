@@ -1,6 +1,12 @@
+---
+title: shiftIn
+categories: [ "Functions" ]
+subCategories: [ "Advanced I/O" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = shiftIn()
@@ -16,7 +22,7 @@ Shifts in a byte of data one bit at a time. Starts from either the most (i.e. th
 
 If you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the first call to `shiftIn()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
 
-Note: this is a software implementation; Arduino also provides an link:SPI{ext-relative}[SPI library] that uses the hardware implementation, which is faster but only works on specific pins.
+Note: this is a software implementation; Arduino also provides an link:../SPI[SPI library] that uses the hardware implementation, which is faster but only works on specific pins.
 [%hardbreaks]
 
 
@@ -55,8 +61,8 @@ the value read (byte)
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:shiftOut{ext-relative}[shiftOut()] +
-* #LANGUAGE# link:SPI{ext-relative}[SPI]
+* #LANGUAGE# link:../shiftOut[shiftOut()] +
+* #LANGUAGE# link:../SPI[SPI]
 
 --
 // HOW TO USE SECTION ENDS

@@ -1,6 +1,12 @@
+---
+title: boolean
+categories: [ "Variables" ]
+subCategories: [ "Data Types" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = boolean
@@ -12,7 +18,7 @@
 
 [float]
 === Description
-A `boolean` holds one of two values, link:true{ext-relative}[true] or link:false{ext-relative}[false]. (Each boolean variable occupies one byte of memory.)
+A `boolean` holds one of two values, link:../true[true] or link:../false[false]. (Each boolean variable occupies one byte of memory.)
 
 
 [%hardbreaks]
@@ -65,9 +71,9 @@ void loop()
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="definition"]
-* #DEFINITION# link:constants{ext-relative}[constants] +
-* #DEFINITION# link:boolean{ext-relative}[boolean operators] +
-* #DEFINITION# link:../variableDeclaration{ext-relative}[Variable Declaration]
+* #DEFINITION# link:../constants[constants] +
+* #DEFINITION# link:../boolean[boolean operators] +
+* #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 
 --
 // HOW TO USE SECTION ENDS

@@ -1,6 +1,12 @@
+---
+title: doWhile
+categories: [ "Structure" ]
+subCategories: [ "Control Structure" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = do...while loop
@@ -13,7 +19,7 @@
 [float]
 === Description
 [%hardbreaks]
-The `do...while` loop works in the same manner as the link:while{ext-relative}[while] loop, with the exception that the condition is tested at the end of the loop, so the do loop will always run at least once.
+The `do...while` loop works in the same manner as the link:../while[while] loop, with the exception that the condition is tested at the end of the loop, so the do loop will always run at least once.
 
 [float]
 === Syntax
@@ -54,7 +60,7 @@ do
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:for{ext-relative}[for]
-* #LANGUAGE#	link:while{ext-relative}[while]
+* #LANGUAGE#	link:../for[for]
+* #LANGUAGE#	link:../while[while]
 --
 // HOW TO USE SECTION ENDS

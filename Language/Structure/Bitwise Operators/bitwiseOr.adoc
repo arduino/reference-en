@@ -1,6 +1,12 @@
+---
+title: bitwiseOr
+categories: [ "Structure" ]
+subCategories: [ "Bitwise Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = | Bitwise OR
@@ -55,9 +61,9 @@ DDRD = DDRD | B11111100; // set direction bits for pins 2 to 7, leave 0 and 1 un
 === See also
 
 [role="language"]
-* #LANGUAGE# link:bitwiseAnd{ext-relative}[& Bitwise AND]
-* #LANGUAGE# link:bitwiseNot{ext-relative}[~ Bitwise NOT]
-* #LANGUAGE# link:../Boolean%20Operators/logicalOr{ext-relative}[|| Logical OR]
+* #LANGUAGE# link:../bitwiseAnd[& Bitwise AND]
+* #LANGUAGE# link:../bitwiseNot[~ Bitwise NOT]
+* #LANGUAGE# link:../../Boolean%20Operators/logicalOr[|| Logical OR]
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]

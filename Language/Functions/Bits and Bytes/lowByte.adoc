@@ -1,6 +1,12 @@
+---
+title: lowByte
+categories: [ "Functions" ]
+subCategories: [ "Bits and Bytes" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = lowByte()
@@ -45,8 +51,8 @@ byte
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:highByte{ext-relative}[highByte()] +
-* #LANGUAGE# link:../../Variable/Data%20Types/word{ext-relative}[word()]
+* #LANGUAGE# link:../highByte[highByte()] +
+* #LANGUAGE# link:../../../Variable/Data%20Types/word[word()]
 
 --
 // HOW TO USE SECTION ENDS

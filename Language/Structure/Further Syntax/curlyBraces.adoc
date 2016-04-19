@@ -1,6 +1,12 @@
+---
+title: curlyBraces
+categories: [ "Structure" ]
+subCategories: [ "Further Syntax" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 = {} Curly Braces
 
@@ -96,9 +102,9 @@ else
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:semicolon{ext-relative}[; Semicolon]
-* #LANGUAGE# link:singleLineComment{ext-relative}[// Single Line Comment]
-* #LANGUAGE# link:blockComment{ext-relative}[/* */ Block Comment]
+* #LANGUAGE# link:../semicolon[; Semicolon]
+* #LANGUAGE# link:../singleLineComment[// Single Line Comment]
+* #LANGUAGE# link:../blockComment[/* */ Block Comment]
 
 
 --

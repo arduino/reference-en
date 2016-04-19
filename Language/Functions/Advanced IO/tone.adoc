@@ -1,6 +1,12 @@
+---
+title: tone
+categories: [ "Functions" ]
+subCategories: [ "Advanced I/O" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = tone()
@@ -12,7 +18,7 @@
 
 [float]
 === Description
-Generates a square wave of the specified frequency (and 50% duty cycle) on a pin. A duration can be specified, otherwise the wave continues until a call to link:noTone{ext-relative}[noTone()]. The pin can be connected to a piezo buzzer or other speaker to play tones.
+Generates a square wave of the specified frequency (and 50% duty cycle) on a pin. A duration can be specified, otherwise the wave continues until a call to link:../noTone[noTone()]. The pin can be connected to a piezo buzzer or other speaker to play tones.
 
 Only one tone can be generated at a time. If a tone is already playing on a different pin, the call to tone() will have no effect. If the tone is playing on the same pin, the call will set its frequency.
 
@@ -64,8 +70,8 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:noTone{ext-relative}[noTone()] +
-* #LANGUAGE# link:../Analod%20IO/analogWrite{ext-relative}[analogWrite()] 
+* #LANGUAGE# link:../noTone[noTone()] +
+* #LANGUAGE# link:../../Analod%20IO/analogWrite[analogWrite()]
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Tone^] +

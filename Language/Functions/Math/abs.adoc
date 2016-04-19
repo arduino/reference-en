@@ -1,6 +1,12 @@
+---
+title: abs
+categories: [ "Functions" ]
+subCategories: [ "Math" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = abs(x)

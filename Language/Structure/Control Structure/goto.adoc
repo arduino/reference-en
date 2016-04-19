@@ -1,6 +1,12 @@
+---
+title: goto
+categories: [ "Structure" ]
+subCategories: [ "Control Structure" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = goto
@@ -57,14 +63,14 @@ bailout:
 === Notes and Warnings
 The use of `goto` is discouraged in C programming, and some authors of C programming books claim that the `goto` statement is never necessary, but used judiciously, it can simplify certain programs. The reason that many programmers frown upon the use of goto is that with the unrestrained use of `goto` statements, it is easy to create a program with undefined program flow, which can never be debugged.
 
-With that said, there are instances where a `goto` statement can come in handy, and simplify coding. One of these situations is to break out of deeply nested link:for{ext-relative}[for] loops, or link:if{ext-relative}[if] logic blocks, on a certain condition.
+With that said, there are instances where a `goto` statement can come in handy, and simplify coding. One of these situations is to break out of deeply nested link:../for[for] loops, or link:../if[if] logic blocks, on a certain condition.
 [%hardbreaks]
 
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:continue{ext-relative}[continue]
-* #LANGUAGE#	link:break{ext-relative}[break]
+* #LANGUAGE#	link:../continue[continue]
+* #LANGUAGE#	link:../break[break]
 
 --
 // HOW TO USE SECTION ENDS

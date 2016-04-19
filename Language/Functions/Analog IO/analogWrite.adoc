@@ -1,6 +1,12 @@
+---
+title: analogWrite
+categories: [ "Functions" ]
+subCategories: [ "Analog I/O" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = analogWrite()
@@ -80,8 +86,8 @@ The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cy
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:analogRead{ext-relative}[analogRead()]
-* #LANGUAGE# link:../Arduino%20DUE%20only/analogWriteResolution{ext-relative}[analogWriteResolution()]
+* #LANGUAGE# link:../analogRead[analogRead()]
+* #LANGUAGE# link:../../Arduino%20DUE%20only/analogWriteResolution[analogWriteResolution()]
 
 [role="definition"]
 * #DEFINITION# http://arduino.cc/en/Tutorial/PWM[PWM^]

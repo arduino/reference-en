@@ -1,6 +1,12 @@
+---
+title: for
+categories: [ "Structure" ]
+subCategories: [ "Control Structure" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = for loop
@@ -97,7 +103,7 @@ void loop()
 === See also
 
 [role="language"]
-* #LANGUAGE#	link:while{ext-relative}[while]
+* #LANGUAGE#	link:../while[while]
 
 
 --

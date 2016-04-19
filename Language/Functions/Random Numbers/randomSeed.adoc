@@ -1,6 +1,12 @@
+---
+title: randomSeed
+categories: [ "Functions" ]
+subCategories: [ "Random Numbers" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = randomSeed(seed)
@@ -70,7 +76,7 @@ void loop(){
 // definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"
-* #LANGUAGE# link:random{ext-relative}[random]
+* #LANGUAGE# link:../random[random]
 
 
 --

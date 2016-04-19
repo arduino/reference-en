@@ -1,6 +1,12 @@
+---
+title: semicolon
+categories: [ "Structure" ]
+subCategories: [ "Further Syntax" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = ; Semicolon
@@ -42,7 +48,7 @@ Forgetting to end a line in a semicolon will result in a compiler error. The err
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:semicolon{ext-relative}[; Semicolon]
+* #LANGUAGE# link:../semicolon[; Semicolon]
 
 --
 // HOW TO USE SECTION ENDS

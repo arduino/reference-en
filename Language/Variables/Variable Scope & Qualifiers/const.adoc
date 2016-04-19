@@ -1,6 +1,12 @@
+---
+title: const
+categories: [ "Variables" ]
+subCategories: [ "Variable Scope & Qualifiers" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = const keyword
@@ -14,7 +20,7 @@
 === Description
 The `const` keyword stands for constant. It is a variable _qualifier_ that modifies the behavior of the variable, making a variable "_read-only_". This means that the variable can be used just as any other variable of its type, but its value cannot be changed. You will get a compiler error if you try to assign a value to a `const` variable.
 
-Constants defined with the const keyword obey the rules of link:scope{ext-relative}[variable scoping] that govern other variables. This, and the pitfalls of using#define, makes the const keyword a superior method for defining constants and is preferred over using link:define{ext-relative}[[#define].
+Constants defined with the const keyword obey the rules of link:../scope[variable scoping] that govern other variables. This, and the pitfalls of using#define, makes the const keyword a superior method for defining constants and is preferred over using link:../define[[#define].
 [%hardbreaks]
 
 --
@@ -51,7 +57,7 @@ pi = 7;        // illegal - you can't write to (modify) a constant
 === Notes and Warnings
 *`#define` or `const`*
 
-You can use either `const` or `#define` for creating numeric or string constants. For link:array{ext-relative}[arrays], you will need to use `const`. In general `const` is preferred over `#define` for defining constants.
+You can use either `const` or `#define` for creating numeric or string constants. For link:../array[arrays], you will need to use `const`. In general `const` is preferred over `#define` for defining constants.
 [%hardbreaks]
 
 
@@ -61,8 +67,8 @@ You can use either `const` or `#define` for creating numeric or string constants
 // definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
-* #LANGUAGE# link:../../Structures/Further%20Syntax/define{ext-relative}[[#define] +
-* #LANGUAGE# link:voletile{ext-relative}[voletile]
+* #LANGUAGE# link:../../../Structures/Further%20Syntax/define[[#define] +
+* #LANGUAGE# link:../voletile[voletile]
 
 
 --

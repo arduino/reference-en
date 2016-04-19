@@ -1,6 +1,12 @@
+---
+title: compoundBitwiseOr
+categories: [ "Structure" ]
+subCategories: [ "Compound Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = |= Compound Bitwise OR
@@ -95,8 +101,8 @@ myByte |= B00000011 == B10101011;
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../Bitwise%20Operators/bitwiseOr{ext-relative}[& Bitwise OR]
-* #LANGUAGE#  link:compoundBitwiseAnd{ext-relative}[&= Compound Bitwise AND]
+* #LANGUAGE#  link:../../Bitwise%20Operators/bitwiseOr[& Bitwise OR]
+* #LANGUAGE#  link:../compoundBitwiseAnd[&= Compound Bitwise AND]
 
 --
 // HOW TO USE SECTION ENDS

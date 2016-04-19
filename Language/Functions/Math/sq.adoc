@@ -1,6 +1,12 @@
+---
+title: sq
+categories: [ "Functions" ]
+subCategories: [ "Math" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = sq(x)
@@ -46,8 +52,8 @@ The square of the number. (double)
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:pow{ext-relative}[pow()] +
-* #LANGUAGE# link:sqrt{ext-relative}[sqrt()]
+* #LANGUAGE# link:../pow[pow()] +
+* #LANGUAGE# link:../sqrt[sqrt()]
 
 --
 // HOW TO USE SECTION ENDS

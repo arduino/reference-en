@@ -1,6 +1,12 @@
+---
+title: division
+categories: [ "Structure" ]
+subCategories: [ "Arithmetic Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = / Division
@@ -68,9 +74,9 @@ c = a / b; // the variable 'c' stores a value of 8 only as opposed to the expect
 === See also
 
 [role="language"]
-* #LANGUAGE# link:addition{ext-relative}[addition]
-* #LANGUAGE# link:subtraction{ext-relative}[subtraction]
-* #LANGUAGE# link:multiplication{ext-relative}[multiplication]
+* #LANGUAGE# link:../addition[addition]
+* #LANGUAGE# link:../subtraction[subtraction]
+* #LANGUAGE# link:../multiplication[multiplication]
 
 --
 // HOW TO USE SECTION ENDS

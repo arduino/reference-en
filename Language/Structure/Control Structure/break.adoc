@@ -1,6 +1,12 @@
+---
+title: break
+categories: [ "Structure" ]
+subCategories: [ "Control Structure" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = break
@@ -13,7 +19,7 @@
 [float]
 === Description
 [%hardbreaks]
-`break` is used to exit from a link:for{ext-relative}[for], link:while{ext-relative}[while] or link:doWhile{ext-relative}[do...while] loop, bypassing the normal loop condition. It is also used to exit from a link:switchCase{ext-relative}[switch case] statement.
+`break` is used to exit from a link:../for[for], link:../while[while] or link:../doWhile[do...while] loop, bypassing the normal loop condition. It is also used to exit from a link:../switchCase[switch case] statement.
 [%hardbreaks]
 
 --
@@ -46,7 +52,7 @@ for (x = 0; x < 255; x ++)
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:continue{ext-relative}[continue]
+* #LANGUAGE#	link:../continue[continue]
 
 --
 // HOW TO USE SECTION ENDS

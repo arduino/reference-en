@@ -1,6 +1,12 @@
+---
+title: bitWrite
+categories: [ "Functions" ]
+subCategories: [ "Bits and Bytes" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = bitWrite()
@@ -50,10 +56,10 @@ Nothing
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="language"]
-* #LANGUAGE# link:bit{ext-relative}[bit()] +
-* #LANGUAGE# link:bitRead{ext-relative}[bitRead()] +
-* #LANGUAGE# link:bitSet{ext-relative}[bitSet()] +
-* #LANGUAGE# link:bitClear{ext-relative}[bitClear()]
+* #LANGUAGE# link:../bit[bit()] +
+* #LANGUAGE# link:../bitRead[bitRead()] +
+* #LANGUAGE# link:../bitSet[bitSet()] +
+* #LANGUAGE# link:../bitClear[bitClear()]
 
 --
 // HOW TO USE SECTION ENDS

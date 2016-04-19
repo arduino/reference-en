@@ -1,6 +1,12 @@
+---
+title: multiplication
+categories: [ "Structure" ]
+subCategories: [ "Arithmetic Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = * Multiplication
@@ -70,9 +76,9 @@ c = a * b; // the variable 'c' stores a value of 36 only as opposed to the expec
 === See also
 
 [role="language"]
-* #LANGUAGE# link:addition{ext-relative}[Addition]
-* #LANGUAGE# link:subtraction{ext-relative}[subtraction]
-* #LANGUAGE# link:division{ext-relative}[Division]
+* #LANGUAGE# link:../addition[Addition]
+* #LANGUAGE# link:../subtraction[subtraction]
+* #LANGUAGE# link:../division[Division]
 
 --
 // HOW TO USE SECTION ENDS

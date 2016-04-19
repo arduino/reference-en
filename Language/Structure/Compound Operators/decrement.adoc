@@ -1,6 +1,12 @@
+---
+title: decrement
+categories: [ "Structure" ]
+subCategories: [ "Compound Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = -- Decrement
@@ -56,7 +62,7 @@ y = x--;      // x contains 0, but y still contains 1
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:increment{ext-relative}[Increment]
-* #LANGUAGE#  link:compoundSubtraction{ext-relative}[Compound Subtraction]
+* #LANGUAGE#  link:../increment[Increment]
+* #LANGUAGE#  link:../compoundSubtraction[Compound Subtraction]
 --
 // HOW TO USE SECTION ENDS

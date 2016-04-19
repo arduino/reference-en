@@ -1,6 +1,12 @@
+---
+title: &&
+categories: [ "Structure" ]
+subCategories: [ "Boolean Operators" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 = && (and)
 
@@ -48,10 +54,10 @@ Make sure you don't mistake the boolean AND operator, `&&` (double ampersand) fo
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:BitwiseAnd{ext-relative}[&^] (bitwise AND)
-* #LANGUAGE# link:BitwiseOr{ext-relative}[|^] (bitwise OR)
-* #LANGUAGE# link:BitwiseXorNot{ext-relative}[~^] (bitwise NOT)
-* #LANGUAGE# link:If{ext-relative}[if^]
+* #LANGUAGE# link:../BitwiseAnd[&^] (bitwise AND)
+* #LANGUAGE# link:../BitwiseOr[|^] (bitwise OR)
+* #LANGUAGE# link:../BitwiseXorNot[~^] (bitwise NOT)
+* #LANGUAGE# link:../If[if^]
 
 --
 // HOW TO USE SECTION ENDS

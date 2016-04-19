@@ -1,6 +1,12 @@
+---
+title: blockComment
+categories: [ "Structure" ]
+subCategories: [ "Further Syntax" ]
+---
+
 :source-highlighter: pygments
 :pygments-style: arduino
-:ext-relative: adoc
+
 
 
 = /* */ Block Comment
@@ -60,7 +66,7 @@ When experimenting with code, "commenting out" parts of your program is a conven
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:singleLineComment{ext-relative}[// Single Line Comment]
+* #LANGUAGE#	link:../singleLineComment[// Single Line Comment]
 
 --
 // HOW TO USE SECTION ENDS
