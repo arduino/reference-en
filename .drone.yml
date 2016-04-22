@@ -1,0 +1,9 @@
+notify:
+  downstream:
+    repositories:
+      - arduino/reference
+    token: $$TOKEN
+    when:
+      event: push
+      branch: master
+      success: true
