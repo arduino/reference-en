@@ -1,6 +1,6 @@
 ---
 title: setup()
-categories: [ "Structure" ]
+categories: [ "Functions" ]
 subCategories: [ "Main" ]
 ---
 
