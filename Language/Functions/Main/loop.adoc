@@ -1,6 +1,6 @@
 ---
 title: loop()
-categories: [ "Structure" ]
+categories: [ "Functions" ]
 subCategories: [ "Main" ]
 ---
 
