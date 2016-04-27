@@ -1,3 +1,6 @@
+---
+title: Stream.readBytes()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

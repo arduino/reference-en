@@ -1,3 +1,6 @@
+---
+title: Mouse.move()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

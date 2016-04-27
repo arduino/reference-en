@@ -1,3 +1,6 @@
+---
+title: Serial.begin()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

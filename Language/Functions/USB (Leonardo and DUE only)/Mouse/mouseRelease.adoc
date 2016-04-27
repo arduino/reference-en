@@ -1,3 +1,6 @@
+---
+title: Mouse.release()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

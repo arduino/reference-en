@@ -1,3 +1,6 @@
+---
+title: Stream.findUntil()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

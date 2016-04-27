@@ -1,3 +1,6 @@
+---
+title: Serial.findUntil()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

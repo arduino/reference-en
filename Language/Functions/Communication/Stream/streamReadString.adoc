@@ -1,3 +1,6 @@
+---
+title: Stream.readString()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

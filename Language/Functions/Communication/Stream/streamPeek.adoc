@@ -1,3 +1,6 @@
+---
+title: Stream.peek()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

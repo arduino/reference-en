@@ -1,3 +1,6 @@
+---
+title: Stream.readBytesUntil()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

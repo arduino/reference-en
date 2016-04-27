@@ -1,3 +1,6 @@
+---
+title: Serial.write()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 
