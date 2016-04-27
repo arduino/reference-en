@@ -1,6 +1,7 @@
 ---
 title: Keyboard
-
+categories: [ "Functions" ]
+subCategories: [ "USB (Leonardo and DUE only)" ]
 ---
 
 :source-highlighter: pygments
@@ -44,14 +45,14 @@ When using the Mouse or Keyboard library, it may be best to test your output fir
 
 [float]
 === Functions
-link:..//Keyboard/keyboardBegin[Keyboard.begin()] +
-link:..//Keyboard/keyboardEnd[Keyboard.end()] +
-link:..//Keyboard/keyboardPress[Keyboard.press()] +
-link:..//Keyboard/keyboardPrint[Keyboard.print()] +
-link:..//Keyboard/keyboardPrintln[Keyboard.println()] +
-link:..//Keyboard/keyboardRelease[Keyboard.release()] +
-link:..//Keyboard/keyboardReleaseAll[Keyboard.releaseAll()] +
-link:..//Keyboard/keyboardWrite[Keyboard.write()]
+link:..//keyboard/keyboardBegin[Keyboard.begin()] +
+link:..//keyboard/keyboardEnd[Keyboard.end()] +
+link:..//keyboard/keyboardPress[Keyboard.press()] +
+link:..//keyboard/keyboardPrint[Keyboard.print()] +
+link:..//keyboard/keyboardPrintln[Keyboard.println()] +
+link:..//keyboard/keyboardRelease[Keyboard.release()] +
+link:..//keyboard/keyboardReleaseAll[Keyboard.releaseAll()] +
+link:..//keyboard/keyboardWrite[Keyboard.write()]
 
 '''
 

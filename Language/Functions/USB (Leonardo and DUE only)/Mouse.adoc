@@ -1,7 +1,10 @@
 ---
-title: serial
+title: Mouse
+categories: [ "Functions" ]
+subCategories: [ "USB (Leonardo and DUE only)" ]
 
 ---
+
 
 :source-highlighter: pygments
 :pygments-style: arduino
@@ -38,13 +41,13 @@ When using the Mouse or Keyboard library, it may be best to test your output fir
 
 [float]
 === Functions
-link:..//Mouse/MouseBegin[Mouse.begin()] +
-link:..//Mouse/MouseClick[Mouse.click()] +
-link:..//Mouse/MouseEnd[Mouse.end()] +
-link:..//Mouse/MouseMove[Mouse.move()] +
-link:..//Mouse/MousePress[Mouse.press()] +
-link:..//Mouse/MouseRelease[Mouse.release()] +
-link:..//Mouse/MouseIsPressed[Mouse.isPressed()]
+link:..//mouse/mouseBegin[Mouse.begin()] +
+link:..//mouse/mouseClick[Mouse.click()] +
+link:..//mouse/mouseEnd[Mouse.end()] +
+link:..//mouse/mouseMove[Mouse.move()] +
+link:..//mouse/mousePress[Mouse.press()] +
+link:..//mouse/mouseRelease[Mouse.release()] +
+link:..//mouse/mouseIsPressed[Mouse.isPressed()]
 
 '''
 
