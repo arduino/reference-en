@@ -1,3 +1,6 @@
+---
+title: Keyboard.begin()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

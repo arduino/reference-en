@@ -1,3 +1,6 @@
+---
+title: Serial.find()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 

@@ -1,3 +1,6 @@
+---
+title: Keyboard.write()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 
@@ -93,7 +96,7 @@ When you use the Keyboard.write() command, the Arduino takes over your keyboard!
 * #LANGUAGE# link:../keyboardPrint[keyboard.print]() +
 * #LANGUAGE# link:../keyboardPrintln[keyboard.println]() +
 * #LANGUAGE# link:../keyboardRelease[keyboard.release]() +
-* #LANGUAGE# link:../keyboardReleaseAll[keyboard.releaseAll]() 
+* #LANGUAGE# link:../keyboardReleaseAll[keyboard.releaseAll]()
 
 --
 // HOW TO USE SECTION ENDS

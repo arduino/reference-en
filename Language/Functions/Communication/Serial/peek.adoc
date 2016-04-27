@@ -1,3 +1,6 @@
+---
+title: Serial.peek()
+---
 :source-highlighter: pygments
 :pygments-style: arduino
 
