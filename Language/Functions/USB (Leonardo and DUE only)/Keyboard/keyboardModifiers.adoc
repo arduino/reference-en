@@ -1,0 +1,91 @@
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= Keyboard.begin()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The `Keyboard.write()` and `Keyboard.press()` and `Keyboard.release()` commands don’t work with every possible ASCII character, only those that correspond to a key on the keyboard. For example, backspace works, but many of the other non-printable characters produce unpredictable results. For capital letters (and other keys), what’s sent is shift plus the character (i.e. the equivalent of pressing both of those keys on the keyboard).
+[%hardbreaks]
+A modifier key is a special key on a computer keyboard that modifies the normal action of another key when the two are pressed in combination.
+[%hardbreaks]
+For more on ASCII values and the characters or functions they represent, see http://www.asciitable.com/[asciitable.com]
+[%hardbreaks]
+For multiple key presses use link:../keyboardPress[Keyboard.press]()
+[%hardbreaks]
+The Leonardo's definitions for modifier keys are listed below:
+[%hardbreaks]
+
+
+|===
+|Key	|Hexadecimal value	|Decimal value
+
+|KEY_LEFT_CTRL	|0x80	|128
+|KEY_LEFT_SHIFT	|0x81	|129
+|KEY_LEFT_ALT	|0x82	|130
+|KEY_LEFT_GUI	|0x83	|131
+|KEY_RIGHT_CTRL	|0x84	|132
+|KEY_RIGHT_SHIFT	|0x85	|133
+|KEY_RIGHT_ALT	|0x86	|134
+|KEY_RIGHT_GUI	|0x87	|135
+|KEY_UP_ARROW	|0xDA	|218
+|KEY_DOWN_ARROW	|0xD9	|217
+|KEY_LEFT_ARROW	|0xD8	|216
+|KEY_RIGHT_ARROW	|0xD7	|215
+|KEY_BACKSPACE	|0xB2	|178
+|KEY_TAB	|0xB3	|179
+|KEY_RETURN	|0xB0	|176
+|KEY_ESC	|0xB1	|177
+|KEY_INSERT	|0xD1	|209
+|KEY_DELETE	|0xD4	|212
+|KEY_PAGE_UP	|0xD3	|211
+|KEY_PAGE_DOWN	|0xD6	|214
+|KEY_HOME	|0xD2	|210
+|KEY_END	|0xD5	|213
+|KEY_CAPS_LOCK	|0xC1	|193
+|KEY_F1	|0xC2	|194
+|KEY_F2	|0xC3	|195
+|KEY_F3	|0xC4	|196
+|KEY_F4	|0xC5	|197
+|KEY_F5	|0xC6	|198
+|KEY_F6	|0xC7	|199
+|KEY_F7	|0xC8	|200
+|KEY_F8	|0xC9	|201
+|KEY_F9	|0xCA	|202
+|KEY_F10	|0xCB	|203
+|KEY_F11	|0xCC	|204
+|KEY_F12	|0xCD	|205
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+[role="language"]
+* #LANGUAGE# link:../keyboardBegin[keyboard.begin]() +
+* #LANGUAGE# link:../keyboardEnd[keyboard.end]() +
+* #LANGUAGE# link:../keyboardPress[keyboard.press]() +
+* #LANGUAGE# link:../keyboardRelease[keyboard.release]() +
+* #LANGUAGE# link:../keyboardReleaseAll[keyboard.releaseAll]() +
+
+--
+// HOW TO USE SECTION ENDS
