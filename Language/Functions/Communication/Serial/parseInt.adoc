@@ -72,7 +72,7 @@ _Arduino Mega only:_
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
 * #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../../Stream/streamParsefloat[Stream.parseFloat()]
+* #LANGUAGE# link:../../stream/streamParsefloat[Stream.parseFloat()]
 
 --
 // HOW TO USE SECTION ENDS

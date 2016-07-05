@@ -100,7 +100,7 @@ For a complete program that demonstrates the use of arrays, see the (http://www.
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="definition"]
 * #DEFINITION# link:../../variableDeclaration[Variable Declaration] +
-* #DEFINITION# link:../../Utilities/PROGMEM[PROGMEM]
+* #DEFINITION# link:../../utilities/PROGMEM[PROGMEM]
 
 --
 // HOW TO USE SECTION ENDS

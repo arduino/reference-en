@@ -66,7 +66,7 @@ Nothing
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
 * #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../../Stream/streamFlush[Stream.flush()]
+* #LANGUAGE# link:../../stream/streamFlush[stream.flush()]
 
 --
 // HOW TO USE SECTION ENDSp

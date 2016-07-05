@@ -62,7 +62,7 @@ The entire string read from the serial buffer, until the terminator character is
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
 * #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../../Stream/streamParsefloat[Stream.parseFloat()]
+* #LANGUAGE# link:../../stream/streamParsefloat[stream.parseFloat()]
 
 --
 // HOW TO USE SECTION ENDS

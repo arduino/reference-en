@@ -18,7 +18,7 @@ subCategories: [ "Conversion" ]
 
 [float]
 === Description
-Converts a value to the link:../float[float] data type.
+Converts a value to the link:../../data-types/float[float] data type.
 [%hardbreaks]
 
 
@@ -46,7 +46,7 @@ Converts a value to the link:../float[float] data type.
 --
 [float]
 === Notes and Warnings
-See the reference for link:../float[float] for details about the precision and limitations of floating point numbers on Arduino.
+See the reference for link:../../data-types/float[float] for details about the precision and limitations of floating point numbers on Arduino.
 [%hardbreaks]
 
 [float]

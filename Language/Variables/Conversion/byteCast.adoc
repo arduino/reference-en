@@ -18,7 +18,7 @@ subCategories: [ "Conversion" ]
 
 [float]
 === Description
-Converts a value to the link:../byte[byte] data type.
+Converts a value to the link:../../data-types/byte[byte] data type.
 [%hardbreaks]
 
 

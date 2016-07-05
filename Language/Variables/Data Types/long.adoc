@@ -20,7 +20,7 @@ subCategories: [ "Data Types" ]
 === Description
 Long variables are extended size variables for number storage, and store 32 bits (4 bytes), from -2,147,483,648 to 2,147,483,647.
 
-If doing math with integers, at least one of the numbers must be followed by an L, forcing it to be a long. See the link:../integerConstant[Integer Constants] page for details.
+If doing math with integers, at least one of the numbers must be followed by an L, forcing it to be a long. See the link:../../constants/integerConstants[Integer Constants] page for details.
 [%hardbreaks]
 
 [float]
@@ -63,7 +63,7 @@ If doing math with integers, at least one of the numbers must be followed by an 
 * #DEFINITION# link:../int[int] +
 * #DEFINITION# link:../unsignedInt[unsigned int] +
 * #DEFINITION# link:../unsignedLong[unsigned long] +
-* #DEFINITION# link:../../Constants/integerConstant[Integer Constants] +
+* #DEFINITION# link:../../constants/integerConstants[Integer Constants] +
 * #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 
 --

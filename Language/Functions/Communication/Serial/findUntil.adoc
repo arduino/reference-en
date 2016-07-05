@@ -58,7 +58,7 @@ The function returns true if the target string is found, false if it times out.
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
 * #LANGUAGE# link:../../stream[stream] +
-* #LANGUAGE# link:../../Stream/streamFindUntil[stream.findUntil()]
+* #LANGUAGE# link:../../stream/streamFindUntil[stream.findUntil()]
 
 --
 // HOW TO USE SECTION ENDS

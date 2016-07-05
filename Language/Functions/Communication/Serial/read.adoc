@@ -93,7 +93,7 @@ void loop() {
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
 * #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../serialRead[Serial.read()]
+* #LANGUAGE# link:../read[Serial.read()]
 
 --
 // HOW TO USE SECTION ENDS

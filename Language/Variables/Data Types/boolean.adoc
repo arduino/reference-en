@@ -71,7 +71,7 @@ void loop()
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="definition"]
-* #DEFINITION# link:../constants[constants] +
+* #DEFINITION# link:../contants/constants[constants] +
 * #DEFINITION# link:../boolean[boolean operators] +
 * #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 

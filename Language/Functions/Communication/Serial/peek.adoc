@@ -64,7 +64,7 @@ The first byte of incoming serial data available (or -1 if no data is available)
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
 * #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../../Stream/streamPeek[Stream.peek()]
+* #LANGUAGE# link:../../stream/streamPeek[Stream.peek()]
 
 
 --

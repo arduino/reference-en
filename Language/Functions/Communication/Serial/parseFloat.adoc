@@ -51,7 +51,7 @@ Nothing
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
 * #LANGUAGE# link:../../stream[stream()] +
-* #LANGUAGE# link:../../Stream/streamParsefloat[Stream.parseFloat()]
+* #LANGUAGE# link:../../stream/streamParsefloat[Stream.parseFloat()]
 
 --
 // HOW TO USE SECTION ENDS

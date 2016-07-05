@@ -111,7 +111,7 @@ for (int i = 0; i < 6; i++){
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="definition"]
 * #DEFINITION# link:../array[array] +
-* #DEFINITION# link:../../Utilities/PROGMEM[PROGMEM] +
+* #DEFINITION# link:../../utilities/PROGMEM[PROGMEM] +
 * #DEFINITION# link:../unsignedInt[unsigned int] +
 
 * #DEFINITION# link:../variableDeclaration[Variable Declaration]

@@ -18,7 +18,7 @@ subCategories: [ "Conversion" ]
 
 [float]
 === Description
-Converts a value to the link:../char[char] data type.
+Converts a value to the link:../../data-types/char[char] data type.
 [%hardbreaks]
 
 
