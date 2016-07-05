@@ -18,7 +18,7 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Description
-A `boolean` holds one of two values, link:../true[true] or link:../false[false]. (Each boolean variable occupies one byte of memory.)
+A `boolean` holds one of two values, `true` or `false`. (Each boolean variable occupies one byte of memory.)
 
 
 [%hardbreaks]

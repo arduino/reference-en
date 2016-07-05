@@ -54,7 +54,7 @@ Make sure you don't mistake the boolean AND operator, && (double ampersand) for 
 [role="language"]
 * #LANGUAGE# link:../logicalOr[|| Logical OR]
 * #LANGUAGE# link:../logicalNot[! Logical NOT]
-* #LANGUAGE# link:../../Bitwise%20Operators/bitwiseAnd[& (Bitwise AND)]
+* #LANGUAGE# link:../../bitwise-operators/bitwiseAnd[& (Bitwise AND)]
 
 --
 // HOW TO USE SECTION ENDS

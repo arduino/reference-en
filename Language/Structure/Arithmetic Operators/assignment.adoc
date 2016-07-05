@@ -56,9 +56,9 @@ sensVal = analogRead(0);  // store the (digitized) input voltage at analog pin 0
 
 [role="language"]
 * #LANGUAGE#  link:../../Control%20Structures/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../Variables/Data%20Types/char[char]
-* #LANGUAGE#  link:../../../Variables/Data%20Types/int[int]
-* #LANGUAGE#  link:../../../Variables/Data%20Types/long[long]
+* #LANGUAGE#  link:../../../Variables/data-types/char[char]
+* #LANGUAGE#  link:../../../Variables/data-types/int[int]
+* #LANGUAGE#  link:../../../Variables/data-types/long[long]
 
 --
 // HOW TO USE SECTION ENDS

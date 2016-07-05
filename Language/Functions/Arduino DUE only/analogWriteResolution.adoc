@@ -117,8 +117,8 @@ If you set the `analogWriteResolution()` value to a value lower than your board'
 * #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins]
 
 [role="language"]
-* #LANGUAGE# link:../../Analog%20IO/analogWrite[analogWrite()] +
-* #LANGUAGE# link:../../Analog%20IO/analogRead[analogRead()] +
+* #LANGUAGE# link:../../analog-io/analogWrite[analogWrite()] +
+* #LANGUAGE# link:../../analog-io/analogRead[analogRead()] +
 * #LANGUAGE# link:../../Math/map[map()]
 
 

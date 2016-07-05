@@ -53,7 +53,7 @@ The tangent of the angle (`double`).
 [role="language"]
 * #LANGUAGE# link:../sin[sin()] +
 * #LANGUAGE# link:../cos[cos()] +
-* #LANGUAGE# link:../../../Variables/Data%20Types/float[float] +
-* #LANGUAGE# link:../../../Variables/Data%20Types/double[double]
+* #LANGUAGE# link:../../../Variables/data-types/float[float] +
+* #LANGUAGE# link:../../../Variables/data-types/double[double]
 --
 // HOW TO USE SECTION ENDS

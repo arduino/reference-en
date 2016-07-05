@@ -71,7 +71,7 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 
 [role="language"]
 * #LANGUAGE# link:../noTone[noTone()] +
-* #LANGUAGE# link:../../Analod%20IO/analogWrite[analogWrite()]
+* #LANGUAGE# link:../../analog-io/analogWrite[analogWrite()]
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Tone^] +

@@ -62,8 +62,8 @@ See the (http://arduino.cc/playground/Main/Fscale[fscale]) function in the code 
 * #LANGUAGE# link:../sqrt[sqrt()]
 
 [role="definition"]
-* #DEFINITION# link:../../../Variables/Data%20Types/float[float] +
-* #DEFENITION# link:../../../Variables/Data%20Types/double[double]
+* #DEFINITION# link:../../../Variables/data-types/float[float] +
+* #DEFENITION# link:../../../Variables/data-types/double[double]
 
 --
 // HOW TO USE SECTION ENDS
