@@ -17,7 +17,7 @@ title: Serial.parseFloat()
 === Description
 `Serial.parseFloat()` returns the first valid floating point number from the Serial buffer. Characters that are not digits (or the minus sign) are skipped. `parseFloat()` is terminated by the first character that is not a floating point number.
 
-`Serial.parseFloat()` inherits from the link:../stream[Stream] utility class.
+`Serial.parseFloat()` inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
 
 
@@ -51,7 +51,7 @@ Nothing
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
 * #LANGUAGE# link:../../stream[stream()] +
-* #LANGUAGE# link:../../stream/streamParsefloat[Stream.parseFloat()]
+* #LANGUAGE# link:../../stream/streamParseFloat[Stream.parseFloat()]
 
 --
 // HOW TO USE SECTION ENDS

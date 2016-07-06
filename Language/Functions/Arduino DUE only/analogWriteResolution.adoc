@@ -119,7 +119,7 @@ If you set the `analogWriteResolution()` value to a value lower than your board'
 [role="language"]
 * #LANGUAGE# link:../../analog-io/analogWrite[analogWrite()] +
 * #LANGUAGE# link:../../analog-io/analogRead[analogRead()] +
-* #LANGUAGE# link:../../Math/map[map()]
+* #LANGUAGE# link:../../math/map[map()]
 
 
 --

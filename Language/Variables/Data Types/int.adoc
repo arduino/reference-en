@@ -82,7 +82,7 @@ int x;
 * #DEFINITION# link:../unsignedInt[unsigned int] +
 * #DEFINITION# link:../long[long] +
 * #DEFINITION# link:../unsignedLong[unsigned long] +
-* #DEFINITION# link:../../constants/integerConstant[Integer Constants] +
+* #DEFINITION# link:../../constants/integerConstants[Integer Constants] +
 * #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 --
 // HOW TO USE SECTION ENDS

@@ -110,7 +110,7 @@ void loop() {
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
 * #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../serialAvailable[(Serial.available)]
+* #LANGUAGE# link:../../stream/streamAvailable[(Stream.available)]
 
 --
 // HOW TO USE SECTION ENDS

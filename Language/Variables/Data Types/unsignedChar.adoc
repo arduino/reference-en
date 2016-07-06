@@ -58,7 +58,7 @@ unsigned char myChar = 240;
 * #DEFINITION# link:../array[array]
 
 [role="language"]
-* #LANGUAGE# link:../../../Functions/Communication/Serial/println[Serial.println]
+* #LANGUAGE# link:../../../functions/communication/serial/println[Serial.println]
 
 --
 // HOW TO USE SECTION ENDS

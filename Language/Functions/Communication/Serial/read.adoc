@@ -15,7 +15,7 @@ title: Serial.read()
 
 [float]
 === Description
-Reads incoming serial data. read() inherits from the link:../stream[Stream] utility class.
+Reads incoming serial data. read() inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
 
 

@@ -16,7 +16,7 @@
 
 `Serial.readBytes()` returns the number of characters placed in the buffer. A 0 means no valid data was found.
 
-`Serial.readBytes()` inherits from the link:../stream[Stream] utility class.
+`Serial.readBytes()` inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
 
 

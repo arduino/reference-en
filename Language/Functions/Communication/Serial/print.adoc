@@ -36,7 +36,7 @@ You can pass flash-memory based strings to Serial.print() by wrapping them with 
 
 `Serial.print(F(“Hello World”))`
 
-To send a single byte, use link:../serialWrite[Serial.write()].
+To send a single byte, use link:../write[Serial.write()].
 [%hardbreaks]
 
 

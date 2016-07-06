@@ -60,7 +60,7 @@ The char datatype is a signed type, meaning that it encodes numbers from -128 to
 * #DEFINITION# link:../array[array]
 
 [role="language"]
-* #LANGUAGE# link:../../../Functions/Communication/Serial/println[Serial.println]
+* #LANGUAGE# link:../../../functions/communication/serial/println[Serial.println]
 
 --
 // HOW TO USE SECTION ENDS

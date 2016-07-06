@@ -17,7 +17,7 @@ title: Serial.find()
 === Description
 Serial.find() reads data from the serial buffer until the target string of given length is found. The function returns true if target string is found, false if it times out.
 
-Serial.find() inherits from the link:../stream[Stream] utility class.
+Serial.find() inherits from the link:../../stream[stream] utility class.
 [%hardbreaks]
 
 

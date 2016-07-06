@@ -49,7 +49,7 @@ link:../serial/parseFloat[parseFloat()] +
 link:../serial/parseInt[parseInt()] +
 link:../serial/peek[peek()] +
 link:../serial/print[print()] +
-link:../serial/printLn[println()] +
+link:../serial/println[println()] +
 link:../serial/read[read()] +
 link:../serial/readBytes[readBytes()] +
 link:../serial/readBytesUntil[readBytesUntil()] +

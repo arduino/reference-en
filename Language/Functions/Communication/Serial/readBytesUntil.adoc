@@ -19,7 +19,7 @@ Serial.readBytesUntil() reads characters from the serial buffer into an array. T
 
 `Serial.readBytesUntil()` returns the number of characters read into the buffer. A 0 means no valid data was found.
 
-`Serial.readBytesUntil()` inherits from the link:../stream[Stream] utility class.
+`Serial.readBytesUntil()` inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
 
 

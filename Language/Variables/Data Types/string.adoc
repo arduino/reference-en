@@ -114,6 +114,6 @@ for (int i = 0; i < 6; i++){
 * #DEFINITION# link:../../utilities/PROGMEM[PROGMEM] +
 * #DEFINITION# link:../unsignedInt[unsigned int] +
 
-* #DEFINITION# link:../variableDeclaration[Variable Declaration]
+* #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 --
 // HOW TO USE SECTION ENDS
