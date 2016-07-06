@@ -185,7 +185,7 @@ void loop()
 * #EXAMPLE# http://www.arduino.cc/playground/Learning/Memory[Types of memory available on an Arduino board]
 
 [role="definition"]
-* #DEFINITION# link:../../Data%20Types/array[array] +
-* #DEFINITION# link:../../Data%20Types/string[string]
+* #DEFINITION# link:../../data-types/array[array] +
+* #DEFINITION# link:../../data-types/string[string]
 --
 // HOW TO USE SECTION ENDS

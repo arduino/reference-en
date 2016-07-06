@@ -15,7 +15,7 @@ title: Serial.parseInt()
 
 [float]
 === Description
-Looks for the next valid integer in the incoming serial `stream.parseInt()` inherits from the link:../stream[Stream] utility class.
+Looks for the next valid integer in the incoming serial `stream.parseInt()` inherits from the link:../../stream[Stream] utility class.
 
 
 In particular:
@@ -72,7 +72,7 @@ _Arduino Mega only:_
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
 * #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../../Stream/streamParsefloat[Stream.parseFloat()]
+* #LANGUAGE# link:../../stream/streamParseFloat[Stream.parseFloat()]
 
 --
 // HOW TO USE SECTION ENDS

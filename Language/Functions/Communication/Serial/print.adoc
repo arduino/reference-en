@@ -32,11 +32,11 @@ An optional second parameter specifies the base (format) to use; permitted value
 * `Serial.println(1.23456, 2) gives "1.23"` +
 * `Serial.println(1.23456, 4) gives "1.2346"`
 
-You can pass flash-memory based strings to Serial.print() by wrapping them with F(). For example :
+You can pass flash-memory based strings to Serial.print() by wrapping them with F(). For example:
 
 `Serial.print(F(“Hello World”))`
 
-To send a single byte, use link:../serialWrite[Serial.write()].
+To send a single byte, use link:../write[Serial.write()].
 [%hardbreaks]
 
 
@@ -142,7 +142,7 @@ As of version 1.0, serial transmission is asynchronous; `Serial.print()` will re
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
 * #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../Memory[Memory]
+* #LANGUAGE# link:https://www.arduino.cc/en/Tutorial/Memory[Memory]
 
 --
 // HOW TO USE SECTION ENDS

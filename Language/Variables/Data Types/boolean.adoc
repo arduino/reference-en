@@ -18,7 +18,7 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Description
-A `boolean` holds one of two values, link:../true[true] or link:../false[false]. (Each boolean variable occupies one byte of memory.)
+A `boolean` holds one of two values, `true` or `false`. (Each boolean variable occupies one byte of memory.)
 
 
 [%hardbreaks]
@@ -71,7 +71,7 @@ void loop()
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 [role="definition"]
-* #DEFINITION# link:../constants[constants] +
+* #DEFINITION# link:../contants/constants[constants] +
 * #DEFINITION# link:../boolean[boolean operators] +
 * #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 

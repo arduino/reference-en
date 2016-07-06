@@ -17,7 +17,7 @@ title: Serial.readString()
 === Description
 `Serial.readString()` reads characters from the serial buffer into a string. The function terminates if it times out (see link:../setTimeout[setTimeout()]).
 
-This function is part of the Stream class, and is called by any class that inherits from it (Wire, Serial, etc). See the link:../stream[Stream class] main page for more information.
+This function is part of the Stream class, and is called by any class that inherits from it (Wire, Serial, etc). See the link:../../stream[Stream class] main page for more information.
 
 [%hardbreaks]
 
@@ -62,7 +62,7 @@ A string read from the serial buffer
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
 * #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../../Stream/streamParsefloat[Stream.parseFloat()]
+* #LANGUAGE# link:../../stream/streamParseFloat[Stream.parseFloat()]
 
 --
 // HOW TO USE SECTION ENDS

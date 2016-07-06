@@ -84,7 +84,7 @@ If the analog input pin is not connected to anything, the value returned by anal
 
 [role="language"]
 * #LANGUAGE# link:../analogReference[analogreference()] +
-* #LANGUAGE# link:../../Arduino%20DUE%20only/analogReadResolution[analogReadResolution()] +
+* #LANGUAGE# link:../../arduino-due-only/analogReadResolution[analogReadResolution()] +
 * #LANGUAGE# http://arduino.cc/en/Tutorial/AnalogInputPins[Tutorial: Analog Input Pins]
 
 

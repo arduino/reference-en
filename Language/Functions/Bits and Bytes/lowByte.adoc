@@ -52,7 +52,7 @@ byte
 
 [role="language"]
 * #LANGUAGE# link:../highByte[highByte()] +
-* #LANGUAGE# link:../../../Variable/Data%20Types/word[word()]
+* #LANGUAGE# link:../../../Variable/data-types/word[word()]
 
 --
 // HOW TO USE SECTION ENDS

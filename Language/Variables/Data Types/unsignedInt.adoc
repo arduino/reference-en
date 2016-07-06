@@ -74,7 +74,7 @@ unsigned int x
 * #DEFINITION# link:../int[int] +
 * #DEFINITION# link:../Long[long] +
 * #DEFINITION# link:../unsignedLong[unsigned long] +
-* #DEFINITION# link:../../Constants/integerConstant[Integer Constants] +
+* #DEFINITION# link:../../constants/integerConstants[Integer Constants] +
 * #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 
 --

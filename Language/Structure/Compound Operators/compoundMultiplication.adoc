@@ -62,7 +62,7 @@ x *= 2;      // x now contains 4
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../../Arithmetic%20Operators/multiplication[Normal Multiplication]
+* #LANGUAGE#  link:../../arithmetic-operators/multiplication[Normal Multiplication]
 * #LANGUAGE#  link:../compoundAddition[Compound Addition]
 * #LANGUAGE#  link:../compoundSubtraction[Compound Subtraction]
 * #LANGUAGE#  link:../compoundDivision[Compound Division]

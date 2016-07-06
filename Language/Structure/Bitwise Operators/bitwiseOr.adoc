@@ -64,7 +64,7 @@ DDRD = DDRD | B11111100; // set direction bits for pins 2 to 7, leave 0 and 1 un
 [role="language"]
 * #LANGUAGE# link:../bitwiseAnd[& Bitwise AND]
 * #LANGUAGE# link:../bitwiseNot[~ Bitwise NOT]
-* #LANGUAGE# link:../../Boolean%20Operators/logicalOr[|| Logical OR]
+* #LANGUAGE# link:../../boolean-operators/logicalOr[|| Logical OR]
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]

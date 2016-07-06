@@ -33,7 +33,7 @@ subCategories: [ "Boolean Operators" ]
 
 [float]
 === Example Code
-This operator can be used inside the condition of an link:../../Control%20Structures/if[if] statement.
+This operator can be used inside the condition of an link:../../control-structures/if[if] statement.
 
 [source,arduino]
 ----
@@ -62,7 +62,7 @@ The bitwise not ~ (tilde) looks much different than the boolean not ! (exclamati
 [role="language"]
 * #LANGUAGE# link:../logicalAnd[&& Logical AND]
 * #LANGUAGE# link:../logicalOr[|| Logical OR]
-* #LANGUAGE# link:../../Bitwise%20Operators/bitwiseNot[~ Bitwise NOT]
+* #LANGUAGE# link:../../bitwise-operators/bitwiseNot[~ Bitwise NOT]
 
 --
 // HOW TO USE SECTION ENDS

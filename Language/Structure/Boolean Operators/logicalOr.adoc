@@ -33,7 +33,7 @@ subCategories: [ "Boolean Operators" ]
 
 [float]
 === Example Code
-This operator can be used inside the condition of an link:../../Control%20Structures/if[if] statement.
+This operator can be used inside the condition of an link:../../control-structures/if[if] statement.
 
 [source,arduino]
 ----
@@ -55,7 +55,7 @@ Do not confuse the boolean || (double pipe) operator with the bitwise OR operato
 [role="language"]
 * #LANGUAGE# link:../logicalAnd[&& Logical AND]
 * #LANGUAGE# link:../logicalNot[! Logical NOT]
-* #LANGUAGE# link:../../Bitwise%20Operators/bitwiseNot[| Bitwise OR]
+* #LANGUAGE# link:../../bitwise-operators/bitwiseNot[| Bitwise OR]
 
 --
 // HOW TO USE SECTION ENDS

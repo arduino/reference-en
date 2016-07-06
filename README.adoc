@@ -1,0 +1,102 @@
+= Reference-en
+Reference-en is the repo for the Language Reference documentation of the Arduino syntax in **English**.  
+All the Reference terms files are in AsciiDoc format. Manutius, the Arduino platform to manage and publish content, turns Asciidoc documents into HTML pages, PDFs, and more.
+
+Thank you for taking the time to contribute to Arduino content, this is really helpful to the whole Arduino Community.
+
+== Content Creation and Editing
+If you want to contribute new content, create a new file (with any text or code editor) and save it as .adoc.  
+Do not use parenthesis or any special character in the file name.  
+In `reference-en/AsciiDoc_sample/AsciiDoc_Dictionary` you will find an overview on the AsciiDoc syntax in use on the Manutius platform. This includes Titles, Text, Links, Images, Tables, Code and various embeds (video, slideshow, audio and code).
+
+If you want to contribute to the Language Reference or edit existing content, you can find two templates in reference-en/AsciiDoc_sample/Reference_Terms:
+
+* Use `AsciiDoc_Template-Single_Entity.adoc` for terms such as link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
+* Use `AsciiDoc_Template-Parent_Of_Entities.adoc` for groups of functions such as link:http://arduino.cc/en/Reference/Serial[Serial].
+
+Please note that every Reference file should include as least a Description, some Example Code, and links to other relevant infos (See Also section). 
+
+If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
+
+== Contribute Content on Github
+If you are not familiar with Git you can contribute content directly on Github via their online interface. link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[Follow this guide] to learn how to edit an .adoc file and propose a file change to the Arduino team.  
+When suggesting a change, please follow the guidelines described in the Reference template files.
+
+
+== Submitting a pull request
+
+We are glad you want to contribute with code: that's the best way to help this software.
+
+Your contribution is adding or modifying existing behaviour, please always refer to an existing issue or open a new one before contributing. We are are trying to use [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) in the near future: please add one or more tests that prove that your contribution is good and is working as expected, it will help us a lot.
+
+Be sure to use `go vet` and `go fmt` on every file before each commit: it ensures your code is properly formatted.
+
+Also, for your contribution to be accepted, everyone of your commits must be "Signed-off". This is done by commiting using this command: `git commit --signoff`
+
+By signing off your commits, you agree to the following agreement, also known as link:http://developercertificate.org/[Developer Certificate of Origin] it assures everyone that the code you're submitting is yours or that you have rights to submit it.
+
+[source]
+----
+Developer Certificate of Origin
+Version 1.1
+
+Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+660 York Street, Suite 102,
+San Francisco, CA 94110 USA
+
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed.
+
+
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the best
+    of my knowledge, is covered under an appropriate open source
+    license and I have the right under that license to submit that
+    work with modifications, whether created in whole or in part
+    by me, under the same open source license (unless I am
+    permitted to submit under a different license), as indicated
+    in the file; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
+
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including all
+    personal information I submit with it, including my sign-off) is
+    maintained indefinitely and may be redistributed consistent with
+    this project or the open source license(s) involved.
+----
+[%hardbreaks]
+
+
+
+=== Folder Structure
+[source]
+----
+reference-en
+├─ AsciiDoc_sample
+│   ├── AsciiDoc_Dictionary
+│   │   ├── AsciiDoc_Template-Dictionary.adoc
+│   │   └── attachments
+│   └── Reference_Terms
+│       ├── AsciiDoc_Template-Parent_Of_Entities.adoc
+│       ├── AsciiDoc_Template-Single_Entity.adoc
+│       └── attachments
+├── Language
+│   ├── Functions
+│   ├── Structure
+│   └── Variables
+├── LICENCE.md
+└── README.adoc
+
+----
+
+Within the Language folder, the file tree follows the same structure as in the link:http://arduino.cc/en/Reference/HomePage[Arduino Reference webpage]

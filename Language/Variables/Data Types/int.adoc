@@ -25,7 +25,7 @@ On the Arduino Due, an int stores a 32-bit (4-byte) value. This yields a range o
 
 int's store negative numbers with a technique called (http://en.wikipedia.org/wiki/2%27s_complement[2's complement math]). The highest bit, sometimes referred to as the "sign" bit, flags the number as a negative number. The rest of the bits are inverted and 1 is added.
 
-The Arduino takes care of dealing with negative numbers for you, so that arithmetic operations work transparently in the expected manner. There can be an unexpected complication in dealing with the link:../bitshift[bitshift right operator] (>>) however.
+The Arduino takes care of dealing with negative numbers for you, so that arithmetic operations work transparently in the expected manner. There can be an unexpected complication in dealing with the link:../../structure/bitwise-operators/bitshiftRight[bitshift right operator] (>>) however.
 [%hardbreaks]
 
 
@@ -80,9 +80,9 @@ int x;
 [role="definition"]
 * #DEFINITION# link:../byte[byte] +
 * #DEFINITION# link:../unsignedInt[unsigned int] +
-* #DEFINITION# link:../Long[long] +
+* #DEFINITION# link:../long[long] +
 * #DEFINITION# link:../unsignedLong[unsigned long] +
-* #DEFINITION# link:../../Constants/integerConstant[Integer Constants] +
+* #DEFINITION# link:../../constants/integerConstants[Integer Constants] +
 * #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 --
 // HOW TO USE SECTION ENDS

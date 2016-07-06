@@ -15,11 +15,11 @@ title: Serial.readBytesUntil()
 
 [float]
 === Description
-Serial.readBytesUntil() reads characters from the serial buffer into an array. The function terminates if the terminator character is detected, the determined length has been read, or it times out (see link:../serialTimeout[Serial.setTimeout()]).
+Serial.readBytesUntil() reads characters from the serial buffer into an array. The function terminates if the terminator character is detected, the determined length has been read, or it times out (see link:../setTimeout[Serial.setTimeout()]).
 
 `Serial.readBytesUntil()` returns the number of characters read into the buffer. A 0 means no valid data was found.
 
-`Serial.readBytesUntil()` inherits from the link:../stream[Stream] utility class.
+`Serial.readBytesUntil()` inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
 
 
@@ -57,6 +57,6 @@ Serial.readBytesUntil() reads characters from the serial buffer into an array. T
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
 * #LANGUAGE# link:../../stream[Stream] +
-* #LANGUAGE# link:../../Stream/streamReadByteUntil[Stream.readByteUntil()]
+* #LANGUAGE# link:../../stream/streamReadBytesUntil[Stream.readByteUntil()]
 --
 // HOW TO USE SECTION ENDS

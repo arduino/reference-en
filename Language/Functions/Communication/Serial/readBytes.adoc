@@ -12,11 +12,11 @@
 
 [float]
 === Description
-`Serial.readBytes()` reads characters from the serial port into a buffer. The function terminates if the determined length has been read, or it times out (see link:../serialTimeout[Serial.setTimeout()]).
+`Serial.readBytes()` reads characters from the serial port into a buffer. The function terminates if the determined length has been read, or it times out (see link:../setTimeout[Serial.setTimeout()]).
 
 `Serial.readBytes()` returns the number of characters placed in the buffer. A 0 means no valid data was found.
 
-`Serial.readBytes()` inherits from the link:../stream[Stream] utility class.
+`Serial.readBytes()` inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
 
 
@@ -53,7 +53,7 @@
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="language"]
 * #LANGUAGE# link:../../stream[stream] +
-* #LANGUAGE# link:../../Stream/streamReadByte[stream.readByte()]
+* #LANGUAGE# link:../../stream/streamReadBytes[stream.readBytes()]
 
 --
 // HOW TO USE SECTION ENDS

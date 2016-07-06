@@ -43,13 +43,13 @@ When reading or writing to a digital pin there are only two possible values a pi
 
 [float]
 === HIGH
-The meaning of `HIGH` (in reference to a pin) is somewhat different depending on whether a pin is set to an `INPUT` or `OUTPUT`. When a pin is configured as an `INPUT` with link:../../../Functions/Digital%20IO/pinMode[pinMode()], and read with link:../../../Functions/Digital%20IO/digitalRead[digitalRead()], the Arduino (ATmega) will report `HIGH` if:
+The meaning of `HIGH` (in reference to a pin) is somewhat different depending on whether a pin is set to an `INPUT` or `OUTPUT`. When a pin is configured as an `INPUT` with link:../../../functions/digital-io/pinMode[pinMode()], and read with link:../../../functions/digital-io/digitalRead[digitalRead()], the Arduino (ATmega) will report `HIGH` if:
 
   - a voltage greater than 3 volts is present at the pin (5V boards)
   - a voltage greater than 2 volts is present at the pin (3.3V boards)
 [%hardbreaks]
 
-A pin may also be configured as an INPUT with `pinMode()`, and subsequently made HIGH with link:../../../Functions/Digital%20IO/digitalWrite[digitalWrite()]. This will enable the internal 20K pullup resistors, which will _pull up_ the input pin to a `HIGH` reading unless it is pulled `LOW` by external circuitry. This is how `INPUT_PULLUP` works and is described below in more detail.
+A pin may also be configured as an INPUT with `pinMode()`, and subsequently made HIGH with link:../../../functions/digital-io/digitalWrite[digitalWrite()]. This will enable the internal 20K pullup resistors, which will _pull up_ the input pin to a `HIGH` reading unless it is pulled `LOW` by external circuitry. This is how `INPUT_PULLUP` works and is described below in more detail.
 [%hardbreaks]
 
 When a pin is configured to OUTPUT with `pinMode()`, and set to `HIGH` with `digitalWrite()`, the pin is at:
@@ -125,8 +125,8 @@ Most Arduino boards have a pin connected to an on-board LED in series with a res
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../integerConstants[Integer Constants]
-* #LANGUAGE# link:../../floatingPointConstants[Floating Point Constants]
+* #LANGUAGE# link:../integerConstants[Integer Constants]
+* #LANGUAGE# link:../floatingPointConstants[Floating Point Constants]
 
 --
 // HOW TO USE SECTION ENDS

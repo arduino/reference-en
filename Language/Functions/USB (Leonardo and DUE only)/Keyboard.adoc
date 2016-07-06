@@ -20,7 +20,7 @@ subCategories: [ "USB (Leonardo and DUE only)" ]
 The keyboard functions enable a Leonardo, Micro, or Due to send keystrokes to an attached computer.
 [%hardbreaks]
 *Note: Not every possible ASCII character, particularly the non-printing ones, can be sent with the Keyboard library.* +
-The library supports the use of modifier keys. Modifier keys change the behavior of another key when pressed simultaneously. link:..//Keyboard/keyboardModifiers[See here] for additional information on supported keys and their use.
+The library supports the use of modifier keys. Modifier keys change the behavior of another key when pressed simultaneously. link:../keyboard/keyboardModifiers[See here] for additional information on supported keys and their use.
 
 --
 // OVERVIEW SECTION ENDS

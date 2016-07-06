@@ -62,7 +62,7 @@ x /= 2;      // x now contains 1
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../../Arithmetic%20Operators/division[Normal Division]
+* #LANGUAGE#  link:../../arithmetic-operators/division[Normal Division]
 * #LANGUAGE#  link:../compoundAddition[Compound Addition]
 * #LANGUAGE#  link:../compoundSubtraction[Compound Subtraction]
 * #LANGUAGE#  link:../compoundMultiplication[Compound Multiplication]
