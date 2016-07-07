@@ -73,7 +73,6 @@ void loop()
 [role="definition"]
 * #DEFINITION# link:../contants/constants[constants] +
 * #DEFINITION# link:../boolean[boolean operators] +
-* #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 
 --
 // HOW TO USE SECTION ENDS

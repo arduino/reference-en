@@ -64,6 +64,6 @@ On all Arduinos (ATMega and ARM based) a short stores a 16-bit (2-byte) value. T
 * #DEFINITION# link:../unsignedLong[unsigned long] +
 * #DEFINITION# link:../../constants/integerConstants[Integer Constants] +
 * #DEFINITION# link:../unsignedInt[unsigned int] +
-* #DEFINITION# link:../../variableDeclaration[Variable Declaration]
+
 --
 // HOW TO USE SECTION ENDS

@@ -77,7 +77,7 @@ If doing math with floats, you need to add a decimal point, otherwise it will be
 [role="definition"]
 * #DEFINITION# link:../int[int] +
 * #DEFINITION# link:../double[double] +
-* #DEFINITION# link:../../variableDeclaration[Variable Declaration]
+
 
 --
 // HOW TO USE SECTION ENDS

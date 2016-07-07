@@ -77,7 +77,7 @@ void loop()
 * #DEFINITION# link:../unsignedInt[unsigned int] +
 * #DEFINITION# link:../long[long] +
 * #DEFINITION# link:../../constants/integerConstants[Integer Constants] +
-* #DEFINITION# link:../../variableDeclaration[Variable Declaration]
+
 
 --
 // HOW TO USE SECTION ENDS
