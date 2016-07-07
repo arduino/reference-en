@@ -60,7 +60,6 @@ For reference, character arrays are referred to as strings with a small s, and i
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [role="definition"]
 * #DEFINITION# link:../string[string] :character arrays +
-* #DEFINITION# link:../../variableDeclaration[Variable Declaration]
 
 --
 // HOW TO USE SECTION ENDS
