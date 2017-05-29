@@ -33,7 +33,7 @@ Nothing
 
 [float]
 === Returns
-Nothing
+Returns the number of microseconds since the Arduino board began running the current program.(unsigned long)
 
 --
 // OVERVIEW SECTION ENDS
