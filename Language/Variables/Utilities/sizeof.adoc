@@ -17,7 +17,7 @@ subCategories: [ "Utilities" ]
 --
 
 [float]
-===
+=== Description
 The sizeof operator returns the number of bytes in a variable type, or the number of bytes occupied by an array.
 [%hardbreaks]
 

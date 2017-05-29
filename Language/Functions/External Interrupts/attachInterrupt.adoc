@@ -117,8 +117,6 @@ void blink()
 ----
 [%hardbreaks]
 
-[float]
-
 
 [float]
 === See also
