@@ -17,7 +17,7 @@ subCategories: [ "Constants" ]
 --
 
 [float]
-=== Description
+== Description
 Constants are predefined expressions in the Arduino language. They are used to make the programs easier to read. We classify constants in groups:
 
 [float]
@@ -122,7 +122,7 @@ Most Arduino boards have a pin connected to an on-board LED in series with a res
 
 
 [float]
-=== See also
+== See also
 
 [role="language"]
 * #LANGUAGE# link:../integerConstants[Integer Constants]
