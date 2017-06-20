@@ -1,0 +1,117 @@
+// ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
+:source-highlighter: pygments
+:pygments-style: arduino
+
+// RELATIVE LINK EXTENSION ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
+// This attribute is used to change the extension of relative links from .adoc to .html during compilation
+
+
+// PAGE TITLE   ►►►►► THIS IS MANDATORY ◄◄◄◄◄
+// This title will show up in the Index of all Reference terms
+= Entity title()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+// Describe what this Reference term does, and what it is used for	►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to `analogWrite()`, the pin will generate a steady square wave of the specified duty cycle until the next call to `analogWrite()` (or a call to `digitalRead()` or `digitalWrite()` on the same pin). The frequency of the PWM signal on most pins is approximately 490 Hz. On the Uno and similar boards, pins 5 and 6 have a frequency of approximately 980 Hz.
+[%hardbreaks]
+
+image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+// Enter Reference term syntax, please specify all available parameters  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+`analogWrite(pin, value)`
+
+
+[float]
+=== Parameters
+// List all available parameters, please describe them one by one adding the data type (e.g int, boolean, char, String, float, long, double...)  ►►►►► THIS SECTION IS MANDATORY FOR FUNCTIONS ◄◄◄◄◄
+`pin`: the number of the pin to write to. Allowed data types: int. +
+`value`: the duty cycle between 0 (always off) and 255 (always on). Allowed data types: int.
+
+
+[float]
+=== Returns
+// Enter what the function returns (e.g. HIGH or LOW), if there is no return please write: _Nothing_   ►►►►► THIS SECTION IS MANDATORY FOR FUNCTIONS ◄◄◄◄◄
+Nothing
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+Sets the output to the LED proportional to the value read from the potentiometer.
+
+
+[source,arduino]
+// Add relevant code that exemplify the use of the Reference term,
+// Please note that sometimes when copy-pasting code, a few spaces can be added at the beginnng of each line of code.
+// If that happens, please remove the extra spaces. Thanks!
+----
+int ledPin = 9;      // LED connected to digital pin 9
+int analogPin = 3;   // potentiometer connected to analog pin 3
+int val = 0;         // variable to store the read value
+
+void setup()
+{
+  pinMode(ledPin, OUTPUT);   // sets the pin as output
+}
+
+void loop()
+{
+  val = analogRead(analogPin);   // read the input pin
+  analogWrite(ledPin, val / 4);  // analogRead values go from 0 to 1023, analogWrite values from 0 to 255
+}
+----
+[%hardbreaks]
+
+
+[float]
+=== Notes and Warnings
+// Add useful notes, tips, caveat, known issues, and warnings about this Reference term
+This is because of interactions with the `millis()` and `delay()` functions.
+[%hardbreaks]
+image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
+[%hardbreaks]
+
+
+[float]
+=== See also
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#), 
+// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+
+[role="language"]
+// Whenever you want to link to another Reference term, or more in general to a relative link,
+// use the syntax shown below. Please note that the file format is subsituted by  attribute.
+// Please note that you always need to replace spaces that you might find in folder/file names with %20
+* #LANGUAGE# link:../AsciiDoc_Template-Parent_Of_Entities[Parent Of Entities]
+* #LANGUAGE# link:../../AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary[AsciiDoc Template Dictionary]
+
+[role="definition"]
+// Please note that all external links need to be opened in a new window/tab by adding ^ right before the last square brackets
+* #DEFINITION# http://arduino.cc/en/Tutorial/PWM[PWM^]
+
+[role="example"]
+// Please note that all external links need to be opened in a new window/tab by adding ^ right before the last square brackets
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Blink[Blink^]
+
+--
+// HOW TO USE SECTION ENDS

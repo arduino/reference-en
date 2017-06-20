@@ -1,0 +1,187 @@
+// ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
+:source-highlighter: pygments
+:pygments-style: arduino
+
+// This is a documentation file for authors and editors of the Arduino Manutius content platform.
+// Below you can find a list of all the possible page elements with the corresponding
+// AsciiDoc syntax 
+
+
+// GENERAL GUIDELINES
+// The [space]+ sends text to a new line, aka it generates a <br> in the HTML output, e.g.:
+// This is some text. +
+// This is some other text in a new line
+
+// The [%hardbreaks] generates a new <p> paragraph, e.g.:
+// This is a <p> paragraph
+// [%hardbreaks]
+// This is another <p> paragraph
+
+// If you need to add a blank line between sections of the page you can use:
+// {empty} +
+
+// Using [%hardbreaks] at the end of a chunk is always a good practice.
+// [%hardbreaks] close the HTML tags, making the HTML output clean.
+
+// This ''' is a line divider
+
+
+// PAGE TITLE
+= Page Title [h1]
+
+// SECTION DIV WITH ID STARTS
+[#name_of_id]
+--
+
+// Add your content here.
+
+// In case your output is an HTML file, this tag will create a wrapper div with the id specified, e.g.:
+// <div id="name_of_id" class="openblock"></div>
+
+--
+// SECTION DIV WITH ID ENDS
+
+
+// OTHER TITLES
+[float]
+== Section Title [h2]
+
+[float]
+=== Paragraph Title [h3]
+
+[float]
+==== Sub-paragraph Title [h4]
+
+
+'''
+
+// TEXT STYLES
+This is normal <p> text +
+*This is bold <strong> text* +
+_This is italic <em> text_ +
+*_This is bold+italic <strong><em> text_* +
+[small]#This is small <span class="small"> text# +
+#This is highlighted <mark> text# +
+'`This is single quoted text`' +
+"`This is double quoted text`"
+[%hardbreaks]
+
+'''
+
+// LINKS
+// Please note that all external links need to be opened in a new window/tab by adding ^ right before the last square brackets
+http://arduino.cc[This is an external <a href> link^] in a new tab +
+link:../index.html[This is a relative <a href> link] +
+mailto:webmaster@arduino.cc[This is an e-mail link]
+[%hardbreaks]
+
+'''
+
+// LISTS
+* This
+* is
+** an
+*** unordered
+* list
+
+[%hardbreaks]
+
+. This
+. is
+.. a
+.. n
+... orde
+... red
+. list
+
+'''
+
+// CODE
+This is `code` in a sentence +
+`This is a whole line of code` +
+
+// HINT: Please note that sometimes when copy-pasting code a few spaces can be added at the beginnng of each line of code. 
+// If that happens, please remove the extra spaces. Thanks!
+
+This can be a lot more code 
+[source,arduino]
+----
+for (int 1; i<=99; i++) {
+	Serial.println('We want more code!');
+}
+----
+[%hardbreaks]
+
+'''
+
+// TABLES
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3 
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+
+|Cell in column 1, row 3
+|Cell in column 2, row 3
+|Cell in column 3, row 3
+|===
+[%hardbreaks]
+
+'''
+
+// IMAGES
+
+// If you need to add an image to the Asciidoc please create a folder called 'attachments' in the same directory as the Asciidoc file, 
+// place the image there and reference it as shown below. Images can be in SVG and PNG format, max size 200KB.
+
+// To include an image on its own line (i.e., a block image), use the image:: prefix in front of the file name and square brackets after it []
+// Make sure you add [%hardbreaks] between any text and the image
+
+This is a block image with a URL
+[%hardbreaks]
+image::http://store.arduino.cc/bmz_cache/b/babe9d3f8563ea2f170dd55539f06310.image.538x354.jpg[]
+
+
+This is an image saved in the attachments folder with a caption
+[%hardbreaks]
+image::attachments/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
+
+
+'''
+
+// EMBED
+
+This is a pretty embed of code from Gist
+++++
+<script src="http://gist.github.com/mojavelinux/5333524.js">
+</script>
+++++
+
+{empty} +
+
+And this is another of a video from YouTube
+++++
+<iframe width="100%" height="315" src="http://www.youtube-nocookie.com/embed/UoBUXOOdLXY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+++++
+// HINT: Please remember to set the iframe width to 100% to have the video responsive on all our platforms
+
+{empty} +
+
+And here some slides from Sideshare, yay!
+++++
+<iframe src="http://www.slideshare.net/slideshow/embed_code/4430242" width="100%" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/damellis/introduction-to-arduino-4430242" title="Introduction to Arduino" target="_blank">Introduction to Arduino</a> </strong> from <strong><a href="//www.slideshare.net/damellis" target="_blank">David Mellis</a></strong> </div>
+++++
+// HINT: Please remember to set the iframe width to 100% to have the slide show responsive on all our platforms
+
+{empty} +
+
+And this is some audio from SoundCloud
+++++
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/55323777&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+++++
+// HINT: Please remember to set the iframe width to 100% to have the sound UI responsive on all our platforms
