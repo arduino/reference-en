@@ -1,0 +1,72 @@
+---
+title: "<"
+title_expanded: Less
+categories: [ "Structure" ]
+subCategories: [ "Comparison Operators" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= < Less
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Compares the variable on the left with the value or variable on the right of the operator. Returns true when the operand on the left is less (smaller) than the operand on the right. 
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+x < y;   // is true if x is smaller than y and it is false if x is equal or bigger than y
+----
+
+[float]
+=== Parameters
+`x`: variable. *Allowed data types:* int, float, double, byte, short, long +
+`y`: variable or constant. *Allowed data types:* int, float, double, byte, short, long
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+if (x<y)      // tests if x is less (smaller) than y
+{
+// do something only if the comparison result is true
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+Negative numbers are less than positive numbers. 
+[%hardbreaks]
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE#  link:../EqualTo(Comparison Equal To)
+* #LANGUAGE#  link:../greaterThan(Comparison Greater Than)
+* #LANGUAGE#  link:../lessThan(Comparison Less Than)
+--
+// HOW TO USE SECTION ENDS
