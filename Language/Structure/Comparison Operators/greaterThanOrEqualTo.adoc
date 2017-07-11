@@ -1,0 +1,73 @@
+---
+title: ">="
+title_expanded: Greater Than or Equal To
+categories: [ "Structure" ]
+subCategories: [ "Comparison Operators" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= >= Greater Than or Equal To
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Compares the variable on the left with the value or variable on the right of the operator. Returns true when the operand on the left is greater (bigger) than or equal to the operand on the right. 
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+x >= y;   // is true if x is bigger than or equal to y and it is false if x is smaller than y
+----
+
+[float]
+=== Parameters
+`x`: variable. *Allowed data types:* int, float, double, byte, short, long +
+`y`: variable or constant. *Allowed data types:* int, float, double, byte, short, long
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+if (x>=y)      // tests if x is greater (bigger) than or equal to y
+{
+// do something only if the comparison result is true
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+Positive numbers are greater than negative numbers. 
+[%hardbreaks]
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE#  link:../equalTo(Comparison Equal To)
+* #LANGUAGE#  link:../notEqualTo(Comparison Equal To)
+* #LANGUAGE#  link:../lessThan(Comparison Less Than)
+* #LANGUAGE#  link:../greaterThan(Comparison Less Than)
+--
+// HOW TO USE SECTION ENDS
