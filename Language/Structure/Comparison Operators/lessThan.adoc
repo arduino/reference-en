@@ -1,6 +1,6 @@
 ---
 title: "<"
-title_expanded: Less
+title_expanded: Less Than
 categories: [ "Structure" ]
 subCategories: [ "Comparison Operators" ]
 ---
@@ -10,7 +10,7 @@ subCategories: [ "Comparison Operators" ]
 
 
 
-= < Less
+= < Less Than
 
 
 // OVERVIEW SECTION STARTS
