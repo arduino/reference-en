@@ -51,7 +51,7 @@ x == y;   // is true if x is equal to y and it is false if x is not equal to y
 ----
 if (x==y)      // tests if x is equal to y
 {
-// do something
+// do something only if the comparison result is true
 }
 ----
 [%hardbreaks]
