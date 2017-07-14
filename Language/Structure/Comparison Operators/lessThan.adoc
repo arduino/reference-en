@@ -65,8 +65,9 @@ Negative numbers are less than positive numbers.
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../equalTo(Comparison Equal To)
-* #LANGUAGE#  link:../notEqualTo(Comparison Equal To)
-* #LANGUAGE#  link:../greaterThan(Comparison Less Than)
+* #LANGUAGE#  link:../../control-structures/if[if (conditional operators)]
+* #LANGUAGE#  link:../../../variables/data-types/char[char]
+* #LANGUAGE#  link:../../../variables/data-types/int[int]
+* #LANGUAGE#  link:../../../variables/data-types/long[long]
 --
 // HOW TO USE SECTION ENDS
