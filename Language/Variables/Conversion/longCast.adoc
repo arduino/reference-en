@@ -1,5 +1,5 @@
 ---
-title: longCast
+title: long()
 categories: [ "Variables" ]
 subCategories: [ "Conversion" ]
 ---
