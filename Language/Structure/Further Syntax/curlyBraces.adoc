@@ -1,13 +1,6 @@
----
-title: "{}"
-title_expanded: curlyBraces
-categories: [ "Structure" ]
-subCategories: [ "Further Syntax" ]
----
-
 :source-highlighter: pygments
 :pygments-style: arduino
-
+:ext-relative: adoc
 
 = {} Curly Braces
 
@@ -19,7 +12,7 @@ subCategories: [ "Further Syntax" ]
 [float]
 === Description
 Curly braces (also referred to as just "braces" or as "curly brackets") are a major part of the C programming language. They are used in several different constructs, outlined below, and this can sometimes be confusing for beginners. +
-An opening curly brace `{` must always be followed by a closing curly brace `}`. This is a condition that is often referred to as the braces being balanced. The Arduino IDE (Integrated Development Environment) includes a convenient feature to check the balance of curly braces. Just select a brace, or even click the insertion point immediately following a brace, and its logical companion will be highlighted.
+An opening curly brace "{" must always be followed by a closing curly brace "}". This is a condition that is often referred to as the braces being balanced. The Arduino IDE (Integrated Development Environment) includes a convenient feature to check the balance of curly braces. Just select a brace, or even click the insertion point immediately following a brace, and its logical companion will be highlighted.
 [%hardbreaks]
 Beginners programmers, and programmers coming to C from the BASIC language often find using braces confusing or daunting. After all, the same curly braces replace the RETURN statement in a subroutine (function), the ENDIF statement in a conditional and the NEXT statement in a FOR loop.
 [%hardbreaks]
@@ -41,8 +34,10 @@ Unbalanced braces can often lead to cryptic, impenetrable compiler errors that c
 The main uses of curly braces are listed in the examples below.
 
 
+
 [float]
 ==== Functions
+
 
 [source,arduino]
 ----
@@ -53,8 +48,11 @@ void myfunction(datatype argument){
 [%hardbreaks]
 
 
+
+
 [float]
 ==== Loops
+
 
 [source,arduino]
 ----
@@ -71,7 +69,7 @@ do
 for (initialisation; termination condition; incrementing expr)
 {
  statement(s)
-}
+} 
 ----
 [%hardbreaks]
 
@@ -80,6 +78,7 @@ for (initialisation; termination condition; incrementing expr)
 
 [float]
 ==== Conditional Statements
+
 
 [source,arduino]
 ----
@@ -91,7 +90,7 @@ if (boolean expression)
 else if (boolean expression)
 {
  statement(s)
-}
+} 
 else
 {
  statement(s)
@@ -103,9 +102,9 @@ else
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:../semicolon[; Semicolon]
-* #LANGUAGE# link:../singleLineComment[// Single Line Comment]
-* #LANGUAGE# link:../blockComment[/* */ Block Comment]
+* #LANGUAGE# link:SemiColon{ext-relative}[;^] (semicolon)
+* #LANGUAGE# link:SingleComment{ext-relative}[//^] (single line comment)
+* #LANGUAGE# link:MultiComments{ext-relative}[/* */^] (multi-line comment)
 
 
 --
