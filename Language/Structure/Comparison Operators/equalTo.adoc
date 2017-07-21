@@ -64,8 +64,9 @@ if (x==y)      // tests if x is equal to y
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../notEqualTo(Comparison Not Equal To)
-* #LANGUAGE#  link:../greaterThan(Comparison Greater Than)
-* #LANGUAGE#  link:../lessThan(Comparison Less Than)
+* #LANGUAGE#  link:../../control-structure/if[if (conditional operators)]
+* #LANGUAGE#  link:../../../variables/data-types/char[char]
+* #LANGUAGE#  link:../../../variables/data-types/int[int]
+* #LANGUAGE#  link:../../../variables/data-types/long[long]
 --
 // HOW TO USE SECTION ENDS
