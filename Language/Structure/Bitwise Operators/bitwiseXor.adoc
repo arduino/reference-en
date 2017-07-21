@@ -1,6 +1,6 @@
 ---
 title: "^"
-title_expanded: bitwiseXor
+title_expanded: bitwise xor
 categories: [ "Structure" ]
 subCategories: [ "Bitwise Operators" ]
 ---

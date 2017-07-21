@@ -1,6 +1,6 @@
 ---
 title: ">="
-title_expanded: Greater Than or Equal To
+title_expanded: greater than or equal to
 categories: [ "Structure" ]
 subCategories: [ "Comparison Operators" ]
 ---
@@ -65,9 +65,9 @@ Positive numbers are greater than negative numbers.
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../equalTo(Comparison Equal To)
-* #LANGUAGE#  link:../notEqualTo(Comparison Equal To)
-* #LANGUAGE#  link:../lessThan(Comparison Less Than)
-* #LANGUAGE#  link:../greaterThan(Comparison Less Than)
+* #LANGUAGE#  link:../equalto[Comparison Equal To]
+* #LANGUAGE#  link:../notequalto[Comparison Not Equal To]
+* #LANGUAGE#  link:../lessthan[Comparison Less Than]
+* #LANGUAGE#  link:../greaterthan[Comparison Greater Than]
 --
 // HOW TO USE SECTION ENDS

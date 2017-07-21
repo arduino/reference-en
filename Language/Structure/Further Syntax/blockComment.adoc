@@ -1,6 +1,6 @@
 ---
 title: "/* */"
-title_expanded: block Comment
+title_expanded: block comment
 categories: [ "Structure" ]
 subCategories: [ "Further Syntax" ]
 ---

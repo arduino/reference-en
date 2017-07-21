@@ -1,6 +1,6 @@
 ---
 title: "!="
-title_expanded: notEqualTo
+title_expanded: not equal to
 categories: [ "Structure" ]
 subCategories: [ "Comparison Operators" ]
 ---
@@ -64,8 +64,8 @@ if (x!=y)      // tests if x is not equal to y
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../EqualTo(Comparison Equal To)
-* #LANGUAGE#  link:../greaterThan(Comparison Greater Than)
-* #LANGUAGE#  link:../lessThan(Comparison Less Than)
+* #LANGUAGE#  link:../equalto[Comparison Equal To]
+* #LANGUAGE#  link:../greaterthan[Comparison Greater Than]
+* #LANGUAGE#  link:../lessthan[Comparison Less Than]
 --
 // HOW TO USE SECTION ENDS

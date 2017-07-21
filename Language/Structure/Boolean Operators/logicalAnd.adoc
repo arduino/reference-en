@@ -1,6 +1,6 @@
 ---
 title: "&&"
-title_expanded: logical And
+title_expanded: logical and
 categories: [ "Structure" ]
 subCategories: [ "Boolean Operators" ]
 ---

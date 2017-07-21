@@ -1,5 +1,5 @@
 ---
-title: "|"
+title: "||"
 title_expanded: logical or
 categories: [ "Structure" ]
 subCategories: [ "Boolean Operators" ]

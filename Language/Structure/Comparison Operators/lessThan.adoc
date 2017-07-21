@@ -1,6 +1,6 @@
 ---
 title: "<"
-title_expanded: Less Than
+title_expanded: less than
 categories: [ "Structure" ]
 subCategories: [ "Comparison Operators" ]
 ---
@@ -65,8 +65,8 @@ Negative numbers are less than positive numbers.
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../equalTo(Comparison Equal To)
-* #LANGUAGE#  link:../notEqualTo(Comparison Equal To)
-* #LANGUAGE#  link:../greaterThan(Comparison Less Than)
+* #LANGUAGE#  link:../equalto[Comparison Equal To]
+* #LANGUAGE#  link:../notequalto[Comparison Not Equal To]
+* #LANGUAGE#  link:../greaterthan[Comparison Greater Than]
 --
 // HOW TO USE SECTION ENDS
