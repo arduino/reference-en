@@ -1,9 +1,9 @@
 // ARDUINO REFERENCE INDEX  TAGS ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 ---
-title: "Entity Title"
-title_expanded: If the title is an operator write it out in words. E.g. Less Than or Equal To
-categories: [ "Structure, Variable or Function" ]
-subCategories: [ "The subcategory within Structure, Variable or Function. E.g. Comparison Operators" ]
+title: "Entity Title" // This title will show up in the Index of all Reference terms
+title_expanded: Less Than or Equal To // If the title is an operator write it out in words 
+categories: [ "Structure" ] // Pick between Structure, Variable or Function
+subCategories: [ "Comparison Operators" ] // The subcategory within Structure, Variable or Function 
 ---
 
 // ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
@@ -12,11 +12,6 @@ subCategories: [ "The subcategory within Structure, Variable or Function. E.g. C
 
 // RELATIVE LINK EXTENSION ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 // This attribute is used to change the extension of relative links from .adoc to .html during compilation
-
-
-// PAGE TITLE   ►►►►► THIS IS MANDATORY ◄◄◄◄◄
-// This title will show up in the Index of all Reference terms
-= Entity title()
 
 
 // OVERVIEW SECTION STARTS
