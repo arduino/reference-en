@@ -24,9 +24,9 @@ When suggesting a change, please follow the guidelines described in the Referenc
 
 
 == Submitting a pull request
-We are glad you want to contribute with code: that's the best way to help this software.
+We are glad you want to contribute to the Arduino Reference: that's the best way to help the community.
 
-Your contribution is adding or modifying existing behaviour, please always refer to an existing issue or open a new one before contributing. 
+Your contribution is adding or modifying existing code or full descriptions, please always refer to an existing issue or open a new one before contributing. 
 
 Please note that your contribution will be licenced under Attribution-ShareAlike 4.0 International, see https://creativecommons.org/licenses/by-sa/4.0/.
 
