@@ -1,3 +1,11 @@
+// ARDUINO LANGUAGE REFERENCE TAG   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
+---
+title: Parent of Entity Title // This title will show up in the Index of all Reference terms
+categories: [ "Functions" ] // Pick between Structure, Variable or Function
+subCategories: [ "USB (Leonardo and DUE only)" ] // The subcategory within Structure, Variable or Function
+---
+
+
 // ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 :source-highlighter: pygments
 :pygments-style: arduino
