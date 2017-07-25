@@ -1,3 +1,4 @@
+// ARDUINO LANGUAGE REFERENCE TAG   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 ---
 // This title will show up in the Index of all Reference terms
 title: Entity Title
@@ -8,7 +9,6 @@ categories: [ “Structure” ]
 // The subcategory within Structure, Variable or Function
 subCategories: [ “Comparison Operators” ] 
 ---
-
 
 
 // ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
