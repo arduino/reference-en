@@ -19,7 +19,9 @@ Please note that every Reference file should include as least a Description, som
 If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
 
 == Contribute Content on Github
-If you are not familiar with Git you can contribute content directly on Github via their online interface. link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[Follow this guide] to learn how to edit an .adoc file and propose a file change to the Arduino team.  
+If you are not familiar with Git you can contribute content directly on Github via their online interface. We put together a short Tutorial to show you how, https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[CHECK IY OUT!]
+
+link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[You can also follow this guide] (written by the Github team) to learn how to edit an .adoc file and propose a file change to the Arduino team.  
 When suggesting a change, please follow the guidelines described in the Reference template files.
 
 
