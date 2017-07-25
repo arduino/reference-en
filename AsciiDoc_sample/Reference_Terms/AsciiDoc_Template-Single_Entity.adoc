@@ -1,8 +1,12 @@
 ---
-title: noTone()
-title_expanded: “”
-categories: [ “Functions” ]
-subCategories: [ “Advanced I/O” ]
+// This title will show up in the Index of all Reference terms
+title: Entity Title
+// If the title is an operator write it out in words
+title_expanded: Less Than or Equal To
+// Pick between Structure, Variable or Function
+categories: [ “Structure” ]
+// The subcategory within Structure, Variable or Function
+subCategories: [ “Comparison Operators” ] 
 ---
 
 
