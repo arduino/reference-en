@@ -1,14 +1,9 @@
 // ARDUINO LANGUAGE REFERENCE TAG   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
-
 ---
-// This title will show up in the Index of all Reference terms
-title: Entity Title
-// If the title is an operator write it out in words
-title_expanded: Less Than or Equal To
-// Pick between Structure, Variable or Function
-categories: [ “Structure” ]
-// The subcategory within Structure, Variable or Function
-subCategories: [ “Comparison Operators” ] 
+title: Entity Title // This title will show up in the Index of all Reference terms
+title_expanded: Less Than or Equal To // If the title is an operator write it out in words
+categories: [ “Structure” ] // Pick between Structure, Variable or Function
+subCategories: [ “Comparison Operators” ] // The subcategory within Structure, Variable or Function
 ---
 
 
