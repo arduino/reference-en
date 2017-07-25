@@ -1,3 +1,11 @@
+// ARDUINO REFERENCE INDEX  TAGS ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
+---
+title: "Entity Title"
+title_expanded: If the title is an operator write it out in words. E.g. Less Than or Equal To
+categories: [ "Structure, Variable or Function" ]
+subCategories: [ "The subcategory within Structure, Variable or Function. E.g. Comparison Operators" ]
+---
+
 // ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 :source-highlighter: pygments
 :pygments-style: arduino
