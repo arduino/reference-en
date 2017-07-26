@@ -1,21 +1,19 @@
-// ARDUINO LANGUAGE REFERENCE TAG   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 ---
-title: Parent of Entity Title // This title will show up in the Index of all Reference terms
-categories: [ "Functions" ] // Pick between Structure, Variable or Function
-subCategories: [ "USB (Leonardo and DUE only)" ] // The subcategory within Structure, Variable or Function
+title: Parent of Entity Title
+categories: [ "Functions" ] 
+subCategories: [ "USB (Leonardo and DUE only)" ]
 ---
-
+// ARDUINO LANGUAGE REFERENCE TAG (above)   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
+// title will show up in the Index of all Reference terms
+// categories: Pick between Structure, Variable or Function
+// The subcategory within the ones available in the index ("Digital I/O", "Arithmetic Operators")
 
 // ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 :source-highlighter: pygments
 :pygments-style: arduino
 
-// RELATIVE LINK EXTENSION ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
-// This attribute is used to change the extension of relative links from .adoc to .html during compilation
-
 
 // PAGE TITLE   ►►►►► THIS IS MANDATORY ◄◄◄◄◄
-// This title will show up in the Index of all Reference terms
 = Parent of Entities title()
 
 
