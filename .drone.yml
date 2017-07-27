@@ -4,4 +4,4 @@ pipeline:
     server: https://drone.arduino.cc
     secrets: [ downstream_token ]
     repositories:
-      - arduino/reference
+      - bcmi-labs/reference
