@@ -86,7 +86,6 @@ The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cy
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:../analogRead[analogRead()]
 * #LANGUAGE# link:../../arduino-due-only/analogWriteResolution[analogWriteResolution()]
 
 [role="definition"]

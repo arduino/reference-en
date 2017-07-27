@@ -69,8 +69,5 @@ Alternatively, you can connect the external reference voltage to the AREF pin th
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of analog input pins]
 
-[role="language"]
-* #LANGUAGE# link:../analogRead[analogRead()]
-
 --
 // HOW TO USE SECTION ENDS
