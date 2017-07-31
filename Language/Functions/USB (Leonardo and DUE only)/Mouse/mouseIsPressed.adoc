@@ -38,7 +38,7 @@ When there is no value passed, it checks the status of the left mouse button.
 
 [float]
 === Returns
-`boolean` : reports wether a button is pressed or not.
+`boolean` : reports whether a button is pressed or not.
 
 --
 // OVERVIEW SECTION ENDS
