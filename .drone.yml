@@ -6,4 +6,4 @@ pipeline:
     repositories:
       - bcmi-labs/reference
     when:
-      - branch: [master]
+      branch: [master]
