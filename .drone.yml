@@ -5,3 +5,5 @@ pipeline:
     secrets: [ downstream_token ]
     repositories:
       - bcmi-labs/reference
+    when:
+      - branch: [master]
