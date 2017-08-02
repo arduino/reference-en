@@ -30,7 +30,7 @@ We are glad you want to contribute to the Arduino Reference: that's the best way
 
 Your contribution is adding or modifying existing code or full descriptions, please always refer to an existing issue or open a new one before contributing. 
 
-Please note that your contribution will be licenced under Attribution-ShareAlike 4.0 International, see https://creativecommons.org/licenses/by-sa/4.0/.
+Please note that your contribution to the Arduino Reference is licensed under a Creative Commons Attribution-Share Alike 3.0 License. see https://creativecommons.org/licenses/by-sa/3.0/
 
 
 === Folder Structure
