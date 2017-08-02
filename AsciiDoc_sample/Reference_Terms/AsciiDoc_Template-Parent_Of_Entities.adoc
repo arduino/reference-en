@@ -1,7 +1,7 @@
 ---
 title: Parent of Entity Title
 categories: [ "Functions" ] 
-subCategories: [ "USB (Leonardo and DUE only)" ]
+subCategories: [ "Subcategory Name" ]
 ---
 // ARDUINO LANGUAGE REFERENCE TAG (above)   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 // title will show up in the Index of all Reference terms

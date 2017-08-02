@@ -2,7 +2,7 @@
 title: Entity Title
 title_expanded: Less Than or Equal To
 categories: [ "Structure" ]
-subCategories: [ "Comparison Operators" ]
+subCategories: [ "Subcategory Name" ]
 ---
 // ARDUINO LANGUAGE REFERENCE TAGS (above)   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 // title will show up in the Index of all Reference terms
@@ -99,6 +99,13 @@ This is because of interactions with the `millis()` and `delay()` functions.
 image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
 
 [float]
 === See also
@@ -126,4 +133,5 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 * #EXAMPLE# http://arduino.cc/en/Tutorial/Blink[Blink^]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
+

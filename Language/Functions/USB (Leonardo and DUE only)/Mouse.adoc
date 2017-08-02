@@ -41,13 +41,13 @@ When using the Mouse or Keyboard library, it may be best to test your output fir
 
 [float]
 === Functions
-link:../mouse/mouseBegin[Mouse.begin()] +
-link:../mouse/mouseClick[Mouse.click()] +
-link:../mouse/mouseEnd[Mouse.end()] +
-link:../mouse/mouseMove[Mouse.move()] +
-link:../mouse/mousePress[Mouse.press()] +
-link:../mouse/mouseRelease[Mouse.release()] +
-link:../mouse/mouseIsPressed[Mouse.isPressed()]
+link:../mouse/mousebegin[Mouse.begin()] +
+link:../mouse/mouseclick[Mouse.click()] +
+link:../mouse/mouseend[Mouse.end()] +
+link:../mouse/mousemove[Mouse.move()] +
+link:../mouse/mousepress[Mouse.press()] +
+link:../mouse/mouserelease[Mouse.release()] +
+link:../mouse/mouseispressed[Mouse.isPressed()]
 
 '''
 

@@ -47,13 +47,6 @@ void loop()
   // ...
 }
 ----
-[%hardbreaks]
-
-[float]
-=== See also
-[role="language"]
-* #LANGUAGE# link:../loop[loop()]
-[%hardbreaks]
 
 --
 // HOW TO USE SECTION ENDS

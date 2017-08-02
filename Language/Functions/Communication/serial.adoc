@@ -64,20 +64,20 @@ link:../serial/serialEvent[serialEvent()]
 
 
 // SEEALSO SECTION STARTS
-[#seealso]
+[#see_also]
 --
 
 [float]
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/ReadAsciiString[ReadAsciiString^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/ASCIITable[ASCII TAble^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Dimmer[Dimmer^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Graph[Graph^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/PhysicalPixel[Physical Pixel^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/SerialCallResponse[Serial Call Response^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/SerialCallResponseASCII[Serial Call Response ASCII^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/ReadAsciiString[ReadAsciiString^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/ASCIITable[ASCII TAble^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/Dimmer[Dimmer^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/Graph[Graph^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/PhysicalPixel[Physical Pixel^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/SerialCallResponse[Serial Call Response^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/SerialCallResponseASCII[Serial Call Response ASCII^]
 
 
 --

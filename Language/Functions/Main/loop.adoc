@@ -54,13 +54,6 @@ void loop()
   delay(1000);
 }
 ----
-[%hardbreaks]
-
-[float]
-=== See also
-[role="language"]
-* #LANGUAGE# link:../setup[setup()]
-[%hardbreaks]
 
 --
 // HOW TO USE SECTION ENDS

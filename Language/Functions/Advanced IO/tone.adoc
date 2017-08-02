@@ -63,11 +63,19 @@ Nothing
 If you want to play different pitches on multiple pins, you need to call `noTone()` on one pin before calling `tone() on the next pin.
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../analog-io/analogWrite[analogWrite()]
+* #LANGUAGE# link:../../analog-io/analogwrite[analogWrite()]
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Tone^]
@@ -77,4 +85,4 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 * #EXAMPLE# http://arduino.cc/en/Tutorial/PWM[PWM^]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS

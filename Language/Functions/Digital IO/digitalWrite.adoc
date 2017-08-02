@@ -79,19 +79,20 @@ void loop()
 [float]
 === Notes and Warnings
 The analog input pins can be used as digital pins, referred to as A0, A1, etc.
-[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
 
 [float]
 === See also
-// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
-// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
-// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-[role="language"]
-* #LANGUAGE# link:../pinMode[pinMode()] +
-* #LANGUAGE# link:../digitalRead[digitalRead()] +
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Tutorial: Digital Pins]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS

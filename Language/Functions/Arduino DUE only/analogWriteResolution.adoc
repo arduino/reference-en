@@ -105,22 +105,25 @@ void loop(){
 If you set the `analogWriteResolution()` value to a value higher than your board's capabilities, the Arduino will discard the extra bits. For example: using the Due with `analogWriteResolution(16)` on a 12-bit DAC pin, only the first 12 bits of the values passed to `analogWrite()` will be used and the last 4 bits will be discarded.
 
 If you set the `analogWriteResolution()` value to a value lower than your board's capabilities, the missing bits will be *padded with zeros* to fill the hardware required size. For example: using the Due with analogWriteResolution(8) on a 12-bit DAC pin, the Arduino will add 4 zero bits to the 8-bit value used in `analogWrite()` to obtain the 12 bits required.
-[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
 
 [float]
 === See also
-// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
-// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
-// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+
+[role="language"]
+* #LANGUAGE# link:../../analog-io/analogwrite[analogWrite()]
+* #LANGUAGE# link:../../analog-io/analogread[analogRead()]
+* #LANGUAGE# link:../../math/map[map()]
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins]
 
-[role="language"]
-* #LANGUAGE# link:../../analog-io/analogWrite[analogWrite()] +
-* #LANGUAGE# link:../../analog-io/analogRead[analogRead()] +
-* #LANGUAGE# link:../../math/map[map()]
-
-
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS

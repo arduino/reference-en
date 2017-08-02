@@ -8,7 +8,6 @@ subCategories: [ "Analog I/O" ]
 :pygments-style: arduino
 
 
-
 = analogRead()
 
 
@@ -74,15 +73,20 @@ void loop()
 [float]
 === Notes and Warnings
 If the analog input pin is not connected to anything, the value returned by analogRead() will fluctuate based on a number of factors (e.g. the values of the other analog inputs, how close your hand is to the board, etc.).
-[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
 
 [float]
 === See also
 
 [role="language"]
 * #LANGUAGE# link:../../arduino-due-only/analogreadresolution[analogReadResolution()]
-* #LANGUAGE# http://arduino.cc/en/Tutorial/AnalogInputPins[Tutorial: Analog Input Pins]
-
-
+* #LANGUAGE# https://www.arduino.cc/en/Tutorial/AnalogInputPins[Tutorial: Analog Input Pins]
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS

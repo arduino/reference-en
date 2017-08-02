@@ -38,10 +38,8 @@ byte
 // OVERVIEW SECTION ENDS
 
 
-
-
-// HOW TO USE SECTION STARTS
-[#howtouse]
+// SEE ALSO SECTION
+[#see_also]
 --
 
 [float]
@@ -51,4 +49,4 @@ byte
 * #LANGUAGE# link:../../../variables/data-types/word[word()]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
