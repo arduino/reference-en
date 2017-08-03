@@ -3,7 +3,7 @@ title: noTone()
 title_expanded: ""
 categories: [ "Functions" ]
 subCategories: [ "Advanced I/O" ]
-aliases: [ /noTone/ ]
+aliases: [ /language/functions/advanced-io/noTone/ ]
 ---
 
 :source-highlighter: pygments
