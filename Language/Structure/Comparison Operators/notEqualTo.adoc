@@ -60,12 +60,19 @@ if (x!=y)      // tests if x is not equal to y
 === Notes and Warnings
 [%hardbreaks]
 
+
+--
+// HOW TO USE SECTION ENDS
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
 * #LANGUAGE#  link:../equalto[Comparison Equal To]
-* #LANGUAGE#  link:../greaterthan[Comparison Greater Than]
-* #LANGUAGE#  link:../lessthan[Comparison Less Than]
+
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
