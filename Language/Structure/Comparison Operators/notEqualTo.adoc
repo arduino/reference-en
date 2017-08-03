@@ -72,7 +72,7 @@ if (x!=y)      // tests if x is not equal to y
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../equalto[Comparison Equal To]
+
 
 --
 // SEE ALSO SECTION ENDS
