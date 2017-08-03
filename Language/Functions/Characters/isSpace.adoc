@@ -1,0 +1,83 @@
+﻿---
+title: "isSpace()"
+categories: [ "Functions" ]
+subCategories: [ "Characters" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= isSpace(thisChar)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Analyse if a char is the space character. Returns true if thisChar contains a letter. 
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+`isAlpha(thisChar)`
+----
+
+[float]
+=== Parameters
+`thisChar`: variable. *Allowed data types:* char
+
+[float]
+=== Returns
+`true`: if thisChar is a space.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+if (isSpace(this))      // tests if this is the space character
+{
+	Serial.println("The character is a space");
+}
+else
+{
+	Serial.println("The character is not a space");
+}
+
+----
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE#  link:../../../variables/data-types/char[char]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE# link:../../communication/serial/read[read()]
+
+--
+// SEE ALSO SECTION ENDS

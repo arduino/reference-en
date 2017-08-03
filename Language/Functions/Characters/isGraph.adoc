@@ -1,0 +1,83 @@
+﻿---
+title: "isGraph()"
+categories: [ "Functions" ]
+subCategories: [ "Characters" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= isGraph(thisChar)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Analyse if a char is printable with some content (space is printable but has no content). Returns true if thisChar is printable. 
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+`isGraph(thisChar)`
+----
+
+[float]
+=== Parameters
+`thisChar`: variable. *Allowed data types:* char
+
+[float]
+=== Returns
+`true`: if thisChar is printable.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+if (isGraph(this))      // tests if this is a printable character but not a blank space.
+{
+	Serial.println("The character is printable");
+}
+else
+{
+	Serial.println("The character is not printable");
+}
+
+----
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE#  link:../../../variables/data-types/char[char]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE# link:../../communication/serial/read[read()]
+
+--
+// SEE ALSO SECTION ENDS

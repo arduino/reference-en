@@ -1,0 +1,83 @@
+﻿---
+title: "isDigit()"
+categories: [ "Functions" ]
+subCategories: [ "Characters" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= isDigit(thisChar)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Analyse if a char is a digit (that is a number). Returns true if thisChar is a number. 
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+`isDigit(thisChar)`
+----
+
+[float]
+=== Parameters
+`thisChar`: variable. *Allowed data types:* char
+
+[float]
+=== Returns
+`true`: if thisChar is a number.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+if (isDigit(this))      // tests if this is a letter
+{
+	Serial.println("The character is a number");
+}
+else
+{
+	Serial.println("The character is not a number");
+}
+
+----
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE#  link:../../../variables/data-types/char[char]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE# link:../../communication/serial/read[read()]
+
+--
+// SEE ALSO SECTION ENDS

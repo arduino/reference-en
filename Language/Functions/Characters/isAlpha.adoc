@@ -1,0 +1,83 @@
+﻿---
+title: "isAlpha()"
+categories: [ "Functions" ]
+subCategories: [ "Characters" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= isAlpha(thisChar)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Analyse if a char is alpha (that is a letter). Returns true if thisChar contains a letter. 
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+`isAlpha(thisChar)`
+----
+
+[float]
+=== Parameters
+`thisChar`: variable. *Allowed data types:* char
+
+[float]
+=== Returns
+`true`: if thisChar is alpha.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+if (isAlpha(this))      // tests if this is a letter
+{
+	Serial.println("The character is alphanumeric");
+}
+else
+{
+	Serial.println("The character is not alphanumeric");
+}
+
+----
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE#  link:../../../variables/data-types/char[char]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE# link:../../communication/serial/read[read()]
+
+--
+// SEE ALSO SECTION ENDS
