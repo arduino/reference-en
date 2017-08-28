@@ -38,7 +38,7 @@ This function is part of the Stream class, and is called by any class that inher
 
 [float]
 === Returns
-The number of bytes placed in the buffer.
+The number of bytes placed in the buffer (`size_t`)
 
 --
 // OVERVIEW SECTION ENDS

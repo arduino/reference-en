@@ -36,7 +36,7 @@ title: Serial.readBytes()
 
 [float]
 === Returns
-`byte`
+The number of bytes placed in the buffer (`size_t`)
 
 --
 // OVERVIEW SECTION ENDS
