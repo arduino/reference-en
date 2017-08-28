@@ -52,11 +52,11 @@ The difference between unsigned ints and (signed) ints, lies in the way the high
 
 [float]
 === Notes and Warnings
-When variables are made to exceed their maximum capacity they "roll over" back to their minimum capacitiy, note that this happens in both directions
+When unsigned variables are made to exceed their maximum capacity they "roll over" back to 0, and also the other way around:
 
 [source,arduino]
 ----
-unsigned int x
+unsigned int x;
    x = 0;
    x = x - 1;       // x now contains 65535 - rolls over in neg direction
    x = x + 1;       // x now contains 0 - rolls over
