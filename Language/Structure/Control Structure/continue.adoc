@@ -43,7 +43,7 @@ for (x = 0; x <= 255; x ++)
         continue;
     }
 
-    digitalWrite(PWMpin, x);
+    analogWrite(PWMpin, x);
     delay(50);
 }
 ----

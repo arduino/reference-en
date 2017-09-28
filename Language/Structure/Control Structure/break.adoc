@@ -38,7 +38,7 @@ In the following code, the control exits the `for` loop when the sensor value ex
 ----
 for (x = 0; x < 255; x ++)
 {
-    digitalWrite(PWMpin, x);
+    analogWrite(PWMpin, x);
     sens = analogRead(sensorPin);
     if (sens > threshold){      // bail out on sensor detect
        x = 0;
