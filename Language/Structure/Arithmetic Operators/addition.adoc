@@ -86,6 +86,5 @@ c = a + b; // the variable 'c' stores a value of 12 only as opposed to the expec
 
 [role="language"]
 
-[%hardbreaks]
 --
 // SEE ALSO SECTION ENDS
