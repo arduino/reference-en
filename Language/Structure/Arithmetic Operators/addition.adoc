@@ -71,13 +71,21 @@ int c = 0;
 c = a + b; // the variable 'c' stores a value of 12 only as opposed to the expected sum of 12.1
 ----
 [%hardbreaks]
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
 
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../subtraction[Subtraction]
-* #LANGUAGE# link:../multiplication[Multiplication]
-* #LANGUAGE# link:../division[Division]
+
+[%hardbreaks]
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
