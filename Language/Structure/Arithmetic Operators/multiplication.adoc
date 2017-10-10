@@ -73,13 +73,19 @@ c = a * b; // the variable 'c' stores a value of 36 only as opposed to the expec
 ----
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION STARTS
+[#see_also]
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../addition[Addition]
-* #LANGUAGE# link:../subtraction[subtraction]
-* #LANGUAGE# link:../division[Division]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
