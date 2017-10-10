@@ -83,14 +83,24 @@ If you are certain that none of the ones in a value are being shifted into obliv
 ----
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+//SEE ALSO SECTION STARTS
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../bitshiftRight[>> Bitshift Right]
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
 
 --
-// HOW TO USE SECTION ENDS
+//SEE ALSO SECTION ENDS
+
