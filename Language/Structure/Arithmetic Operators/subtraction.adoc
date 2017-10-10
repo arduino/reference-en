@@ -73,13 +73,19 @@ c = a - b; // the variable 'c' stores a value of -1 only as opposed to the expec
 ----
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION STARTS
+[#see_aslo]
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../addition[Addition]
-* #LANGUAGE# link:../multiplication[Multiplication]
-* #LANGUAGE# link:../division[division]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
