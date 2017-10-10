@@ -55,7 +55,7 @@ sensVal = analogRead(0);  // store the (digitized) input voltage at analog pin 0
 // HOW TO USE SECTION ENDS
 
 // SEE ALSO SECTION STARTS
-[#SEE_ALSO]
+[#see_also]
 --
 
 [float]
