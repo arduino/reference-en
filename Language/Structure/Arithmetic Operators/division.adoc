@@ -75,7 +75,7 @@ c = a / b; // the variable 'c' stores a value of 8 only as opposed to the expect
 // HOW TO USE SECTION ENDS
 
 // SEE ALSO SECTION STARTS
-[#SEE_ALSO]
+[#see_also]
 --
 
 [float]
