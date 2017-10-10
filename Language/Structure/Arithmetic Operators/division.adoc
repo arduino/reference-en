@@ -71,13 +71,17 @@ c = a / b; // the variable 'c' stores a value of 8 only as opposed to the expect
 ----
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+// SEE ALSO SECTION STARTS
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../addition[addition]
-* #LANGUAGE# link:../subtraction[subtraction]
-* #LANGUAGE# link:../multiplication[multiplication]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
