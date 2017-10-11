@@ -68,13 +68,16 @@ delay(100);
 ----
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../bitwiseAnd[& Bitwise AND]
-* #LANGUAGE# link:../bitwiseOr[| Bitwise OR]
-* #LANGUAGE# link:../bitwiseNot[~ Bitwise NOT]
 
 
 [role="example"]
@@ -82,4 +85,4 @@ delay(100);
 
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
