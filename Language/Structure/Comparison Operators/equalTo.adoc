@@ -60,12 +60,20 @@ if (x==y)      // tests if x is equal to y
 === Notes and Warnings
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../notequalto[Comparison Not Equal To]
-* #LANGUAGE#  link:../greaterthan[Comparison Greater Than]
-* #LANGUAGE#  link:../lessthan[Comparison Less Than]
+
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
+
