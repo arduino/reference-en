@@ -1,7 +1,7 @@
 ---
 title: Keyboard
 categories: [ "Functions" ]
-subCategories: [ "USB (Leonardo and DUE only)" ]
+subCategories: [ "USB" ]
 ---
 
 :source-highlighter: pygments
