@@ -56,12 +56,19 @@ x = !y;   // the inverted value of y is stored in x
 The bitwise not ~ (tilde) looks much different than the boolean not ! (exclamation point or "bang" as the programmers say) but you still have to be sure which one you want where.
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../logicalAnd[&& Logical AND]
-* #LANGUAGE# link:../logicalOr[|| Logical OR]
 * #LANGUAGE# link:../../bitwise-operators/bitwiseNot[~ Bitwise NOT]
 
 --
