@@ -69,7 +69,7 @@ PORTD = PORTD & B00000011;  // clear out bits 2 - 7, leave pins 0 and 1 untouche
 
 
 //SEE ALSO SECTION BEGINS
-[#seel_also]
+[#see_also]
 --
  
 [float]
