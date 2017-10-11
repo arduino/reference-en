@@ -56,16 +56,22 @@ As an aside, it is interesting to note that for any integer x, ~x is the same as
 At times, the sign bit in a signed integer expression can cause some unwanted surprises.
 [%hardbreaks]
 
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../bitwiseAnd[& Bitwise AND]
-* #LANGUAGE# link:../bitwiseOr[| Bitwise OR]
-* #LANGUAGE# link:../../boolean-operators/logicalNot[! Logical NOT]
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
 
 --
-// HOW TO USE SECTION ENDS
+//SEE ALSO SECTION ENDS
