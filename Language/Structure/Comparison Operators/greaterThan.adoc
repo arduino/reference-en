@@ -61,12 +61,20 @@ if (x>y)      // tests if x is greater (bigger) than y
 Positive numbers are greater than negative numbers. 
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../equalto[Comparison Equal To]
-* #LANGUAGE#  link:../notequalto[Comparison Not Equal To]
-* #LANGUAGE#  link:../lessthan[Comparison Less Than]
+
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
