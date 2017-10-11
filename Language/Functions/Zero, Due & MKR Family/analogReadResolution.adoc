@@ -21,7 +21,7 @@ analogReadResolution() is an extension of the Analog API for the Arduino Due.
 
 Sets the size (in bits) of the value returned by analogRead(). It defaults to 10 bits (returns values between 0-1023) for backward compatibility with AVR based boards.
 
-The *Due has 12-bit ADC capabilities* that can be accessed by changing the resolution to 12. This will return values from analogRead() between 0 and 4095.
+The *Due, Zero and MKR Family* boards have 12-bit ADC capabilities that can be accessed by changing the resolution to 12. This will return values from analogRead() between 0 and 4095.
 [%hardbreaks]
 
 
