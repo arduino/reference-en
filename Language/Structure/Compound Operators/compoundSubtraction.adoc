@@ -58,14 +58,21 @@ x -= 2;      // x now contains 18
 === Notes and Warnings
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
 * #LANGUAGE#  link:../../arithmetic-operators/subtraction[Normal Subtraction]
-* #LANGUAGE#  link:../compoundAddition[Compound Addition]
-* #LANGUAGE#  link:../compoundMultiplication[Compound Multiplication]
-* #LANGUAGE#  link:../compoundDivision[Compound Division]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
