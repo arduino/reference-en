@@ -56,7 +56,21 @@ When experimenting with code, "commenting out" parts of your program is a conven
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:../blockComment[/* */ Block Comment]
 
 --
 // HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+--
+// SEE ALSO SECTION ENDS
