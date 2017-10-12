@@ -64,10 +64,19 @@ The beginning of a *block comment* or a *multi-line comment* is marked by the sy
 When experimenting with code, "commenting out" parts of your program is a convenient way to remove lines that may be buggy. This leaves the lines in the code, but turns them into comments, so the compiler just ignores them. This can be especially useful when trying to locate a problem, or when a program refuses to compile and the compiler error is cryptic or unhelpful.
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:../singleLineComment[// Single Line Comment]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
