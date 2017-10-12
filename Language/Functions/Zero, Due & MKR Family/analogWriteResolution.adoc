@@ -21,11 +21,28 @@ subCategories: [ "Zero, Due & MKR Family" ]
 
 `analogWriteResolution()` sets the resolution of the `analogWrite()` function. It defaults to 8 bits (values between 0-255) for backward compatibility with AVR based boards.
 
-The Due has the following hardare capabilities
+The *Due* has the following hardare capabilities:
+
 * 12 pins which default to 8-bit PWM, like the AVR-based boards. These can be changed to 12-bit resolution.
-* Pns with 12-bit DAC (Digital-to-Analog Converter).
+* 2 pins with 12-bit DAC (Digital-to-Analog Converter)
 
 By setting the write resolution to 12, you can use `analogWrite()` with values between 0 and 4095 to exploit the full DAC resolution or to set the PWM signal without rolling over.
+
+
+The *Zero* has the following hardare capabilities:
+
+* 10 pins which default to 8-bit PWM, like the AVR-based boards. These can be changed to 12-bit resolution.
+* 1 pin with 10-bit DAC (Digital-to-Analog Converter).
+
+By setting the write resolution to 10, you can use `analogWrite()` with values between 0 and 1023 to exploit the full DAC resolution
+
+
+The *MKR Family* of boards has the following hardare capabilities:
+
+* 4 pins which default to 8-bit PWM, like the AVR-based boards. These can be changed from 8 (default) to 12-bit resolution.
+* 1 pin with 10-bit DAC (Digital-to-Analog Converter)
+
+By setting the write resolution to 12 bits, you can use `analogWrite()` with values between 0 and 4095 for PWM signals; set 10 bit on the DAC pin to exploit the full DAC resolution of 1024 values.
 [%hardbreaks]
 
 
