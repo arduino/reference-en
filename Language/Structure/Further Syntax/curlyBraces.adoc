@@ -106,6 +106,7 @@ else
 
 // SEE ALSO SECTION BEGINS
 [#see_also]
+--
 
 [float]
 === See also
