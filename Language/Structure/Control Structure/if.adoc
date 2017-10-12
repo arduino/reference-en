@@ -77,9 +77,20 @@ Beware of accidentally using the single equal sign (e.g. `if (x = 10)` ). The si
 This is because C evaluates the statement `if (x=10)` as follows: 10 is assigned to `x` (remember that the single equal sign is the (http://arduino.cc/en/Reference/Assignment[assignment operator^])), so `x` now contains 10. Then the 'if' conditional evaluates 10, which always evaluates to `TRUE`, since any non-zero number evaluates to TRUE. Consequently, `if (x = 10)` will always evaluate to `TRUE`, which is not the desired result when using an 'if' statement. Additionally, the variable `x` will be set to 10, which is also not a desired action.
 [%hardbreaks]
 
-[float]
-=== See also
-[role="language"]
-* #LANGUAGE#  link:../else[if...else]
 --
 // HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+--
+// SEE ALSO SECTION ENDS
