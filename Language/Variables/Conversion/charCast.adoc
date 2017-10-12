@@ -41,8 +41,8 @@ Converts a value to the link:../../data-types/char[char] data type.
 
 
 
-// HOW TO USE SECTION STARTS
-[#howtouse]
+// SEE ALSO SECTION STARTS
+[#see_also]
 --
 
 [float]
@@ -53,6 +53,5 @@ Converts a value to the link:../../data-types/char[char] data type.
 [role="language"]
 * #LANGUAGE# link:../../data-types/char[char]
 
-
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
