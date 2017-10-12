@@ -56,10 +56,6 @@ if (x==y)      // tests if x is equal to y
 ----
 [%hardbreaks]
 
-[float]
-=== Notes and Warnings
-[%hardbreaks]
-
 --
 // HOW TO USE SECTION ENDS
 

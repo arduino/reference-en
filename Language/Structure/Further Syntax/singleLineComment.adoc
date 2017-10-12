@@ -53,9 +53,6 @@ digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
 When experimenting with code, "commenting out" parts of your program is a convenient way to remove lines that may be buggy. This leaves the lines in the code, but turns them into comments, so the compiler just ignores them. This can be especially useful when trying to locate a problem, or when a program refuses to compile and the compiler error is cryptic or unhelpful.
 [%hardbreaks]
 
-[float]
-=== See also
-[role="language"]
 
 --
 // HOW TO USE SECTION ENDS

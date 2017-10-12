@@ -54,9 +54,6 @@ x *= 2;      // x now contains 4
 ----
 [%hardbreaks]
 
-[float]
-=== Notes and Warnings
-[%hardbreaks]
 
 --
 // HOW TO USE SECTION ENDS

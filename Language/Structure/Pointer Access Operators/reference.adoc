@@ -49,14 +49,6 @@ result = *p;  // 'result' gets the value at the address pointed by 'p'
 Pointers are one of the complicated subjects for beginners in learning C, and it is possible to write the vast majority of Arduino sketches without ever encountering pointers. However for manipulating certain data structures, the use of pointers can simplify the code, and knowledge of manipulating pointers is handy to have in one's toolkit.
 [%hardbreaks]
 
-[float]
-=== See also
-
-[role="language"]
-* #LANGUAGE# link:../dereference[* Dereference Operator]
-
-[role="definition"]
-* #DEFINITION#  http://en.wikipedia.org/wiki/Pointer_%28computer_programming%29[Pointers^]
 
 --
 // HOW TO USE SECTION ENDS
