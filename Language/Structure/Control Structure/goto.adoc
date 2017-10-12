@@ -66,11 +66,19 @@ The use of `goto` is discouraged in C programming, and some authors of C program
 With that said, there are instances where a `goto` statement can come in handy, and simplify coding. One of these situations is to break out of deeply nested link:../for[for] loops, or link:../if[if] logic blocks, on a certain condition.
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:../continue[continue]
-* #LANGUAGE#	link:../break[break]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
