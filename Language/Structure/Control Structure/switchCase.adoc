@@ -81,11 +81,20 @@ Nothing
 ----
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTIN BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 [role="language"]
-* #LANGUAGE#	link:../else[if...else]
-* #LANGUAGE#	link:../break[break]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
+
