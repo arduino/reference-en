@@ -98,13 +98,20 @@ void loop()
 }
 ----
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+//SEE ALSO SECTION BEGINS
+[#see_also]
+--
 
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE#	link:../while[while]
-
 
 --
 // HOW TO USE SECTION ENDS
