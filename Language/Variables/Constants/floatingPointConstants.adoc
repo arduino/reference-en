@@ -62,14 +62,20 @@ Floating point constants can also be expressed in a variety of scientific notati
 |===
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
 
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
 
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../constants[Constants]
-* #LANGUAGE# link:../integerConstants[Integer Constants]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
