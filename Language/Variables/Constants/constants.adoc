@@ -120,13 +120,17 @@ Most Arduino boards have a pin connected to an on-board LED in series with a res
 [#howtouse]
 --
 
+--
+// HOW TO USE SECTION ENDS
+
+// SEE ALSO  SECTION BEGINS
+[#see_also]
+--
 
 [float]
 == See also
 
 [role="language"]
-* #LANGUAGE# link:../integerConstants[Integer Constants]
-* #LANGUAGE# link:../floatingPointConstants[Floating Point Constants]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
