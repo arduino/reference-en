@@ -44,10 +44,21 @@ Converts a value to the link:../../data-types/float[float] data type.
 // HOW TO USE SECTION STARTS
 [#howtouse]
 --
+
 [float]
 === Notes and Warnings
 See the reference for link:../../data-types/float[float] for details about the precision and limitations of floating point numbers on Arduino.
 [%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
 
 [float]
 === See also
@@ -57,6 +68,5 @@ See the reference for link:../../data-types/float[float] for details about the p
 
 * #LANGUAGE# link:../../data-types/float[float]
 
-
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
