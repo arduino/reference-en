@@ -93,3 +93,20 @@ int y = x >> 3;   // integer division of 1000 by 8, causing y = 125.
 
 --
 // HOW TO USE SECTION ENDS
+
+
+
+//SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+[role="example"]
+* #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
+
+--
+// SEE ALSO SECTION ENDS
