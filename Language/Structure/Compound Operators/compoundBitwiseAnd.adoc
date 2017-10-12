@@ -102,12 +102,21 @@ myByte &= B1111100; // results in B10101000
 
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
 * #LANGUAGE#  link:../../bitwise-operators/bitwiseAnd[& Bitwise AND]
-* #LANGUAGE#  link:../compoundBitwiseOr[|= Compound Bitwise OR]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
