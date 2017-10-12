@@ -48,13 +48,19 @@ if (digitalRead(2) == HIGH  && digitalRead(3) == HIGH) { // if BOTH the switches
 Make sure you don't mistake the boolean AND operator, && (double ampersand) for the bitwise AND operator & (single ampersand). They are entirely different beasts.
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../logicalOr[|| Logical OR]
-* #LANGUAGE# link:../logicalNot[! Logical NOT]
 * #LANGUAGE# link:../../bitwise-operators/bitwiseAnd[& (Bitwise AND)]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
