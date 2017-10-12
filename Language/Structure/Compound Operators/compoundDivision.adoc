@@ -40,6 +40,7 @@ x /= y;   // equivalent to the expression x = x / y;
 
 
 
+
 // HOW TO USE SECTION STARTS
 [#howtouse]
 --
@@ -54,12 +55,10 @@ x /= 2;      // x now contains 1
 ----
 [%hardbreaks]
 
-[float]
-=== Notes and Warnings
-[%hardbreaks]
 
 --
 // HOW TO USE SECTION ENDS
+
 
 
 
