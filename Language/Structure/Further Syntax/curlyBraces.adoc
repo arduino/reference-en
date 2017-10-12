@@ -99,14 +99,18 @@ else
 ----
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
 
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:../semicolon[; Semicolon]
-* #LANGUAGE# link:../singleLineComment[// Single Line Comment]
-* #LANGUAGE# link:../blockComment[/* */ Block Comment]
-
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
