@@ -61,13 +61,20 @@ if (x<=y)      // tests if x is less (smaller) than or equal to y
 Negative numbers are smaller than positive numbers. 
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../equalto[Comparison Equal To]
-* #LANGUAGE#  link:../notequalto[Comparison Not Equal To]
-* #LANGUAGE#  link:../lessthan[Comparison Less Than]
-* #LANGUAGE#  link:../greaterthan[Comparison Greater Than]
+
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
