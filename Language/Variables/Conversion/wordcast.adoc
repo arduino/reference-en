@@ -44,8 +44,8 @@ Converts a value to the link:../data-types/word[word] data type.
 
 
 
-// HOW TO USE SECTION STARTS
-[#howtouse]
+// SEE ALSO SECTION STARTS
+[#see_also]
 --
 
 [float]
@@ -58,4 +58,4 @@ Converts a value to the link:../data-types/word[word] data type.
 
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
