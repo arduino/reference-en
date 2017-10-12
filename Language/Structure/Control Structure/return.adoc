@@ -76,12 +76,20 @@ return;
 ----
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
 
 [float]
 === See also
 [role="language"]
-* #LANGUAGE# link:../break[break]
-* #LANGUAGE# link:../continue[continue]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
