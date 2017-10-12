@@ -19,7 +19,7 @@ subCategories: [ "USB" ]
 
 [float]
 === Description
-The mouse functions enable a Leonardo, Micro, or Due to control cursor movement on a connected computer. When updating the cursor position, it is always relative to the cursor's previous location.
+The mouse functions enable a 32u4 or SAMD micro based boards to to control cursor movement on a connected computer through their micro's native USB port. When updating the cursor position, it is always relative to the cursor's previous location.
 [%hardbreaks]
 --
 // OVERVIEW SECTION ENDS
@@ -27,7 +27,7 @@ The mouse functions enable a Leonardo, Micro, or Due to control cursor movement 
 
 [float]
 === Notes and Warnings
-These core libraries allow a 32u4 based boards or Due and Zero board to appear as a native Mouse and/or Keyboard to a connected computer.
+These core libraries allow the 32u4 and SAMD based boards (Leonardo, Esplora, Zero, Due and MKR Family) to appear as a native Mouse and/or Keyboard to a connected computer.
 [%hardbreaks]
 *A word of caution on using the Mouse and Keyboard libraries*: if the Mouse or Keyboard library is constantly running, it will be difficult to program your board. Functions such as `Mouse.move()` and `Keyboard.print()` will move your cursor or send keystrokes to a connected computer and should only be called when you are ready to handle them. It is recommended to use a control system to turn this functionality on, like a physical switch or only responding to specific input you can control.
 [%hardbreaks]
