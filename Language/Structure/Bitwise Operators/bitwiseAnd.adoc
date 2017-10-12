@@ -63,15 +63,22 @@ PORTD = PORTD & B00000011;  // clear out bits 2 - 7, leave pins 0 and 1 untouche
 ----
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+
+//SEE ALSO SECTION BEGINS
+[#see_also]
+--
+ 
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../bitwiseOr[| Bitwise OR]
-* #LANGUAGE# link:../bitwiseNot[~ Bitwise NOT]
 * #LANGUAGE# link:../../boolean-operators/logicalAnd[&& Logical AND]
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS
