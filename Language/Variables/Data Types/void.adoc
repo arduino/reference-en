@@ -51,8 +51,21 @@ void loop()
   // ...
 }
 ----
-[%hardbreaks]
 
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION STARTS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:../../constants/integerconstants[Integer Constants]
+
+--
+// SEE ALSO SECTION ENDS

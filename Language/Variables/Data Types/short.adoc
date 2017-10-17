@@ -48,22 +48,20 @@ On all Arduinos (ATMega and ARM based) a short stores a 16-bit (2-byte) value. T
 ----
  short ledPin = 13
 ----
-[%hardbreaks]
-
-
-[float]
-=== See also
-// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
-// definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
-// (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-[role="definition"]
-* #DEFINITION# link:../byte[byte] +
-* #DEFINITION# link:../int[int] +
-* #DEFINITION# link:../unsignedInt[unsigned int] +
-* #DEFINITION# link:../long[long] +
-* #DEFINITION# link:../unsignedLong[unsigned long] +
-* #DEFINITION# link:../../constants/integerConstants[Integer Constants] +
-* #DEFINITION# link:../unsignedInt[unsigned int] +
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION STARTS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:../../constants/integerconstants[Integer Constants]
+
+--
+// SEE ALSO SECTION ENDS

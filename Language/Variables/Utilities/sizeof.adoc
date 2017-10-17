@@ -83,4 +83,6 @@ for (i = 0; i < (sizeof(myInts)/sizeof(int)) - 1; i++) {
   // do something with myInts[i]
 }
 ----
-[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
