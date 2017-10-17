@@ -71,7 +71,7 @@ At times, the sign bit in a signed integer expression can cause some unwanted su
 [role="language"]
 
 [role="example"]
-* #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
+* #EXAMPLE# https://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
 
 --
 //SEE ALSO SECTION ENDS

@@ -99,7 +99,7 @@ If you are certain that none of the ones in a value are being shifted into obliv
 [role="language"]
 
 [role="example"]
-* #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
+* #EXAMPLE# https://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
 
 --
 //SEE ALSO SECTION ENDS

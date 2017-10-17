@@ -80,16 +80,21 @@ int x = 1000;
 int y = x >> 3;   // integer division of 1000 by 8, causing y = 125.
 ----
 
-[%hardbreaks]
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
 
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../bitshiftLeft[<< Bitshift Left]
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS

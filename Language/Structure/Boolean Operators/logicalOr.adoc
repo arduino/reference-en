@@ -49,13 +49,19 @@ if (x > 0 || y > 0) { // if either x or y is greater than zero
 Do not confuse the boolean || (double pipe) operator with the bitwise OR operator | (single pipe).
 [%hardbreaks]
 
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../logicalAnd[&& Logical AND]
-* #LANGUAGE# link:../logicalNot[! Logical NOT]
-* #LANGUAGE# link:../../bitwise-operators/bitwiseNot[| Bitwise OR]
+* #LANGUAGE# link:../../bitwise-operators/bitwiseor[| Bitwise OR]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS

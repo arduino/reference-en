@@ -34,7 +34,7 @@ for (initialization; condition; increment) {
 The *initialization* happens first and exactly once. Each time through the loop, the *condition* is tested; if it's `true`, the statement block, and the *increment* is executed, then the *condition* is tested again. When the *condition* becomes `false`, the loop ends.
 [%hardbreaks]
 
-
+--
 // OVERVIEW SECTION ENDS
 
 
@@ -99,12 +99,18 @@ void loop()
 ----
 
 
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
 [float]
 === See also
 
 [role="language"]
-* #LANGUAGE#	link:../while[while]
-
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS

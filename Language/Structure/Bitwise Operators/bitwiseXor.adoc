@@ -66,20 +66,21 @@ PORTD = PORTD ^ B00100000;  // invert bit 5 (digital pin 5), leave others untouc
 delay(100);
 }
 ----
-[%hardbreaks]
-
-[float]
-=== See also
-
-[role="language"]
-* #LANGUAGE# link:../bitwiseAnd[& Bitwise AND]
-* #LANGUAGE# link:../bitwiseOr[| Bitwise OR]
-* #LANGUAGE# link:../bitwiseNot[~ Bitwise NOT]
-
-
-[role="example"]
-* #EXAMPLE# http://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
 
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# https://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
+
+--
+// SEE ALSO SECTION ENDS

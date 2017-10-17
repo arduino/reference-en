@@ -52,20 +52,20 @@ x += y;   // equivalent to the expression x = x + y;
 x = 2;
 x += 4;      // x now contains 6
 ----
-[%hardbreaks]
 
-[float]
-=== Notes and Warnings
-[%hardbreaks]
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
 
 [float]
 === See also
 
 [role="language"]
 * #LANGUAGE#  link:../../arithmetic-operators/addition[Normal Addition]
-* #LANGUAGE#  link:../compoundSubtraction[Compound Subtraction]
-* #LANGUAGE#  link:../compoundMultiplication[Compound Multiplication]
-* #LANGUAGE#  link:../compoundDivision[Compound Division]
 
 --
-// HOW TO USE SECTION ENDS
+// SEE ALSO SECTION ENDS

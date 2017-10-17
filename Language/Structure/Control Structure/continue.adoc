@@ -47,13 +47,21 @@ for (x = 0; x <= 255; x ++)
     delay(50);
 }
 ----
-[%hardbreaks]
 
-
-[float]
-=== See also
-[role="language"]
-* #LANGUAGE#	link:../break[break]
 
 --
 // HOW TO USE SECTION ENDS
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+--
+// SEE ALSO SECTION ENDS

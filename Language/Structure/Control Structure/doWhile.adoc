@@ -54,12 +54,10 @@ do
 
 } while (x < 100);
 ----
-[%hardbreaks]
+
 
 --
 // HOW TO USE SECTION ENDS
-
-
 
 
 // SEE ALSO SECTION BEGINS

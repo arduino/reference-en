@@ -52,16 +52,10 @@ x -= y;   // equivalent to the expression x = x - y;
 x = 20;
 x -= 2;      // x now contains 18
 ----
-[%hardbreaks]
 
-[float]
-=== Notes and Warnings
-[%hardbreaks]
 
 --
 // HOW TO USE SECTION ENDS
-
-
 
 
 // SEE ALSO SECTION BEGINS

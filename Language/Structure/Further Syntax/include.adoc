@@ -50,12 +50,22 @@ This example includes a library that is used to put data into the program space 
 prog_uint16_t myConstants[] PROGMEM = {0, 21140, 702  , 9128,  0, 25764, 8456,
 0,0,0,0,0,0,0,0,29810,8968,29762,29762,4500};
 ----
-[%hardbreaks]
-
-
-[float]
-=== See also
 
 
 --
 // HOW TO USE SECTION ENDS
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+
+--
+// SEE ALSO SECTION ENDS
