@@ -1,0 +1,66 @@
+﻿---
+title: "lastIndexOf()"
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Function" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= lastIndexOf()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Locates a character or String within another String. By default, searches from the end of the String, but can also work backwards from a given index, allowing for the locating of all instances of the character or String.
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string.lastIndexOf(val)
+
+string.lastIndexOf(val, from)
+----
+
+[float]
+=== Parameters
+`string`: a variable of type String
+
+`val`: the value to search for - char or String
+
+`from`: the index to work backwards from
+
+
+[float]
+=== Returns
+The index of val within the String, or -1 if not found.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

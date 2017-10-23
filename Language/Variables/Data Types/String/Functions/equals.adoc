@@ -1,0 +1,61 @@
+﻿---
+title: "equals()"
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Function" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= equals()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Compares two strings for equality. The comparison is case-sensitive, meaning the String "hello" is not equal to the String "HELLO".
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string.equals(string2)
+----
+
+[float]
+=== Parameters
+`string, string2`: variables of type String
+
+
+[float]
+=== Returns
+`true`: if string equals string2 
+
+`false`: otherwise
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

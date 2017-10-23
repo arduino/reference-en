@@ -1,0 +1,62 @@
+﻿---
+title: "toInt()"
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Function" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= toInt()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Converts a valid String to an integer. The input string should start with an integer number. If the string contains non-integer numbers, the function will stop performing the conversion.
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string.toInt()
+----
+
+[float]
+=== Parameters
+`string`: a variable of type String
+
+
+[float]
+=== Returns
+`long`
+
+If no valid conversion could be performed because the string doesn't start with a integer number, a zero is returned.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

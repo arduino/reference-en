@@ -1,0 +1,60 @@
+﻿---
+title: "length()"
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Function" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= length()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Returns the length of the String, in characters. (Note that this doesn't include a trailing null character.)
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string.length()
+----
+
+[float]
+=== Parameters
+`string`: a variable of type String
+
+
+[float]
+=== Returns
+The length of the String in characters.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

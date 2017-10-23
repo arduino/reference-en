@@ -1,0 +1,63 @@
+﻿---
+title: "toCharArray()"
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Function" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= toCharArray()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Copies the string's characters to the supplied buffer.
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string.toCharArray(buf, len)
+----
+
+[float]
+=== Parameters
+`string`: a variable of type String
+
+`buf`: the buffer to copy the characters into (_char []_)
+
+`len`: the size of the buffer (_unsigned int_)
+
+[float]
+=== Returns
+None
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

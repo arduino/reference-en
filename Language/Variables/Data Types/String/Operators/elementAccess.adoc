@@ -1,0 +1,65 @@
+﻿---
+title: "[] "
+title_expanded: element access
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Operator" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= [] Element Access
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Allows you access to the individual characters of a string.
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+char thisChar = string1[n]
+----
+
+[float]
+=== Parameters
+`char thisChar` - a character variable
+
+`string1` - a string variable
+
+`int n` - a numeric variable
+
+[float]
+=== Returns
+The nth char of the string. Same as charAt().
+
+--
+
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

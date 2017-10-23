@@ -1,0 +1,59 @@
+﻿---
+title: "toUpperCase()"
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Function" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= toUpperCase()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Get an upper-case version of a String. As of 1.0, toUpperCase() modifies the string in place rather than returning a new one.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string.toUpperCase()
+----
+
+[float]
+=== Parameters
+`string`: a variable of type String
+
+
+[float]
+=== Returns
+None
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

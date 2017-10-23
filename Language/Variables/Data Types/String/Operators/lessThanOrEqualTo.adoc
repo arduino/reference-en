@@ -1,0 +1,65 @@
+﻿---
+title: "<="
+title_expanded: less than or equal
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Operator" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= <= Less Than Or Equal
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Tests if the string on the left is less than or equal to the string on the right. This operator evaluate strings in alphabetical order, on the first character where the two differ. So, for example "a" < "b" and "1" < "2", but "999" > "1000" because 9 comes after 1.
+
+Caution: String comparison operators can be confusing when you're comparing numeric strings, because the numbers are treated as strings and not as numbers. If you need to compare numbers numerically, compare them as ints, floats, or longs, and not as Strings.
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string1 <= string2
+----
+
+[float]
+=== Parameters
+`string1, string2`: variables of type String
+
+[float]
+=== Returns
+`true`: if string1 is less than or equal to string2
+
+`false`: otherwise
+
+--
+
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

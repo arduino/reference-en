@@ -1,0 +1,64 @@
+﻿---
+title: ">"
+title_expanded: greater than
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Operator" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= > Greater Than
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Tests if the string on the left is greater than the string on the right. This operator evaluates strings in alphabetical order, on the first character where the two differ. So, for example "b" > "a" and "2" > "1", but "999" > "1000" because 9 comes after 1.
+
+Caution: String comparison operators can be confusing when you're comparing numeric strings, because the numbers are treated as strings and not as numbers. If you need to compare numbers numerically, compare them as ints, floats, or longs, and not as Strings.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string1 > string2
+----
+
+[float]
+=== Parameters
+`string1, string2` - a string variable
+
+[float]
+=== Returns
+`true`: if string1 is greater than string2 
+
+`false`: otherwise
+
+--
+
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

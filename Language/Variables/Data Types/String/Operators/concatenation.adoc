@@ -1,0 +1,61 @@
+﻿---
+title: "+"
+title_expanded: concatenation
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Operator" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= + Concatenation
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Combines, or concatenates two strings into one new String. The second string is appended to the first, and the result is placed in a new String. Works the same as string.concat().
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string3 = string1 + string 2; string3 += string2;
+----
+
+[float]
+=== Parameters
+`string, string1, string2, string3` - a string variable
+
+[float]
+=== Returns
+new String that is the combination of the original two Strings.
+
+--
+
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

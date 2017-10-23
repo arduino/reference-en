@@ -1,0 +1,63 @@
+﻿---
+title: "!="
+title_expanded: different from
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Operator" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= != Different From
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Compares two strings for difference. The comparison is case-sensitive, meaning the String "hello" is not equal to the String "HELLO". Functionally the same as string.equals()
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string1 != string2
+----
+
+[float]
+=== Parameters
+`string1, string2` - a string variable
+
+[float]
+=== Returns
+`true`: if string1 is different from string2 
+
+`false`: otherwise
+
+--
+
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS

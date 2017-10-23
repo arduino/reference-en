@@ -1,0 +1,90 @@
+﻿---
+title: "reserve()"
+categories: [ "Data Types" ]
+subCategories: [ "StringObject Function" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= reserve()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The String reserve() function allows you to allocate a buffer in memory for manipulating strings.
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+[source,arduino]
+----
+string.reserve(size)
+----
+
+[float]
+=== Parameters
+`size`: unsigned int declaring the number of bytes in memory to save for string manipulation 
+
+
+[float]
+=== Returns
+None
+--
+// OVERVIEW SECTION ENDS
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+String myString;
+
+void setup() {
+  // initialize serial and wait for port to open:
+  Serial.begin(9600);
+  while (!Serial) {
+    ; // wait for serial port to connect. Needed for Leonardo only
+  }
+
+  myString.reserve(26);
+  myString = "i=";
+  myString += "1234";
+  myString += ", is that ok?";
+
+  // print the String:
+  Serial.println(myString);
+}
+
+void loop() {
+ // nothing to do here
+}
+ 
+----
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+--
+// SEE ALSO SECTION ENDS
+// SEE ALSO SECTION ENDS

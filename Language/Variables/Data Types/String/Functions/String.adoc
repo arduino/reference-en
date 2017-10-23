@@ -1,7 +1,7 @@
 ﻿---
 title: "String()"
 categories: [ "Data Types" ]
-subCategories: [ "StringObject" ]
+subCategories: [ "StringObject Function" ]
 ---
 
 :source-highlighter: pygments
@@ -104,5 +104,11 @@ String stringOne =  String(5.698, 3);                                // using a 
 [#see_also]
 --
 
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
 --
 // SEE ALSO SECTION ENDS
+
