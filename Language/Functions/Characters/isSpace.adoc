@@ -26,7 +26,7 @@ Analyse if a char is the space character. Returns true if thisChar contains a le
 === Syntax
 [source,arduino]
 ----
-`isAlpha(thisChar)`
+`isSpace(thisChar)`
 ----
 
 [float]
