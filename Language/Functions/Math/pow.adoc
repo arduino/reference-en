@@ -62,8 +62,8 @@ See the (http://arduino.cc/playground/Main/Fscale[fscale]) function in the code 
 === See also
 
 [role="definition"]
-* #DEFINITION# link:../../../Variables/data-types/float[float] +
-* #DEFENITION# link:../../../Variables/data-types/double[double]
+* #DEFINITION# link:../../../variables/data-types/float[float]
+* #DEFENITION# link:../../../variables/data-types/double[double]
 
 --
 // SEE ALSO SECTION ENDS
