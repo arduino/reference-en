@@ -144,7 +144,7 @@ for (int 1; i<=99; i++) {
 
 This is a block image with a URL
 [%hardbreaks]
-image::http://store.arduino.cc/bmz_cache/b/babe9d3f8563ea2f170dd55539f06310.image.538x354.jpg[]
+image::https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/1040x660/604a3538c15e081937dbfbd20aa60aad/A/0/A000066_featured_2.jpg[]
 
 
 This is an image saved in the attachments folder with a caption
@@ -166,7 +166,7 @@ This is a pretty embed of code from Gist
 
 And this is another of a video from YouTube
 ++++
-<iframe width="100%" height="315" src="http://www.youtube-nocookie.com/embed/UoBUXOOdLXY?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/watch?v=6cRFf4qkcTw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 ++++
 // HINT: Please remember to set the iframe width to 100% to have the video responsive on all our platforms
 
