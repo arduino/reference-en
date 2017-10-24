@@ -149,7 +149,7 @@ image::https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/1040x660/6
 
 This is an image saved in the attachments folder with a caption
 [%hardbreaks]
-image::attachments/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
+image::../attachments/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
 
 
 '''
@@ -158,7 +158,7 @@ image::attachments/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful 
 
 This is a pretty embed of code from Gist
 ++++
-<script src="http://gist.github.com/mojavelinux/5333524.js">
+<script src="https://gist.github.com/mojavelinux/5333524.js">
 </script>
 ++++
 
@@ -174,7 +174,7 @@ And this is another of a video from YouTube
 
 And here some slides from Sideshare, yay!
 ++++
-<iframe src="http://www.slideshare.net/slideshow/embed_code/4430242" width="100%" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/damellis/introduction-to-arduino-4430242" title="Introduction to Arduino" target="_blank">Introduction to Arduino</a> </strong> from <strong><a href="//www.slideshare.net/damellis" target="_blank">David Mellis</a></strong> </div>
+<iframe src="https://www.slideshare.net/slideshow/embed_code/4430242" width="100%" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/damellis/introduction-to-arduino-4430242" title="Introduction to Arduino" target="_blank">Introduction to Arduino</a> </strong> from <strong><a href="//www.slideshare.net/damellis" target="_blank">David Mellis</a></strong> </div>
 ++++
 // HINT: Please remember to set the iframe width to 100% to have the slide show responsive on all our platforms
 
