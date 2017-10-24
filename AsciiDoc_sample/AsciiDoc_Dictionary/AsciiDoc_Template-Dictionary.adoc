@@ -149,7 +149,7 @@ image::https://store-cdn.arduino.cc/uni/catalog/product/cache/1/image/1040x660/6
 
 This is an image saved in the attachments folder with a caption
 [%hardbreaks]
-image::../attachments/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
+image::https://cdn.arduino.cc/reference/en/AsciiDoc_sample/AsciiDoc_Dictionary/attachments/ArduinoUno_R3_Front_450px.jpg[caption="", title="A beautiful Arduino UNO"]
 
 
 '''
