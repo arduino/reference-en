@@ -22,7 +22,7 @@ Store data in flash (program) memory instead of SRAM. There's a description of t
 
 The `PROGMEM` keyword is a variable modifier, it should be used only with the datatypes defined in pgmspace.h. It tells the compiler "put this information into flash memory", instead of into SRAM, where it would normally go.
 
-    PROGMEM is part of the http://www.nongnu.org/avr-libc/user-manual/group__avr__pgmspace.html[pgmspace.h] library. It is included automatically in modern versions of the IDE, however if you are using an IDE version below 1.0 (2011), you'll first need to include the library at the top your sketch, like this:
+PROGMEM is part of the http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library. It is included automatically in modern versions of the IDE, however if you are using an IDE version below 1.0 (2011), you'll first need to include the library at the top your sketch, like this:
 
 `#include <avr/pgmspace.h>`
 [%hardbreaks]
