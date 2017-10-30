@@ -103,7 +103,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-The dataPin and clockPin must already be configured as outputs by a call to link:../digital-io/pinMode[pinMode()].
+The dataPin and clockPin must already be configured as outputs by a call to link:../digital-io/pinmode[pinMode()].
 
 shiftOut is currently written to output 1 byte (8 bits) so it requires a two step operation to output values larger than 255.
 [source,arduino]
