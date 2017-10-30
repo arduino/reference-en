@@ -15,9 +15,9 @@ title: Mouse.press()
 
 [float]
 === Description
-Sends a button press to a connected computer. A press is the equivalent of clicking and continuously holding the mouse button. A press is cancelled with link:../mouseRelease[Mouse.release()].
+Sends a button press to a connected computer. A press is the equivalent of clicking and continuously holding the mouse button. A press is cancelled with link:../mouserelease[Mouse.release()].
 
-Before using `Mouse.press()`, you need to start communication with link:../mouseBegin[Mouse.begin()].
+Before using `Mouse.press()`, you need to start communication with link:../mousebegin[Mouse.begin()].
 
 `Mouse.press()` defaults to a left button press.
 [%hardbreaks]
