@@ -15,7 +15,7 @@ title: Mouse.end()
 
 [float]
 === Description
-Stops emulating the mouse connected to a computer. To start control, use link:../mouseBegin[Mouse.begin()].
+Stops emulating the mouse connected to a computer. To start control, use link:../mousebegin[Mouse.begin()].
 [%hardbreaks]
 
 
