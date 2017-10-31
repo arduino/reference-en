@@ -57,7 +57,7 @@ pi = 7;        // illegal - you can't write to (modify) a constant
 === Notes and Warnings
 *`#define` or `const`*
 
-You can use either `const` or `#define` for creating numeric or string constants. For link:../../array[arrays], you will need to use `const`. In general `const` is preferred over `#define` for defining constants.
+You can use either `const` or `#define` for creating numeric or string constants. For link:../../data-types/array[arrays], you will need to use `const`. In general `const` is preferred over `#define` for defining constants.
 
 
 --

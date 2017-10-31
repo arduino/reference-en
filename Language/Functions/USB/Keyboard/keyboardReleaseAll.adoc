@@ -15,7 +15,7 @@ title: Keyboard.releaseAll()
 
 [float]
 === Description
-Lets go of all keys currently pressed. See link:../keyboardPress[Keyboard.press()] for additional information.
+Lets go of all keys currently pressed. See link:../keyboardpress[Keyboard.press()] for additional information.
 [%hardbreaks]
 
 
