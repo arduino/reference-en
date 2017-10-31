@@ -15,9 +15,9 @@ title: Keyboard.press()
 
 [float]
 === Description
-When called, `Keyboard.press()` functions as if a key were pressed and held on your keyboard. Useful when using link:../keyboardModifier[modifier keys]. To end the key press, use link:../keyboardRelease[Keyboard.release()] or link:../keyboardReleaseAll[Keyboard.releaseAll()].
+When called, `Keyboard.press()` functions as if a key were pressed and held on your keyboard. Useful when using link:../keyboardmodifier[modifier keys]. To end the key press, use link:../keyboardrelease[Keyboard.release()] or link:../keyboardreleaseall[Keyboard.releaseAll()].
 
-It is necessary to call link:../keyboardBegin[Keyboard.begin()] before using `press()`.
+It is necessary to call link:../keyboardbegin[Keyboard.begin()] before using `press()`.
 [%hardbreaks]
 
 

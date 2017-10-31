@@ -22,7 +22,7 @@ Shifts out a byte of data one bit at a time. Starts from either the most (i.e. t
 
 Note- if you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the call to `shiftOut()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
 
-This is a software implementation; see also the link:../SPI[SPI library], which provides a hardware implementation that is faster but works only on specific pins.
+This is a software implementation; see also the linkhttps://www.arduino.cc/en/Reference/SPI[SPI library], which provides a hardware implementation that is faster but works only on specific pins.
 [%hardbreaks]
 
 
@@ -103,7 +103,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-The dataPin and clockPin must already be configured as outputs by a call to link:../digital-io/pinmode[pinMode()].
+The dataPin and clockPin must already be configured as outputs by a call to link:../../digital-io/pinmode[pinMode()].
 
 shiftOut is currently written to output 1 byte (8 bits) so it requires a two step operation to output values larger than 255.
 [source,arduino]

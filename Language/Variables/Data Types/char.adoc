@@ -20,7 +20,7 @@ subCategories: [ "Data Types" ]
 === Description
 A data type that takes up 1 byte of memory that stores a character value. Character literals are written in single quotes, like this: 'A' (for multiple characters - strings - use double quotes: "ABC").
 
-Characters are stored as numbers however. You can see the specific encoding in the link:../ASCIIchart[ASCII chart]. This means that it is possible to do arithmetic on characters, in which the ASCII value of the character is used (e.g. 'A' + 1 has the value 66, since the ASCII value of the capital letter A is 65). See link:../println[`Serial.println`] reference for more on how characters are translated to numbers.
+Characters are stored as numbers however. You can see the specific encoding in the link:https://www.arduino.cc/en/Reference/ASCIIchart[ASCII chart]. This means that it is possible to do arithmetic on characters, in which the ASCII value of the character is used (e.g. 'A' + 1 has the value 66, since the ASCII value of the capital letter A is 65). See link:../../../functions/communication/serial/println[`Serial.println`] reference for more on how characters are translated to numbers.
 
 The char datatype is a signed type, meaning that it encodes numbers from -128 to 127. For an unsigned, one-byte (8 bit) data type, use the _byte_ data type.
 [%hardbreaks]

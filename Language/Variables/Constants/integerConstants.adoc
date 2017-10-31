@@ -18,7 +18,7 @@ subCategories: [ "Constants" ]
 
 [float]
 === Description
-Integer constants are numbers that are used directly in a sketch, like 123. By default, these numbers are treated as link:../../data-types[int] but you can change this with the U and L modifiers (see below).
+Integer constants are numbers that are used directly in a sketch, like 123. By default, these numbers are treated as link:../../data-types/int[int] but you can change this with the U and L modifiers (see below).
 [%hardbreaks]
 
 Normally, integer constants are treated as base 10 (decimal) integers, but special notation (formatters) may be used to enter numbers in other bases.
