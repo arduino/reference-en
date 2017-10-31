@@ -20,7 +20,7 @@ subCategories: [ "USB" ]
 The keyboard functions enable a 32u4 or SAMD micro based boards to send keystrokes to an attached computer through their micro's native USB port.
 [%hardbreaks]
 *Note: Not every possible ASCII character, particularly the non-printing ones, can be sent with the Keyboard library.* +
-The library supports the use of modifier keys. Modifier keys change the behavior of another key when pressed simultaneously. link:../keyboard/keyboardModifiers[See here] for additional information on supported keys and their use.
+The library supports the use of modifier keys. Modifier keys change the behavior of another key when pressed simultaneously. link:../keyboard/keyboardmodifiers[See here] for additional information on supported keys and their use.
 
 --
 // OVERVIEW SECTION ENDS
@@ -42,14 +42,14 @@ When using the Mouse or Keyboard library, it may be best to test your output fir
 
 [float]
 === Functions
-link:../keyboard/keyboardBegin[Keyboard.begin()] +
-link:../keyboard/keyboardEnd[Keyboard.end()] +
-link:../keyboard/keyboardPress[Keyboard.press()] +
-link:../keyboard/keyboardPrint[Keyboard.print()] +
-link:../keyboard/keyboardPrintln[Keyboard.println()] +
-link:../keyboard/keyboardRelease[Keyboard.release()] +
-link:../keyboard/keyboardReleaseAll[Keyboard.releaseAll()] +
-link:../keyboard/keyboardWrite[Keyboard.write()]
+link:../keyboard/keyboardbegin[Keyboard.begin()] +
+link:../keyboard/keyboardend[Keyboard.end()] +
+link:../keyboard/keyboardpress[Keyboard.press()] +
+link:../keyboard/keyboardprint[Keyboard.print()] +
+link:../keyboard/keyboardprintln[Keyboard.println()] +
+link:../keyboard/keyboardrelease[Keyboard.release()] +
+link:../keyboard/keyboardreleaseall[Keyboard.releaseAll()] +
+link:../keyboard/keyboardwrite[Keyboard.write()]
 
 '''
 
