@@ -15,7 +15,7 @@ title: Mouse.move()
 
 [float]
 === Description
-Moves the cursor on a connected computer. The motion onscreen is always relative to the cursor's current location. Before using `Mouse.move()` you must call link:../mouseBegin[Mouse.begin()]
+Moves the cursor on a connected computer. The motion onscreen is always relative to the cursor's current location. Before using `Mouse.move()` you must call link:../mousebegin[Mouse.begin()]
 [%hardbreaks]
 
 
