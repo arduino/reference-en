@@ -21,7 +21,7 @@ A modifier key is a special key on a computer keyboard that modifies the normal 
 [%hardbreaks]
 For more on ASCII values and the characters or functions they represent, see http://www.asciitable.com/[asciitable.com]
 [%hardbreaks]
-For multiple key presses use link:../keyboardPress[Keyboard.press]()
+For multiple key presses use link:../keyboardpress[Keyboard.press]()
 [%hardbreaks]
 The Leonardo's definitions for modifier keys are listed below:
 [%hardbreaks]
