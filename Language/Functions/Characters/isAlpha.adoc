@@ -26,7 +26,7 @@ Analyse if a char is alpha (that is a letter). Returns true if thisChar contains
 === Syntax
 [source,arduino]
 ----
-`isAlpha(thisChar)`
+isAlpha(thisChar)
 ----
 
 [float]
