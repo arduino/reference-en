@@ -38,24 +38,24 @@ The *Arduino Leonardo* board uses `Serial1` to communicate via TTL (5V) serial o
 
 [float]
 === Functions
-link:../serial/ifSerial[If] (Serial) +
+link:../serial/ifserial[If] (Serial) +
 link:../serial/available[available()] +
 link:../serial/begin[begin()] +
 link:../serial/end[end()] +
 link:../serial/find[find()] +
-link:../serial/findUntil[findUntil()] +
+link:../serial/finduntil[findUntil()] +
 link:../serial/flush[flush()] +
-link:../serial/parseFloat[parseFloat()] +
-link:../serial/parseInt[parseInt()] +
+link:../serial/parsefloat[parseFloat()] +
+link:../serial/parseint[parseInt()] +
 link:../serial/peek[peek()] +
 link:../serial/print[print()] +
 link:../serial/println[println()] +
 link:../serial/read[read()] +
-link:../serial/readBytes[readBytes()] +
-link:../serial/readBytesUntil[readBytesUntil()] +
-link:../serial/setTimeout[setTimeout()] +
+link:../serial/readbytes[readBytes()] +
+link:../serial/readbytesuntil[readBytesUntil()] +
+link:../serial/settimeout[setTimeout()] +
 link:../serial/write[write()] +
-link:../serial/serialEvent[serialEvent()]
+link:../serial/serialevent[serialEvent()]
 
 '''
 
