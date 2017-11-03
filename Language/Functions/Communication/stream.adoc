@@ -41,19 +41,19 @@ Some of the libraries that rely on Stream include :
 
 [float]
 === Functions
-link:../stream/streamAvailable[available()] +
-link:../stream/streamRead[read()] +
-link:../stream/streamFlush[flush()] +
-link:../stream/streamFind[find()] +
-link:../stream/streamFindUntil[findUntil()] +
-link:../stream/streamPeek[peek()] +
-link:../stream/streamReadBytes[readBytes()] +
-link:../stream/streamReadBytesUntil[readBytesUntil()] +
-link:../stream/streamReadString[readString()] +
-link:../stream/streamReadStringUntil[readStringUntil()] +
-link:../stream/streamParseInt[parseInt()] +
-link:../stream/streamParseFloat[parseFloat()] +
-link:../stream/streamSetTimeout[setTimeout()]
+link:../stream/streamavailable[available()] +
+link:../stream/streamread[read()] +
+link:../stream/streamflush[flush()] +
+link:../stream/streamfind[find()] +
+link:../stream/streamfinduntil[findUntil()] +
+link:../stream/streampeek[peek()] +
+link:../stream/streamreadbytes[readBytes()] +
+link:../stream/streamreadbytesuntil[readBytesUntil()] +
+link:../stream/streamreadstring[readString()] +
+link:../stream/streamreadstringuntil[readStringUntil()] +
+link:../stream/streamparseint[parseInt()] +
+link:../stream/streamparsefloat[parseFloat()] +
+link:../stream/streamsettimeout[setTimeout()]
 
 '''
 
