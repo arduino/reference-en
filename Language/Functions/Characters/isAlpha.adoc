@@ -53,11 +53,11 @@ isAlpha(thisChar)
 ----
 if (isAlpha(this))      // tests if this is a letter
 {
-	Serial.println("The character is alphanumeric");
+	Serial.println("The character is a letter");
 }
 else
 {
-	Serial.println("The character is not alphanumeric");
+	Serial.println("The character is not a letter");
 }
 
 ----
