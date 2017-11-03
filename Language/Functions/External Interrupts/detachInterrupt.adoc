@@ -29,7 +29,7 @@ Turns off the given interrupt.
 
 [float]
 === Parameters
-`interrupt`: the number of the interrupt to disable (see link:../attachInterrupt[attachInterrupt()] for more details).
+`interrupt`: the number of the interrupt to disable (see link:../attachinterrupt[attachInterrupt()] for more details).
 
 `pin`: the pin number of the interrupt to disable (Arduino Due only)
 
