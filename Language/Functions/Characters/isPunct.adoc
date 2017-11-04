@@ -51,7 +51,7 @@ Analyse if a char is punctuation (that is a comma, a semicolon, an exlamation ma
 
 [source,arduino]
 ----
-if (isPunct(this))      // tests if this is a letter
+if (isPunct(this))      // tests if this is a punctuation character
 {
 	Serial.println("The character is a punctuation");
 }
