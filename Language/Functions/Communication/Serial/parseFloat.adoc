@@ -47,7 +47,7 @@ Nothing
 
 [role="language"]
 * #LANGUAGE# link:../../stream[stream()]
-* #LANGUAGE# link:../../stream/streamParseFloat[Stream.parseFloat()]
+* #LANGUAGE# link:../../stream/streamparsefloat[Stream.parseFloat()]
 
 --
 // SEE ALSO SECTION ENDS
