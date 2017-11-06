@@ -1,7 +1,7 @@
 ﻿---
 title: "String()"
-categories: [ "Data Types" ]
-subCategories: [ "StringObject Function" ]
+categories: [ "Variables" ]
+subCategories: [ "Data Types" ]
 ---
 
 :source-highlighter: pygments
