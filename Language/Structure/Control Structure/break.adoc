@@ -19,7 +19,7 @@ subCategories: [ "Control Structure" ]
 [float]
 === Description
 [%hardbreaks]
-`break` is used to exit from a link:../for[for], link:../while[while] or link:../doWhile[do...while] loop, bypassing the normal loop condition. It is also used to exit from a link:../switchCase[switch case] statement.
+`break` is used to exit from a link:../for[for], link:../while[while] or link:../dowhile[do...while] loop, bypassing the normal loop condition. It is also used to exit from a link:../switchcase[switch case] statement.
 [%hardbreaks]
 
 --
