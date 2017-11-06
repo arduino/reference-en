@@ -15,7 +15,7 @@ title: Serial.readBytes()
 
 [float]
 === Description
-`Serial.readBytes()` reads characters from the serial port into a buffer. The function terminates if the determined length has been read, or it times out (see link:../settimeout[Serial.setTimeout()]).
+`Serial.readBytes()` reads characters from the serial port into a buffer. The function terminates if the determined length has been read, or it times out (see link:../settimeout[Serial.settimeout()]).
 
 `Serial.readBytes()` returns the number of characters placed in the buffer. A 0 means no valid data was found.
 
