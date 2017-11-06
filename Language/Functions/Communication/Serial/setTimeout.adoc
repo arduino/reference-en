@@ -15,7 +15,7 @@ title: Serial.setTimeout()
 
 [float]
 === Description
-`Serial.setTimeout()` sets the maximum milliseconds to wait for serial data when using link:../readBytesUntil[serial.readBytesUntil()] or link:../readBytes[serial.readBytes()]. It defaults to 1000 milliseconds.
+`Serial.setTimeout()` sets the maximum milliseconds to wait for serial data when using link:../readbytesuntil[serial.readBytesUntil()] or link:../readbytes[serial.readBytes()]. It defaults to 1000 milliseconds.
 
 `Serial.setTimeout()` inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
