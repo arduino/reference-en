@@ -51,9 +51,9 @@ Analyse if a char is upper case (that is a letter in upper case). Returns true i
 
 [source,arduino]
 ----
-if (isAlpha(this))      // tests if this is a letter
+if (isUpperCase(this))      // tests if this is an upeer case letter
 {
-	Serial.println("The character is UPPER case");
+	Serial.println("The character is upper case");
 }
 else
 {
