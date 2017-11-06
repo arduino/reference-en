@@ -46,7 +46,7 @@ Nothing
 
 [role="language"]
 * #LANGUAGE# link:../../stream[stream]
-* #LANGUAGE# link:../../stream/streamSetTimeout[stream.setTimeout()]
+* #LANGUAGE# link:../../stream/streamsettimeout[stream.setTimeout()]
 
 --
 // SEE ALSO SECTION ENDS
