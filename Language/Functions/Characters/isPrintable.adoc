@@ -51,7 +51,7 @@ Analyse if a char is printable (that is any character that produces an output, e
 
 [source,arduino]
 ----
-if (isPrintable(this))      // tests if this is a letter
+if (isPrintable(this))      // tests if this is printable char
 {
 	Serial.println("The character is printable");
 }
