@@ -145,7 +145,7 @@ As of version 1.0, serial transmission is asynchronous; `Serial.print()` will re
 * #LANGUAGE# link:../flush[flush()]
 * #LANGUAGE# link:../println[println()]
 * #LANGUAGE# link:../write[write()]
-* #LANGUAGE# link:../serialEvent[SerialEvent()]
+* #LANGUAGE# link:../serialevent[SerialEvent()]
 * #LANGUAGE# link:https://www.arduino.cc/en/Tutorial/Memory[Memory]
 
 --
