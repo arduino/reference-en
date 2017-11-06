@@ -67,8 +67,8 @@ _Arduino Mega only:_
 * #LANGUAGE# link:../print[print()] +
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
-* #LANGUAGE# link:../serialEvent[SerialEvent()] +
-* #LANGUAGE# link:../../stream/streamParseFloat[Stream.parseFloat()]
+* #LANGUAGE# link:../serialevent[SerialEvent()] +
+* #LANGUAGE# link:../../stream/streamparsefloat[Stream.parseFloat()]
 
 --
 // SEE ALSO SECTION ENDS
