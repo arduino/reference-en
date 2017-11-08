@@ -100,14 +100,13 @@ String stringOne =  String(5.698, 3);                                // using a 
 // HOW TO USE SECTION ENDS
 
 
-// SEE ALSO SECTION
-[#see_also]
+// FUNCTIONS SECTION STARTS
+[#functions]
 --
 
 [float]
-=== See also
+=== Functions
 
-[role="language"]
 * #LANGUAGE# link:../string/functions/charat[charAt()]
 * #LANGUAGE# link:../string/functions/compareto[compareTo()]
 * #LANGUAGE# link:../string/functions/concat[concat()]
@@ -132,8 +131,17 @@ String stringOne =  String(5.698, 3);                                // using a 
 * #LANGUAGE# link:../string/functions/touppercase[toUpperCase()]
 * #LANGUAGE# link:../string/functions/trim[trim()]
 
+
+'''
+
+--
+// FUNCTIONS SECTION ENDS
+
+// SEE ALSO SECTION
+[#see_also]
+
 [float]
-=== Operators
+=== See also
 
 [role="language"]
 * #LANGUAGE# link:../string/operators/elementaccess[[\] (element access)]
