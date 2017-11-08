@@ -167,6 +167,32 @@ void loop()
 
 ----
 
+*Avoiding Early Termination of the String*
+
+The opening and closing curly braces work for many applications, but if you need to include a closing curly brace in your string, or quotes, literals, or other special characters, you can use the R"=====( instead of the opening curly brace, and )=====" instead of the closing. This will prevent ANY interpretation of the characters between them; every character will go into the string as written. This is especially handy for serving web pages. The ==== can be replaced by a sequence of any characters except parentheses, backslash and spaces as long as it is the same for opening and closing. The sequence can be nothing e.g. R"( and )" and it can't be more than 16 characters long. 
+http://en.cppreference.com/w/cpp/language/string_literal
+
+[source,arduino]
+----
+const char MAIN_page[] PROGMEM = R"=====(
+<html><head><title>test</title></head>
+<body>
+ <script>
+ /*
+       you can put anything you like here and it is not interpreted ' " }  //  
+       )   -  ]    
+*/
+window.onload = function (){
+  alert("Page loaded:\nMain.html"); // Show the page has loaded.
+  document.write("<script>alert('script loaded');</script>");
+  }
+  </script>
+</body>
+</html>
+)=====";
+
+----
+
 --
 // HOW TO USE SECTION ENDS
 
