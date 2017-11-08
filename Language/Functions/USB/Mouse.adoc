@@ -53,3 +53,20 @@ link:../mouse/mouseispressed[Mouse.isPressed()]
 
 --
 // FUNCTIONS SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="example"]
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardAndMouseControl[KeyboardAndMouseControl]: Demonstrates the Mouse and Keyboard commands in one program.
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/ButtonMouseControl[ButtonMouseControl]: Control cursor movement with 5 pushbuttons.
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/JoystickMouseControl[JoystickMouseControl]: Controls a computer's cursor movement with a Joystick when a button is pressed.
+
+--
+// SEE ALSO SECTION ENDS
+
