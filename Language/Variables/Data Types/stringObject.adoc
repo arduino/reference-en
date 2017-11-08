@@ -100,12 +100,8 @@ String stringOne =  String(5.698, 3);                                // using a 
 // HOW TO USE SECTION ENDS
 
 
-// SEE ALSO SECTION
-[#see_also]
---
-
 [float]
-=== See also
+=== Functions
 
 [role="language"]
 * #LANGUAGE# link:../string/functions/charat[charAt()]
@@ -149,6 +145,15 @@ String stringOne =  String(5.698, 3);                                // using a 
 [role="example"]
 * #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
 
+
+// SEE ALSO SECTION STARTS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
 --
 // SEE ALSO SECTION ENDS
-
