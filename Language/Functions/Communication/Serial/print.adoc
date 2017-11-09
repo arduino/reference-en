@@ -52,7 +52,7 @@ To send a single byte, use link:../write[Serial.write()].
 
 [float]
 === Returns
-`size_t (long)`: `print()` returns the number of bytes written, though reading that number is optional.
+`size_t`: `print()` returns the number of bytes written, though reading that number is optional.
 
 --
 // OVERVIEW SECTION ENDS

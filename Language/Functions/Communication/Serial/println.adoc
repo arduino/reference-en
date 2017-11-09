@@ -33,7 +33,7 @@ Prints data to the serial port as human-readable ASCII text followed by a carria
 
 [float]
 === Returns
-`size_t` (`long`): `println()` returns the number of bytes written, though reading that number is optional
+`size_t`: `println()` returns the number of bytes written, though reading that number is optional
 --
 // OVERVIEW SECTION ENDS
 

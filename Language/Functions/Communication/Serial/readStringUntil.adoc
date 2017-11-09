@@ -33,7 +33,7 @@ This function is part of the Stream class, and is called by any class that inher
 
 [float]
 === Returns
-The entire string read from the serial buffer, until the terminator character is detected
+The entire String read from the serial buffer, until the terminator character is detected
 
 --
 // OVERVIEW SECTION ENDS

@@ -38,7 +38,7 @@ Serial.readBytesUntil() reads characters from the serial buffer into an array. T
 
 [float]
 === Returns
-`byte`
+`size_t`
 
 --
 // OVERVIEW SECTION ENDS

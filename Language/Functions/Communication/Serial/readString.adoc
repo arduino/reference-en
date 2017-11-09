@@ -33,7 +33,7 @@ Nothing
 
 [float]
 === Returns
-A string read from the serial buffer
+A String read from the serial buffer
 
 --
 // OVERVIEW SECTION ENDS
