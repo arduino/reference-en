@@ -17,9 +17,9 @@ title: if(Serial)
 === Description
 Indicates if the specified Serial port is ready.
 
-On the Leonardo, `if (Serial)` indicates whether or not the USB CDC serial connection is open. For all other instances, including `if (Serial1)` on the Leonardo, this will always returns true.
+On the Leonardo, `if (Serial)` indicates whether or not the USB CDC serial connection is open. For all other instances, including `if (Serial1)` on the Leonardo, this will always return true.
 
-This was introduced in Arduino 1.0.1.
+This was introduced in Arduino IDE 1.0.1.
 [%hardbreaks]
 
 
