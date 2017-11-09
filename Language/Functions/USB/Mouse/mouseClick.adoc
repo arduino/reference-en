@@ -63,7 +63,7 @@ void setup(){
 }
 
 void loop(){
-  //if the button is pressed, send a Right mouse click
+  //if the button is pressed, send a left mouse click
   if(digitalRead(2) == HIGH){
     Mouse.click();
   }

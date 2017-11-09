@@ -70,11 +70,11 @@ void setup(){
 }
 
 void loop(){
-  //if the switch attached to pin 2 is closed, press and hold the right mouse button
+  //if the switch attached to pin 2 is closed, press and hold the left mouse button
   if(digitalRead(2) == HIGH){
     Mouse.press();
   }
-  //if the switch attached to pin 3 is closed, release the right mouse button
+  //if the switch attached to pin 3 is closed, release the left mouse button
   if(digitalRead(3) == HIGH){
     Mouse.release();
   }
