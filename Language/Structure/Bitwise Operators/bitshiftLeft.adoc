@@ -81,6 +81,24 @@ If you are certain that none of the ones in a value are being shifted into obliv
     1 << 10   1024
     ...
 ----
+
+The following example can be used to print out the value of a received byte to the serial monitor, using the left shift operator to move along the byte from bottom(LSB) to top (MSB), and print out its Binary value:
+
+[source,arduino]
+----
+// Prints out Binary value (1 or 0) of byte
+void printOut1(int c) {
+  for (int bits = 7; bits > -1; bits--) {
+    // Compare bits 7-0 in byte
+    if (c & (1 << bits)) {
+      Serial.print ("1");
+    }
+    else {
+      Serial.print ("0");
+    }
+  }
+}
+----
 [%hardbreaks]
 
 --
