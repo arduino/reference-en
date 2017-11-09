@@ -108,9 +108,9 @@ void loop(){
 
   // change the PWM resolution to 4 bits
   analogWriteResolution(4);
-  analogWrite(13, map(sensorVal, 0, 1023, 0, 127));
+  analogWrite(13, map(sensorVal, 0, 1023, 0, 15));
   Serial.print(", 4-bit PWM value : ");
-  Serial.println(map(sensorVal, 0, 1023, 0, 127));
+  Serial.println(map(sensorVal, 0, 1023, 0, 15));
 
   delay(5);
 }
