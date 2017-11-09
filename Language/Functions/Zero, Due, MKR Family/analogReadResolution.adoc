@@ -17,11 +17,11 @@ subCategories: [ "Zero, Due & MKR Family" ]
 
 [float]
 === Description
-analogReadResolution() is an extension of the Analog API for the Arduino Due.
+analogReadResolution() is an extension of the Analog API for the Arduino Due, Zero and MKR Family.
 
-Sets the size (in bits) of the value returned by analogRead(). It defaults to 10 bits (returns values between 0-1023) for backward compatibility with AVR based boards.
+Sets the size (in bits) of the value returned by `analogRead()`. It defaults to 10 bits (returns values between 0-1023) for backward compatibility with AVR based boards.
 
-The *Due, Zero and MKR Family* boards have 12-bit ADC capabilities that can be accessed by changing the resolution to 12. This will return values from analogRead() between 0 and 4095.
+The *Due, Zero and MKR Family* boards have 12-bit ADC capabilities that can be accessed by changing the resolution to 12. This will return values from `analogRead()` between 0 and 4095.
 [%hardbreaks]
 
 
@@ -32,7 +32,7 @@ The *Due, Zero and MKR Family* boards have 12-bit ADC capabilities that can be a
 
 [float]
 === Parameters
-`bits`: determines the resolution (in bits) of the value returned by `analogRead()` function. You can set this 1 and 32. You can set resolutions higher than 12 but values returned by `analogRead()` will suffer approximation. See the note below for details.
+`bits`: determines the resolution (in bits) of the value returned by the `analogRead()` function. You can set this between 1 and 32. You can set resolutions higher than 12 but values returned by `analogRead()` will suffer approximation. See the note below for details.
 
 [float]
 === Returns
@@ -82,7 +82,7 @@ void loop() {
   Serial.print(", 8-bit : ");
   Serial.println(analogRead(A0));
 
-  // a little delay to not hog serial monitor
+  // a little delay to not hog Serial Monitor
   delay(100);
 }
 ----
@@ -90,7 +90,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-If you set the `analogReadResolution()` value to a value higher than your board's capabilities, the Arduino will only report back at its highest resolution padding the extra bits with zeros.
+If you set the `analogReadResolution()` value to a value higher than your board's capabilities, the Arduino will only report back at its highest resolution, padding the extra bits with zeros.
 
 For example: using the Due with `analogReadResolution(16)` will give you an approximated 16-bit number with the first 12 bits containing the real ADC reading and the last 4 bits *padded with zeros*.
 
