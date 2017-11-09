@@ -24,7 +24,7 @@ This function is part of the Stream class, and is called by any class that inher
 
 [float]
 === Syntax
-`Serial.readString(terminator)`
+`Serial.readStringUntil(terminator)`
 
 
 [float]
