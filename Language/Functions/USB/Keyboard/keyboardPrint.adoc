@@ -51,6 +51,8 @@ Sends a keystroke to a connected computer.
 
 [source,arduino]
 ----
+#include <Keyboard.h>
+
 void setup() {
   // make pin 2 an input and turn on the
   // pullup resistor so it goes high unless

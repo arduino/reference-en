@@ -57,6 +57,8 @@ When there is no value passed, it checks the status of the left mouse button.
 
 [source,arduino]
 ----
+#include <Mouse.h>
+
 void setup(){
   //The switch that will initiate the Mouse press
   pinMode(2,INPUT);

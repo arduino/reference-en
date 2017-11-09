@@ -49,6 +49,8 @@ Nothing
 
 [source,arduino]
 ----
+#include <Keyboard.h>
+
 void setup() {
   //start keyboard communication
   Keyboard.begin();
