@@ -77,7 +77,7 @@ char myChar;
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
+  while (!Serial);  // wait for serial port to connect. Needed for native USB
 
   // put your setup code here, to run once:
   // read back a 2-byte int
@@ -144,7 +144,7 @@ char buffer[30];    // make sure this is large enough for the largest string it 
 void setup()
 {
   Serial.begin(9600);
-  while(!Serial);
+  while(!Serial); // wait for serial port to connect. Needed for native USB
   Serial.println("OK");
 }
 
