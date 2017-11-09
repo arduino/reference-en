@@ -18,7 +18,7 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Description
-A `boolean` holds one of two values, `true` or `false`. (Each boolean variable occupies one byte of memory.)
+A `boolean` holds one of two values, `true` or `false`. (Each `boolean` variable occupies one byte of memory.)
 
 
 [%hardbreaks]
@@ -36,7 +36,7 @@ A `boolean` holds one of two values, `true` or `false`. (Each boolean variable o
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code shows how to use `boolean` datatype.
+This code shows how to use the `boolean` datatype.
 
 [source,arduino]
 ----
@@ -58,7 +58,7 @@ void loop()
   {  // switch is pressed - pullup keeps pin high normally
     delay(100);                        // delay to debounce switch
     running = !running;                // toggle running variable
-    digitalWrite(LEDpin, running)      // indicate via LED
+    digitalWrite(LEDpin, running);     // indicate via LED
   }
 }
 ----
