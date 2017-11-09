@@ -50,7 +50,7 @@ Nothing
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code configures pin number 8 to work as an output pin. It sends a train of pulses with 100 microseconds period.
+The code configures pin number 8 to work as an output pin. It sends a train of pulses of approximately 100 microseconds period. The approximation is due to execution of the other instructions in the code. 
 
 [source,arduino]
 ----
