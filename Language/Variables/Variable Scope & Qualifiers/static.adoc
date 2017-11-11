@@ -75,11 +75,11 @@ int randomWalk(int moveSize){
 
   place = place + (random(-moveSize, moveSize + 1));
 
-  if (place < randomWalkLowRange){                    // check lower and upper limits
-    place = place + (randomWalkLowRange - place);     // reflect number back in positive direction
+  if (place < randomWalkLowRange){                              // check lower and upper limits
+    place = randomWalkLowRange + (randomWalkLowRange - place);  // reflect number back in positive direction
   }
   else if(place > randomWalkHighRange){
-    place = place - (place - randomWalkHighRange);     // reflect number back in negative direction
+    place = randomWalkHighRange - (place - randomWalkHighRange);  // reflect number back in negative direction
   }
 
   return place;
