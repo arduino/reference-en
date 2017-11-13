@@ -96,8 +96,8 @@ So if:
 
 [source,arduino]
 ----
-myByte =  10101010;
-myByte &= B1111100; // results in B10101000
+myByte =  B10101010;
+myByte &= B11111100; // results in B10101000
 ----
 
 [%hardbreaks]
