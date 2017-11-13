@@ -166,6 +166,41 @@ void loop()
 }
 
 ----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+Please note that variables must be either globally defined, OR defined with the static keyword, in order to work with PROGMEM.
+
+The following code will NOT work when inside a function:
+
+[source,arduino]
+----
+const char long_str[] PROGMEM = "Hi, I would like to tell you a bit about myself.\n";
+----
+
+The following code WILL work, even if locally defined within a function:
+
+[source,arduino]
+----
+const static char long_str[] PROGMEM = "Hi, I would like to tell you a bit about myself.\n"
+----
+
+=== The `F()` macro
+
+When an instruction like :
+
+[source,arduino]
+----
+Serial.print("Write something on  the Serial Monitor");
+----
+
+is used, the string to be printed is normally saved in RAM. If your sketch prints a lot of stuff on the Serial Monitor, you can easily fill the RAM. If you have free FLASH memory space, you can easily indicate that the string must be saved in FLASH using the syntax:
+
+[source,arduino]
+----
+Serial.print(F("Write something on the Serial Monitor that is stored in FLASH"));
+----
 
 --
 // HOW TO USE SECTION ENDS
