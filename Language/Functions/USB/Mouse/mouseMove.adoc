@@ -52,6 +52,8 @@ Nothing
 
 [source,arduino]
 ----
+#include <Mouse.h>
+
 const int xAxis = A1;         //analog sensor for X axis
 const int yAxis = A2;         // analog sensor for Y axis
 

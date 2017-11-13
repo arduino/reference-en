@@ -56,6 +56,8 @@ Nothing
 
 [source,arduino]
 ----
+#include <Mouse.h>
+
 void setup(){
   pinMode(2,INPUT);
   //initiate the Mouse library

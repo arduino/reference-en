@@ -55,6 +55,8 @@ Nothing
 
 [source,arduino]
 ----
+#include <Mouse.h>
+
 void setup(){
   //The switch that will initiate the Mouse press
   pinMode(2,INPUT);
