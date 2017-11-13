@@ -1,0 +1,64 @@
+---
+title: Serial.availableForWrite()
+---
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= availableForWrite()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Get the number of bytes (characters) available for writing in the serial buffer without blocking the write operation.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`Serial.availableForWrite()`
+
+_Arduino Mega only:_
+
+`Serial1.availableForWrite()` +
+`Serial2.availableForWrite()` +
+`Serial3.availableForWrite()`
+
+
+[float]
+=== Parameters
+Nothing
+
+[float]
+=== Returns
+The number of bytes available to read .
+--
+// OVERVIEW SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:../begin[begin()] +
+* #LANGUAGE# link:../end[end()] +
+* #LANGUAGE# link:../read[read()] +
+* #LANGUAGE# link:../peek[peek()] +
+* #LANGUAGE# link:../flush[flush()] +
+* #LANGUAGE# link:../print[print()] +
+* #LANGUAGE# link:../println[println()] +
+* #LANGUAGE# link:../write[write()] +
+* #LANGUAGE# link:../serialEvent[SerialEvent()] +
+* #LANGUAGE# link:../../stream/streamavailable[Stream.available()]
+
+--
+// SEE ALSO SECTION ENDS
