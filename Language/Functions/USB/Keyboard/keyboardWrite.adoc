@@ -41,7 +41,7 @@ Keyboard.write(0b01000001); // same thing in binary (weird choice, but it works)
 
 [float]
 === Returns
-`int` : number of bytes sent.
+`size_t` : number of bytes sent.
 
 --
 // OVERVIEW SECTION ENDS

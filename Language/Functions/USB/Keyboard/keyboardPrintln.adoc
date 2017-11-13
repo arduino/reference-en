@@ -35,7 +35,7 @@ Sends a keystroke to a connected computer, followed by a newline and carriage re
 
 [float]
 === Returns
-`int` : number of bytes sent
+`size_t` : number of bytes sent
 
 --
 // OVERVIEW SECTION ENDS

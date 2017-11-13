@@ -32,7 +32,7 @@ Sends a keystroke to a connected computer.
 
 [float]
 === Returns
-`int` : number of bytes sent.
+`size_t` : number of bytes sent.
 
 --
 // OVERVIEW SECTION ENDS

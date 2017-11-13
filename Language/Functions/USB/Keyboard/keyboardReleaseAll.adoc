@@ -30,7 +30,7 @@ Nothing
 
 [float]
 === Returns
-`int` : the number of keys released
+Nothing
 
 --
 // OVERVIEW SECTION ENDS
