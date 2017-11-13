@@ -1,0 +1,79 @@
+---
+title: pulseInLong()
+categories: [ "Functions" ]
+subCategories: [ "Advanced I/O" ]
+---
+
+:source-highlighter: pygments
+:pygments-style: arduino
+
+
+
+= pulseInLong()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Reads a pulse (either HIGH or LOW) on a pin. For example, if value is HIGH, `pulseInLong()` waits for the pin to go `HIGH`, starts timing, then waits for the pin to go `LOW` and stops timing. Returns the length of the pulse in microseconds or 0 if no complete pulse was received within the timeout.
+
+The timing of this function has been determined empirically and will probably show errors in shorter pulses. Works on pulses from 10 microseconds to 3 minutes in length. Please also note that if the pin is already high when the function is called, it will wait for the pin to go LOW and then HIGH before it starts counting. This routine can be used only if interrupts are activated. Furthermore the highest resolution is obtained with large intervals.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`pulseInLong(pin, value)`
+
+`pulseInLong(pin, value, timeout)`
+
+[float]
+=== Parameters
+`pin`: the number of the pin on which you want to read the pulse. (int)
+
+`value`: type of pulse to read: either link:../../../variables/constants/constants/[HIGH] or link:../../../variables/constants/constants/[LOW]. (int)
+
+`timeout` (optional): the number of microseconds to wait for the pulse to start; default is one second (unsigned long)
+[float]
+=== Returns
+the length of the pulse (in microseconds) or 0 if no pulse started before the timeout (unsigned long)
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+The example calculated the time duration of a pulse on pin 7.
+
+[source,arduino]
+----
+int pin = 7;
+unsigned long duration;
+
+void setup() {
+  pinMode(pin, INPUT);
+}
+
+void loop() {
+  duration = pulseInLong(pin, HIGH);
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+This function relies on micros() so cannot be used in link:../../interrupts/noInterrupts[noInterrupts()] context.
+
+--
+// HOW TO USE SECTION ENDS
