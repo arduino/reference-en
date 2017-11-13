@@ -32,7 +32,7 @@ It is necessary to call link:../keyboardbegin[Keyboard.begin()] before using `pr
 
 [float]
 === Returns
-Nothing
+`size_t` : number of key presses sent.
 
 --
 // OVERVIEW SECTION ENDS

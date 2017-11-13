@@ -30,7 +30,7 @@ Lets go of the specified key. See link:../keyboardpress[Keyboard.press()] for mo
 
 [float]
 === Returns
-`int` : the number of keys released
+`size_t` : the number of keys released
 
 --
 // OVERVIEW SECTION ENDS
