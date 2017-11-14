@@ -1,7 +1,7 @@
 ---
 title: loop()
 categories: [ "Functions" ]
-subCategories: [ "Main" ]
+subCategories: [ "Sketch" ]
 ---
 
 :source-highlighter: pygments
