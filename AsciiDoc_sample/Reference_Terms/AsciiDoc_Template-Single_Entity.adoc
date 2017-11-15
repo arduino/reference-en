@@ -10,7 +10,7 @@ subCategories: [ "Subcategory Name" ]
 // categories: Pick between Structure, Variable or Function
 // The subcategory within the ones available in the index ("Digital I/O", "Arithmetic Operators")
 
-// ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
+
 
 
 

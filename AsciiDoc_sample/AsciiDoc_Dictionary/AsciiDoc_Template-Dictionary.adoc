@@ -1,4 +1,4 @@
-// ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
+
 
 
 // This is a documentation file for authors and editors of the Arduino Manutius content platform.
