@@ -14,7 +14,7 @@ title: Stream.readBytesUntil()
 
 [float]
 === Description
-`readBytesUntil()` reads characters from a stream into a buffer. The function terminates if the terminator character is detected, the determined length has been read, or it times out (see link:../streamSetTimeout[setTimeout()]).
+`readBytesUntil()` reads characters from a stream into a buffer. The function terminates if the terminator character is detected, the determined length has been read, or it times out (see link:../streamsettimeout[setTimeout()]).
 
 `readBytesUntil()` returns the number of bytes placed in the buffer. A 0 means no valid data was found.
 

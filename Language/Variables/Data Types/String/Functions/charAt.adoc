@@ -33,7 +33,7 @@ string.charAt(n)
 === Parameters
 `string`: a variable of type String
 
-`n`: a variable of type String
+`n`: a variable of type unsigned int
 
 
 [float]
