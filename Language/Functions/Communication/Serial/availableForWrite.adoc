@@ -57,7 +57,7 @@ The number of bytes available to read .
 * #LANGUAGE# link:../print[print()] +
 * #LANGUAGE# link:../println[println()] +
 * #LANGUAGE# link:../write[write()] +
-* #LANGUAGE# link:../serialEvent[SerialEvent()] +
+* #LANGUAGE# link:../serialevent[SerialEvent()] +
 * #LANGUAGE# link:../../stream/streamavailable[Stream.available()]
 
 --
