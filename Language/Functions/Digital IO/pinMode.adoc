@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "Digital I/O" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 //
 :ext-relative: .html
 

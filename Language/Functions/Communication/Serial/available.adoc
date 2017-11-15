@@ -1,8 +1,7 @@
 ---
 title: Serial.available()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

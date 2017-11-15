@@ -4,8 +4,7 @@ categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

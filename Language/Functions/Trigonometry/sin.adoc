@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "Trigonometry" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

@@ -1,8 +1,7 @@
 ---
 title: Keyboard.print()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

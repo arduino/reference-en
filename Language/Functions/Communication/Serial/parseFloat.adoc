@@ -1,8 +1,7 @@
 ---
 title: Serial.parseFloat()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

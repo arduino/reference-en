@@ -1,8 +1,7 @@
 ---
 title: Serial.end()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

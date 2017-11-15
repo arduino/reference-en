@@ -1,8 +1,7 @@
 ---
 title: Keyboard Modifiers
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

@@ -2,8 +2,7 @@
 title: Mouse.begin()
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

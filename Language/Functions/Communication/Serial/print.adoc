@@ -1,8 +1,7 @@
 ---
 title: Serial.print()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

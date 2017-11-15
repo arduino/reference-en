@@ -1,8 +1,7 @@
 ---
 title: Serial.flush()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

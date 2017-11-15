@@ -11,8 +11,7 @@ subCategories: [ "Subcategory Name" ]
 // The subcategory within the ones available in the index ("Digital I/O", "Arithmetic Operators")
 
 // ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 // PAGE TITLE

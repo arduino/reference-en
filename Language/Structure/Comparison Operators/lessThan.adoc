@@ -5,8 +5,7 @@ categories: [ "Structure" ]
 subCategories: [ "Comparison Operators" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

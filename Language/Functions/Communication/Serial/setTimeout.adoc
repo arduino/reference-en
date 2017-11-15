@@ -1,8 +1,7 @@
 ---
 title: Serial.setTimeout()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

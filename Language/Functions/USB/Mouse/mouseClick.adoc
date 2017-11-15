@@ -1,8 +1,7 @@
 ---
 title: Mouse.click()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

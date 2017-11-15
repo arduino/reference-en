@@ -1,6 +1,5 @@
 // ARDUINO PYGMENTS HIGHLIGHT ATTRIBUTE   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 // This is a documentation file for authors and editors of the Arduino Manutius content platform.
 // Below you can find a list of all the possible page elements with the corresponding

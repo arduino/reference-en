@@ -6,8 +6,7 @@ subCategories: [ "USB" ]
 ---
 
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 = Mouse

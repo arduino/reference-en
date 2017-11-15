@@ -5,8 +5,7 @@ categories: [ "Structure" ]
 subCategories: [ "Boolean Operators" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

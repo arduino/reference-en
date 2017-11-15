@@ -4,11 +4,6 @@ categories: [ "Functions" ]
 subCategories: [ "Advanced I/O" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
-
-
-
 = shiftOut()
 
 

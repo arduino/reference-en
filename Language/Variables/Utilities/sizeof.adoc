@@ -4,8 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Utilities" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

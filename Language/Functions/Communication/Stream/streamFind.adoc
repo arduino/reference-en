@@ -1,8 +1,7 @@
 ---
 title: Stream.find()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

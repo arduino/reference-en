@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "External Interrupts" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

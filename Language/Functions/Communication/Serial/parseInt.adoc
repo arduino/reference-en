@@ -1,8 +1,7 @@
 ---
 title: Serial.parseInt()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

@@ -1,8 +1,7 @@
 ---
 title: Mouse.end()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "Analog I/O" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

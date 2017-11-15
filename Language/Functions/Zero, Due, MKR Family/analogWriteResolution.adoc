@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "Zero, Due & MKR Family" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 = analogWriteResolution()

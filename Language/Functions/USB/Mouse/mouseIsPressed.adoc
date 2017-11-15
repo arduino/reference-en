@@ -1,8 +1,7 @@
 ---
 title: Mouse.isPressed()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

@@ -1,8 +1,7 @@
 ---
 title: Keyboard.releaseAll()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

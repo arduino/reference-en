@@ -1,8 +1,7 @@
 ---
 title: if(Serial)
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

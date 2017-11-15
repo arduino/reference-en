@@ -1,8 +1,7 @@
 ---
 title: Keyboard.write()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

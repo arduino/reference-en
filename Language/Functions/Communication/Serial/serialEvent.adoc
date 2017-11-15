@@ -1,8 +1,7 @@
 ---
 title: Serial.serialEvent()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 

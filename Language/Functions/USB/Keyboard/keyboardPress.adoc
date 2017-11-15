@@ -1,8 +1,7 @@
 ---
 title: Keyboard.press()
 ---
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
