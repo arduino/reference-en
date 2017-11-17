@@ -3,7 +3,6 @@ title: Parent of Entity Title
 categories: [ "Functions" ] 
 subCategories: [ "Subcategory Name" ]
 ---
-// THIS IS A COMMENT
 // ARDUINO LANGUAGE REFERENCE TAG (above)   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
 // title will show up in the Index of all Reference terms
 // categories: Pick between Structure, Variable or Function
