@@ -1,4 +1,4 @@
-= Reference.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (rendered https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[here]) for groups of functions such as link:http://arduino.cc/en/Reference/Serial[Serial].
+
 
 Please note that every Reference file should include as least a Description, some Example Code, and links to other relevant infos (See Also section). 
 
