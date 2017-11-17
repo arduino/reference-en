@@ -7,8 +7,7 @@ Thank you for taking the time to contribute to Arduino content, this is really h
 
 == Content Creation and Editing
 If you want to contribute new content, asdasdasdascreate a new file (with any text or code editor) and save it as .adoc.  
-Do not use parenthesis or any special character in the file name.  
-
+Do not use parent
 
 If you want to contribute to the Language Reference or edit existing content, you can find two templates in reference-en/AsciiDoc_sample/Reference_Terms:
 
