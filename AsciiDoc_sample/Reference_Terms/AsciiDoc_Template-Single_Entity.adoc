@@ -1,6 +1,6 @@
 ---
 title: Entity Title
-title_expanded: Less Than or Equal To
+title_expanded: Less Than orasdasdaasdas Equal To
 categories: [ "Structure" ]
 subCategories: [ "Subcategory Name" ]
 ---
