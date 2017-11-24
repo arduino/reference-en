@@ -30,7 +30,7 @@ Conversely, it can occasionally be useful to use pseudo-random sequences that re
 
 [float]
 === Parameters
-`long`, `int` - pass a number to generate the seed.
+`seed` - pass a number to initialize the pseudo-random sequence (long).
 
 [float]
 === Returns
