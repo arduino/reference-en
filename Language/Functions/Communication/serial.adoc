@@ -1,14 +1,10 @@
 ---
-title: serial
+title: Serial
 categories: [ "Functions" ]
 subCategories: [ "Communication" ]
 ---
 
-
-
-
-= Serial()
-
+= Serial
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -16,7 +12,7 @@ subCategories: [ "Communication" ]
 
 [float]
 === Description
-Used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART): Serial. It communicates on digital pins 0 (RX) and 1 (TX) as well as with the computer via USB. Thus, if you use these functions, you cannot also use pins 0 and 1 for digital input or output. +
+Used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART): `Serial`. It communicates on digital pins 0 (RX) and 1 (TX) as well as with the computer via USB. Thus, if you use these functions, you cannot also use pins 0 and 1 for digital input or output. +
 You can use the Arduino environment's built-in serial monitor to communicate with an Arduino board. Click the serial monitor button in the toolbar and select the same baud rate used in the call to `begin()`.
 [%hardbreaks]
 Serial communication on pins TX/RX uses TTL logic levels (5V or 3.3V depending on the board). Don't connect these pins directly to an RS232 serial port; they operate at +/- 12V and can damage your Arduino board.
@@ -39,7 +35,7 @@ The *Arduino Leonardo* board uses `Serial1` to communicate via TTL (5V) serial o
 
 [float]
 === Functions
-link:../serial/ifserial[If] (Serial) +
+link:../serial/ifserial[if(Serial)]  +
 link:../serial/available[available()] +
 link:../serial/availableforwrite[availableForWrite()] +
 link:../serial/begin[begin()] +
@@ -64,7 +60,6 @@ link:../serial/serialevent[serialEvent()]
 --
 // FUNCTIONS SECTION ENDS
 
-
 // SEEALSO SECTION STARTS
 [#see_also]
 --
@@ -80,7 +75,6 @@ link:../serial/serialevent[serialEvent()]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/PhysicalPixel[Physical Pixel^]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/SerialCallResponse[Serial Call Response^]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/SerialCallResponseASCII[Serial Call Response ASCII^]
-
 
 --
 // SEEALSO SECTION ENDS
