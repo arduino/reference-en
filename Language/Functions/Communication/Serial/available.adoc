@@ -2,9 +2,6 @@
 title: Serial.available()
 ---
 
-
-
-
 = available()
 
 
@@ -31,7 +28,7 @@ _Arduino Mega only:_
 
 [float]
 === Parameters
-Nothing
+None
 
 [float]
 === Returns
@@ -39,12 +36,13 @@ The number of bytes available to read .
 --
 // OVERVIEW SECTION ENDS
 
-
-
-
 // HOW TO USE SECTION STARTS
 [#howtouse]
 --
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+The following code returns a character received through the serial port. 
 
 [source,arduino]
 ----
@@ -56,7 +54,7 @@ void setup() {
 
 void loop() {
 
-	// send data only when you receive data:
+	// reply only when you receive data:
 	if (Serial.available() > 0) {
 		// read the incoming byte:
 		incomingByte = Serial.read();
@@ -70,6 +68,8 @@ void loop() {
 [%hardbreaks]
 
 *Arduino Mega example:*
+This code sends data received in one serial port of the Arduino Mega to another. This can be used, for example, to connect a serial device to the computer through the Arduino board.
+
 [source,arduino]
 ----
 void setup() {
