@@ -1,4 +1,4 @@
-﻿---
+---
 title: "+="
 title_expanded: append
 categories: [ "Data Types" ]
