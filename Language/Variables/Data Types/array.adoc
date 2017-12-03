@@ -18,6 +18,7 @@ subCategories: [ "Data Types" ]
 [float]
 === Description
 An array is a collection of variables that are accessed with an index number. Arrays in the C programming language, on which Arduino is based, can be complicated, but using simple arrays is relatively straightforward.
+[float]
 === Creating (Declaring) an Array
 
 All of the methods below are valid ways to create (declare) an array.
