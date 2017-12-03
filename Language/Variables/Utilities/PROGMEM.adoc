@@ -29,7 +29,7 @@ PROGMEM is part of the http://www.nongnu.org/avr-libc/user-manual/group\__avr__p
 
 [float]
 === Syntax
-const dataType variableName[] PROGMEM = {data0, data1, data3...};`
+const dataType variableName[] PROGMEM = {data0, data1, data3...};
 
 `dataType` - any variable type
 `variableName` - the name for your array of data
