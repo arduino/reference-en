@@ -1,5 +1,5 @@
 ---
-title: unsignedLong
+title: unsigned long
 categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---

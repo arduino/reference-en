@@ -1,5 +1,5 @@
 ---
-title: unsignedChar
+title: unsigned char
 categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---

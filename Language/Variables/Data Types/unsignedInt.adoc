@@ -1,5 +1,5 @@
 ---
-title: unsignedInt
+title: unsigned int
 categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
