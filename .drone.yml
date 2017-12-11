@@ -7,3 +7,4 @@ pipeline:
       - bcmi-labs/reference
     when:
       branch: [master]
+      event: push
