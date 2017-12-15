@@ -19,11 +19,27 @@ subCategories: [ "Analog I/O" ]
 === Description
 Configures the reference voltage used for analog input (i.e. the value used as the top of the input range). The options are:
 
+Arduino AVR Boards (Uno, Mega, etc.)
+
 * DEFAULT: the default analog reference of 5 volts (on 5V Arduino boards) or 3.3 volts (on 3.3V Arduino boards)
 * INTERNAL: an built-in reference, equal to 1.1 volts on the ATmega168 or ATmega328P and 2.56 volts on the ATmega8 (not available on the Arduino Mega)
 * INTERNAL1V1: a built-in 1.1V reference (Arduino Mega only)
 * INTERNAL2V56: a built-in 2.56V reference (Arduino Mega only)
 * EXTERNAL: the voltage applied to the AREF pin (0 to 5V only) is used as the reference.
+
+Arduino SAMD Boards (Zero, etc.)
+
+* AR_DEFAULT: the default analog reference of 3.3V
+* AR_INTERNAL: a built-in 2.23V reference
+* AR_INTERNAL1V0: a built-in 1.0V reference
+* AR_INTERNAL1V65: a built-in 1.65V reference
+* AR_INTERNAL2V23: a built-in 2.23V reference
+* AR_EXTERNAL: the voltage applied to the AREF pin is used as the reference
+
+Arduino SAM Boards (Due)
+
+* AR_DEFAULT: the default analog reference of 3.3V. This is the only supported option for the Due.
+
 [%hardbreaks]
 
 
@@ -34,7 +50,7 @@ Configures the reference voltage used for analog input (i.e. the value used as t
 
 [float]
 === Parameters
-`type`: which type of reference to use (DEFAULT, INTERNAL, INTERNAL1V1, INTERNAL2V56, or EXTERNAL).
+`type`: which type of reference to use (see list of options in the description).
 
 [float]
 === Returns
