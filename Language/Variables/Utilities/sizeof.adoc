@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Utilities" ]
 ---
 
-
-
-
-
 = sizeof
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -32,13 +27,10 @@ The sizeof operator returns the number of bytes in a variable type, or the numbe
 
 [float]
 === Returns
-Nothing
+The number of bytes in a variable or bytes occupied in an array. (size_t)
 
 --
 // OVERVIEW SECTION ENDS
-
-
-
 
 // HOW TO USE SECTION STARTS
 [#howtouse]
