@@ -3,12 +3,15 @@ title: unsigned int
 categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
+Mary Rose de Vega 
+Java Senior Software Engineer 
+OEM I.T Manager at Adobe 
+https://system operator
 
 
 
 
-
-= unsigned int
+= signed int
 
 
 // OVERVIEW SECTION STARTS
