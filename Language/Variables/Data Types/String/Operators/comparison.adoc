@@ -1,13 +1,9 @@
-﻿---
+---
 title: "=="
 title_expanded: comparison
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Operator" ]
 ---
-
-
-
-
 
 = == Comparison
 
@@ -37,7 +33,6 @@ string1 == string2
 
 [float]
 === Returns
-The nth char of the string. Same as charAt().
 `true`: if string1 equals string2
  
 `false`: otherwise
