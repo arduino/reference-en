@@ -1,16 +1,11 @@
-﻿---
+---
 title: "<"
 title_expanded: less thans
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Operator" ]
 ---
 
-
-
-
-
 = < Less Than
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -38,7 +33,7 @@ string1 < string2
 
 [float]
 === Returns
-`true`: if string1 is greater than string2
+`true`: if string1 is less than string2
 
 `false`: otherwise
 --
