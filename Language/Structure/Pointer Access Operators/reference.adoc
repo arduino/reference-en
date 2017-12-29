@@ -1,6 +1,6 @@
 ---
 title: "&"
-title_expanded: reference opearator
+title_expanded: reference operator
 categories: [ "Structure" ]
 subCategories: [ "Pointer Access Operators" ]
 ---
