@@ -29,12 +29,13 @@ Arduino AVR Boards (Uno, Mega, etc.)
 
 Arduino SAMD Boards (Zero, etc.)
 
-* AR_DEFAULT: the default analog reference of 3.3V
-* AR_INTERNAL: a built-in 2.23V reference
-* AR_INTERNAL1V0: a built-in 1.0V reference
-* AR_INTERNAL1V65: a built-in 1.65V reference
-* AR_INTERNAL2V23: a built-in 2.23V reference
+* AR_DEFAULT: the default analog reference of 3.3V (VDDANA)
+* AR_INTERNAL: 1/1.48 VDDANA (only for VDDANA > 2.0V) = 2.23V reference in a 3.3V system
+* AR_INTERNAL1V0: a built-in 1.0V reference -> use this to measure your battery voltage!
+* AR_INTERNAL1V65: 1/2 VDDANA = 1.65V reference in a 3.3 V system
+* AR_INTERNAL2V23: 1/1.48 VDDANA (only for VDDANA > 2.0V) = 2.23V reference in a 3.3V system
 * AR_EXTERNAL: the voltage applied to the AREF pin is used as the reference
+(For Details see Atmel SAMD21 Data sheet, 32.8.2 Reference Control)
 
 Arduino SAM Boards (Due)
 
