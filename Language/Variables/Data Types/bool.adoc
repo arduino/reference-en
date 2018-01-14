@@ -1,0 +1,80 @@
+---
+title: bool
+categories: [ "Variables" ]
+subCategories: [ "Data Types" ]
+---
+
+
+
+
+
+= bool
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+A `bool` holds one of two values, `true` or `false`. (Each `bool` variable occupies one byte of memory.)
+
+
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+This code shows how to use the `bool` datatype.
+
+[source,arduino]
+----
+int LEDpin = 5;       // LED on pin 5
+int switchPin = 13;   // momentary switch on 13, other side connected to ground
+
+bool running = false;
+
+void setup()
+{
+  pinMode(LEDpin, OUTPUT);
+  pinMode(switchPin, INPUT);
+  digitalWrite(switchPin, HIGH);      // turn on pullup resistor
+}
+
+void loop()
+{
+  if (digitalRead(switchPin) == LOW)
+  {  // switch is pressed - pullup keeps pin high normally
+    delay(100);                        // delay to debounce switch
+    running = !running;                // toggle running variable
+    digitalWrite(LEDpin, running);     // indicate via LED
+  }
+}
+----
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION STARTS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:../../../variables/constants/constants[constants]
+
+--
+// SEE ALSO SECTION ENDS
