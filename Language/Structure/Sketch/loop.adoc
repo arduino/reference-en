@@ -37,7 +37,7 @@ int buttonPin = 3;
 // setup initializes serial and the button pin
 void setup()
 {
-  beginSerial(9600);
+  Serial.begin(9600);
   pinMode(buttonPin, INPUT);
 }
 
@@ -46,9 +46,9 @@ void setup()
 void loop()
 {
   if (digitalRead(buttonPin) == HIGH)
-    serialWrite('H');
+    Serial.write('H');
   else
-    serialWrite('L');
+    Serial.write('L');
 
   delay(1000);
 }
