@@ -61,7 +61,7 @@ There are several ways to do this:
 // toggles LED when interrupt pin changes state
 
 int pin = 13;
-volatile int state = LOW;
+volatile byte state = LOW;
 
 void setup()
 {
@@ -85,7 +85,7 @@ void blink()
 [source,arduino]
 ----
 #include <util/atomic.h> // this library includes the ATOMIC_BLOCK macro.
-volatile int input_from_interrupt
+volatile int input_from_interrupt;
 
   ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
      // code with interrupts blocked (consecutive atomic operations will not get interrupted)
