@@ -85,10 +85,11 @@ void blink()
 [source,arduino]
 ----
 #include <util/atomic.h> // this library includes the ATOMIC_BLOCK macro.
-
+volatile int input_from_interrupt
 
   ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
      // code with interrupts blocked (consecutive atomic operations will not get interrupted)
+     int result = input_from_interrupt;
    }
 
 ----
