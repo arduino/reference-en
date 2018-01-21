@@ -61,7 +61,32 @@ unsigned int x;
    x = x + 1;       // x now contains 0 - rolls over
 ----
 
+Math with unsigned variables may produce unexpected results, even if your unsigned variable never rolls over.
 
+The MCU applies the following rules:
+
+The calculation is done in the scope of the destination variable. E.g. if the destination variable is signed, it will do signed math, even if both input variables are unsigned.
+
+However with a calculation which requires an intermediate result, the scope of the intermediate result is unspecified by the code. In this case, the MCU will do unsigned math for the intermediate result, because both inputs are unsigned!
+
+
+[source,arduino]
+----
+unsigned int x=5;
+unsigned int y=10;
+int result;
+
+   result = x - y; // 5 - 10 = -5, as expected
+   result = (x - y)/2; // 5 - 10 in unsigned math is 65530!  65530/2 = 32765 
+   
+   // solution: use signed variables, or do the calculation step by step.
+   result = x - y; // 5 - 10 = -5, as expected
+   result = result / 2; //  -5/2 = -2 (only integer math, decimal places are dropped)
+----
+Why use unsigned variables at all?
+
+- The rollover behaviour is desired, e.g. counters
+- The signed variable is a bit too small, but you want to avoid the memory and speed loss of long/float.
 --
 // HOW TO USE SECTION ENDS
 
