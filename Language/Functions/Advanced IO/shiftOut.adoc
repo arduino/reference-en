@@ -17,7 +17,7 @@ Shifts out a byte of data one bit at a time. Starts from either the most (i.e. t
 
 Note- if you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the call to `shiftOut()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
 
-This is a software implementation; see also the linkhttps://www.arduino.cc/en/Reference/SPI[SPI library], which provides a hardware implementation that is faster but works only on specific pins.
+This is a software implementation; see also the https://www.arduino.cc/en/Reference/SPI[SPI library], which provides a hardware implementation that is faster but works only on specific pins.
 [%hardbreaks]
 
 
@@ -54,7 +54,7 @@ Nothing
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-For accompanying circuit, see the http://arduino.cc/en/Tutorial/ShiftOut[tutorial on controlling a 74HC595 shift register].
+For accompanying circuit, see the https://arduino.cc/en/Tutorial/ShiftOut[tutorial on controlling a 74HC595 shift register].
 
 [source,arduino]
 ----
