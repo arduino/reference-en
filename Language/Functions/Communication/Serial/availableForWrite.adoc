@@ -35,7 +35,7 @@ Nothing
 
 [float]
 === Returns
-The number of bytes available to read .
+The number of bytes available to write.
 --
 // OVERVIEW SECTION ENDS
 
