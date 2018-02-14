@@ -120,7 +120,7 @@ String stringOne =  String(5.698, 3);                                // using a 
 * #LANGUAGE# link:../string/functions/replace[replace()]
 * #LANGUAGE# link:../string/functions/reserve[reserve()]
 * #LANGUAGE# link:../string/functions/setcharat[setCharAt()]
-* #LANGUAGE# link:../string/functions/startswith[StartsWith()]
+* #LANGUAGE# link:../string/functions/startswith[startsWith()]
 * #LANGUAGE# link:../string/functions/substring[substring()]
 * #LANGUAGE# link:../string/functions/tochararray[toCharArray()]
 * #LANGUAGE# link:../string/functions/toint[toInt()]
