@@ -108,7 +108,7 @@ myByte ^= B00000011 == B10101001;
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../../bitwise-operators/bitwisexor[& Bitwise XOR]
+* #LANGUAGE#  link:../../bitwise-operators/bitwisexor[^ Bitwise XOR]
 
 --
 // SEE ALSO SECTION ENDS

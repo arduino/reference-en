@@ -5,10 +5,6 @@ categories: [ "Structure" ]
 subCategories: [ "Compound Operators" ]
 ---
 
-
-
-
-
 = |= Compound Bitwise OR
 
 
@@ -112,7 +108,7 @@ myByte |= B00000011 == B10101011;
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../../bitwise-operators/bitwiseor[& Bitwise OR]
+* #LANGUAGE#  link:../../bitwise-operators/bitwiseor[| Bitwise OR]
 
 --
 // SEE ALSO SECTION ENDS
