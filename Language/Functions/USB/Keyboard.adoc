@@ -16,7 +16,7 @@ subCategories: [ "USB" ]
 
 [float]
 === Description
-The keyboard functions enable a 32u4 or SAMD micro based boards to send keystrokes to an attached computer through their micro's native USB port.
+The keyboard functions enable 32u4 or SAMD micro based boards to send keystrokes to an attached computer through their micro's native USB port.
 [%hardbreaks]
 *Note: Not every possible ASCII character, particularly the non-printing ones, can be sent with the Keyboard library.* +
 The library supports the use of modifier keys. Modifier keys change the behavior of another key when pressed simultaneously. link:../keyboard/keyboardmodifiers[See here] for additional information on supported keys and their use.

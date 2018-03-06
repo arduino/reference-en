@@ -18,7 +18,7 @@ subCategories: [ "USB" ]
 
 [float]
 === Description
-The mouse functions enable a 32u4 or SAMD micro based boards to to control cursor movement on a connected computer through their micro's native USB port. When updating the cursor position, it is always relative to the cursor's previous location.
+The mouse functions enable 32u4 or SAMD micro based boards to control cursor movement on a connected computer through their micro's native USB port. When updating the cursor position, it is always relative to the cursor's previous location.
 [%hardbreaks]
 --
 // OVERVIEW SECTION ENDS
