@@ -17,7 +17,7 @@ subCategories: [ "StringObject Function" ]
 
 [float]
 === Description
-Converts a valid String to an integer. The input string should start with an integer number. If the string contains non-integer numbers, the function will stop performing the conversion.
+Converts a valid String to an integer. The input String should start with an integer number. If the String contains non-integer numbers, the function will stop performing the conversion.
 
 [%hardbreaks]
 
@@ -38,7 +38,7 @@ string.toInt()
 === Returns
 `long`
 
-If no valid conversion could be performed because the string doesn't start with a integer number, a zero is returned.
+If no valid conversion could be performed because the String doesn't start with a integer number, a zero is returned.
 
 --
 // OVERVIEW SECTION ENDS
