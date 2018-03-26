@@ -17,7 +17,7 @@ subCategories: [ "StringObject Function" ]
 
 [float]
 === Description
-Compares two strings for equality. The comparison is not case-sensitive, meaning the String("hello") is equal to the String("HELLO").
+Compares two Strings for equality. The comparison is not case-sensitive, meaning the String("hello") is equal to the String("HELLO").
 
 [%hardbreaks]
 
