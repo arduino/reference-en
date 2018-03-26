@@ -17,7 +17,7 @@ subCategories: [ "StringObject Function" ]
 
 [float]
 === Description
-Get a lower-case version of a String. As of 1.0, toLowerCase() modifies the string in place rather than returning a new one.
+Get a lower-case version of a String. As of 1.0, toLowerCase() modifies the String in place rather than returning a new one.
 
 [%hardbreaks]
 
