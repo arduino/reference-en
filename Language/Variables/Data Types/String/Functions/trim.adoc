@@ -17,7 +17,7 @@ subCategories: [ "StringObject Function" ]
 
 [float]
 === Description
-Get a version of the String with any leading and trailing whitespace removed. As of 1.0, trim() modifies the string in place rather than returning a new one.
+Get a version of the String with any leading and trailing whitespace removed. As of 1.0, trim() modifies the String in place rather than returning a new one.
 
 [%hardbreaks]
 
