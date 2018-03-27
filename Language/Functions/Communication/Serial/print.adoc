@@ -19,7 +19,7 @@ Prints data to the serial port as human-readable ASCII text. This command can ta
 * `Serial.print(78) gives "78"` +
 * `Serial.print(1.23456) gives "1.23"` +
 * `Serial.print('N') gives "N"` +
-* `Serial.print("Hello world.") gives "Hello world." `
+* `Serial.print("Hello world.") gives "Hello world."`
 
 An optional second parameter specifies the base (format) to use; permitted values are `BIN(binary, or base 2)`, `OCT(octal, or base 8)`, `DEC(decimal, or base 10)`, `HEX(hexadecimal, or base 16)`. For floating point numbers, this parameter specifies the number of decimal places to use. For example-
 
@@ -94,13 +94,13 @@ void loop() {
   Serial.print("\t");
 
   Serial.print("BIN");
-  Serial.print("\t");
+  Serial.println("");              // prints a carriage return
 
   for(x=0; x< 64; x++){    // only part of the ASCII chart, change to suit
 
     // print it out in many formats:
     Serial.print(x);       // print as an ASCII-encoded decimal - same as "DEC"
-    Serial.print("\t");    // prints a tab
+    Serial.print("\t\t");  // prints two tabs to line up columns with headers
 
     Serial.print(x, DEC);  // print as an ASCII-encoded decimal
     Serial.print("\t");    // prints a tab
