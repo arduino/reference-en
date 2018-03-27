@@ -18,7 +18,7 @@ subCategories: [ "StringObject Operator" ]
 
 [float]
 === Description
-Compares two strings for difference. The comparison is case-sensitive, meaning the String "hello" is not equal to the String "HELLO". Functionally the same as string.equals()
+Compares two Strings for difference. The comparison is case-sensitive, meaning the String "hello" is not equal to the String "HELLO". Functionally the same as string.equals()
 
 [%hardbreaks]
 
@@ -32,7 +32,7 @@ string1 != string2
 
 [float]
 === Parameters
-`string1, string2` - a string variable
+`string1, string2` - a String variable
 
 [float]
 === Returns
