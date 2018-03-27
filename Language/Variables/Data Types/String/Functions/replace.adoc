@@ -17,7 +17,7 @@ subCategories: [ "StringObject Function" ]
 
 [float]
 === Description
-The String replace() function allows you to replace all instances of a given character with another character. You can also use replace to replace substrings of a string with a different substring.
+The String replace() function allows you to replace all instances of a given character with another character. You can also use replace to replace substrings of a String with a different substring.
 
 [%hardbreaks]
 
