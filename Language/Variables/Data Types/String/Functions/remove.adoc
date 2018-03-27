@@ -17,7 +17,7 @@ subCategories: [ "StringObject Function" ]
 
 [float]
 === Description
-Modify in place a string removing chars from the provided index to the end of the string or from the provided index to index plus count.
+Modify in place a String removing chars from the provided index to the end of the String or from the provided index to index plus count.
 
 [%hardbreaks]
 
