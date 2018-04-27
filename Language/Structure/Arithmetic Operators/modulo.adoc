@@ -1,6 +1,6 @@
 ---
 title: "%"
-title_expanded: "modulo"
+title_expanded: "remainder"
 categories: [ "Structure" ]
 subCategories: [ "Arithmetic Operators" ]
 ---
@@ -9,7 +9,7 @@ subCategories: [ "Arithmetic Operators" ]
 
 
 
-= % Modulo
+= % Remainder
 
 
 // OVERVIEW SECTION STARTS
@@ -18,7 +18,7 @@ subCategories: [ "Arithmetic Operators" ]
 
 [float]
 === Description
-*Modulo* operation calculates the remainder when one integer is divided by another. It is useful for keeping a variable within a particular range (e.g. the size of an array). The `%` (percent) symbol is used to carry out modulo operation.
+*Remainder* operation calculates the remainder when one integer is divided by another. It is useful for keeping a variable within a particular range (e.g. the size of an array). The `%` (percent) symbol is used to carry out remainder operation.
 [%hardbreaks]
 
 
@@ -55,6 +55,8 @@ x = 7 % 5;    // x now contains 2
 x = 9 % 5;    // x now contains 4
 x = 5 % 5;    // x now contains 0
 x = 4 % 5;    // x now contains 4
+x = -4 % 5;   // x now contains -4
+x = 4 % -5;   // x now contains 4
 ----
 
 [source,arduino]
@@ -69,14 +71,17 @@ void setup() {}
 void loop()
 {
   values[i] = analogRead(0);
-  i = (i + 1) % 10;   // modulo operator rolls over variable
+  i = (i + 1) % 10;   // remainder operator rolls over variable
 }
 ----
 [%hardbreaks]
 
 [float]
 === Notes and Warnings
-The modulo operator does not work on floats.
+1. The remainder operator does not work on floats.
+
+2. If the *first* operand is negative, the result is negative (or zero).
+Therefore, the result of `x % 10` will not always be between 0 and 9 if `x` can be negative.
 [%hardbreaks]
 
 --
