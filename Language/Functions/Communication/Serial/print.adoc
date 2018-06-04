@@ -71,18 +71,16 @@ To send data without conversion to its representation as characters, use link:..
 [source,arduino]
 ----
 /*
-Uses a FOR loop for data and prints a number in various formats.
+Uses a for loop to print numbers in various formats.
 */
-int x = 0;    // variable
-
 void setup() {
   Serial.begin(9600);      // open the serial port at 9600 bps:
 }
 
 void loop() {
   // print labels
-  Serial.print("NO FORMAT");       // prints a label
-  Serial.print("\t");              // prints a tab
+  Serial.print("NO FORMAT");  // prints a label
+  Serial.print("\t");      // prints a tab
 
   Serial.print("DEC");
   Serial.print("\t");
@@ -94,10 +92,9 @@ void loop() {
   Serial.print("\t");
 
   Serial.print("BIN");
-  Serial.println("\t");           // carriage return after the last label 
+  Serial.println();        // carriage return after the last label
 
-  for(x=0; x< 64; x++){    // only part of the ASCII chart, change to suit
-
+  for (int x = 0; x < 64; x++) { // only part of the ASCII chart, change to suit
     // print it out in many formats:
     Serial.print(x);       // print as an ASCII-encoded decimal - same as "DEC"
     Serial.print("\t\t");  // prints two tabs to accomodate the label lenght
@@ -112,10 +109,10 @@ void loop() {
     Serial.print("\t");    // prints a tab
 
     Serial.println(x, BIN);  // print as an ASCII-encoded binary
-    //                             then adds the carriage return with "println"
+    // then adds the carriage return with "println"
     delay(200);            // delay 200 milliseconds
   }
-  Serial.println("");      // prints another carriage return
+  Serial.println();        // prints another carriage return
 }
 ----
 [%hardbreaks]
