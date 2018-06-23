@@ -44,7 +44,7 @@ Nothing
 
 [float]
 === Returns
-`boolean` : returns true if the specified serial port is available. This will only return false if querying the Leonardo's USB CDC serial connection before it is ready.
+`bool` : returns true if the specified serial port is available. This will only return false if querying the Leonardo's USB CDC serial connection before it is ready.
 
 --
 // OVERVIEW SECTION ENDS

@@ -60,23 +60,25 @@ For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gam
 
 [float]
 === Syntax
-`attachInterrupt(digitalPinToInterrupt(pin), ISR, mode);`	(recommended) +
-`attachInterrupt(interrupt, ISR, mode);`	(not recommended) + 
-`attachInterrupt(pin, ISR, mode);`	(not recommended Arduino Due, Zero, MKR1000, 101 only)
+`attachInterrupt(digitalPinToInterrupt(pin), ISR, mode);` (recommended) +
+`attachInterrupt(interrupt, ISR, mode);` (not recommended) +
+`attachInterrupt(pin, ISR, mode);` (not recommended Arduino Due, Zero, MKR1000, 101 only)
 
 
 [float]
 === Parameters
-`interrupt`: 	the number of the interrupt (`int`) +
-`pin`: 	      the pin number 	            _(Arduino Due, Zero, MKR1000 only)_ +
-`ISR`: 	      the ISR to call when the interrupt occurs; this function must take no parameters and return nothing. This function is sometimes referred to as an interrupt service routine. +
-`mode`: 	     defines when the interrupt should be triggered. Four constants are predefined as valid values: +
+`interrupt`: the number of the interrupt (`int`) +
+`pin`: the pin number _(Arduino Due, Zero, MKR1000 only)_ +
+`ISR`: the ISR to call when the interrupt occurs; this function must take no parameters and return nothing. This function is sometimes referred to as an interrupt service routine. +
+`mode`: defines when the interrupt should be triggered. Four constants are predefined as valid values: +
 
 * *LOW* to trigger the interrupt whenever the pin is low, +
 * *CHANGE* to trigger the interrupt whenever the pin changes value +
 * *RISING* to trigger when the pin goes from low to high, +
 * *FALLING* for when the pin goes from high to low. +
- The Due, Zero and MKR1000 boards allows also: +
+
+The Due, Zero and MKR1000 boards allows also: +
+
 * *HIGH* to trigger the interrupt whenever the pin is high.
 
 [float]
@@ -126,10 +128,10 @@ Note that in the table below, the interrupt numbers refer to the number to be pa
 
 [options="header"]
 |===================================================
-|Board                          | int.0   | int.1   | int.2   | int.3   | int.4   | int.5
-|Uno, Ethernet                  | 2 | 3 | | | |
-|Mega2560                       | 2 | 3 | 21 | 20 | 19 | 18
-|32u4 based (e.g Leonardo, Micro) | 3 | 2 | 0 | 1 | 7 | 
+|Board                            | int.0 | int.1 | int.2 | int.3 | int.4 | int.5
+|Uno, Ethernet                    | 2 | 3 | | | |
+|Mega2560                         | 2 | 3 | 21 | 20 | 19 | 18
+|32u4 based (e.g Leonardo, Micro) | 3 | 2 | 0 | 1 | 7 |
 |===================================================
 For Due, Zero, MKR1000 and 101 boards the *interrupt number = pin number*.
 

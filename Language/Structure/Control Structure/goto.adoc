@@ -46,7 +46,7 @@ goto label; // sends program flow to the label
 [source,arduino]
 ----
 for(byte r = 0; r < 255; r++){
-    for(byte g = 255; g > -1; g--){
+    for(byte g = 255; g > 0; g--){
         for(byte b = 0; b < 255; b++){
             if (analogRead(0) > 250){ goto bailout;}
             // more statements ...
