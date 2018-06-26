@@ -98,5 +98,10 @@ long map(long x, long in_min, long in_max, long out_min, long out_max)
 }
 ----
 
+[float]
+=== Notes & Warnings
+
+As previously mentioned, the map() function uses integer math. So fractions might get suppressed due to this. For example, fractions like 3/2, 4/3, 5/4 will all be returned as 1 from the map() function, despite their different actual values. So if your project requires precise calculations (e.g. voltage accurate to 3 decimal places), please consider avoiding map() and implementing the calculations manually in your code yourself.
+
 --
 // HOW TO USE SECTION ENDS
