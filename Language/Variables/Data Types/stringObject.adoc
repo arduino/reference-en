@@ -26,7 +26,7 @@ Constructs an instance of the String class. There are multiple versions that con
 * a constant integer or long integer, using a specified base
 * an integer or long integer variable
 * an integer or long integer variable, using a specified base
-* a float or double, using a specified decimal palces
+* a float or double, using a specified decimal places
 
 Constructing a String from a number results in a string that contains the ASCII representation of that number. The default is base ten, so
 [source,arduino]
