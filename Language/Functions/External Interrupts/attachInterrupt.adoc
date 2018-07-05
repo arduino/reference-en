@@ -25,10 +25,11 @@ The first parameter to attachInterrupt is an interrupt number. Normally you shou
 |===================================================
 |Board                             |Digital Pins Usable For Interrupts
 |Uno, Nano, Mini, other 328-based  |2, 3
+|Uno WiFi Rev.2                    |all digital pins                   
 |Mega, Mega2560, MegaADK           |2, 3, 18, 19, 20, 21
 |Micro, Leonardo, other 32u4-based |0, 1, 2, 3, 7
 |Zero                              |all digital pins, except 4
-|MKR1000 Rev.1                     |0, 1, 4, 5, 6, 7, 8, 9, A1, A2
+|MKR Family boards                 |0, 1, 4, 5, 6, 7, 8, 9, A1, A2
 |Due                               |all digital pins
 |101                               |all digital pins (Only pins 2, 5, 7, 8, 10, 11, 12, 13 work with *CHANGE*)
 |===================================================
@@ -133,7 +134,7 @@ Note that in the table below, the interrupt numbers refer to the number to be pa
 |Mega2560                         | 2 | 3 | 21 | 20 | 19 | 18
 |32u4 based (e.g Leonardo, Micro) | 3 | 2 | 0 | 1 | 7 |
 |===================================================
-For Due, Zero, MKR1000 and 101 boards the *interrupt number = pin number*.
+For Uno WiFiRev.2, Due, Zero, MKR Family and 101 boards the *interrupt number = pin number*.
 
 
 --
