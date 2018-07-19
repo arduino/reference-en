@@ -1,4 +1,4 @@
-﻿---
+---
 title: "isPunct()"
 categories: [ "Functions" ]
 subCategories: [ "Characters" ]
