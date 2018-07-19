@@ -1,4 +1,4 @@
-﻿---
+---
 title: "isGraph()"
 categories: [ "Functions" ]
 subCategories: [ "Characters" ]
