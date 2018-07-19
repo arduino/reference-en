@@ -1,4 +1,4 @@
-﻿---
+---
 title: "isSpace()"
 categories: [ "Functions" ]
 subCategories: [ "Characters" ]
