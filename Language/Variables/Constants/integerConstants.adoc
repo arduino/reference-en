@@ -101,7 +101,7 @@ It is possible to generate a hard-to-find bug by (unintentionally) including a l
 
 [float]
 == Hexadecimal (base 16)
-Valid characters are 0 through 9 and letters A through F; A has the value 10, B is 11, up to F, which is 15. Hex values are indicated by the prefix "0x". Note that A-F may be syted in upper or lower case (a-f).
+Valid characters are 0 through 9 and letters A through F; A has the value 10, B is 11, up to F, which is 15. Hex values are indicated by the prefix "0x". Note that A-F may be upper (A-F) or lower case (a-f).
 
 [float]
 === Example  Code:
