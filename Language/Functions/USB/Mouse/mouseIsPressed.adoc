@@ -64,7 +64,7 @@ void setup(){
   //The switch that will terminate the Mouse press
   pinMode(3,INPUT);
   //Start serial communication with the computer
-  Serial1.begin(9600);
+  Serial.begin(9600);
   //initiate the Mouse library
   Mouse.begin();
 }
@@ -83,7 +83,7 @@ void loop(){
     mouseState=Mouse.isPressed();
   }
   //print out the current mouse button state
-  Serial1.println(mouseState);
+  Serial.println(mouseState);
   delay(10);
 }
 ----
