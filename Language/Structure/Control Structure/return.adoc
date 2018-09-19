@@ -33,7 +33,7 @@ return value; // both forms are valid
 
 [float]
 === Parameters
-`value': any variable or constant type
+`value`: any variable or constant type
 
 --
 // OVERVIEW SECTION ENDS
