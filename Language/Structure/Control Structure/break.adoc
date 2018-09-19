@@ -39,7 +39,7 @@ for (x = 0; x < 255; x ++)
 {
     analogWrite(PWMpin, x);
     sens = analogRead(sensorPin);
-    if (sens > threshold){      // bail out on sensor detect
+    if (sens > 40){      // bail out on sensor detect
        x = 0;
        break;
     }
