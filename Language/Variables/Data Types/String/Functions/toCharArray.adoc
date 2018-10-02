@@ -17,7 +17,7 @@ subCategories: [ "StringObject Function" ]
 
 [float]
 === Description
-Copies the string's characters to the supplied buffer.
+Copies the String's characters to the supplied buffer.
 
 [%hardbreaks]
 

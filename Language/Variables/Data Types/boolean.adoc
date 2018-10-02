@@ -17,7 +17,7 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Description
-A `boolean` holds one of two values, `true` or `false`. (Each `boolean` variable occupies one byte of memory.)
+`boolean` is a non-standard type alias for link:../../../variables/data-types/bool/[bool] defined by Arduino. It's recommended to instead use the standard type `bool`, which is identical.
 
 
 [%hardbreaks]
@@ -28,44 +28,6 @@ A `boolean` holds one of two values, `true` or `false`. (Each `boolean` variable
 
 
 
-// HOW TO USE SECTION STARTS
-[#howtouse]
---
-
-[float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-This code shows how to use the `boolean` datatype.
-
-[source,arduino]
-----
-int LEDpin = 5;       // LED on pin 5
-int switchPin = 13;   // momentary switch on 13, other side connected to ground
-
-boolean running = false;
-
-void setup()
-{
-  pinMode(LEDpin, OUTPUT);
-  pinMode(switchPin, INPUT);
-  digitalWrite(switchPin, HIGH);      // turn on pullup resistor
-}
-
-void loop()
-{
-  if (digitalRead(switchPin) == LOW)
-  {  // switch is pressed - pullup keeps pin high normally
-    delay(100);                        // delay to debounce switch
-    running = !running;                // toggle running variable
-    digitalWrite(LEDpin, running);     // indicate via LED
-  }
-}
-----
-
---
-// HOW TO USE SECTION ENDS
-
-
 // SEE ALSO SECTION STARTS
 [#see_also]
 --
@@ -74,7 +36,7 @@ void loop()
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../../variables/constants/constants[constants]
+* #LANGUAGE# link:../../../variables/data-types/bool/[bool]
 
 --
 // SEE ALSO SECTION ENDS

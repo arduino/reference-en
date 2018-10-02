@@ -1,5 +1,5 @@
 ---
-title: serial
+title: Serial
 categories: [ "Functions" ]
 subCategories: [ "Communication" ]
 ---
@@ -55,6 +55,8 @@ link:../serial/println[println()] +
 link:../serial/read[read()] +
 link:../serial/readbytes[readBytes()] +
 link:../serial/readbytesuntil[readBytesUntil()] +
+link:../serial/readstring[readString()] +
+link:../serial/readstringuntil[readStringUntil()] +
 link:../serial/settimeout[setTimeout()] +
 link:../serial/write[write()] +
 link:../serial/serialevent[serialEvent()]

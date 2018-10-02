@@ -37,7 +37,7 @@ The `map()` function uses integer math so will not generate fractions, when the 
 
 [float]
 === Syntax
-
+`map(value, fromLow, fromHigh, toLow, toHigh)`
 
 
 [float]

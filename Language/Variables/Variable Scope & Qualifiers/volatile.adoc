@@ -24,6 +24,21 @@ Declaring a variable volatile is a directive to the compiler. The compiler is so
 Specifically, it directs the compiler to load the variable from RAM and not from a storage register, which is a temporary memory location where program variables are stored and manipulated. Under certain conditions, the value for a variable stored in registers can be inaccurate.
 
 A variable should be declared volatile whenever its value can be changed by something beyond the control of the code section in which it appears, such as a concurrently executing thread. In the Arduino, the only place that this is likely to occur is in sections of code associated with interrupts, called an interrupt service routine.
+
+[float]
+=== int or long volatiles
+If the volatile variable is bigger than a byte (e.g. a 16 bit int or a 32 bit long), then the microcontroller can not read it in one step, because it is an 8 bit microcontroller. This means that while your main code section (e.g. your loop) reads the first 8 bits of the variable, the interrupt might already change the second 8 bits. This will produce random values for the variable.
+
+Remedy:
+
+While the variable is read, interrupts need to be disabled, so they can't mess with the bits, while they are read.
+There are several ways to do this:
+
+1. #LANGUAGE# link:../../../functions/interrupts/nointerrupts[noInterrupts]
+
+2. use the ATOMIC_BLOCK macro. Atomic operations are single MCU operations - the smallest possible unit.
+
+
 [%hardbreaks]
 
 --
@@ -46,7 +61,7 @@ A variable should be declared volatile whenever its value can be changed by some
 // toggles LED when interrupt pin changes state
 
 int pin = 13;
-volatile int state = LOW;
+volatile byte state = LOW;
 
 void setup()
 {
@@ -65,6 +80,21 @@ void blink()
 }
 
 ----
+
+
+[source,arduino]
+----
+#include <util/atomic.h> // this library includes the ATOMIC_BLOCK macro.
+volatile int input_from_interrupt;
+
+  ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
+     // code with interrupts blocked (consecutive atomic operations will not get interrupted)
+     int result = input_from_interrupt;
+   }
+
+----
+
+
 
 --
 // HOW TO USE SECTION ENDS

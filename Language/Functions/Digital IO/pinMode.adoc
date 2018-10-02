@@ -51,7 +51,7 @@ Nothing
 
 [float]
 === Example Code
-The code makes the digital pin 13 `OUTPUT` and Togles it `HIGH` and `LOW`
+The code makes the digital pin 13 `OUTPUT` and Toggles it `HIGH` and `LOW`
 
 //[source,arduino]
 ----
