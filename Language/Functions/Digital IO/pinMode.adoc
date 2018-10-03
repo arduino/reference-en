@@ -53,7 +53,7 @@ Nothing
 === Example Code
 The code makes the digital pin 13 `OUTPUT` and Toggles it `HIGH` and `LOW`
 
-//[source,arduino]
+[source,arduino]
 ----
 void setup()
 {
