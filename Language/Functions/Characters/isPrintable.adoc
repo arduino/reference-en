@@ -1,4 +1,4 @@
-﻿---
+---
 title: "isPrintable()"
 categories: [ "Functions" ]
 subCategories: [ "Characters" ]

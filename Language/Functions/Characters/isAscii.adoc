@@ -1,4 +1,4 @@
-﻿---
+---
 title: "isAscii()"
 categories: [ "Functions" ]
 subCategories: [ "Characters" ]
