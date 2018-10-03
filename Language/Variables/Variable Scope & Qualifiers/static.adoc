@@ -63,7 +63,7 @@ class NumberMagic {
     if (x < lo)
       return lo + (lo - x); // reflect number back in positive direction
     else if (x > hi)
-      return hi - (x - lo); // reflect number back in negative direction
+      return hi - (x - hi); // reflect number back in negative direction
     else
       return x;
   }
