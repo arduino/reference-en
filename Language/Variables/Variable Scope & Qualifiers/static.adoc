@@ -17,7 +17,9 @@ subCategories: [ "Variable Scope & Qualifiers" ]
 
 [float]
 === Description
-The `static` keyword is used to create variables that are visible to only one function. However unlike local variables that get created and destroyed every time a function is called, static variables persist beyond the function call, preserving their data between function calls.
+The `static` keyword limits the visibility of a variable or a function to where it is defined in. A `static` variable declared in a function keeps its values between calls like global variables, but is only visible to the function it is defined in. A `static` function or a `static` variable defined outside of a function is similarly only available to functions in the same file.
+
+In C++ `class` definitions, `static` members take on a different meaning. They are not bound to any instance, and can be used simply with `className::someVariable` or `className::someFunction()`.
 
 Variables declared as static will only be created and initialized the first time a function is called. 
 [%hardbreaks]
@@ -36,50 +38,65 @@ Variables declared as static will only be created and initialized the first time
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
-
 [source,arduino]
 ----
 /* RandomWalk
 * Paul Badger 2007
-* RandomWalk wanders up and down randomly between two
-* endpoints. The maximum move in one loop is governed by
-* the parameter "stepsize".
+* RandomWalk wanders up and down randomly between two endpoints.
+* The maximum move in one loop is governed by the parameter "stepsize".
 * A static variable is moved up and down a random amount.
-* This technique is also known as "pink noise" and "drunken walk".
+* This technique is also known as "Brownian noise" and "drunken walk".
 */
 
-#define randomWalkLowRange -20
-#define randomWalkHighRange 20
-int stepsize;
+// A static global variable, invisible to other files.
+static int total = 0;
+static const int place_min = -20;
+static const int place_max = 20;
+// A static function, invisible to other files.
+static unsigned iabs(int x) { return x < 0 ? -x : x; }
 
-int thisTime;
-int total;
+class NumberMagic {
+  // We read and write this value without dealing with instances.
+  static int wang = 14;
+  // We call this function without dealing with instances.
+  static int adjustLimits(int x, int lo, int hi) {
+    if (x < lo)
+      return lo + (lo - x); // reflect number back in positive direction
+    else if (x > hi)
+      return hi - (x - lo); // reflect number back in negative direction
+    else
+      return x;
+  }
+}
 
 void setup()
 {
   Serial.begin(9600);
 }
 
+// test randomWalk function
 void loop()
-{        //  test randomWalk function
-  stepsize = 5;
-  thisTime = randomWalk(stepsize);
+{        
+  int stepsize = 5;
+  int thisTime = randomWalk(stepsize);
+  Serial.print(total);
+  Serial.print("\t");
   Serial.println(thisTime);
-   delay(10);
+  if (thisTime == NumberMagic::wang) {
+    Serial.println("That's Numberwang!");
+    NumberMagic::wang = random(place_min, place_max + 1);
+  }
+  delay(10);
 }
 
-int randomWalk(int moveSize){
-  static int  place;     // variable to store value in random walk - declared static so that it stores
-                         // values in between function calls, but no other functions can change its value
+int randomWalk(int moveSize) {
+  static int place;     // variable to store value in random walk - declared static so that it stores
+                        // values in between function calls, but no other functions can change its value
+  int step = random(-moveSize, moveSize + 1);
+  place += step;
+  total += iabs(step);
 
-  place = place + (random(-moveSize, moveSize + 1));
-
-  if (place < randomWalkLowRange){                              // check lower and upper limits
-    place = randomWalkLowRange + (randomWalkLowRange - place);  // reflect number back in positive direction
-  }
-  else if(place > randomWalkHighRange){
-    place = randomWalkHighRange - (place - randomWalkHighRange);  // reflect number back in negative direction
-  }
+  NumberMagic::adjustLimits(place, place_min, place_max);
 
   return place;
 }
