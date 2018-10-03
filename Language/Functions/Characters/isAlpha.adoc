@@ -1,4 +1,4 @@
-﻿---
+---
 title: "isAlpha()"
 categories: [ "Functions" ]
 subCategories: [ "Characters" ]
