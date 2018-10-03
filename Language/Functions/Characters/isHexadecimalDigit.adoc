@@ -25,7 +25,9 @@ Analyse if a char is an hexadecimal digit (A-F, 0-9). Returns true if thisChar c
 === Syntax
 [source,arduino]
 ----
-`isHexadecimalDigit(thisChar)`
+
+isHexadecimalDigit(thisChar)
+
 ----
 
 [float]
