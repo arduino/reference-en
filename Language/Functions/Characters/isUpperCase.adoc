@@ -1,12 +1,8 @@
-﻿---
+---
 title: "isUpperCase()"
 categories: [ "Functions" ]
 subCategories: [ "Characters" ]
 ---
-
-
-
-
 
 = isUpperCase(thisChar)
 
@@ -17,7 +13,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is upper case (that is a letter in upper case). Returns true if thisChar is upper case. 
+Analyse if a char is upper case (that is, a letter in upper case). Returns true if thisChar is upper case. 
 [%hardbreaks]
 
 
