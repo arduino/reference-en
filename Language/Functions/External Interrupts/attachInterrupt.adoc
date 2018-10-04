@@ -4,10 +4,6 @@ categories: [ "Functions" ]
 subCategories: [ "External Interrupts" ]
 ---
 
-
-
-
-
 = attachInterrupt()
 
 
@@ -40,7 +36,7 @@ The first parameter to `attachInterrupt()` is an interrupt number. Normally you 
 === Notes and Warnings
 
 *Note* +
-Inside the attached function, `delay()` won't work and the value returned by `millis()` will not increment. Serial data received while in the function may be lost. You should declare as volatile any variables that you modify within the attached function. See the section on ISRs below for more information.
+Inside the attached function, `delay()` won't work and the value returned by `millis()` will not increment. Serial data received while in the function may be lost. You should declare as `volatile` any variables that you modify within the attached function. See the section on ISRs below for more information.
 [%hardbreaks]
 
 [float]
@@ -125,7 +121,7 @@ Normally you should use `digitalPinToInterrupt(pin)`, rather than place an inter
 
 However, older sketches often have direct interrupt numbers. Often number 0 (for digital pin 2) or number 1 (for digital pin 3) were used. The table below shows the available interrupt pins on various boards.
 
-Note that in the table below, the interrupt numbers refer to the number to be passed to `attachInterrupt()`. For historical reasons, this numbering does not always correspond directly to the interrupt numbering on the atmega chip (e.g. int.0 corresponds to INT4 on the Atmega2560 chip).
+Note that in the table below, the interrupt numbers refer to the number to be passed to `attachInterrupt()`. For historical reasons, this numbering does not always correspond directly to the interrupt numbering on the ATmega chip (e.g. int.0 corresponds to INT4 on the ATmega2560 chip).
 
 [options="header"]
 |===================================================
