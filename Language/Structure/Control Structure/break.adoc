@@ -35,6 +35,7 @@ subCategories: [ "Control Structure" ]
 In the following code, the control exits the `for` loop when the sensor value exceeds the threshold.
 [source,arduino]
 ----
+int threshold = 40;
 for (x = 0; x < 255; x ++)
 {
     analogWrite(PWMpin, x);
