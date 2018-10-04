@@ -58,7 +58,7 @@ Nothing
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code makes the digital pin 13 an `OUTPUT` and toggles it by alternating between `HIGH` and `LOW` at one second pace.
 
-//[source,arduino]
+[source,arduino]
 ----
 void setup()
 {

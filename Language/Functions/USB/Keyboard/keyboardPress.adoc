@@ -79,6 +79,7 @@ void loop() {
   Keyboard.releaseAll();
   // wait for new window to open:
   delay(1000);
+}
 ----
 
 --

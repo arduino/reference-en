@@ -1,12 +1,8 @@
-﻿---
+---
 title: "isUpperCase()"
 categories: [ "Functions" ]
 subCategories: [ "Characters" ]
 ---
-
-
-
-
 
 = isUpperCase(thisChar)
 
@@ -17,7 +13,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is upper case (that is a letter in upper case). Returns true if thisChar is upper case. 
+Analyse if a char is upper case (that is, a letter in upper case). Returns true if thisChar is upper case. 
 [%hardbreaks]
 
 
@@ -25,7 +21,7 @@ Analyse if a char is upper case (that is a letter in upper case). Returns true i
 === Syntax
 [source,arduino]
 ----
-`isUpperCase(thisChar)`
+isUpperCase(thisChar)
 ----
 
 [float]
@@ -50,7 +46,7 @@ Analyse if a char is upper case (that is a letter in upper case). Returns true i
 
 [source,arduino]
 ----
-if (isUpperCase(this))      // tests if this is an upeer case letter
+if (isUpperCase(this))      // tests if this is an upper case letter
 {
 	Serial.println("The character is upper case");
 }

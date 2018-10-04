@@ -49,7 +49,7 @@ Reads the value from a specified digital pin, either `HIGH` or `LOW`.
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 Sets pin 13 to the same value as pin 7, declared as an input.
 
-//[source,arduino]
+[source,arduino]
 ----
 int ledPin = 13;   // LED connected to digital pin 13
 int inPin = 7;     // pushbutton connected to digital pin 7
