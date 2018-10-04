@@ -46,11 +46,13 @@ The `condition` is a boolean expression that evaluates to `true` or `false`.
 
 [source,arduino]
 ----
+int x = 0;
+
 do
 {
   delay(50);          // wait for sensors to stabilize
   x = readSensors();  // check the sensors
-
+  x++; 
 } while (x < 100);
 ----
 
