@@ -14,7 +14,7 @@ title: Mouse.release()
 
 [float]
 === Description
-Sends a message that a previously pressed button (invoked through link:../mousepress[Mouse.press()]) is released. Mouse.release() defaults to the left button.
+Sends a message that a previously pressed button (invoked through link:../mousepress[Mouse.press()]) is released. `Mouse.release()` defaults to the left button.
 [%hardbreaks]
 
 
