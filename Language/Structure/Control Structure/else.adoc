@@ -61,7 +61,7 @@ if (temperature >= 70)
 }
 else if (temperature >= 60)
 {
-  // Warning! Thorttle down, run the fans, and notify the user
+  // Warning! Throttle down, run the fans, and notify the user
 }
 else
 {
