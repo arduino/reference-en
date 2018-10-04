@@ -37,6 +37,7 @@ switch (var) {
     break;
   default:
     // statements
+    break;
 }
 ----
 
