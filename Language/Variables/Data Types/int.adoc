@@ -4,10 +4,6 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = int
 
 
@@ -48,11 +44,21 @@ The Arduino takes care of dealing with negative numbers for you, so that arithme
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-
+This code creates an integer called 'countUp', which is initially set as the number 0 (zero). The variable goes up by 1 (one) each loop, being displayed on the serial monitor.
 
 [source,arduino]
 ----
-  int ledPin = 13;
+int countUp = 0;            //creates a variable integer called 'countUp'
+
+void setup() {
+  Serial.begin(9600);       // use the serial port to print the number
+}
+
+void loop() {
+  countUp++;                //Adds 1 to the countUp int on every loop
+  Serial.println(countUp);  // prints out the current state of countUp
+  delay(1000);              
+}
 ----
 [%hardbreaks]
 
