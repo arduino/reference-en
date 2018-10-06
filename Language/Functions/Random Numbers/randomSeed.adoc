@@ -49,7 +49,7 @@ Nothing
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code explanation required.
+The code generates a pseudo-random number and sends the generated number to the serial port. 
 
 [source,arduino]
 ----
