@@ -117,6 +117,8 @@ void printOut1(int c) {
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/playground/Code/BitMath[BitMath Tutorial^]
+* #EXAMPLE2# https://www.youtube.com/watch?v=EVm0qVJ56II
+
 
 --
 //SEE ALSO SECTION ENDS
