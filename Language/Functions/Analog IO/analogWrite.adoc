@@ -99,6 +99,7 @@ The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cy
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/Blink[Blink^]
+* #LINK# https://www.youtube.com/watch?v=L9TeiCDrXU4[PWM_TUTORIAL^]
 
 --
 // SEE ALSO SECTION ENDS
