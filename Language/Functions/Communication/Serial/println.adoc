@@ -76,6 +76,7 @@ void loop() {
 
   // delay 10 milliseconds before the next reading:
   delay(10);
+}
 ----
 
 --
