@@ -25,7 +25,7 @@ Analyse if a char is punctuation (that is a comma, a semicolon, an exlamation ma
 === Syntax
 [source,arduino]
 ----
-`isPunct(thisChar)`
+isPunct(thisChar)
 ----
 
 [float]

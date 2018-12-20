@@ -25,7 +25,7 @@ Analyse if a char is printable (that is any character that produces an output, e
 === Syntax
 [source,arduino]
 ----
-`isPrintable(thisChar)`
+isPrintable(thisChar)
 ----
 
 [float]
