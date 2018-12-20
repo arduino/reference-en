@@ -25,7 +25,7 @@ Analyse if a char is Ascii. Returns true if thisChar contains an Ascii character
 === Syntax
 [source,arduino]
 ----
-`isAscii(thisChar)`
+isAscii(thisChar)
 ----
 
 [float]
