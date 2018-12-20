@@ -25,7 +25,7 @@ Analyse if a char is alphanumeric (that is a letter or a numbers). Returns true 
 === Syntax
 [source,arduino]
 ----
-`isAlphaNumeric(thisChar)`
+isAlphaNumeric(thisChar)
 ----
 
 [float]
