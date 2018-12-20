@@ -25,7 +25,7 @@ Analyse if a char is lower case (that is a letter in lower case). Returns true i
 === Syntax
 [source,arduino]
 ----
-`isLowerCase(thisChar)`
+isLowerCase(thisChar)
 ----
 
 [float]
