@@ -25,7 +25,7 @@ Analyse if a char is the space character. Returns true if thisChar contains the 
 === Syntax
 [source,arduino]
 ----
-`isSpace(thisChar)`
+isSpace(thisChar)
 ----
 
 [float]
