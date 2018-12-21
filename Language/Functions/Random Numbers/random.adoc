@@ -16,6 +16,10 @@ subCategories: [ "Random Numbers" ]
 --
 
 [float]
+=== Prototype
+`long random( long [, long] )`
+
+[float]
 === Description
 The random function generates pseudo-random numbers.
 [%hardbreaks]
