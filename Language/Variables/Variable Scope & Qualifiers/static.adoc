@@ -4,10 +4,6 @@ categories: [ "Variables" ]
 subCategories: [ "Variable Scope & Qualifiers" ]
 ---
 
-
-
-
-
 = Static
 
 
@@ -53,7 +49,6 @@ Variables declared as static will only be created and initialized the first time
 int stepsize;
 
 int thisTime;
-int total;
 
 void setup()
 {
