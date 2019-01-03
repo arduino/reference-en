@@ -2,9 +2,6 @@
 title: Serial.write()
 ---
 
-
-
-
 = write()
 
 
@@ -36,6 +33,8 @@ _Arduino Mega also supports:_
 `str`: a string to send as a series of bytes
 
 `buf`: an array to send as a series of bytes
+
+`len`: the length of the array
 
 [float]
 === Returns
