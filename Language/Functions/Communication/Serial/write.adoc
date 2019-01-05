@@ -34,7 +34,7 @@ _Arduino Mega also supports:_
 
 `buf`: an array to send as a series of bytes
 
-`len`: the length of the array
+`len`: the number of bytes to be sent from the array
 
 [float]
 === Returns
