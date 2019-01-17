@@ -42,7 +42,7 @@ Note that because PROGMEM is a variable modifier, there is no hard and fast rule
 `const dataType PROGMEM variableName[] = {};   // not this one`
 
 
-While `PROGMEM` could be used on a single variable, it is really only worth the fuss if you have a larger block of data that needs to be stored, which is usually easiest in an array, (or another C data structure beyond our present discussion).
+While `PROGMEM` could be used on a single variable, it is really only worth the fuss if you have a larger block of data that needs to be stored, which is usually easiest in an array, (or another C++ data structure beyond our present discussion).
 
 Using `PROGMEM` is also a two-step procedure. After getting the data into Flash memory, it requires special methods (functions), also defined in the link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library, to read the data from program memory back into SRAM, so we can do something useful with it.
 

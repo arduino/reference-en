@@ -17,7 +17,7 @@ subCategories: [ "Variable Scope & Qualifiers" ]
 
 [float]
 === Description
-Variables in the C programming language, which Arduino uses, have a property called scope. This is in contrast to early versions of languages such as BASIC where every variable is a _global_ variable.
+Variables in the C++ programming language, which Arduino uses, have a property called scope. This is in contrast to early versions of languages such as BASIC where every variable is a _global_ variable.
 
 A global variable is one that can be seen by every function in a program. Local variables are only visible to the function in which they are declared. In the Arduino environment, any variable declared outside of a function (e.g. setup(), loop(), etc. ), is a _global_ variable.
 
