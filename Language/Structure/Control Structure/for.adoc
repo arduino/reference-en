@@ -67,7 +67,7 @@ void loop()
 
 [float]
 === Notes and Warnings
-The C `for` loop is much more flexible than `for` loops found in some other computer languages, including BASIC. Any or all of the three header elements may be omitted, although the semicolons are required. Also the statements for initialization, condition, and increment can be any valid C statements with unrelated variables, and use any C datatypes including floats. These types of unusual `for` statements may provide solutions to some rare programming problems.
+The C++ `for` loop is much more flexible than `for` loops found in some other computer languages, including BASIC. Any or all of the three header elements may be omitted, although the semicolons are required. Also the statements for initialization, condition, and increment can be any valid C++ statements with unrelated variables, and use any C++ datatypes including floats. These types of unusual `for` statements may provide solutions to some rare programming problems.
 [%hardbreaks]
 
 For example, using a multiplication in the increment line will generate a logarithmic progression:
