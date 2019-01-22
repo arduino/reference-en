@@ -70,7 +70,7 @@ Note that `sizeof` returns the total number of bytes. So for larger variable typ
 
 [source,arduino]
 ----
-for (i = 0; i < (sizeof(myInts)/sizeof(int)); i++) {
+for (i = 0; i < (sizeof(myInts)/sizeof(myInts[0])); i++) {
   // do something with myInts[i]
 }
 ----
