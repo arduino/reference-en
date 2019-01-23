@@ -20,7 +20,7 @@ Moves the cursor on a connected computer. The motion onscreen is always relative
 
 [float]
 === Syntax
-`Mouse.move(xVal, yPos, wheel);`
+`Mouse.move(xVal, yVal, wheel);`
 
 
 [float]
