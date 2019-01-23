@@ -123,6 +123,7 @@ String stringOne =  String(5.698, 3);                     // using a float and t
 * #LANGUAGE# link:../string/functions/startswith[startsWith()]
 * #LANGUAGE# link:../string/functions/substring[substring()]
 * #LANGUAGE# link:../string/functions/tochararray[toCharArray()]
+* #LANGUAGE# link:../string/functions/todouble[toDouble()]
 * #LANGUAGE# link:../string/functions/toint[toInt()]
 * #LANGUAGE# link:../string/functions/tofloat[toFloat()]
 * #LANGUAGE# link:../string/functions/tolowercase[toLowerCase()]
