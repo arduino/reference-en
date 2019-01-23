@@ -22,18 +22,12 @@ Waits for the transmission of outgoing serial data to complete. (Prior to Arduin
 
 [float]
 === Syntax
-`Serial.flush()`
-
-_Arduino Mega only:_
-
-`Serial1.flush()` +
-`Serial2.flush()` +
-`Serial3.flush()`
+`_Serial_.flush()`
 
 
 [float]
 === Parameters
-Nothing
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
 [float]
 === Returns

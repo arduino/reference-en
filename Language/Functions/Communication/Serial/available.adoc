@@ -17,18 +17,11 @@ Get the number of bytes (characters) available for reading from the serial port.
 
 [float]
 === Syntax
-`Serial.available()`
-
-_Arduino Mega only:_
-
-`Serial1.available()` +
-`Serial2.available()` +
-`Serial3.available()`
-
+`_Serial_.available()`
 
 [float]
 === Parameters
-None
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
 [float]
 === Returns

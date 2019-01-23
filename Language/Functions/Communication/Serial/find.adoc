@@ -22,11 +22,13 @@ Serial.find() inherits from the link:../../stream[stream] utility class.
 
 [float]
 === Syntax
-`Serial.find(target)` +
-`Serial.find(target, length)`
+`_Serial_.find(target)` +
+`_Serial_.find(target, length)`
 
 [float]
 === Parameters
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+
 `target` : the string to search for (char)
 
 `length` : length of the target (size_t)

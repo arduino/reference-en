@@ -23,11 +23,12 @@ This function is part of the Stream class, and is called by any class that inher
 
 [float]
 === Syntax
-`Serial.readStringUntil(terminator)`
+`_Serial_.readStringUntil(terminator)`
 
 
 [float]
 === Parameters
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
 `terminator` : the character to search for (`char`)
 
 [float]

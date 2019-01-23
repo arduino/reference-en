@@ -20,18 +20,12 @@ Returns the next byte (character) of incoming serial data without removing it fr
 
 [float]
 === Syntax
-`Serial.peek()`
-
-_Arduino Mega only:_
-
-`Serial1.peek()` +
-`Serial2.peek()` +
-`Serial3.peek()`
+`_Serial_.peek()`
 
 
 [float]
 === Parameters
-Nothing
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
 [float]
 === Returns

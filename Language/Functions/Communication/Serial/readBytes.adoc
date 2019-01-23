@@ -24,11 +24,13 @@ title: Serial.readBytes()
 
 [float]
 === Syntax
-`Serial.readBytes(buffer, length)`
+`_Serial_.readBytes(buffer, length)`
 
 
 [float]
 === Parameters
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+
 `buffer`: the buffer to store the bytes in (`char[]` or `byte[]`)
 
 `length` : the number of bytes to read (`int`)

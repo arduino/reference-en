@@ -20,18 +20,12 @@ Reads incoming serial data. read() inherits from the link:../../stream[Stream] u
 
 [float]
 === Syntax
-`Serial.read()`
-
-_Arduino Mega only:_
-
-`Serial1.read()` +
-`Serial2.read()` +
-`Serial3.read()`
+`_Serial_.read()`
 
 
 [float]
 === Parameters
-Nothing
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
 [float]
 === Returns
