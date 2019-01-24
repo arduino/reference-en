@@ -53,7 +53,7 @@ the length of the pulse (in microseconds) or 0 if no pulse started before the ti
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The example calculated the time duration of a pulse on pin 7.
+The example prints the time duration of a pulse on pin 7.
 
 [source,arduino]
 ----
@@ -62,12 +62,14 @@ unsigned long duration;
 
 void setup()
 {
+  Serial.begin(9600);
   pinMode(pin, INPUT);
 }
 
 void loop()
 {
   duration = pulseIn(pin, HIGH);
+  Serial.println(duration);
 }
 ----
 [%hardbreaks]
