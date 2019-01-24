@@ -50,3 +50,14 @@ If you want to play different pitches on multiple pins, you need to call noTone(
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS
