@@ -27,14 +27,14 @@ Allows you access to the individual characters of a String.
 === Syntax
 [source,arduino]
 ----
-char thisChar = string1[n]
+char thisChar = myString1[n]
 ----
 
 [float]
 === Parameters
 `char thisChar` - a character variable
 
-`string1` - a String variable
+`myString1` - a String variable
 
 `int n` - a numeric variable
 

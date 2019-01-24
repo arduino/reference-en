@@ -24,14 +24,11 @@ Get a lower-case version of a String. As of 1.0, toLowerCase() modifies the Stri
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.toLowerCase()
-----
+`myString.toLowerCase()`
 
 [float]
 === Parameters
-`string`: a variable of type String
+`myString`: a variable of type String
 
 
 [float]

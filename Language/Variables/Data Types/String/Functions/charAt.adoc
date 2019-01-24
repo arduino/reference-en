@@ -24,14 +24,11 @@ Access a particular character of the String.
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.charAt(n)
-----
+`myString.charAt(n)`
 
 [float]
 === Parameters
-`string`: a variable of type String
+`myString`: a variable of type String
 
 `n`: a variable of type unsigned int
 

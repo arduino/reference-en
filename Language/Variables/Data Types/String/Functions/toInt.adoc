@@ -24,14 +24,11 @@ Converts a valid String to an integer. The input String should start with an int
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.toInt()
-----
+`myString.toInt()`
 
 [float]
 === Parameters
-`string`: a variable of type String
+`myString`: a variable of type String
 
 
 [float]

@@ -18,7 +18,7 @@ subCategories: [ "StringObject Operator" ]
 
 [float]
 === Description
-Combines, or concatenates two strings into one new String. The second string is appended to the first, and the result is placed in a new String. Works the same as string.concat().
+Combines, or concatenates two Strings into one new String. The second String is appended to the first, and the result is placed in a new String. Works the same as string.concat().
 
 [%hardbreaks]
 
@@ -27,12 +27,12 @@ Combines, or concatenates two strings into one new String. The second string is 
 === Syntax
 [source,arduino]
 ----
-string3 = string1 + string 2; string3 += string2;
+myString3 = myString1 + myString2
 ----
 
 [float]
 === Parameters
-`string, string1, string2, string3` - a string variable
+`myString1, myString2, myString3` - a String variable
 
 [float]
 === Returns

@@ -27,16 +27,16 @@ Compares two Strings for difference. The comparison is case-sensitive, meaning t
 === Syntax
 [source,arduino]
 ----
-string1 != string2
+myString1 != myString2
 ----
 
 [float]
 === Parameters
-`string1, string2` - a String variable
+`myString1, myString2` - a String variable
 
 [float]
 === Returns
-`true`: if string1 is different from string2 
+`true`: if myString1 is different from myString2 
 
 `false`: otherwise
 
