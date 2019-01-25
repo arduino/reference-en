@@ -1,5 +1,5 @@
 ---
-title: stream
+title: Stream
 categories: [ "Functions" ]
 subCategories: [ "Communication" ]
 ---
