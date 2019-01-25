@@ -72,3 +72,14 @@ There are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a se
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

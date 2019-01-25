@@ -78,3 +78,14 @@ As of Arduino 0018, delayMicroseconds() no longer disables interrupts.
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS
