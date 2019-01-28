@@ -25,16 +25,12 @@ Locates a character or String within another String. By default, searches from t
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.indexOf(val)
-
-string.indexOf(val, from)
-----
+`myString.indexOf(val)` +
+`myString.indexOf(val, from)`
 
 [float]
 === Parameters
-`string`: a variable of type String
+`myString`: a variable of type String
 
 `val`: the value to search for - char or String
 

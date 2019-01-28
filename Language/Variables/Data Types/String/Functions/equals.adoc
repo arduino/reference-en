@@ -17,21 +17,18 @@ subCategories: [ "StringObject Function" ]
 
 [float]
 === Description
-Compares two strings for equality. The comparison is case-sensitive, meaning the String "hello" is not equal to the String "HELLO".
+Compares two Strings for equality. The comparison is case-sensitive, meaning the String "hello" is not equal to the String "HELLO".
 
 [%hardbreaks]
 
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.equals(string2)
-----
+`myString.equals(myString2)`
 
 [float]
 === Parameters
-`string, string2`: variables of type String
+`myString, myString2`: variables of type String
 
 
 [float]

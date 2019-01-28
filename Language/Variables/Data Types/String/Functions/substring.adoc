@@ -24,16 +24,12 @@ Get a substring of a String. The starting index is inclusive (the corresponding 
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.substring(from)
-
-string.substring(from, to)
-----
+`myString.substring(from)` +
+`myString.substring(from, to)`
 
 [float]
 === Parameters
-`string`: a variable of type String
+`myString`: a variable of type String
 
 `from`: the index to start the substring at
 

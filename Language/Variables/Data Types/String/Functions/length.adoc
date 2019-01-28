@@ -24,14 +24,11 @@ Returns the length of the String, in characters. (Note that this doesn't include
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.length()
-----
+`myString.length()`
 
 [float]
 === Parameters
-`string`: a variable of type String
+`myString`: a variable of type String
 
 
 [float]

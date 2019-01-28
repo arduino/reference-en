@@ -27,12 +27,12 @@ It concatenates Strings with other data.
 === Syntax
 [source,arduino]
 ----
-string += data
+myString1 += data
 ----
 
 [float]
 === Parameters
-None
+`myString1` - a String variable
 
 [float]
 === Returns
