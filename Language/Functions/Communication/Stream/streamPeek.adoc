@@ -43,9 +43,5 @@ The next byte (or character), or -1 if none is available.
 [#howtouse]
 --
 
-[float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-
 --
 // HOW TO USE SECTION ENDS

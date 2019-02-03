@@ -30,16 +30,6 @@ A byte stores an 8-bit unsigned number, from 0 to 255.
 [#howtouse]
 --
 
-[float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-
-
-[source,arduino]
-----
-
-----
-
 --
 // HOW TO USE SECTION ENDS
 
