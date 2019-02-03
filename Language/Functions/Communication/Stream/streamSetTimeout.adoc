@@ -34,3 +34,26 @@ Nothing
 
 --
 // OVERVIEW SECTION ENDS
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Notes and Warnings
+Stream functions that use the timeout value set via `setTimeout()`:
+
+* `find()`
+* `findUntil()`
+* `parseInt()`
+* `parseFloat()`
+* `readBytes()`
+* `readBytesUntil()`
+* `readString()`
+* `readStringUntil()`
+
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
