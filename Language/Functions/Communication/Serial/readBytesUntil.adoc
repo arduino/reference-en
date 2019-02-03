@@ -54,7 +54,7 @@ Serial.readBytesUntil() reads characters from the serial buffer into an array. T
 
 [role="language"]
 * #LANGUAGE# link:../../stream[Stream]
-* #LANGUAGE# link:../../stream/streamreadbytesuntil[Stream.readByteUntil()]
+* #LANGUAGE# link:../../stream/streamreadbytesuntil[Stream.readBytesUntil()]
 
 --
 // SEE ALSO SECTION ENDS
