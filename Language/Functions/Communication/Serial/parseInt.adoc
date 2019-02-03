@@ -14,7 +14,9 @@ title: Serial.parseInt()
 
 [float]
 === Description
-Looks for the next valid integer in the incoming serial `stream.parseInt()` inherits from the link:../../stream[Stream] utility class.
+Looks for the next valid integer in the incoming serial.
+
+`Serial.parseInt()` inherits from the link:../../stream[Stream] utility class.
 
 
 In particular:
