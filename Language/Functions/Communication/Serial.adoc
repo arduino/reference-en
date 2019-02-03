@@ -51,7 +51,7 @@ To use these extra serial ports to communicate with your personal computer, you 
 
 [float]
 === Functions
-link:../serial/ifserial[If] (Serial) +
+link:../serial/ifserial[if(Serial)] +
 link:../serial/available[available()] +
 link:../serial/availableforwrite[availableForWrite()] +
 link:../serial/begin[begin()] +
