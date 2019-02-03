@@ -28,6 +28,8 @@ Appends the parameter to a String.
 
 [float]
 === Parameters
+`myString`: a variable of type String
+
 `parameter`: *Allowed types are* String, string, char, byte, int, unsigned int, long, unsigned long, float, double, __FlashStringHelper(F() macro).
 
 [float]

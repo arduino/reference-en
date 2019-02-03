@@ -29,6 +29,8 @@ Modify in place a String removing chars from the provided index to the end of th
 
 [float]
 === Parameters
+`myString`: a variable of type String
+
 `index`: a variable of type unsigned int
 
 `count`: a variable of type unsigned int

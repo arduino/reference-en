@@ -28,7 +28,7 @@ Converts the contents of a String as a C-style, null-terminated string. Note tha
 
 [float]
 === Parameters
-none
+`myString`: a variable of type String
 
 [float]
 === Returns
