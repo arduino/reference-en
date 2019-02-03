@@ -33,7 +33,21 @@ This function is part of the Stream class, and is called by any class that inher
 
 [float]
 === Returns
-The entire String read from a stream, until the terminator character is detected.
+The entire String read from a stream, up to the terminator character
 
 --
 // OVERVIEW SECTION ENDS
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Notes and Warnings
+The terminator character is discarded from the stream.
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
+
