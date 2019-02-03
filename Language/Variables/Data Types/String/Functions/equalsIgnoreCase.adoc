@@ -52,6 +52,6 @@ Compares two Strings for equality. The comparison is not case-sensitive, meaning
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
 --
 // SEE ALSO SECTION ENDS
