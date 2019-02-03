@@ -22,10 +22,11 @@ title: Serial.setTimeout()
 
 [float]
 === Syntax
-`Serial.setTimeout(time)`
+`_Serial_.setTimeout(time)`
 
 [float]
 === Parameters
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
 `time` : timeout duration in milliseconds (`long`).
 
 [float]

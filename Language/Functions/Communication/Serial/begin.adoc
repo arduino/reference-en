@@ -22,22 +22,15 @@ An optional second argument configures the data, parity, and stop bits. The defa
 
 [float]
 === Syntax
-`Serial.begin(speed)`
-`Serial.begin(speed, config)`
-
-_Arduino Mega only:_
-
-`Serial1.begin(speed)` +
-`Serial2.begin(speed)` +
-`Serial3.begin(speed)` +
-`Serial1.begin(speed, config)` +
-`Serial2.begin(speed, config)` +
-`Serial3.begin(speed, config)`
+`_Serial_.begin(speed)` +
+`_Serial_.begin(speed, config)`
 
 
 
 [float]
 === Parameters
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+
 `speed`: in bits per second (baud) - `long`
 
 `config`: sets data, parity, and stop bits. Valid values are

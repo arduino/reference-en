@@ -42,12 +42,13 @@ To send data without conversion to its representation as characters, use link:..
 
 [float]
 === Syntax
-`Serial.print(val)` +
-`Serial.print(val, format)`
+`_Serial_.print(val)` +
+`_Serial_.print(val, format)`
 
 
 [float]
 === Parameters
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
 `val`: the value to print - any data type
 
 [float]

@@ -20,18 +20,12 @@ Get the number of bytes (characters) available for writing in the serial buffer 
 
 [float]
 === Syntax
-`Serial.availableForWrite()`
-
-_Arduino Mega only:_
-
-`Serial1.availableForWrite()` +
-`Serial2.availableForWrite()` +
-`Serial3.availableForWrite()`
+`_Serial_.availableForWrite()`
 
 
 [float]
 === Parameters
-Nothing
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
 [float]
 === Returns

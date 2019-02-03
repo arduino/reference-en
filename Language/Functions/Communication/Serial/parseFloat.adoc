@@ -22,12 +22,12 @@ title: Serial.parseFloat()
 
 [float]
 === Syntax
-`Serial.parseFloat()`
+`_Serial_.parseFloat()`
 
 
 [float]
 === Parameters
-Nothing
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
 [float]
 === Returns

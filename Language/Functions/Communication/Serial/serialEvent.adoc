@@ -29,7 +29,7 @@ void serialEvent(){
 //statements
 }
 ----
-Arduino Mega only:
+For boards with additional serial ports (see the list of available serial ports for each board on the link:../../serial[Serial main page]):
 [source,arduino]
 ----
 void serialEvent1(){
