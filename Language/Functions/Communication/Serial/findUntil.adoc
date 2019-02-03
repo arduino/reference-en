@@ -41,19 +41,6 @@ The function returns true if the target string is found, false if it times out.
 // OVERVIEW SECTION ENDS
 
 
-
-
-// HOW TO USE SECTION STARTS
-[#howtouse]
---
-
-[float]
-=== Notes and Warnings
-
---
-// HOW TO USE SECTION ENDS
-
-
 // SEE ALSO SECTION
 [#see_also]
 --
