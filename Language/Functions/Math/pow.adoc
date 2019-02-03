@@ -47,7 +47,13 @@ The result of the exponentiation. (`double`)
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-See the (http://arduino.cc/playground/Main/Fscale[fscale]) function in the code library.
+Calculate the value of x raised to the power of y:
+[source,arduino]
+----
+z = pow(x, y);
+----
+See the (http://arduino.cc/playground/Main/Fscale[fscale]) sketch for a more complex example of the use of `map()`.
+[%hardbreaks]
 
 --
 // HOW TO USE SECTION ENDS
