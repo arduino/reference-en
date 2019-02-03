@@ -14,7 +14,7 @@ title: Serial.parseFloat()
 
 [float]
 === Description
-`Serial.parseFloat()` returns the first valid floating point number from the Serial buffer. Characters that are not digits (or the minus sign) are skipped. `parseFloat()` is terminated by the first character that is not a floating point number.
+`Serial.parseFloat()` returns the first valid floating point number from the Serial buffer. Characters that are not digits (or the minus sign) are skipped. `parseFloat()` is terminated by the first character that is not a floating point number. The function terminates if it times out (see link:../settimeout[Serial.setTimeout()]).
 
 `Serial.parseFloat()` inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]

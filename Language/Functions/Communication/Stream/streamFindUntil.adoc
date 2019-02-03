@@ -14,7 +14,7 @@ title: Stream.findUntil()
 
 [float]
 === Description
-`findUntil()` reads data from the stream until the target string of given length or terminator string is found.
+`findUntil()` reads data from the stream until the target string of given length or terminator string is found, or it times out (see ../streamsettimeout[Stream.setTimeout()]).
 
 The function returns true if target string is found, false if timed out
 
