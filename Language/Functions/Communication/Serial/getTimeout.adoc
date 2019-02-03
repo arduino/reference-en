@@ -1,0 +1,60 @@
+---
+title: Serial.getTimeout()
+---
+
+
+
+
+= Serial.getTimeout()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+`Serial.getTimeout()` returns the timeout value set by `Serial.setTimeout()`.
+
+`Serial.getTimeout()` inherits from the link:../../stream[Stream] utility class.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`_Serial_.getTimeout()`
+
+[float]
+=== Parameters
+None
+
+[float]
+=== Returns
+The timeout value set by `Serial.setTimeout()` (unsigned long)
+
+--
+// OVERVIEW SECTION ENDS
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:../../stream[stream]
+* #LANGUAGE# link:../../stream/streamsettimeout[stream.setTimeout()]
+* #LANGUAGE# link:../../stream/streamgettimeout[stream.getTimeout()]
+
+--
+// SEE ALSO SECTION ENDS
