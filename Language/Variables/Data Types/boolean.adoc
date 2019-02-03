@@ -36,7 +36,6 @@ subCategories: [ "Data Types" ]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../../variables/data-types/bool/[bool]
 
 --
 // SEE ALSO SECTION ENDS
