@@ -27,7 +27,7 @@ This function is part of the Stream class, and is called by any class that inher
 
 [float]
 === Parameters
-Nothing
+`stream` : an instance of a class that inherits from Stream
 
 [float]
 === Returns
