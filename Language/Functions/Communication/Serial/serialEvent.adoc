@@ -1,5 +1,5 @@
 ---
-title: Serial.serialEvent()
+title: serialEvent()
 ---
 
 
