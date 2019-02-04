@@ -38,6 +38,32 @@ The square of the number. (double)
 // OVERVIEW SECTION ENDS
 
 
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Notes and Warnings
+Because of the way the `sq()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results.
+
+This code will yield incorrect results:
+[source,arduino]
+----
+int inputSquared = sq(Serial.parseInt()); // avoid this
+----
+
+Use this instead:
+[source,arduino]
+----
+int input = Serial.parseInt();  // keep other operations outside the sq function
+int inputSquared = sq(input);
+----
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
+
+
 // SEE ALSO SECTION
 [#see_also]
 --

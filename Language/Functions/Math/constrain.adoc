@@ -60,6 +60,24 @@ The code limits the sensor values to between 10 to 150.
 sensVal = constrain(sensVal, 10, 150);    // limits range of sensor values to between 10 and 150
 ----
 
+[float]
+=== Notes and Warnings
+Because of the way the `constrain()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results.
+
+This code will yield incorrect results:
+[source,arduino]
+----
+int constrainedInput = constrain(Serial.parseInt(), minimumValue, maximumValue);   // avoid this
+----
+
+Use this instead:
+[source,arduino]
+----
+int input = Serial.parseInt();  // keep other operations outside the constrain function
+int constrainedInput = constrain(input, minimumValue, maximumValue);
+----
+[%hardbreaks]
+
 --
 // HOW TO USE SECTION ENDS
 
