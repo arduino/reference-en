@@ -32,10 +32,23 @@ title: Serial.readStringUntil()
 
 [float]
 === Returns
-The entire String read from the serial buffer, until the terminator character is detected
+The entire String read from the serial buffer, up to the terminator character
 
 --
 // OVERVIEW SECTION ENDS
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Notes and Warnings
+The terminator character is discarded from the serial buffer.
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
 
 
 // SEE ALSO SECTION
