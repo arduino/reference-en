@@ -112,5 +112,11 @@ void loop() {}
 [%hardbreaks]
 Thanks to Jeff Gray for the mega example
 
+
+[float]
+=== Notes and Warnings
+For USB CDC serial ports (e.g. `Serial` on the Leonardo), `Serial.begin()` is irrelevant. You can use any baud rate and configuration for serial communication with these ports. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+[%hardbreaks]
+
 --
 // HOW TO USE SECTION ENDS
