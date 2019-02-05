@@ -66,6 +66,11 @@ void loop(){
    int bytesSent = Serial.write(“hello”); //send the string “hello” and return the length of the string.
 }
 ----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+As of Arduino IDE 1.0, serial transmission is asynchronous. If there is enough empty space in the transmit buffer, `Serial.write()` will return before any characters are transmitted over serial. If the transmit buffer is full then `Serial.write()` will block until there is enough space in the buffer. To avoid blocking calls to `Serial.write()`, you can first check the amount of free space in the transmit buffer using link:../availableforwrite[availableForWrite()].
 
 --
 // HOW TO USE SECTION ENDS
