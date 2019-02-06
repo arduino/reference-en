@@ -64,11 +64,11 @@ link:../keyboard/keyboardwrite[Keyboard.write()]
 === See also
 
 [role="example"]
-* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardAndMouseControl[KeyboardAndMouseControl]: Demonstrates the Mouse and Keyboard commands in one program.
-* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardMessage[KeyboardMessage]: Sends a text string when a button is pressed.
-* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardLogout[KeyboardLogout]: Logs out the current user with key commands
-* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardSerial[KeyboardSerial]: Reads a byte from the serial port, and sends back a keystroke.
-* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardReprogram[KeyboardReprogram]: opens a new window in the Arduino IDE and reprograms the board with a simple blink program
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardAndMouseControl[KeyboardAndMouseControl^]: Demonstrates the Mouse and Keyboard commands in one program.
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardMessage[KeyboardMessage^]: Sends a text string when a button is pressed.
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardLogout[KeyboardLogout^]: Logs out the current user with key commands
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardSerial[KeyboardSerial^]: Reads a byte from the serial port, and sends back a keystroke.
+* #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardReprogram[KeyboardReprogram^]: opens a new window in the Arduino IDE and reprograms the board with a simple blink program
 
 --
 // SEE ALSO SECTION ENDS

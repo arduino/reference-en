@@ -82,7 +82,7 @@ Please note that the return value for millis() is an unsigned long, logic errors
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/BlinkWithoutDelay[Blink Without Delay]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/BlinkWithoutDelay[Blink Without Delay^]
 
 --
 // SEE ALSO SECTION ENDS

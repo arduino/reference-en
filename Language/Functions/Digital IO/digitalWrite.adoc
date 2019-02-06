@@ -91,7 +91,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc. T
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Tutorial: Digital Pins]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Tutorial: Digital Pins^]
 
 --
 // SEE ALSO SECTION ENDS

@@ -86,7 +86,7 @@ Certain things do go on while the delay() function is controlling the Atmega chi
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/BlinkWithoutDelay[Blink Without Delay]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/BlinkWithoutDelay[Blink Without Delay^]
 
 --
 // SEE ALSO SECTION ENDS

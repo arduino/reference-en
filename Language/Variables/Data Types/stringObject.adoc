@@ -145,7 +145,7 @@ String stringOne =  String(5.698, 3);                     // using a float and t
 * #LANGUAGE# link:../string/operators/differentfrom[!= (different from)]
 
 [role="example"]
-* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials^]
 
 
 // SEE ALSO SECTION STARTS
