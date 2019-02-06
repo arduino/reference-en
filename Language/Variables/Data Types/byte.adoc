@@ -20,6 +20,17 @@ subCategories: [ "Data Types" ]
 A byte stores an 8-bit unsigned number, from 0 to 255.
 [%hardbreaks]
 
+
+[float]
+=== Syntax
+`byte var = val;`
+
+
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value to assign to that variable
+
 --
 // OVERVIEW SECTION ENDS
 
