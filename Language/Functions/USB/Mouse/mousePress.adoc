@@ -24,7 +24,7 @@ Before using `Mouse.press()`, you need to start communication with link:../mouse
 
 [float]
 === Syntax
-`Mouse.press();` +
+`Mouse.press()` +
 `Mouse.press(button)`
 
 
@@ -61,22 +61,22 @@ Nothing
 ----
 #include <Mouse.h>
 
-void setup(){
+void setup() {
   //The switch that will initiate the Mouse press
-  pinMode(2,INPUT);
+  pinMode(2, INPUT);
   //The switch that will terminate the Mouse press
-  pinMode(3,INPUT);
+  pinMode(3, INPUT);
   //initiate the Mouse library
   Mouse.begin();
 }
 
-void loop(){
+void loop() {
   //if the switch attached to pin 2 is closed, press and hold the left mouse button
-  if(digitalRead(2) == HIGH){
+  if (digitalRead(2) == HIGH) {
     Mouse.press();
   }
   //if the switch attached to pin 3 is closed, release the left mouse button
-  if(digitalRead(3) == HIGH){
+  if (digitalRead(3) == HIGH) {
     Mouse.release();
   }
 }

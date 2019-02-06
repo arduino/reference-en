@@ -75,7 +75,7 @@ Explain Code
 
 [source,arduino]
 ----
-void setup(){
+void setup() {
   // open a serial connection
   Serial.begin(9600);
   // make our digital pin an output
@@ -84,7 +84,7 @@ void setup(){
   pinMode(13, OUTPUT);
 }
 
-void loop(){
+void loop() {
   // read the input on A0 and map it to a PWM pin
   // with an attached LED
   int sensorVal = analogRead(A0);
@@ -93,9 +93,9 @@ void loop(){
 
   // the default PWM resolution
   analogWriteResolution(8);
-  analogWrite(11, map(sensorVal, 0, 1023, 0 ,255));
+  analogWrite(11, map(sensorVal, 0, 1023, 0, 255));
   Serial.print(" , 8-bit PWM value : ");
-  Serial.print(map(sensorVal, 0, 1023, 0 ,255));
+  Serial.print(map(sensorVal, 0, 1023, 0, 255));
 
   // change the PWM resolution to 12 bits
   // the full 12 bit resolution is only supported

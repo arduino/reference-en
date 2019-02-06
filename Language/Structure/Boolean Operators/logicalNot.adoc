@@ -44,7 +44,7 @@ if (!x) { // if x is not true
 It can be used to invert the boolean value.
 [source,arduino]
 ----
-x = !y;   // the inverted value of y is stored in x
+x = !y; // the inverted value of y is stored in x
 ----
 
 

@@ -50,15 +50,12 @@ isAlpha(thisChar)
 
 [source,arduino]
 ----
-if (isAlpha(myChar))      // tests if myChar is a letter
-{
-	Serial.println("The character is a letter");
+if (isAlpha(myChar)) {  // tests if myChar is a letter
+  Serial.println("The character is a letter");
 }
-else
-{
-	Serial.println("The character is not a letter");
+else {
+  Serial.println("The character is not a letter");
 }
-
 ----
 
 --

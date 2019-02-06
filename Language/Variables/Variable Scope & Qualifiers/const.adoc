@@ -41,14 +41,9 @@ Constants defined with the `const` keyword obey the rules of link:../scope[varia
 ----
 const float pi = 3.14;
 float x;
-
 // ....
-
-x = pi * 2;    // it's fine to use consts in math
-
-pi = 7;        // illegal - you can't write to (modify) a constant
-
-
+x = pi * 2; // it's fine to use consts in math
+pi = 7;     // illegal - you can't write to (modify) a constant
 ----
 [%hardbreaks]
 

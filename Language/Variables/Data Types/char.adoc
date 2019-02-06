@@ -51,8 +51,8 @@ The size of the `char` datatype is at least 8 bits. It's recommended to only use
 
 [source,arduino]
 ----
-  char myChar = 'A';
-  char myChar = 65;      // both are equivalent
+char myChar = 'A';
+char myChar = 65; // both are equivalent
 ----
 
 

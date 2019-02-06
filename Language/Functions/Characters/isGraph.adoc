@@ -50,15 +50,12 @@ isGraph(thisChar)
 
 [source,arduino]
 ----
-if (isGraph(myChar))      // tests if myChar is a printable character but not a blank space.
-{
-	Serial.println("The character is printable");
+if (isGraph(myChar)) {  // tests if myChar is a printable character but not a blank space.
+  Serial.println("The character is printable");
 }
-else
-{
-	Serial.println("The character is not printable");
+else {
+  Serial.println("The character is not printable");
 }
-
 ----
 
 --

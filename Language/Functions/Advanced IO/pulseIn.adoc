@@ -60,14 +60,12 @@ The example prints the time duration of a pulse on pin 7.
 int pin = 7;
 unsigned long duration;
 
-void setup()
-{
+void setup() {
   Serial.begin(9600);
   pinMode(pin, INPUT);
 }
 
-void loop()
-{
+void loop() {
   duration = pulseIn(pin, HIGH);
   Serial.println(duration);
 }

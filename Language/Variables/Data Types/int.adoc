@@ -57,7 +57,7 @@ void setup() {
 void loop() {
   countUp++;                //Adds 1 to the countUp int on every loop
   Serial.println(countUp);  // prints out the current state of countUp
-  delay(1000);              
+  delay(1000);
 }
 ----
 [%hardbreaks]

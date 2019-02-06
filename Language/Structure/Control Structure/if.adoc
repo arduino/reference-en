@@ -23,8 +23,7 @@ The `if` statement checks for a condition and executes the proceeding statement 
 === Syntax
 [source,arduino]
 ----
-if (condition)
-{
+if (condition) {
   //statement(s)
 }
 ----
@@ -46,12 +45,13 @@ if (x > 120) digitalWrite(LEDpin, HIGH);
 if (x > 120)
 digitalWrite(LEDpin, HIGH);
 
-if (x > 120){ digitalWrite(LEDpin, HIGH); }
+if (x > 120) {digitalWrite(LEDpin, HIGH);}
 
-if (x > 120){
+if (x > 120) {
   digitalWrite(LEDpin1, HIGH);
   digitalWrite(LEDpin2, HIGH);
-}                                 // all are correct
+}
+// all are correct
 ----
 [%hardbreaks]
 

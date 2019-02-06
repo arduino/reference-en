@@ -51,8 +51,10 @@ result = numerator / denominator;
 
 [source,arduino]
 ----
-int a = 50, b = 10, c = 0;
-c = a / b; // the variable 'c' gets a value of 5 after this statement is executed
+int a = 50;
+int b = 10;
+int c = 0;
+c = a / b;  // the variable 'c' gets a value of 5 after this statement is executed
 ----
 [%hardbreaks]
 
@@ -64,9 +66,10 @@ c = a / b; // the variable 'c' gets a value of 5 after this statement is execute
 
 [source,arduino]
 ----
-float a = 55.5, b = 6.6;
+float a = 55.5;
+float b = 6.6;
 int c = 0;
-c = a / b; // the variable 'c' stores a value of 8 only as opposed to the expected result of 8.409
+c = a / b;  // the variable 'c' stores a value of 8 only as opposed to the expected result of 8.409
 ----
 [%hardbreaks]
 

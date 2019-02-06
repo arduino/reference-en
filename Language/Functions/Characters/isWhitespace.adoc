@@ -50,15 +50,12 @@ isWhitespace(thisChar)
 
 [source,arduino]
 ----
-if (isWhitespace(myChar))      // tests if myChar is a white space
-{
-	Serial.println("The character is a white space");
+if (isWhitespace(myChar)) { // tests if myChar is a white space
+  Serial.println("The character is a white space");
 }
-else
-{
-	Serial.println("The character is not a white space");
+else {
+  Serial.println("The character is not a white space");
 }
-
 ----
 
 --

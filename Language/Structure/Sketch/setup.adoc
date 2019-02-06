@@ -35,14 +35,12 @@ The `setup()` function is called when a sketch starts. Use it to initialize vari
 ----
 int buttonPin = 3;
 
-void setup()
-{
+void setup() {
   Serial.begin(9600);
   pinMode(buttonPin, INPUT);
 }
 
-void loop()
-{
+void loop() {
   // ...
 }
 ----

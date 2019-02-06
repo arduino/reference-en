@@ -33,7 +33,7 @@ A review of the Bitwise AND `&` operator:
 === Syntax
 [source,arduino]
 ----
-x &= y;   // equivalent to x = x & y;
+x &= y; // equivalent to x = x & y;
 ----
 
 [float]
@@ -95,8 +95,8 @@ So if:
 
 [source,arduino]
 ----
-myByte =  B10101010;
-myByte &= B11111100; // results in B10101000
+myByte = B10101010;
+myByte &= B11111100;  // results in B10101000
 ----
 
 [%hardbreaks]

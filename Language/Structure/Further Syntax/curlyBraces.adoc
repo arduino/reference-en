@@ -45,7 +45,7 @@ The main uses of curly braces are listed in the examples below.
 
 [source,arduino]
 ----
-void myfunction(datatype argument){
+void myfunction(datatype argument) {
   // any statement(s)
 }
 ----
@@ -57,18 +57,15 @@ void myfunction(datatype argument){
 
 [source,arduino]
 ----
-while (boolean expression)
-{
+while (boolean expression) {
   // any statement(s)
 }
 
-do
-{
+do {
   // any statement(s)
 } while (boolean expression);
 
-for (initialisation; termination condition; incrementing expr)
-{
+for (initialisation; termination condition; incrementing expr) {
   // any statement(s)
 }
 ----
@@ -82,17 +79,14 @@ for (initialisation; termination condition; incrementing expr)
 
 [source,arduino]
 ----
-if (boolean expression)
-{
+if (boolean expression) {
   // any statement(s)
 }
 
-else if (boolean expression)
-{
+else if (boolean expression) {
   // any statement(s)
 }
-else
-{
+else {
   // any statement(s)
 }
 ----

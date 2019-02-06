@@ -55,15 +55,14 @@ The code generates a pseudo-random number and sends the generated number to the 
 ----
 long randNumber;
 
-void setup(){
+void setup() {
   Serial.begin(9600);
   randomSeed(analogRead(0));
 }
 
-void loop(){
+void loop() {
   randNumber = random(300);
   Serial.println(randNumber);
-
   delay(50);
 }
 ----

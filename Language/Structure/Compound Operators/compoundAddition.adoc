@@ -26,7 +26,7 @@ This is a convenient shorthand to perform addition on a variable with another co
 === Syntax
 [source,arduino]
 ----
-x += y;   // equivalent to the expression x = x + y;
+x += y; // equivalent to the expression x = x + y;
 ----
 
 [float]
@@ -49,7 +49,7 @@ x += y;   // equivalent to the expression x = x + y;
 [source,arduino]
 ----
 x = 2;
-x += 4;      // x now contains 6
+x += 4; // x now contains 6
 ----
 
 --

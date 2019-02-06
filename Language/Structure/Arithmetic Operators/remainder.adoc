@@ -51,12 +51,12 @@ remainder = dividend % divisor;
 [source,arduino]
 ----
 int x = 0;
-x = 7 % 5;    // x now contains 2
-x = 9 % 5;    // x now contains 4
-x = 5 % 5;    // x now contains 0
-x = 4 % 5;    // x now contains 4
-x = -4 % 5;   // x now contains -4
-x = 4 % -5;   // x now contains 4
+x = 7 % 5;  // x now contains 2
+x = 9 % 5;  // x now contains 4
+x = 5 % 5;  // x now contains 0
+x = 4 % 5;  // x now contains 4
+x = -4 % 5; // x now contains -4
+x = 4 % -5; // x now contains 4
 ----
 
 [source,arduino]
@@ -68,10 +68,9 @@ int i = 0;
 
 void setup() {}
 
-void loop()
-{
+void loop() {
   values[i] = analogRead(0);
-  i = (i + 1) % 10;   // remainder operator rolls over variable
+  i = (i + 1) % 10; // remainder operator rolls over variable
 }
 ----
 [%hardbreaks]

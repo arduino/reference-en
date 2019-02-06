@@ -56,7 +56,7 @@ The code generates random numbers and displays them.
 ----
 long randNumber;
 
-void setup(){
+void setup() {
   Serial.begin(9600);
 
   // if analog input pin 0 is unconnected, random analog

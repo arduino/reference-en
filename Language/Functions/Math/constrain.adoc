@@ -57,7 +57,7 @@ The code limits the sensor values to between 10 to 150.
 
 [source,arduino]
 ----
-sensVal = constrain(sensVal, 10, 150);    // limits range of sensor values to between 10 and 150
+sensVal = constrain(sensVal, 10, 150);  // limits range of sensor values to between 10 and 150
 ----
 
 [float]

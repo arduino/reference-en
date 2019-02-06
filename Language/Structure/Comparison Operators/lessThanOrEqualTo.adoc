@@ -26,7 +26,7 @@ Compares the variable on the left with the value or variable on the right of the
 === Syntax
 [source,arduino]
 ----
-x <= y;   // is true if x is smaller than or equal to y and it is false if x is greater than y
+x <= y; // is true if x is smaller than or equal to y and it is false if x is greater than y
 ----
 
 [float]
@@ -48,9 +48,8 @@ x <= y;   // is true if x is smaller than or equal to y and it is false if x is 
 
 [source,arduino]
 ----
-if (x<=y)      // tests if x is less (smaller) than or equal to y
-{
-// do something only if the comparison result is true
+if (x <= y) { // tests if x is less (smaller) than or equal to y
+  // do something only if the comparison result is true
 }
 ----
 [%hardbreaks]

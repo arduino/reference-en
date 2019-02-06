@@ -53,19 +53,17 @@ The code configures pin number 8 to work as an output pin. It sends a train of p
 
 [source,arduino]
 ----
-int outPin = 8;                 // digital pin 8
+int outPin = 8;               // digital pin 8
 
-void setup()
-{
-  pinMode(outPin, OUTPUT);      // sets the digital pin as output
+void setup() {
+  pinMode(outPin, OUTPUT);    // sets the digital pin as output
 }
 
-void loop()
-{
-  digitalWrite(outPin, HIGH);   // sets the pin on
-  delayMicroseconds(50);        // pauses for 50 microseconds
-  digitalWrite(outPin, LOW);    // sets the pin off
-  delayMicroseconds(50);        // pauses for 50 microseconds
+void loop() {
+  digitalWrite(outPin, HIGH); // sets the pin on
+  delayMicroseconds(50);      // pauses for 50 microseconds
+  digitalWrite(outPin, LOW);  // sets the pin off
+  delayMicroseconds(50);      // pauses for 50 microseconds
 }
 ----
 [%hardbreaks]
