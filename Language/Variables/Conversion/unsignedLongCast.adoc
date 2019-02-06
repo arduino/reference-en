@@ -1,0 +1,55 @@
+---
+title: (unsigned long)
+categories: [ "Variables" ]
+subCategories: [ "Conversion" ]
+---
+
+
+
+
+
+= (unsigned long)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Converts a value to the link:../../data-types/unsignedlong[unsigned long] data type.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`(unsigned long)x`
+
+
+[float]
+=== Parameters
+`x`: a value of any type
+
+[float]
+=== Returns
+`unsigned long`
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION STARTS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:../../data-types/unsignedlong[unsigned long]
+
+
+--
+// SEE ALSO SECTION ENDS

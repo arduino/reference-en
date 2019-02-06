@@ -1,0 +1,55 @@
+---
+title: (unsigned int)
+categories: [ "Variables" ]
+subCategories: [ "Conversion" ]
+---
+
+
+
+
+
+= (unsigned int)
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Converts a value to the link:../../data-types/unsignedint[unsigned int] data type.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`(unsigned int)x`
+
+
+[float]
+=== Parameters
+`x`: a value of any type
+
+[float]
+=== Returns
+`unsigned int`
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:../../data-types/unsignedint[unsigned int]
+
+
+--
+// SEE ALSO SECTION ENDS
