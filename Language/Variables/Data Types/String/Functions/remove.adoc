@@ -44,7 +44,20 @@ None
 // OVERVIEW SECTION ENDS
 
 
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
 
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[source,arduino]
+----
+String greeting = "hello";
+greeting.remove(2, 2);  // greeting now contains "heo"
+----
+[%hardbreaks]
+--
 // HOW TO USE SECTION ENDS
 
 
