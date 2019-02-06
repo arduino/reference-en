@@ -50,7 +50,7 @@ isSpace(thisChar)
 
 [source,arduino]
 ----
-if (isSpace(this))      // tests if this is the space character
+if (isSpace(myChar))      // tests if myChar is the space character
 {
 	Serial.println("The character is a space");
 }

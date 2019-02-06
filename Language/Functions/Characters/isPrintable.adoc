@@ -50,7 +50,7 @@ isPrintable(thisChar)
 
 [source,arduino]
 ----
-if (isPrintable(this))      // tests if this is printable char
+if (isPrintable(myChar))      // tests if myChar is printable char
 {
 	Serial.println("The character is printable");
 }
