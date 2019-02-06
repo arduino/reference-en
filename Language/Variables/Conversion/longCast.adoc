@@ -23,7 +23,8 @@ Converts a value to the link:../../data-types/long[long] data type.
 
 [float]
 === Syntax
-`long(x)`
+`long(x)` +
+`(long)x` (C-style type conversion)
 
 
 [float]

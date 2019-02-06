@@ -24,7 +24,8 @@ Converts a value to the link:../../data-types/word[word] data type.
 [float]
 === Syntax
 `word(x)` +
-`word(h, l)`
+`word(h, l)` +
+`(word)x` (C-style type conversion)
 
 [float]
 === Parameters

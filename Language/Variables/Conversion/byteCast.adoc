@@ -23,7 +23,8 @@ Converts a value to the link:../../data-types/byte[byte] data type.
 
 [float]
 === Syntax
-`byte(x)`
+`byte(x)` +
+`(byte)x` (C-style type conversion)
 
 
 [float]
