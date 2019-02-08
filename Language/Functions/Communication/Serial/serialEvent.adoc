@@ -61,7 +61,7 @@ Nothing
 
 [float]
 === Notes and Warnings
-`serialEvent()` doesn't work on the Leonardo or Micro.
+`serialEvent()` doesn't work on the Leonardo, Micro, or Yún.
 
 `serialEvent()` and `serialEvent1()` don't work on the Arduino SAMD Boards
 
