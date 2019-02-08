@@ -80,6 +80,11 @@ void loop() {
   delay(10);
 }
 ----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+For information on the asyncronicity of `Serial.println()`, see the Notes and Warnings section of the link:../write#howtouse[Serial.write() reference page].
 
 --
 // HOW TO USE SECTION ENDS
