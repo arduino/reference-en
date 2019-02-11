@@ -50,7 +50,7 @@ isAscii(thisChar)
 
 [source,arduino]
 ----
-if (isAscii(this))      // tests if this is an Ascii character
+if (isAscii(myChar))      // tests if myChar is an Ascii character
 {
 	Serial.println("The character is Ascii");
 }

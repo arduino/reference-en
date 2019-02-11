@@ -50,7 +50,7 @@ isDigit(thisChar)
 
 [source,arduino]
 ----
-if (isDigit(this))      // tests if this is a digit
+if (isDigit(myChar))      // tests if myChar is a digit
 {
 	Serial.println("The character is a number");
 }
