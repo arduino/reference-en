@@ -23,9 +23,9 @@ Turns off the given interrupt.
 
 [float]
 === Syntax
-`detachInterrupt(digitalPinToInterrupt(pin))` (Arduino AVR Boards only, recommended) +
-`detachInterrupt(interrupt)` (Arduino AVR Boards only, not recommended) +
-`detachInterrupt(pin)` (Arduino SAMD Boards, Due, 101 only)
+`detachInterrupt(digitalPinToInterrupt(pin))` (recommended) +
+`detachInterrupt(interrupt)` (not recommended) +
+`detachInterrupt(pin)` (Not recommended. Arduino SAMD Boards, Uno WiFi Rev2, Due, 101 only)
 
 [float]
 === Parameters
