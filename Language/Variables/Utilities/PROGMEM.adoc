@@ -214,7 +214,7 @@ Serial.print(F("Write something on the Serial Monitor that is stored in FLASH"))
 === See also
 
 [role="example"]
-* #EXAMPLE# https://www.arduino.cc/playground/Learning/Memory[Types of memory available on an Arduino board]
+* #EXAMPLE# https://www.arduino.cc/playground/Learning/Memory[Types of memory available on an Arduino board^]
 
 [role="definition"]
 * #DEFINITION# link:../../data-types/array[array]
