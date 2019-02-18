@@ -24,6 +24,17 @@ Characters are stored as numbers however. You can see the specific encoding in t
 The char datatype is a signed type, meaning that it encodes numbers from -128 to 127. For an unsigned, one-byte (8 bit) data type, use the _byte_ data type.
 [%hardbreaks]
 
+
+[float]
+=== Syntax
+`char var = val;`
+
+
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value to assign to that variable
+
 --
 // OVERVIEW SECTION ENDS
 

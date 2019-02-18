@@ -22,6 +22,17 @@ A `bool` holds one of two values, `true` or `false`. (Each `bool` variable occup
 
 [%hardbreaks]
 
+
+[float]
+=== Syntax
+`bool var = val;`
+
+
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value to assign to that variable
+
 --
 // OVERVIEW SECTION ENDS
 

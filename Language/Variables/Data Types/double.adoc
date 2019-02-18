@@ -22,6 +22,17 @@ Double precision floating point number. On the Uno and other ATMEGA based boards
 On the Arduino Due, doubles have 8-byte (64 bit) precision.
 [%hardbreaks]
 
+
+[float]
+=== Syntax
+`double var = val;`
+
+
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value to assign to that variable
+
 --
 // OVERVIEW SECTION ENDS
 

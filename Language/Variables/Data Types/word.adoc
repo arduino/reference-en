@@ -20,6 +20,17 @@ subCategories: [ "Data Types" ]
 A word stores a 16-bit unsigned number, from 0 to 65535. Same as an unsigned int.
 [%hardbreaks]
 
+
+[float]
+=== Syntax
+`word var = val;`
+
+
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value to assign to that variable
+
 --
 // OVERVIEW SECTION ENDS
 

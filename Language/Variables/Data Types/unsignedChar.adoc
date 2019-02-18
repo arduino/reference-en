@@ -24,6 +24,17 @@ The unsigned char datatype encodes numbers from 0 to 255.
 For consistency of Arduino programming style, the byte data type is to be preferred.
 [%hardbreaks]
 
+
+[float]
+=== Syntax
+`unsigned char var = val;`
+
+
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value to assign to that variable
+
 --
 // OVERVIEW SECTION ENDS
 
