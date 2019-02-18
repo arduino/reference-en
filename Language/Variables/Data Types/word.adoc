@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = word
-
 
 // OVERVIEW SECTION STARTS
 [#overview]

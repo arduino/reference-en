@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = string
-
 
 // OVERVIEW SECTION STARTS
 [#overview]

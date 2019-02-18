@@ -27,8 +27,11 @@ If doing math with integers, at least one of the numbers must be followed by an 
 
 `long var = val;`
 
-`var` - the long variable name
-`val` - the value assigned to the variable
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value assigned to the variable
+
 [%hardbreaks]
 --
 // OVERVIEW SECTION ENDS

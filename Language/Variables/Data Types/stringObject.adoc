@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = String()
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -64,7 +59,7 @@ String(val, decimalPlaces)
 [float]
 === Parameters
 `val`:  a variable to format as a String - *Allowed data types:* string, char, byte, int, long, unsigned int, unsigned long, float, double +
-`base` (optional): the base in which to format an integral value
+`base` (optional): the base in which to format an integral value +
 `decimalPlaces` (*only if val is float or double*): the desired decimal places
 
 [float]

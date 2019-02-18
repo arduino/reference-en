@@ -32,8 +32,10 @@ If doing math with floats, you need to add a decimal point, otherwise it will be
 === Syntax
 `float var=val;`
 
-`var` - your float variable name
-`val` - the value you assign to that variable
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value you assign to that variable
 [%hardbreaks]
 
 --
