@@ -87,6 +87,7 @@ http://arduino.cc[serialEvent()]
 // Whenever you want to link to another Reference term, or more in general to a relative link,
 // use the syntax shown below. Please note that the file format is subsituted by  attribute.
 // Please note that you always need to replace spaces that you might find in folder/file names with %20
+// The entire link to Reference pages must be lower case, regardless of the case of the folders and files in this repository.
 * #LANGUAGE# link:../AsciiDoc_Template-Single_Entity[Single Entity]
 * #LANGUAGE# link:../../AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary[AsciiDoc Template Dictionary]
 
