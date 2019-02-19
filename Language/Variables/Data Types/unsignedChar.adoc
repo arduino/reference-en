@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = unsigned char
-
 
 // OVERVIEW SECTION STARTS
 [#overview]

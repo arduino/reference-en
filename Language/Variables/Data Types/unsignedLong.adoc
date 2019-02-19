@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = unsigned long
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -25,8 +20,10 @@ Unsigned long variables are extended size variables for number storage, and stor
 
 `unsigned long var = val;`
 
-`var` - your long variable name
-`val` - the value you assign to that variable
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value you assign to that variable
 [%hardbreaks]
 
 --

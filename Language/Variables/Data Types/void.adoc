@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = void
-
 
 // OVERVIEW SECTION STARTS
 [#overview]

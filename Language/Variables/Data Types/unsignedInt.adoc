@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = unsigned int
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -30,9 +25,11 @@ The difference between unsigned ints and (signed) ints, lies in the way the high
 [float]
 === Syntax
 `unsigned int var = val;`
-`var` - your unsigned int variable name
-`val` - the value you assign to that variable
 
+[float]
+=== Parameters
+`var`: variable name +
+`val`: the value you assign to that variable
 
 // HOW TO USE SECTION STARTS
 [#howtouse]

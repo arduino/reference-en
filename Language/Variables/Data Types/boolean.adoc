@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = boolean
-
 
 // OVERVIEW SECTION STARTS
 [#overview]

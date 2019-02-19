@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = Arrays
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
