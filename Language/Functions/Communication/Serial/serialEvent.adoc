@@ -23,23 +23,23 @@ Called when data is available. Use `Serial.read()` to capture this data.
 
 [source,arduino]
 ----
-void serialEvent(){
-//statements
+void serialEvent() {
+  //statements
 }
 ----
 For boards with additional serial ports (see the list of available serial ports for each board on the link:../../serial[Serial main page]):
 [source,arduino]
 ----
-void serialEvent1(){
-//statements
+void serialEvent1() {
+  //statements
 }
 
-void serialEvent2(){
-//statements
+void serialEvent2() {
+  //statements
 }
 
-void serialEvent3(){
-//statements
+void serialEvent3() {
+  //statements
 }
 ----
 

@@ -62,14 +62,14 @@ There is no semicolon after the #define statement. If you include one, the compi
 
 [source,arduino]
 ----
-#define ledPin 3;    // this is an error
+#define ledPin 3; // this is an error
 ----
 
 Similarly, including an equal sign after the #define statement will also generate a cryptic compiler error further down the page.
 
 [source,arduino]
 ----
-#define ledPin  = 3  // this is also an error
+#define ledPin  = 3 // this is also an error
 ----
 [%hardbreaks]
 

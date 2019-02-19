@@ -52,15 +52,12 @@ isHexadecimalDigit(thisChar)
 
 [source,arduino]
 ----
-if (isHexadecimalDigit(myChar))      // tests if myChar is an hexadecimal digit
-{
-	Serial.println("The character is an hexadecimal digit");
+if (isHexadecimalDigit(myChar)) { // tests if myChar is an hexadecimal digit
+  Serial.println("The character is an hexadecimal digit");
 }
-else
-{
-	Serial.println("The character is not an hexadecimal digit");
+else {
+  Serial.println("The character is not an hexadecimal digit");
 }
-
 ----
 
 --

@@ -50,8 +50,8 @@ The beginning of a *block comment* or a *multi-line comment* is marked by the sy
 */
 
 /*
-  if (gwb == 0){   // single line comment is OK inside a multi-line comment
-  x = 3;           /* but not another multi-line comment - this is invalid */
+  if (gwb == 0) { // single line comment is OK inside a multi-line comment
+    x = 3;          /* but not another multi-line comment - this is invalid */
   }
 // don't forget the "closing" comment - they have to be balanced!
 */

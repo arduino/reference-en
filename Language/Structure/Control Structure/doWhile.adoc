@@ -24,9 +24,8 @@ The `do...while` loop works in the same manner as the link:../while[while] loop,
 === Syntax
 [source,arduino]
 ----
-do
-{
-    // statement block
+do {
+  // statement block
 } while (condition);
 ----
 The `condition` is a boolean expression that evaluates to `true` or `false`.
@@ -47,11 +46,9 @@ The `condition` is a boolean expression that evaluates to `true` or `false`.
 [source,arduino]
 ----
 int x = 0;
-do
-{
+do {
   delay(50);          // wait for sensors to stabilize
   x = readSensors();  // check the sensors
-
 } while (x < 100);
 ----
 

@@ -48,13 +48,11 @@ Unsigned long variables are extended size variables for number storage, and stor
 ----
 unsigned long time;
 
-void setup()
-{
+void setup() {
   Serial.begin(9600);
 }
 
-void loop()
-{
+void loop() {
   Serial.print("Time: ");
   time = millis();
   //prints time since program started

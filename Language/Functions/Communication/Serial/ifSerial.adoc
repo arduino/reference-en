@@ -52,7 +52,7 @@ Nothing
 [source,arduino]
 ----
 void setup() {
- //Initialize serial and wait for port to open:
+  //Initialize serial and wait for port to open:
   Serial.begin(9600);
   while (!Serial) {
     ; // wait for serial port to connect. Needed for native USB
@@ -60,7 +60,7 @@ void setup() {
 }
 
 void loop() {
- //proceed normally
+  //proceed normally
 }
 ----
 

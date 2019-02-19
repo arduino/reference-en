@@ -47,7 +47,7 @@ If doing math with integers, at least one of the numbers must be followed by an 
 
 [source,arduino]
 ----
-  long speedOfLight = 186000L;   // see the Integer Constants page for explanation of the 'L'
+long speedOfLight = 186000L;  // see the Integer Constants page for explanation of the 'L'
 ----
 
 --

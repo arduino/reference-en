@@ -29,7 +29,7 @@ A review of the Bitwise XOR `^` operator:
 === Syntax
 [source,arduino]
 ----
-x ^= y;   // equivalent to x = x ^ y;
+x ^= y; // equivalent to x = x ^ y;
 ----
 
 [float]
@@ -90,7 +90,7 @@ Here is the same representation with the variables bits replaced with the symbol
 So if:
 [source,arduino]
 ----
-myByte =  B10101010;
+myByte = B10101010;
 myByte ^= B00000011 == B10101001;
 ----
 

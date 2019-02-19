@@ -50,15 +50,12 @@ isControl(thisChar)
 
 [source,arduino]
 ----
-if (isControl(myChar))      // tests if myChar is a control character
-{
-	Serial.println("The character is a control character");
+if (isControl(myChar)) {  // tests if myChar is a control character
+  Serial.println("The character is a control character");
 }
-else
-{
-	Serial.println("The character is not a control character");
+else {
+  Serial.println("The character is not a control character");
 }
-
 ----
 
 --

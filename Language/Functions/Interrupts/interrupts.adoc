@@ -53,8 +53,7 @@ The code enables Interrupts.
 ----
 void setup() {}
 
-void loop()
-{
+void loop() {
   noInterrupts();
   // critical, time-sensitive code here
   interrupts();

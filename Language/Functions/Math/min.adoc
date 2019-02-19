@@ -53,8 +53,8 @@ The code ensures that it never gets above 100.
 
 [source,arduino]
 ----
-sensVal = min(sensVal, 100); // assigns sensVal to the smaller of sensVal or 100
-                             // ensuring that it never gets above 100.
+sensVal = min(sensVal, 100);  // assigns sensVal to the smaller of sensVal or 100
+                              // ensuring that it never gets above 100.
 ----
 [%hardbreaks]
 
@@ -65,10 +65,10 @@ Perhaps counter-intuitively, `max()` is often used to constrain the lower end of
 Because of the way the `min()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results
 [source,arduino]
 ----
-min(a++, 100);   // avoid this - yields incorrect results
+min(a++, 100);  // avoid this - yields incorrect results
 
 min(a, 100);
-a++;    // use this instead - keep other math outside the function
+a++;  // use this instead - keep other math outside the function
 ----
 
 --

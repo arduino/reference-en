@@ -45,7 +45,7 @@ The difference between unsigned ints and (signed) ints, lies in the way the high
 
 [source,arduino]
 ----
-  unsigned int ledPin = 13;
+unsigned int ledPin = 13;
 ----
 [%hardbreaks]
 
@@ -56,9 +56,9 @@ When unsigned variables are made to exceed their maximum capacity they "roll ove
 [source,arduino]
 ----
 unsigned int x;
-   x = 0;
-   x = x - 1;       // x now contains 65535 - rolls over in neg direction
-   x = x + 1;       // x now contains 0 - rolls over
+x = 0;
+x = x - 1;  // x now contains 65535 - rolls over in neg direction
+x = x + 1;  // x now contains 0 - rolls over
 ----
 
 Math with unsigned variables may produce unexpected results, even if your unsigned variable never rolls over.
@@ -72,16 +72,16 @@ However with a calculation which requires an intermediate result, the scope of t
 
 [source,arduino]
 ----
-unsigned int x=5;
-unsigned int y=10;
+unsigned int x = 5;
+unsigned int y = 10;
 int result;
 
-   result = x - y; // 5 - 10 = -5, as expected
-   result = (x - y)/2; // 5 - 10 in unsigned math is 65530!  65530/2 = 32765 
-   
-   // solution: use signed variables, or do the calculation step by step.
-   result = x - y; // 5 - 10 = -5, as expected
-   result = result / 2; //  -5/2 = -2 (only integer math, decimal places are dropped)
+result = x - y; // 5 - 10 = -5, as expected
+result = (x - y) / 2; // 5 - 10 in unsigned math is 65530!  65530/2 = 32765
+
+// solution: use signed variables, or do the calculation step by step.
+result = x - y; // 5 - 10 = -5, as expected
+result = result / 2;  //  -5/2 = -2 (only integer math, decimal places are dropped)
 ----
 Why use unsigned variables at all?
 

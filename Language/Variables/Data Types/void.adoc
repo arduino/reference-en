@@ -40,13 +40,11 @@ The code shows how to use `void`.
 // actions are performed in the functions "setup" and "loop"
 // but  no information is reported to the larger program
 
-void setup()
-{
+void setup() {
   // ...
 }
 
-void loop()
-{
+void loop() {
   // ...
 }
 ----

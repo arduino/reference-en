@@ -67,9 +67,8 @@ void setup() {
 }
 
 void loop() {
- // nothing to do here
+  // nothing to do here
 }
- 
 ----
 // HOW TO USE SECTION ENDS
 

@@ -48,7 +48,7 @@ A word can store an unsigned number of at least 16 bits (from 0 to 65535).
 
 [source,arduino]
 ----
-  word w = 10000;
+word w = 10000;
 ----
 
 --

@@ -45,21 +45,18 @@ It is also sometimes handy to declare and initialize a variable inside a `for` l
 ----
 int gPWMval;  // any function will see this variable
 
-void setup()
-{
+void setup() {
   // ...
 }
 
-void loop()
-{
+void loop() {
   int i;    // "i" is only "visible" inside of "loop"
   float f;  // "f" is only "visible" inside of "loop"
   // ...
 
-  for (int j = 0; j <100; j++){
-  // variable j can only be accessed inside the for-loop brackets
+  for (int j = 0; j < 100; j++) {
+    // variable j can only be accessed inside the for-loop brackets
   }
-
 }
 ----
 [%hardbreaks]

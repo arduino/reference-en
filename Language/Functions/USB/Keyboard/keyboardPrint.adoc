@@ -62,7 +62,7 @@ void setup() {
 
 void loop() {
   //if the button is pressed
-  if(digitalRead(2)==LOW){
+  if (digitalRead(2) == LOW) {
     //Send the message
     Keyboard.print("Hello!");
   }

@@ -63,22 +63,18 @@ There are several ways to do this:
 int pin = 13;
 volatile byte state = LOW;
 
-void setup()
-{
+void setup() {
   pinMode(pin, OUTPUT);
   attachInterrupt(digitalPinToInterrupt(2), blink, CHANGE);
 }
 
-void loop()
-{
+void loop() {
   digitalWrite(pin, state);
 }
 
-void blink()
-{
+void blink() {
   state = !state;
 }
-
 ----
 
 
@@ -88,10 +84,9 @@ void blink()
 volatile int input_from_interrupt;
 
   ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
-     // code with interrupts blocked (consecutive atomic operations will not get interrupted)
-     int result = input_from_interrupt;
-   }
-
+    // code with interrupts blocked (consecutive atomic operations will not get interrupted)
+    int result = input_from_interrupt;
+  }
 ----
 
 
