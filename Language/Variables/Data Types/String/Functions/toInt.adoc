@@ -1,4 +1,4 @@
-﻿---
+---
 title: "toInt()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

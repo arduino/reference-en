@@ -1,4 +1,4 @@
-﻿---
+---
 title: "substring()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "c_str()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

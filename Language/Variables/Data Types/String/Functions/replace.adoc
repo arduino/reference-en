@@ -1,4 +1,4 @@
-﻿---
+---
 title: "replace()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

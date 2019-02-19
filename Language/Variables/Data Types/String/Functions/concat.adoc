@@ -1,4 +1,4 @@
-﻿---
+---
 title: "concat()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

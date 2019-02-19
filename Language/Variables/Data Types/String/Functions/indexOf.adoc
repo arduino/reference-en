@@ -1,4 +1,4 @@
-﻿---
+---
 title: "indexOf()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
