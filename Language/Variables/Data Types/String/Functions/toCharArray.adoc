@@ -1,4 +1,4 @@
-﻿---
+---
 title: "toCharArray()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

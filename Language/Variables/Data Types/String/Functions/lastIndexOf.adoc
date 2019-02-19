@@ -1,4 +1,4 @@
-﻿---
+---
 title: "lastIndexOf()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

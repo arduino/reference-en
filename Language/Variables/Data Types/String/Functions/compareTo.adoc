@@ -1,4 +1,4 @@
-﻿---
+---
 title: "compareTo()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

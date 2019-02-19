@@ -1,4 +1,4 @@
-﻿---
+---
 title: "startsWith()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

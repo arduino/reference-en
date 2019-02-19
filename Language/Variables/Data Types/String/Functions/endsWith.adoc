@@ -1,4 +1,4 @@
-﻿---
+---
 title: "endsWith()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

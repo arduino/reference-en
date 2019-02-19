@@ -1,4 +1,4 @@
-﻿---
+---
 title: "equalsIgnoreCase()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

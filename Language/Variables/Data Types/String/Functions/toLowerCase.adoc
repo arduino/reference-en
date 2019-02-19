@@ -1,4 +1,4 @@
-﻿---
+---
 title: "toLowerCase()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

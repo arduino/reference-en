@@ -1,4 +1,4 @@
-﻿---
+---
 title: "equals()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]

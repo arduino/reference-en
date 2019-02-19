@@ -1,4 +1,4 @@
-﻿---
+---
 title: "charAt()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
