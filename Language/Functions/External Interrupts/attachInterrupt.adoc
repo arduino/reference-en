@@ -59,7 +59,7 @@ For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gam
 === Syntax
 `attachInterrupt(digitalPinToInterrupt(pin), ISR, mode);` (recommended) +
 `attachInterrupt(interrupt, ISR, mode);` (not recommended) +
-`attachInterrupt(pin, ISR, mode);` (Not recommended. Arduino SAMD Boards, Uno WiFi Rev2, Due, 101 only)
+`attachInterrupt(pin, ISR, mode);` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, Uno WiFi Rev2, Due, and 101.)
 
 
 [float]
