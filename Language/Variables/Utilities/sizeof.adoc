@@ -46,14 +46,13 @@ This program prints out a text string one character at a time. Try changing the 
 [source,arduino]
 ----
 char myStr[] = "this is a test";
-int i;
 
 void setup() {
   Serial.begin(9600);
 }
 
 void loop() {
-  for (i = 0; i < sizeof(myStr) - 1; i++) {
+  for (byte i = 0; i < sizeof(myStr) - 1; i++) {
     Serial.print(i, DEC);
     Serial.print(" = ");
     Serial.write(myStr[i]);
@@ -73,7 +72,7 @@ Note that `sizeof` returns the total number of bytes. So for arrays of larger va
 int myValues[] = {123, 456, 789};
 
 // this for loop works correctly with an array of any type or size
-for (i = 0; i < (sizeof(myValues) / sizeof(myValues[0])); i++) {
+for (byte i = 0; i < (sizeof(myValues) / sizeof(myValues[0])); i++) {
   // do something with myValues[i]
 }
 ----
