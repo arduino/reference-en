@@ -1,6 +1,6 @@
 ---
 title: Parent of Entity Title
-categories: [ "Functions" ] 
+categories: [ "Functions" ]
 subCategories: [ "Subcategory Name" ]
 ---
 // ARDUINO LANGUAGE REFERENCE TAG (above)   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
@@ -78,7 +78,7 @@ http://arduino.cc[serialEvent()]
 
 [float]
 === See also
-// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#), 
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
 // definitions (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // (please add the tag #EXAMPLE#)  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 

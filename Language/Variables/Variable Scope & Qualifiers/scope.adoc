@@ -23,7 +23,7 @@ A global variable is one that can be seen by every function in a program. Local 
 
 When programs start to get larger and more complex, local variables are a useful way to insure that only one function has access to its own variables. This prevents programming errors when one function inadvertently modifies variables used by another function.
 
-It is also sometimes handy to declare and initialize a variable inside a `for` loop. This creates a variable that can only be accessed from inside the for-loop brackets. 
+It is also sometimes handy to declare and initialize a variable inside a `for` loop. This creates a variable that can only be accessed from inside the for-loop brackets.
 [%hardbreaks]
 
 --

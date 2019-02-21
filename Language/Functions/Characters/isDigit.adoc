@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is a digit (that is a number). Returns true if thisChar is a number. 
+Analyse if a char is a digit (that is a number). Returns true if thisChar is a number.
 [%hardbreaks]
 
 

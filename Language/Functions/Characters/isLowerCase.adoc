@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is lower case (that is a letter in lower case). Returns true if thisChar contains a letter in lower case. 
+Analyse if a char is lower case (that is a letter in lower case). Returns true if thisChar contains a letter in lower case.
 [%hardbreaks]
 
 

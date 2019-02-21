@@ -15,7 +15,7 @@ subCategories: [ "Variable Scope & Qualifiers" ]
 === Description
 The `static` keyword is used to create variables that are visible to only one function. However unlike local variables that get created and destroyed every time a function is called, static variables persist beyond the function call, preserving their data between function calls.
 
-Variables declared as static will only be created and initialized the first time a function is called. 
+Variables declared as static will only be created and initialized the first time a function is called.
 [%hardbreaks]
 
 --

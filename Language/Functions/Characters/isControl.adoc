@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is a control character. Returns true if thisChar is a control character. 
+Analyse if a char is a control character. Returns true if thisChar is a control character.
 [%hardbreaks]
 
 

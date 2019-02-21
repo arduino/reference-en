@@ -21,7 +21,7 @@ The first parameter to `attachInterrupt()` is an interrupt number. Normally you 
 |===================================================
 |Board                             |Digital Pins Usable For Interrupts
 |Uno, Nano, Mini, other 328-based  |2, 3
-|Uno WiFi Rev.2                    |all digital pins                   
+|Uno WiFi Rev.2                    |all digital pins
 |Mega, Mega2560, MegaADK           |2, 3, 18, 19, 20, 21
 |Micro, Leonardo, other 32u4-based |0, 1, 2, 3, 7
 |Zero                              |all digital pins, except 4
