@@ -27,13 +27,12 @@ Get a substring of a String. The starting index is inclusive (the corresponding 
 `myString.substring(from)` +
 `myString.substring(from, to)`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
-
-`from`: the index to start the substring at
-
-`to` (optional): the index to end the substring before
+`myString`: a variable of type `String`. +
+`from`: the index to start the substring at. +
+`to` (optional): the index to end the substring before.
 
 
 [float]

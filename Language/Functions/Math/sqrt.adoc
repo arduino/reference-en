@@ -28,11 +28,12 @@ Calculates the square root of a number.
 
 [float]
 === Parameters
-`x`: the number, any data type
+`x`: the number. Allowed data types: any data type.
+
 
 [float]
 === Returns
-The number's square root. (double)
+The number's square root. Data type: `double`.
 
 --
 // OVERVIEW SECTION ENDS

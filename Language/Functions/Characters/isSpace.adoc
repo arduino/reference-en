@@ -23,14 +23,13 @@ Analyse if a char is the space character. Returns true if thisChar contains the 
 
 [float]
 === Syntax
-[source,arduino]
-----
-isSpace(thisChar)
-----
+`isSpace(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

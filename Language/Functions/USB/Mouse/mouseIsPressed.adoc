@@ -27,17 +27,16 @@ Checks the current status of all mouse buttons, and reports if any are pressed o
 === Parameters
 When there is no value passed, it checks the status of the left mouse button.
 
-`button`: which mouse button to check - `char`
+`button`: which mouse button to check. Allowed data types: `char`.
 
 * `MOUSE_LEFT (default)`
-
 * `MOUSE_RIGHT`
-
 * `MOUSE_MIDDLE`
+
 
 [float]
 === Returns
-`bool` : reports whether a button is pressed or not.
+Reports whether a button is pressed or not. Data type: `bool`.
 
 --
 // OVERVIEW SECTION ENDS

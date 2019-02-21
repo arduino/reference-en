@@ -4,7 +4,12 @@ categories: [ "Functions" ]
 subCategories: [ "Math" ]
 ---
 
+
+
+
+
 = pow(base, exponent)
+
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -23,13 +28,13 @@ Calculates the value of a number raised to a power. `pow()` can be used to raise
 
 [float]
 === Parameters
-`base`: the number (`float`)
+`base`: the number. Allowed data types: `float`. +
+`exponent`: the power to which the base is raised. Allowed data types: `float`.
 
-`exponent`: the power to which the base is raised (`float`)
 
 [float]
 === Returns
-The result of the exponentiation (`double`)
+The result of the exponentiation. Data type: `double`.
 
 --
 // OVERVIEW SECTION ENDS

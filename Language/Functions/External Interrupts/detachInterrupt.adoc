@@ -27,11 +27,12 @@ Turns off the given interrupt.
 `detachInterrupt(interrupt)` (not recommended) +
 `detachInterrupt(pin)` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, Uno WiFi Rev2, Due, and 101.)
 
+
 [float]
 === Parameters
-`interrupt`: the number of the interrupt to disable (see link:../attachinterrupt[attachInterrupt()] for more details).
-
+`interrupt`: the number of the interrupt to disable (see link:../attachinterrupt[attachInterrupt()] for more details). +
 `pin`: the pin number of the interrupt to disable
+
 
 [float]
 === Returns

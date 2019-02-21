@@ -24,17 +24,14 @@ subCategories: [ "Arithmetic Operators" ]
 
 [float]
 === Syntax
-[source,arduino]
-----
-difference = operand1 - operand2;
-----
+`difference = operand1 - operand2;`
+
 
 [float]
 === Parameters
-`difference` : variable. *Allowed data types:* int, float, double, byte, short, long +
-`operand1` : variable or constant. *Allowed data types:* int, float, double, byte, short, long +
-`operand2` : variable or constant. *Allowed data types:* int, float, double, byte, short, long
-[%hardbreaks]
+`difference`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`operand1`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`operand2`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
 
 --
 // OVERVIEW SECTION ENDS

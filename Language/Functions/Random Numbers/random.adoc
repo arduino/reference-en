@@ -29,13 +29,13 @@ The random function generates pseudo-random numbers.
 
 [float]
 === Parameters
-`min` - lower bound of the random value, inclusive (optional)
+`min`: lower bound of the random value, inclusive (optional). +
+`max`: upper bound of the random value, exclusive.
 
-`max` - upper bound of the random value, exclusive
 
 [float]
 === Returns
-A random number between min and max-1 (`long`) .
+A random number between min and max-1. Data type: `long`.
 
 --
 // OVERVIEW SECTION ENDS

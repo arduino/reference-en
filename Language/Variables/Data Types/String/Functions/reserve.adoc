@@ -26,16 +26,17 @@ The String reserve() function allows you to allocate a buffer in memory for mani
 === Syntax
 `myString.reserve(size)`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
-
-`size`: unsigned int declaring the number of bytes in memory to save for String manipulation 
+`myString`: a variable of type `String`. +
+`size`: the number of bytes in memory to save for String manipulation. Allowed data types: `unsigned int`.
 
 
 [float]
 === Returns
-None
+Nothing
+
 --
 // OVERVIEW SECTION ENDS
 

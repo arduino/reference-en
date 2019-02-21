@@ -24,13 +24,15 @@ title: Serial.getTimeout()
 === Syntax
 `_Serial_.getTimeout()`
 
+
 [float]
 === Parameters
 None
 
+
 [float]
 === Returns
-The timeout value set by `Serial.setTimeout()` (unsigned long)
+The timeout value set by `Serial.setTimeout()`. Data type: `unsigned long`.
 
 --
 // OVERVIEW SECTION ENDS

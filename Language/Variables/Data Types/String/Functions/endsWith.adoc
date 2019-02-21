@@ -26,18 +26,17 @@ Tests whether or not a String ends with the characters of another String.
 === Syntax
 `myString.endsWith(myString2)`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
-
-`myString2`: another variable of type String
+`myString`: a variable of type `String`. +
+`myString2`: another variable of type `String`.
 
 
 [float]
 === Returns
-`true`: if myString ends with the characters of myString2
-
-`false`: otherwise
+`true`: if myString ends with the characters of myString2. +
+`false`: otherwise.
 
 --
 // OVERVIEW SECTION ENDS

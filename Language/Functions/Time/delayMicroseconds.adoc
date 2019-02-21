@@ -30,7 +30,8 @@ Currently, the largest value that will produce an accurate delay is 16383. This 
 
 [float]
 === Parameters
-`us`: the number of microseconds to pause (`unsigned int`)
+`us`: the number of microseconds to pause. Allowed data types: `unsigned int`.
+
 
 [float]
 === Returns

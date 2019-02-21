@@ -24,15 +24,13 @@ This is a convenient shorthand to perform subtraction of a constant or a variabl
 
 [float]
 === Syntax
-[source,arduino]
-----
-x -= y; // equivalent to the expression x = x - y;
-----
+`x -= y; // equivalent to the expression x = x - y;`
+
 
 [float]
 === Parameters
-`x`: variable. *Allowed data types:* int, float, double, byte, short, long +
-`y`: variable or constant. *Allowed data types:* int, float, double, byte, short, long
+`x`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`y`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
 
 --
 // OVERVIEW SECTION ENDS

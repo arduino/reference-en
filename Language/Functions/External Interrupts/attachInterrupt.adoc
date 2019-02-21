@@ -57,15 +57,15 @@ For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gam
 
 [float]
 === Syntax
-`attachInterrupt(digitalPinToInterrupt(pin), ISR, mode);` (recommended) +
-`attachInterrupt(interrupt, ISR, mode);` (not recommended) +
-`attachInterrupt(pin, ISR, mode);` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, Uno WiFi Rev2, Due, and 101.)
+`attachInterrupt(digitalPinToInterrupt(pin), ISR, mode)` (recommended) +
+`attachInterrupt(interrupt, ISR, mode)` (not recommended) +
+`attachInterrupt(pin, ISR, mode)` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, Uno WiFi Rev2, Due, and 101.)
 
 
 [float]
 === Parameters
-`interrupt`: the number of the interrupt (`int`) +
-`pin`: the pin number +
+`interrupt`: the number of the interrupt. Allowed data types: `int`. +
+`pin`: the pin number. +
 `ISR`: the ISR to call when the interrupt occurs; this function must take no parameters and return nothing. This function is sometimes referred to as an interrupt service routine. +
 `mode`: defines when the interrupt should be triggered. Four constants are predefined as valid values: +
 
@@ -77,6 +77,7 @@ For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gam
 The Due, Zero and MKR1000 boards allows also: +
 
 * *HIGH* to trigger the interrupt whenever the pin is high.
+
 
 [float]
 === Returns

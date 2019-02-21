@@ -23,14 +23,13 @@ Analyse if a char is a digit (that is a number). Returns true if thisChar is a n
 
 [float]
 === Syntax
-[source,arduino]
-----
-isDigit(thisChar)
-----
+`isDigit(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

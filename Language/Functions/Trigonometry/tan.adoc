@@ -28,11 +28,12 @@ Calculates the tangent of an angle (in radians). The result will be between nega
 
 [float]
 === Parameters
-`rad`: The angle in Radians (`float`).
+`rad`: The angle in radians. Allowed data types: `float`.
+
 
 [float]
 === Returns
-The tangent of the angle (`double`).
+The tangent of the angle. Data type: `double`.
 
 --
 // OVERVIEW SECTION ENDS

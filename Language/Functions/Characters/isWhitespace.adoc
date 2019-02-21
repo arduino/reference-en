@@ -24,13 +24,13 @@ Returns true if thisChar contains a white space.
 
 [float]
 === Syntax
-[source,arduino]
-isWhitespace(thisChar)
+`isWhitespace(thisChar)`
 
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

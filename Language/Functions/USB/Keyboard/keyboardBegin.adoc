@@ -25,7 +25,8 @@ When used with a Leonardo or Due board, `Keyboard.begin()` starts emulating a ke
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns

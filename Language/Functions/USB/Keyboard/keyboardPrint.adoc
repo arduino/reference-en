@@ -25,13 +25,16 @@ Sends a keystroke to a connected computer.
 `Keyboard.print(character)` +
 `Keyboard.print(characters)`
 
+
 [float]
 === Parameters
-`character` : a char or int to be sent to the computer as a keystroke characters : a string to be sent to the computer as a keystroke.
+`character`: a char or int to be sent to the computer as a keystroke. +
+`characters`: a string to be sent to the computer as a keystroke.
+
 
 [float]
 === Returns
-`size_t` : number of bytes sent.
+Number of bytes sent. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

@@ -34,9 +34,8 @@ If doing math with floats, you need to add a decimal point, otherwise it will be
 
 [float]
 === Parameters
-`var`: variable name +
-`val`: the value you assign to that variable
-[%hardbreaks]
+`var`: variable name. +
+`val`: the value you assign to that variable.
 
 --
 // OVERVIEW SECTION ENDS

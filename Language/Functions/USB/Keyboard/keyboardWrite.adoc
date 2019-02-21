@@ -29,7 +29,7 @@ For a complete list of ASCII characters, see http://www.asciitable.com/[ASCIITab
 
 [float]
 === Parameters
-`character` : a char or int to be sent to the computer. Can be sent in any notation that's acceptable for a char. For example, all of the below are acceptable and send the same value, 65 or ASCII A:
+`character`: a char or int to be sent to the computer. Can be sent in any notation that's acceptable for a char. For example, all of the below are acceptable and send the same value, 65 or ASCII A:
 [source,arduino]
 ----
 Keyboard.write(65);         // sends ASCII value 65, or A
@@ -38,9 +38,10 @@ Keyboard.write(0x41);       // same thing in hexadecimal
 Keyboard.write(0b01000001); // same thing in binary (weird choice, but it works)
 ----
 
+
 [float]
 === Returns
-`size_t` : number of bytes sent.
+Number of bytes sent. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

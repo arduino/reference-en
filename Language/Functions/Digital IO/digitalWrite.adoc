@@ -35,9 +35,9 @@ If you do not set the `pinMode()` to `OUTPUT`, and connect an LED to a pin, when
 
 [float]
 === Parameters
-`pin`: the pin number
+`pin`: the pin number. +
+`value`: `HIGH` or `LOW`.
 
-`value`: `HIGH` or `LOW`
 
 [float]
 === Returns

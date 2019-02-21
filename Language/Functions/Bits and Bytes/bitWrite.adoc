@@ -28,11 +28,10 @@ Writes a bit of a numeric variable.
 
 [float]
 === Parameters
-`x`: the numeric variable to which to write
+`x`: the numeric variable to which to write. +
+`n`: which bit of the number to write, starting at 0 for the least-significant (rightmost) bit. +
+`b`: the value to write to the bit (0 or 1).
 
-`n`: which bit of the number to write, starting at 0 for the least-significant (rightmost) bit
-
-`b`: the value to write to the bit (0 or 1)
 
 [float]
 === Returns

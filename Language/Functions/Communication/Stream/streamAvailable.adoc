@@ -26,11 +26,12 @@ This function is part of the Stream class, and can be called by any class that i
 
 [float]
 === Parameters
-`stream` : an instance of a class that inherits from Stream.
+`stream`: an instance of a class that inherits from Stream.
+
 
 [float]
 === Returns
-`int` : the number of bytes available to read
+The number of bytes available to read. Data type: `int`.
 
 --
 // OVERVIEW SECTION ENDS

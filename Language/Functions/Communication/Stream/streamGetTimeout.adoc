@@ -27,9 +27,10 @@ title: Stream.getTimeout()
 === Parameters
 None
 
+
 [float]
 === Returns
-The timeout value set by `stream.setTimeout()` (unsigned long)
+The timeout value set by `stream.setTimeout()`. Data type: `unsigned long`.
 
 --
 // OVERVIEW SECTION ENDS

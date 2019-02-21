@@ -17,14 +17,13 @@ Unsigned long variables are extended size variables for number storage, and stor
 
 [float]
 === Syntax
-
 `unsigned long var = val;`
+
 
 [float]
 === Parameters
-`var`: variable name +
-`val`: the value you assign to that variable
-[%hardbreaks]
+`var`: variable name. +
+`val`: the value you assign to that variable.
 
 --
 // OVERVIEW SECTION ENDS

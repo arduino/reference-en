@@ -28,14 +28,11 @@ This is a software implementation; see also the https://www.arduino.cc/en/Refere
 
 [float]
 === Parameters
-`dataPin`: the pin on which to output each bit (int)
+`dataPin`: the pin on which to output each bit. Allowed data types: `int`. +
+`clockPin`: the pin to toggle once the dataPin has been set to the correct value. Allowed data types: `int`. +
+`bitOrder`: which order to shift out the bits; either MSBFIRST or LSBFIRST. (Most Significant Bit First, or, Least Significant Bit First). +
+`value`: the data to shift out. Allowed data types: `byte`.
 
-`clockPin`: the pin to toggle once the dataPin has been set to the correct value (int)
-
-`bitOrder`: which order to shift out the bits; either MSBFIRST or LSBFIRST.
-(Most Significant Bit First, or, Least Significant Bit First)
-
-`value`: the data to shift out. (byte)
 
 [float]
 === Returns

@@ -26,16 +26,16 @@ Appends the parameter to a String.
 === Syntax
 `myString.concat(parameter)`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
+`myString`: a variable of type `String`. +
+`parameter`: Allowed data types: `String`, `string`, `char`, `byte`, `int`, `unsigned int`, `long`, `unsigned long`, `float`, `double`, `__FlashStringHelper`(`F()` macro).
 
-`parameter`: *Allowed types are* String, string, char, byte, int, unsigned int, long, unsigned long, float, double, __FlashStringHelper(F() macro).
 
 [float]
 === Returns
-`true`: success
-
+`true`: success. +
 `false`: failure (in which case the String is left unchanged).
 
 --

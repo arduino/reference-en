@@ -28,7 +28,8 @@ Pauses the program for the amount of time (in milliseconds) specified as paramet
 
 [float]
 === Parameters
-`ms`: the number of milliseconds to pause (`unsigned long`)
+`ms`: the number of milliseconds to pause. Allowed data types: `unsigned long`.
+
 
 [float]
 === Returns

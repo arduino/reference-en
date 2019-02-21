@@ -43,9 +43,10 @@ This function is part of the Stream class, and can be called by any class that i
 
 `ignore`: used to skip the indicated char in the search. Used for example to skip thousands divider. Allowed data types: `char`
 
+
 [float]
 === Returns
-`long`
+Data type: `long`.
 
 --
 // OVERVIEW SECTION ENDS

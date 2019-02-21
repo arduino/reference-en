@@ -38,17 +38,17 @@ On ATmega based boards (UNO, Nano, Mini, Mega), it takes about 100 microseconds 
 
 [float]
 === Syntax
-
 `analogRead(pin)`
+
 
 [float]
 === Parameters
 `pin`: the name of the analog input pin to read from (A0 to A5 on most boards, A0 to A6 on MKR boards, A0 to A7 on the Mini and Nano, A0 to A15 on the Mega).
 
+
 [float]
 === Returns
-
-The analog reading on the pin (int). Although it is limited to the resolution of the analog to digital converter (0-1023 for 10 bits or 0-4095 for 12 bits).
+The analog reading on the pin. Although it is limited to the resolution of the analog to digital converter (0-1023 for 10 bits or 0-4095 for 12 bits). Data type: `int`.
 
 --
 // OVERVIEW SECTION ENDS

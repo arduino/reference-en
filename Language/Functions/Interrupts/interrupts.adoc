@@ -28,7 +28,8 @@ Re-enables interrupts (after they've been disabled by link:../nointerrupts[noint
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns

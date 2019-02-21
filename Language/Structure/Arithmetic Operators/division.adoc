@@ -24,17 +24,14 @@ subCategories: [ "Arithmetic Operators" ]
 
 [float]
 === Syntax
-[source,arduino]
-----
-result = numerator / denominator;
-----
+`result = numerator / denominator;`
+
 
 [float]
 === Parameters
-`result` : variable. *Allowed data types:* int, float, double, byte, short, long  +
-`numerator` : variable or constant. *Allowed data types:* int, float, double, byte, short, long  +
-`denominator` : *non zero* variable or constant. *Allowed data types:* int, float, double, byte, short, long
-[%hardbreaks]
+`result`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`numerator`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`denominator`: *non zero* variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
 
 --
 // OVERVIEW SECTION ENDS

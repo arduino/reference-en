@@ -26,16 +26,17 @@ Compares two Strings for equality. The comparison is case-sensitive, meaning the
 === Syntax
 `myString.equals(myString2)`
 
+
 [float]
 === Parameters
-`myString, myString2`: variables of type String
+`myString, myString2`: variables of type `String`.
 
 
 [float]
 === Returns
-`true`: if string equals string2 
+`true`: if string equals string2. +
+`false`: otherwise.
 
-`false`: otherwise
 --
 // OVERVIEW SECTION ENDS
 

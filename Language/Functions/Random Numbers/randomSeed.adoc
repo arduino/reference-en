@@ -25,12 +25,15 @@ Conversely, it can occasionally be useful to use pseudo-random sequences that re
 [%hardbreaks]
 
 
-
+[float]
+=== Syntax
+`randomSeed(seed)`
 
 
 [float]
 === Parameters
-`seed` - number to initialize the pseudo-random sequence (unsigned long).
+`seed`: number to initialize the pseudo-random sequence. Allowed data types: `unsigned long`.
+
 
 [float]
 === Returns

@@ -26,16 +26,17 @@ Converts a value to the link:../../data-types/word[word] data type.
 `word(x)` +
 `word(h, l)`
 
+
 [float]
 === Parameters
-`x`: a value of any type
+`x`: a value. Allowed data types: any type. +
+`h`: the high-order (leftmost) byte of the word. +
+`l`: the low-order (rightmost) byte of the word.
 
-`h`: the high-order (leftmost) byte of the word
 
-`l`: the low-order (rightmost) byte of the word
 [float]
 === Returns
-`word`
+Data type: `word`.
 
 --
 // OVERVIEW SECTION ENDS

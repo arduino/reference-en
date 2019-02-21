@@ -20,18 +20,18 @@ Sends a message that a previously pressed button (invoked through link:../mousep
 
 [float]
 === Syntax
-`Mouse.release();` +
-`Mouse.release(button);`
+`Mouse.release()` +
+`Mouse.release(button)`
+
 
 [float]
 === Parameters
-`button`: which mouse button to press - char
+`button`: which mouse button to press. Allowed data types: `char`.
 
 * `MOUSE_LEFT` (default)
-
 * `MOUSE_RIGHT`
-
 * `MOUSE_MIDDLE`
+
 
 [float]
 === Returns

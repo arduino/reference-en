@@ -26,17 +26,17 @@ Copies the String's characters to the supplied buffer.
 === Syntax
 `myString.toCharArray(buf, len)`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
+`myString`: a variable of type `String`. +
+`buf`: the buffer to copy the characters into. Allowed data types: array of `char`s. +
+`len`: the size of the buffer. Allowed data types: `unsigned int`.
 
-`buf`: the buffer to copy the characters into (_char []_)
-
-`len`: the size of the buffer (_unsigned int_)
 
 [float]
 === Returns
-None
+Nothing
 
 --
 // OVERVIEW SECTION ENDS

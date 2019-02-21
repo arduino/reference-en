@@ -24,21 +24,16 @@ Writes binary data to the serial port. This data is sent as a byte or series of 
 
 [float]
 === Parameters
-`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`val`: a value to send as a single byte. +
+`str`: a string to send as a series of bytes. +
+`buf`: an array to send as a series of bytes. +
+`len`: the number of bytes to be sent from the array.
 
-`val`: a value to send as a single byte
-
-`str`: a string to send as a series of bytes
-
-`buf`: an array to send as a series of bytes
-
-`len`: the number of bytes to be sent from the array
 
 [float]
 === Returns
-`size_t`
-
-`write()` will return the number of bytes written, though reading that number is optional
+`write()` will return the number of bytes written, though reading that number is optional. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

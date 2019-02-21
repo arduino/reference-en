@@ -24,15 +24,13 @@ This is a convenient shorthand to calculate the remainder when one integer is di
 
 [float]
 === Syntax
-[source,arduino]
-----
-x %= divisor;   // equivalent to the expression x = x % divisor;
-----
+`x %= divisor;   // equivalent to the expression x = x % divisor;`
+
 
 [float]
 === Parameters
-`x`: variable. *Allowed data types:* int +
-`divisor`: *non zero* variable or constant. *Allowed data types:* int
+`x`: variable. Allowed data types: `int`. +
+`divisor`: *non zero* variable or constant. Allowed data types: `int`.
 
 --
 // OVERVIEW SECTION ENDS

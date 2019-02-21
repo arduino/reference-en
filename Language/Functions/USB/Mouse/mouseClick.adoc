@@ -28,11 +28,12 @@ Sends a momentary click to the computer at the location of the cursor. This is t
 
 [float]
 === Parameters
-`button`: which mouse button to press - `char`
+`button`: which mouse button to press. Allowed data types: `char`.
 
 * `MOUSE_LEFT` (default)
 * `MOUSE_RIGHT`
 * `MOUSE_MIDDLE`
+
 
 [float]
 === Returns

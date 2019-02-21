@@ -24,15 +24,14 @@ Decrements the value of a variable by 1.
 
 [float]
 === Syntax
-[source,arduino]
-----
-x--;  // decrement x by one and returns the old value of x
---x;  // decrement x by one and returns the new value of x
-----
+`x--;  // decrement x by one and returns the old value of x` +
+`--x;  // decrement x by one and returns the new value of x`
+
 
 [float]
 === Parameters
-`x`: variable. *Allowed data types:* integer, long (possibly unsigned)
+`x`: variable. Allowed data types: `int`, `long` (possibly unsigned).
+
 
 [float]
 === Returns

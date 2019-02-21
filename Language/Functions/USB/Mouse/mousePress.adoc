@@ -30,13 +30,12 @@ Before using `Mouse.press()`, you need to start communication with link:../mouse
 
 [float]
 === Parameters
-`button`: which mouse button to press - `char`
+`button`: which mouse button to press. Allowed data types: `char`.
 
 * `MOUSE_LEFT (default)`
-
 * `MOUSE_RIGHT`
-
 * `MOUSE_MIDDLE`
+
 
 [float]
 === Returns
