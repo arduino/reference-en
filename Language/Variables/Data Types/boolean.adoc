@@ -12,7 +12,7 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Description
-`boolean` is a non-standard type alias for link:../../../variables/data-types/bool/[bool] defined by Arduino. It's recommended to instead use the standard type `bool`, which is identical.
+`boolean` is a non-standard type alias for link:../../../variables/data-types/bool[bool] defined by Arduino. It's recommended to instead use the standard type `bool`, which is identical.
 
 
 [%hardbreaks]
