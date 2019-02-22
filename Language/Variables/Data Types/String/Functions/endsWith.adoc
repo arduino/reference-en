@@ -55,6 +55,6 @@ Tests whether or not a String ends with the characters of another String.
 === See also
 
 [role="example"]
-* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS
