@@ -36,7 +36,7 @@ In the following code, the control exits the `for` loop when the sensor value ex
 [source,arduino]
 ----
 int threshold = 40;
-for (int x = 0; x < 255; x ++) {
+for (int x = 0; x < 255; x++) {
   analogWrite(PWMpin, x);
   sens = analogRead(sensorPin);
   if (sens > threshold) {     // bail out on sensor detect

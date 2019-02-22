@@ -105,8 +105,8 @@ This is `code` in a sentence +
 This can be a lot more code 
 [source,arduino]
 ----
-for (int 1; i<=99; i++) {
-	Serial.println('We want more code!');
+for (int i = 0; i <= 99; i++) {
+  Serial.println('We want more code!');
 }
 ----
 [%hardbreaks]
