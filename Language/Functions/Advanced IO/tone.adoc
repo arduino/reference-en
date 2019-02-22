@@ -77,10 +77,10 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 * #LANGUAGE# link:../../analog-io/analogwrite[analogWrite()]
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Tone^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/tonePitchFollower[Pitch follower^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone3[Simple Keyboard^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone4[multiple tones^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Tone Melody^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/tonePitchFollower[Pitch Follower^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone3[Tone Keyboard^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone4[Tone Multiple^]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/PWM[PWM^]
 
 --
