@@ -80,7 +80,7 @@ Nothing
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/SerialEvent[Serial Event Tutorial^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/SerialEvent[Serial Event^]
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()]
