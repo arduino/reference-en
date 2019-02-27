@@ -4,12 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "Math" ]
 ---
 
-
-
-
-
 = pow(base, exponent)
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -17,7 +12,7 @@ subCategories: [ "Math" ]
 
 [float]
 === Description
-Calculates the value of a number raised to a power. `Pow()` can be used to raise a number to a fractional power. This is useful for generating exponential mapping of values or curves.
+Calculates the value of a number raised to a power. `pow()` can be used to raise a number to a fractional power. This is useful for generating exponential mapping of values or curves.
 [%hardbreaks]
 
 
@@ -34,7 +29,7 @@ Calculates the value of a number raised to a power. `Pow()` can be used to raise
 
 [float]
 === Returns
-The result of the exponentiation. (`double`)
+The result of the exponentiation (`double`)
 
 --
 // OVERVIEW SECTION ENDS
@@ -52,7 +47,7 @@ Calculate the value of x raised to the power of y:
 ----
 z = pow(x, y);
 ----
-See the (http://arduino.cc/playground/Main/Fscale[fscale]) sketch for a more complex example of the use of `map()`.
+See the (http://arduino.cc/playground/Main/Fscale[fscale]) sketch for a more complex example of the use of `pow()`.
 [%hardbreaks]
 
 --
