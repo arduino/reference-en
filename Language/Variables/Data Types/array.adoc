@@ -67,8 +67,7 @@ Arrays are often manipulated inside for loops, where the loop counter is used as
 
 [source,arduino]
 ----
-int i;
-for (i = 0; i < 5; i = i + 1) {
+for (byte i = 0; i < 5; i = i + 1) {
   Serial.println(myPins[i]);
 }
 ----
