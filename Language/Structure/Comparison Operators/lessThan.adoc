@@ -56,7 +56,7 @@ if (x < y) {  // tests if x is less (smaller) than y
 
 [float]
 === Notes and Warnings
-Negative numbers are less than positive numbers. 
+Negative numbers are less than positive numbers.
 [%hardbreaks]
 
 --

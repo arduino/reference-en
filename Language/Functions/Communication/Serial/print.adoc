@@ -19,7 +19,7 @@ Prints data to the serial port as human-readable ASCII text. This command can ta
 * `Serial.print(78)` gives "78" +
 * `Serial.print(1.23456)` gives "1.23" +
 * `Serial.print('N')` gives "N" +
-* `Serial.print("Hello world.")` gives "Hello world." 
+* `Serial.print("Hello world.")` gives "Hello world."
 
 
 An optional second parameter specifies the base (format) to use; permitted values are `BIN(binary, or base 2)`, `OCT(octal, or base 8)`, `DEC(decimal, or base 10)`, `HEX(hexadecimal, or base 16)`. For floating point numbers, this parameter specifies the number of decimal places to use. For example-

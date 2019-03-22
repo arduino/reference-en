@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is Ascii. Returns true if thisChar contains an Ascii character. 
+Analyse if a char is Ascii. Returns true if thisChar contains an Ascii character.
 [%hardbreaks]
 
 

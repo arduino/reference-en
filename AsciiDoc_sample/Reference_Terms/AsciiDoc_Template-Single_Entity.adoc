@@ -106,7 +106,7 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 
 [float]
 === See also
-// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#), 
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
 // definitions: (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // examples: (please add the tag #EXAMPLE#)
 
@@ -116,7 +116,7 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 // use the syntax shown below. Please note that the file format is subsituted by  attribute.
 // Please note that you always need to replace spaces that you might find in folder/file names with %20
 // The entire link to Reference pages must be lower case, regardless of the case of the folders and files in this repository.
-// For language tag, items will be automatically generated for any other item of the same subcategory, 
+// For language tag, items will be automatically generated for any other item of the same subcategory,
 // no need to add links to other pages of the same subcategory
 // if you don't include this section, a minimal version with only the other pages of the same subcategory will be generated.
 * #LANGUAGE# link:../AsciiDoc_Template-Parent_Of_Entities[Parent Of Entities]

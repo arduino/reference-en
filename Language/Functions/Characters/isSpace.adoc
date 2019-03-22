@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is the space character. Returns true if thisChar contains the space character. 
+Analyse if a char is the space character. Returns true if thisChar contains the space character.
 [%hardbreaks]
 
 

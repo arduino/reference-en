@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is alpha (that is a letter). Returns true if thisChar contains a letter. 
+Analyse if a char is alpha (that is a letter). Returns true if thisChar contains a letter.
 [%hardbreaks]
 
 

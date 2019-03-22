@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is alphanumeric (that is a letter or a numbers). Returns true if thisChar contains either a number or a letter. 
+Analyse if a char is alphanumeric (that is a letter or a numbers). Returns true if thisChar contains either a number or a letter.
 [%hardbreaks]
 
 

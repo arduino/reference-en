@@ -37,7 +37,7 @@ The number of bytes available to read .
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The following code returns a character received through the serial port. 
+The following code returns a character received through the serial port.
 
 [source,arduino]
 ----

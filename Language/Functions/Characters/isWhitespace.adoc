@@ -17,8 +17,8 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is a white space, that is space, formfeed ('\f'), newline ('\n'), carriage return ('\r'), horizontal tab ('\t'), and vertical tab ('\v')). 
-Returns true if thisChar contains a white space. 
+Analyse if a char is a white space, that is space, formfeed ('\f'), newline ('\n'), carriage return ('\r'), horizontal tab ('\t'), and vertical tab ('\v')).
+Returns true if thisChar contains a white space.
 [%hardbreaks]
 
 

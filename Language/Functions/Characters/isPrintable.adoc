@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is printable (that is any character that produces an output, even a blank space). Returns true if thisChar is printable. 
+Analyse if a char is printable (that is any character that produces an output, even a blank space). Returns true if thisChar is printable.
 [%hardbreaks]
 
 
