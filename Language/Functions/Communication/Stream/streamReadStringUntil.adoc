@@ -50,4 +50,3 @@ The terminator character is discarded from the stream.
 
 --
 // HOW TO USE SECTION ENDS
-
