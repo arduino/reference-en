@@ -65,10 +65,10 @@ The following code fragments illustrate how to read and write unsigned chars (by
 [source,arduino]
 ----
 // save some unsigned ints
-const PROGMEM  uint16_t charSet[]  = { 65000, 32796, 16843, 10, 11234};
+const PROGMEM uint16_t charSet[] = { 65000, 32796, 16843, 10, 11234};
 
 // save some chars
-const char signMessage[] PROGMEM  = {"I AM PREDATOR,  UNSEEN COMBATANT. CREATED BY THE UNITED STATES DEPART"};
+const char signMessage[] PROGMEM = {"I AM PREDATOR,  UNSEEN COMBATANT. CREATED BY THE UNITED STATES DEPART"};
 
 unsigned int displayInt;
 char myChar;
@@ -88,7 +88,7 @@ void setup() {
 
   // read back a char
   for (byte k = 0; k < strlen_P(signMessage); k++) {
-    myChar =  pgm_read_byte_near(signMessage + k);
+    myChar = pgm_read_byte_near(signMessage + k);
     Serial.print(myChar);
   }
 

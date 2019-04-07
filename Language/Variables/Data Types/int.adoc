@@ -66,7 +66,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-When signed variables are made to exceed their maximum or minimum capacity they _overflow_.  The result of an overflow is unpredictable so this should be avoided.  A typical symptom of an overflow is the variable "rolling over" from its maximum capacity to its minimum or vice versa, but this is not always the case.  If you want this behavior, use link:../unsignedint/[unsigned int].
+When signed variables are made to exceed their maximum or minimum capacity they _overflow_. The result of an overflow is unpredictable so this should be avoided. A typical symptom of an overflow is the variable "rolling over" from its maximum capacity to its minimum or vice versa, but this is not always the case. If you want this behavior, use link:../unsignedint/[unsigned int].
 
 
 --

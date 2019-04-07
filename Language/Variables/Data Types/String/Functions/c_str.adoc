@@ -50,6 +50,6 @@ A pointer to the C-style version of the invoking String.
 === See also
 
 [role="example"]
-* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS
