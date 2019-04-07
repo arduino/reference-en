@@ -53,6 +53,6 @@ If no valid conversion could be performed because the String doesn't start with 
 === See also
 
 [role="example"]
-* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS
