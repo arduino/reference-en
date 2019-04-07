@@ -97,6 +97,6 @@ If the analog input pin is not connected to anything, the value returned by anal
 
 [role="language"]
 * #LANGUAGE# link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()]
-* #LANGUAGE# https://www.arduino.cc/en/Tutorial/AnalogInputPins[Tutorial: Analog Input Pins^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins^]
 --
 // SEE ALSO SECTION ENDS

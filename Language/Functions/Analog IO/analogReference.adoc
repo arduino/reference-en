@@ -87,7 +87,7 @@ Alternatively, you can connect the external reference voltage to the AREF pin th
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of analog input pins^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins^]
 
 --
 // SEE ALSO SECTION ENDS
