@@ -33,7 +33,7 @@ This function is part of the Stream class, and can be called by any class that i
 
 `buffer` : the buffer to store the bytes in (`char[]` or `byte[]`)
 
-`length` : the number of bytes to `read(int)`
+`length` : the number of bytes to read `(int)`
 
 [float]
 === Returns
