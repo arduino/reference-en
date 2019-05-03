@@ -52,6 +52,7 @@ Demonstrates the use of bitWrite by printing the value of a variable to the Seri
 
 
 [source,arduino]
+----
 void setup() {
   Serial.begin(9600);
   while (!Serial) {}  // wait for serial port to connect. Needed for native USB port only
