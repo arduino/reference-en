@@ -36,6 +36,18 @@ Arduino SAMD Boards (Zero, etc.)
 * AR_INTERNAL2V23: a built-in 2.23V reference
 * AR_EXTERNAL: the voltage applied to the AREF pin is used as the reference
 
+Arduino megaAVR Boards (Uno WiFi Rev2)
+
+* DEFAULT: a built-in 0.55V reference
+* INTERNAL: a built-in 0.55V reference
+* VDD: Vdd of the ATmega4809. 5V on the Uno WiFi Rev2
+* INTERNAL0V55: a built-in 0.55V reference
+* INTERNAL1V1: a built-in 1.1V reference
+* INTERNAL1V5: a built-in 1.5V reference
+* INTERNAL2V5: a built-in 2.5V reference
+* INTERNAL4V3: a built-in 4.3V reference
+* EXTERNAL: the voltage applied to the AREF pin (0 to 5V only) is used as the reference
+
 Arduino SAM Boards (Due)
 
 * AR_DEFAULT: the default analog reference of 3.3V. This is the only supported option for the Due.
