@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is the space character. Returns true if thisChar contains the space character.
+Analyse if a char is a white-space character. Returns true if the argument is a space, form feed (`'\f'`), newline (`'\n'`), carriage return (`'\r'`), horizontal tab (`'\t'`), or vertical tab (`'\v'`).
 [%hardbreaks]
 
 
@@ -33,7 +33,7 @@ Analyse if a char is the space character. Returns true if thisChar contains the 
 
 [float]
 === Returns
-`true`: if thisChar is a space.
+`true`: if thisChar is a white-space character.
 
 --
 // OVERVIEW SECTION ENDS
@@ -49,11 +49,11 @@ Analyse if a char is the space character. Returns true if thisChar contains the 
 
 [source,arduino]
 ----
-if (isSpace(myChar)) {  // tests if myChar is the space character
-  Serial.println("The character is a space");
+if (isSpace(myChar)) {  // tests if myChar is a white-space character
+  Serial.println("The character is white-space");
 }
 else {
-  Serial.println("The character is not a space");
+  Serial.println("The character is not white-space");
 }
 ----
 
