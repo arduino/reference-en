@@ -20,16 +20,16 @@ Moves the cursor on a connected computer. The motion onscreen is always relative
 
 [float]
 === Syntax
-`Mouse.move(xVal, yVal, wheel);`
+`Mouse.move(xVal, yVal, wheel)`
 
 
 [float]
 === Parameters
-`xVal`: amount to move along the x-axis - `signed char`
+`xVal`: amount to move along the x-axis. Allowed data types: `signed char`. +
+`yVal`: amount to move along the y-axis. Allowed data types: `signed char`. +
+`wheel`: amount to move scroll wheel. Allowed data types: `signed char`.
 
-`yVal`: amount to move along the y-axis - `signed char`
 
-`wheel`: amount to move scroll wheel - `signed char`
 [float]
 === Returns
 Nothing

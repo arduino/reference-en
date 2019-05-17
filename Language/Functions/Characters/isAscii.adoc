@@ -23,14 +23,13 @@ Analyse if a char is Ascii. Returns true if thisChar contains an Ascii character
 
 [float]
 === Syntax
-[source,arduino]
-----
-isAscii(thisChar)
-----
+`isAscii(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

@@ -26,20 +26,19 @@ Caution: String comparison operators can be confusing when you're comparing nume
 
 [float]
 === Syntax
-[source,arduino]
-----
-myString1 > myString2
-----
+`myString1 > myString2`
+
 
 [float]
 === Parameters
-`myString1, myString2` - a String variable
+`myString1`: a String variable. +
+`myString2`: a String variable.
+
 
 [float]
 === Returns
-`true`: if myString1 is greater than myString2 
-
-`false`: otherwise
+`true`: if myString1 is greater than myString2. +
+`false`: otherwise.
 
 --
 

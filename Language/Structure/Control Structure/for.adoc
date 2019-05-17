@@ -30,8 +30,12 @@ for (initialization; condition; increment) {
 }
 ----
 
-The *initialization* happens first and exactly once. Each time through the loop, the *condition* is tested; if it's `true`, the statement block, and the *increment* is executed, then the *condition* is tested again. When the *condition* becomes `false`, the loop ends.
-[%hardbreaks]
+
+[float]
+=== Parameters
+`initialization`: happens first and exactly once. +
+`condition`: each time through the loop, `condition` is tested; if it's `true`, the statement block, and the *increment* is executed, then the *condition* is tested again. When the *condition* becomes `false`, the loop ends. +
+`increment`: executed each time through the loop when `contition` is true.
 
 --
 // OVERVIEW SECTION ENDS

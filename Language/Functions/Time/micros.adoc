@@ -28,11 +28,12 @@ Returns the number of microseconds since the Arduino board began running the cur
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns
-Returns the number of microseconds since the Arduino board began running the current program.(unsigned long)
+Returns the number of microseconds since the Arduino board began running the current program. Data type: `unsigned long`.
 
 --
 // OVERVIEW SECTION ENDS

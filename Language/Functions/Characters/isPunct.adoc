@@ -23,14 +23,13 @@ Analyse if a char is punctuation (that is a comma, a semicolon, an exlamation ma
 
 [float]
 === Syntax
-[source,arduino]
-----
-isPunct(thisChar)
-----
+`isPunct(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

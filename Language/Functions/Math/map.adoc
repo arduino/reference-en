@@ -42,15 +42,12 @@ The `map()` function uses integer math so will not generate fractions, when the 
 
 [float]
 === Parameters
-`value`: the number to map
+`value`: the number to map. +
+`fromLow`: the lower bound of the value's current range. +
+`fromHigh`: the upper bound of the value's current range. +
+`toLow`: the lower bound of the value's target range. +
+`toHigh`: the upper bound of the value's target range.
 
-`fromLow`: the lower bound of the value's current range
-
-`fromHigh`: the upper bound of the value's current range
-
-`toLow`: the lower bound of the value's target range
-
-`toHigh`: the upper bound of the value's target range
 
 [float]
 === Returns

@@ -26,7 +26,8 @@ Begins emulating the mouse connected to a computer. `begin()` must be called bef
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns

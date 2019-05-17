@@ -25,8 +25,9 @@ title: Stream.setTimeout()
 
 [float]
 === Parameters
-`stream` : an instance of a class that inherits from Stream.
-`time` : timeout duration in milliseconds (`long`).
+`stream`: an instance of a class that inherits from Stream. +
+`time`: timeout duration in milliseconds. Allowed data types: `long`.
+
 
 [float]
 === Returns

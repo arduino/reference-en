@@ -28,7 +28,11 @@ do {
   // statement block
 } while (condition);
 ----
-The `condition` is a boolean expression that evaluates to `true` or `false`.
+
+
+[float]
+=== Parameters
+`condition`: a boolean expression that evaluates to `true` or `false`.
 
 --
 // OVERVIEW SECTION ENDS

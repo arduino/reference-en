@@ -23,14 +23,13 @@ Analyse if a char is a control character. Returns true if thisChar is a control 
 
 [float]
 === Syntax
-[source,arduino]
-----
-isControl(thisChar)
-----
+`isControl(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

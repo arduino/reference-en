@@ -23,14 +23,13 @@ Analyse if a char is printable (that is any character that produces an output, e
 
 [float]
 === Syntax
-[source,arduino]
-----
-isPrintable(thisChar)
-----
+`isPrintable(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

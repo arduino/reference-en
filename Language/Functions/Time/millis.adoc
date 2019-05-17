@@ -25,9 +25,10 @@ Returns the number of milliseconds passed since the Arduino board began running 
 === Parameters
 None
 
+
 [float]
 === Returns
-Number of milliseconds passed since the program started (unsigned long)
+Number of milliseconds passed since the program started. Data type: `unsigned long`.
 
 --
 // OVERVIEW SECTION ENDS

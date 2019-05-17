@@ -28,7 +28,8 @@ Disables interrupts (you can re-enable them with `interrupts()`). Interrupts all
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns

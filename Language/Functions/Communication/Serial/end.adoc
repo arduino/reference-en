@@ -27,6 +27,7 @@ Disables serial communication, allowing the RX and TX pins to be used for genera
 === Parameters
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
+
 [float]
 === Returns
 Nothing

@@ -23,8 +23,8 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Parameters
-`var`: variable name +
-`val`: the value to assign to that variable
+`var`: variable name. +
+`val`: the value to assign to that variable.
 
 --
 // OVERVIEW SECTION ENDS

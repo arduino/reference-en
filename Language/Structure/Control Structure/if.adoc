@@ -28,9 +28,20 @@ if (condition) {
 }
 ----
 
+
 [float]
 === Parameters
-condition: a boolean expression i.e., can be `true` or `false`
+`condition`: a boolean expression (i.e., can be `true` or `false`).
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
 
 [float]
 === Example Code

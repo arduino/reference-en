@@ -24,16 +24,15 @@ The `PROGMEM` keyword is a variable modifier, it should be used only with the da
 PROGMEM is part of the link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library. It is included automatically in modern versions of the IDE, however if you are using an IDE version below 1.0 (2011), you'll first need to include the library at the top your sketch, like this:
 
 `#include <avr/pgmspace.h>`
+While `PROGMEM` could be used on a single variable, it is really only worth the fuss if you have a larger block of data that needs to be stored, which is usually easiest in an array, (or another C++ data structure beyond our present discussion).
+
+Using `PROGMEM` is also a two-step procedure. After getting the data into Flash memory, it requires special methods (functions), also defined in the link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library, to read the data from program memory back into SRAM, so we can do something useful with it.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-
-const dataType variableName[] PROGMEM = {data0, data1, data3...};
-
-`dataType` - any variable type +
-`variableName` - the name for your array of data
+`const dataType variableName[] PROGMEM = {data0, data1, data3...};`
 
 Note that because PROGMEM is a variable modifier, there is no hard and fast rule about where it should go, so the Arduino compiler accepts all of the definitions below, which are also synonymous. However experiments have indicated that, in various versions of Arduino (having to do with GCC version), PROGMEM may work in one location and not in another. The "string table" example below has been tested to work with Arduino 13. Earlier versions of the IDE may work better if PROGMEM is included after the variable name.
 
@@ -42,10 +41,10 @@ Note that because PROGMEM is a variable modifier, there is no hard and fast rule
 `const dataType PROGMEM variableName[] = {};  // not this one`
 
 
-While `PROGMEM` could be used on a single variable, it is really only worth the fuss if you have a larger block of data that needs to be stored, which is usually easiest in an array, (or another C++ data structure beyond our present discussion).
-
-Using `PROGMEM` is also a two-step procedure. After getting the data into Flash memory, it requires special methods (functions), also defined in the link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library, to read the data from program memory back into SRAM, so we can do something useful with it.
-
+[float]
+=== Parameters
+`dataType`: Allowed data types: any variable type. +
+`variableName`: the name for your array of data.
 
 --
 // OVERVIEW SECTION ENDS

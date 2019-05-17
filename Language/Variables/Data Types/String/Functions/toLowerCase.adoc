@@ -26,14 +26,15 @@ Get a lower-case version of a String. As of 1.0, toLowerCase() modifies the Stri
 === Syntax
 `myString.toLowerCase()`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
+`myString`: a variable of type `String`.
 
 
 [float]
 === Returns
-None
+Nothing
 
 --
 // OVERVIEW SECTION ENDS

@@ -26,15 +26,15 @@ Prints data to the serial port as human-readable ASCII text followed by a carria
 
 [float]
 === Parameters
-`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`val`: the value to print. Allowed data types: any data type. +
+`format`: specifies the number base (for integral data types) or number of decimal places (for floating point types).
 
-`val`: the value to print - any data type
-
-`format`: specifies the number base (for integral data types) or number of decimal places (for floating point types)
 
 [float]
 === Returns
-`size_t`: `println()` returns the number of bytes written, though reading that number is optional
+`println()` returns the number of bytes written, though reading that number is optional. Data type: `size_t`.
+
 --
 // OVERVIEW SECTION ENDS
 

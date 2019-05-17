@@ -29,6 +29,7 @@ Waits for the transmission of outgoing serial data to complete. (Prior to Arduin
 === Parameters
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
+
 [float]
 === Returns
 Nothing

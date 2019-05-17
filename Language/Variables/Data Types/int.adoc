@@ -28,10 +28,11 @@ The Arduino takes care of dealing with negative numbers for you, so that arithme
 === Syntax
 `int var = val;`
 
+
 [float]
 === Parameters
-`var`: variable name +
-`val`: the value you assign to that variable
+`var`: variable name. +
+`val`: the value you assign to that variable.
 
 --
 // OVERVIEW SECTION ENDS

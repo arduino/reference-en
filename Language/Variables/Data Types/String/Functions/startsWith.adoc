@@ -26,16 +26,17 @@ Tests whether or not a String starts with the characters of another String.
 === Syntax
 `myString.startsWith(myString2)`
 
+
 [float]
 === Parameters
-`myString, myString2`: a variable of type String
+`myString, myString2`: a variable of type `String`.
 
 
 [float]
 === Returns
-`true`: if myString starts with the characters of myString2
-
+`true`: if myString starts with the characters of myString2. +
 `false`: otherwise
+
 --
 // OVERVIEW SECTION ENDS
 

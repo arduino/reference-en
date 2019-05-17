@@ -44,9 +44,10 @@ In particular:
 
 `ignore`: used to skip the indicated char in the search. Used for example to skip thousands divider. Allowed data types: `char`
 
+
 [float]
 === Returns
-`long` : the next valid integer
+The next valid integer. Data type: `long`.
 
 --
 // OVERVIEW SECTION ENDS

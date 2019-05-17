@@ -32,16 +32,14 @@ Note: this is a software implementation; Arduino also provides an link:https://w
 
 [float]
 === Parameters
-`dataPin`: the pin on which to input each bit (int)
+`dataPin`: the pin on which to input each bit. Allowed data types: `int`. +
+`clockPin`: the pin to toggle to signal a read from *dataPin*. +
+`bitOrder`: which order to shift in the bits; either *MSBFIRST* or *LSBFIRST*. (Most Significant Bit First, or, Least Significant Bit First).
 
-`clockPin`: the pin to toggle to signal a read from *dataPin*
-
-`bitOrder`: which order to shift in the bits; either *MSBFIRST* or *LSBFIRST*.
-(Most Significant Bit First, or, Least Significant Bit First)
 
 [float]
 === Returns
-the value read (byte)
+The value read. Data type: `byte`.
 
 --
 // OVERVIEW SECTION ENDS

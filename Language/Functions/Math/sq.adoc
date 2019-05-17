@@ -28,11 +28,12 @@ Calculates the square of a number: the number multiplied by itself.
 
 [float]
 === Parameters
-`x`: the number, any data type
+`x`: the number. Allowed data types: any data type.
+
 
 [float]
 === Returns
-The square of the number. (double)
+The square of the number. Data type: `double`.
 
 --
 // OVERVIEW SECTION ENDS

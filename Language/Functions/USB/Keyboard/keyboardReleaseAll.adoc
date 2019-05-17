@@ -25,7 +25,8 @@ Lets go of all keys currently pressed. See link:../keyboardpress[Keyboard.press(
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns

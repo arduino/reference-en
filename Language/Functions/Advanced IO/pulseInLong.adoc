@@ -27,20 +27,20 @@ The timing of this function has been determined empirically and will probably sh
 
 [float]
 === Syntax
-`pulseInLong(pin, value)`
-
+`pulseInLong(pin, value)` +
 `pulseInLong(pin, value, timeout)`
+
 
 [float]
 === Parameters
-`pin`: the number of the pin on which you want to read the pulse. (int)
+`pin`: the number of the pin on which you want to read the pulse. Allowed data types: `int`. +
+`value`: type of pulse to read: either link:../../../variables/constants/constants/[HIGH] or link:../../../variables/constants/constants/[LOW]. Allowed data types: `int`. +
+`timeout` (optional): the number of microseconds to wait for the pulse to start; default is one second. Allowed data types: `unsigned long`.
 
-`value`: type of pulse to read: either link:../../../variables/constants/constants/[HIGH] or link:../../../variables/constants/constants/[LOW]. (int)
 
-`timeout` (optional): the number of microseconds to wait for the pulse to start; default is one second (unsigned long)
 [float]
 === Returns
-the length of the pulse (in microseconds) or 0 if no pulse started before the timeout (unsigned long)
+The length of the pulse (in microseconds) or 0 if no pulse started before the timeout. Data type: `unsigned long`.
 
 --
 // OVERVIEW SECTION ENDS

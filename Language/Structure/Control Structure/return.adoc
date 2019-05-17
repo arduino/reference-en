@@ -23,17 +23,13 @@ Terminate a function and return a value from a function to the calling function,
 
 [float]
 === Syntax
-[source,arduino]
-----
-return;
-
-return value; // both forms are valid
-----
+`return;` +
+`return value;`
 
 
 [float]
 === Parameters
-`value`: any variable or constant type
+`value`: Allowed data types: any variable or constant type.
 
 --
 // OVERVIEW SECTION ENDS

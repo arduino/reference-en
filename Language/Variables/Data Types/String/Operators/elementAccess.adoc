@@ -25,18 +25,15 @@ Allows you access to the individual characters of a String.
 
 [float]
 === Syntax
-[source,arduino]
-----
-char thisChar = myString1[n]
-----
+`char thisChar = myString1[n]`
+
 
 [float]
 === Parameters
-`char thisChar` - a character variable
+`thisChar`: Allowed data types: char. +
+`myString1`: Allowed data types: String. +
+`n`: a numeric variable.
 
-`myString1` - a String variable
-
-`int n` - a numeric variable
 
 [float]
 === Returns

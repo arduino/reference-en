@@ -25,7 +25,8 @@ Stops emulating the mouse connected to a computer. To start control, use link:..
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns

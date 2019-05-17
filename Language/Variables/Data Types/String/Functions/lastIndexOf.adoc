@@ -27,13 +27,12 @@ Locates a character or String within another String. By default, searches from t
 `myString.lastIndexOf(val)` +
 `myString.lastIndexOf(val, from)`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
-
-`val`: the value to search for - char or String
-
-`from`: the index to work backwards from
+`myString`: a variable of type `String`. +
+`val`: the value to search for. Allowed data types: `char`, `String`. +
+`from`: the index to work backwards from.
 
 
 [float]

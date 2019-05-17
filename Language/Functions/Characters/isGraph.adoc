@@ -23,14 +23,12 @@ Analyse if a char is printable with some content (space is printable but has no 
 
 [float]
 === Syntax
-[source,arduino]
-----
-isGraph(thisChar)
-----
+`isGraph(thisChar)`
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

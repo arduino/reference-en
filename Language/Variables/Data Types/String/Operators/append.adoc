@@ -25,18 +25,17 @@ It concatenates Strings with other data.
 
 [float]
 === Syntax
-[source,arduino]
-----
-myString1 += data
-----
+`myString1 += data`
+
 
 [float]
 === Parameters
-`myString1` - a String variable
+`myString1`: a String variable.
+
 
 [float]
 === Returns
-None
+Nothing
 
 --
 

@@ -52,6 +52,7 @@ Arduino SAM Boards (Due)
 === Parameters
 `type`: which type of reference to use (see list of options in the description).
 
+
 [float]
 === Returns
 Nothing

@@ -25,18 +25,19 @@ Combines, or concatenates two Strings into one new String. The second String is 
 
 [float]
 === Syntax
-[source,arduino]
-----
-myString3 = myString1 + myString2
-----
+`myString3 = myString1 + myString2`
+
 
 [float]
 === Parameters
-`myString1, myString2, myString3` - a String variable
+`myString1`: a String variable. +
+`myString2`: a String variable. +
+`myString3`: a String variable.
+
 
 [float]
 === Returns
-new String that is the combination of the original two Strings.
+New String that is the combination of the original two Strings.
 
 --
 

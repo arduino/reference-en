@@ -28,9 +28,9 @@ Calculates the minimum of two numbers.
 
 [float]
 === Parameters
-`x`: the first number, any data type
+`x`: the first number. Allowed data types: any data type. +
+`y`: the second number. Allowed data types: any data type.
 
-`y`: the second number, any data type
 
 [float]
 === Returns

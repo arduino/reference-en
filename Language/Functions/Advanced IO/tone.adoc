@@ -29,19 +29,16 @@ It is not possible to generate tones lower than 31Hz. For technical details, see
 
 [float]
 === Syntax
-`tone(pin, frequency)`
-
+`tone(pin, frequency)` +
 `tone(pin, frequency, duration)`
-[%hardbreaks]
+
 
 [float]
 === Parameters
-`pin`: the pin on which to generate the tone
+`pin`: the pin on which to generate the tone. +
+`frequency`: the frequency of the tone in hertz. Allowed data types: `unsigned int`. +
+`duration`: the duration of the tone in milliseconds (optional). Allowed data types: `unsigned long`.
 
-`frequency`: the frequency of the tone in hertz - `unsigned int`
-
-`duration`: the duration of the tone in milliseconds (optional) - `unsigned long`
-[%hardbreaks]
 
 [float]
 === Returns

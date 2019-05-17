@@ -28,15 +28,14 @@ This function is part of the Stream class, and can be called by any class that i
 
 [float]
 === Parameters
-`stream` : an instance of a class that inherits from Stream.
+`stream`: an instance of a class that inherits from Stream. +
+`target`: the string to search for. Allowed data types: `char`. +
+`length`: length of the target. Allowed data types: `size_t`.
 
-`target` : the string to search for (`char`)
-
-`length` : length of the target (`size_t`)
 
 [float]
 === Returns
-`bool`
+Data type: `bool`.
 
 --
 // OVERVIEW SECTION ENDS

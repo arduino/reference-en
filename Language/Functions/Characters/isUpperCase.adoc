@@ -19,14 +19,13 @@ Analyse if a char is upper case (that is, a letter in upper case). Returns true 
 
 [float]
 === Syntax
-[source,arduino]
-----
-isUpperCase(thisChar)
-----
+`isUpperCase(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

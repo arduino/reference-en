@@ -27,8 +27,8 @@ The size of the `char` datatype is at least 8 bits. It's recommended to only use
 
 [float]
 === Parameters
-`var`: variable name +
-`val`: the value to assign to that variable
+`var`: variable name. +
+`val`: the value to assign to that variable.
 
 --
 // OVERVIEW SECTION ENDS

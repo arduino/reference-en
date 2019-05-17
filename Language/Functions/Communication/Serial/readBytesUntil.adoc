@@ -29,17 +29,15 @@ Serial.readBytesUntil() reads characters from the serial buffer into an array. T
 
 [float]
 === Parameters
-`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`character`: the character to search for. Allowed data types: `char`. +
+`buffer`: the buffer to store the bytes in. Allowed data types: array of `char` or `byte`s. +
+`length`: the number of bytes to read. Allowed data types: `int`.
 
-`character` : the character to search for (`char`)
-
-`buffer`: the buffer to store the bytes in (`char[]` or `byte[]`)
-
-`length` : the number of bytes to read (`int`)
 
 [float]
 === Returns
-`size_t`
+Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

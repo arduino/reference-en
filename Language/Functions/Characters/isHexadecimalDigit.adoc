@@ -23,16 +23,13 @@ Analyse if a char is an hexadecimal digit (A-F, 0-9). Returns true if thisChar c
 
 [float]
 === Syntax
-[source,arduino]
-----
+`isHexadecimalDigit(thisChar)`
 
-isHexadecimalDigit(thisChar)
-
-----
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

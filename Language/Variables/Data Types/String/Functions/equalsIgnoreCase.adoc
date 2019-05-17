@@ -26,16 +26,18 @@ Compares two Strings for equality. The comparison is not case-sensitive, meaning
 === Syntax
 `myString.equalsIgnoreCase(myString2)`
 
+
 [float]
 === Parameters
-`myString, myString2`: variables of type String
+`myString`: variable of type `String`. +
+`myString2`: variable of type `String`.
 
 
 [float]
 === Returns
-`true`: if myString equals myString2 (ignoring case) 
+`true`: if myString equals myString2 (ignoring case). +
+`false`: otherwise.
 
-`false`: otherwise
 --
 // OVERVIEW SECTION ENDS
 

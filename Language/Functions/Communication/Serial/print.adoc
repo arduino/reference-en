@@ -49,11 +49,12 @@ To send data without conversion to its representation as characters, use link:..
 [float]
 === Parameters
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
-`val`: the value to print - any data type
+`val`: the value to print. Allowed data types: any data type.
+
 
 [float]
 === Returns
-`size_t`: `print()` returns the number of bytes written, though reading that number is optional.
+`print()` returns the number of bytes written, though reading that number is optional. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

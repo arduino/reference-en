@@ -23,14 +23,13 @@ Analyse if a char is lower case (that is a letter in lower case). Returns true i
 
 [float]
 === Syntax
-[source,arduino]
-----
-isLowerCase(thisChar)
-----
+`isLowerCase(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns

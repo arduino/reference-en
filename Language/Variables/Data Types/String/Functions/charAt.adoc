@@ -26,11 +26,11 @@ Access a particular character of the String.
 === Syntax
 `myString.charAt(n)`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
-
-`n`: a variable of type unsigned int
+`myString`: a variable of type `String`. +
+`n`: a variable. Allowed data types: `unsigned int`.
 
 
 [float]

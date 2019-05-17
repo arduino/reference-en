@@ -24,17 +24,14 @@ subCategories: [ "Arithmetic Operators" ]
 
 [float]
 === Syntax
-[source,arduino]
-----
-sum = operand1 + operand2;
-----
+`sum = operand1 + operand2;`
 
 [float]
 === Parameters
-`sum` : variable. *Allowed data types:* int, float, double, byte, short, long +
-`operand1` : variable or constant. *Allowed data types:* int, float, double, byte, short, long +
-`operand2` : variable or constant. *Allowed data types:* int, float, double, byte, short, long
-[%hardbreaks]
+`sum`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`operand1`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`operand2`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
+
 --
 // OVERVIEW SECTION ENDS
 

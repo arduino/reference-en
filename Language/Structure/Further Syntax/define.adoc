@@ -29,12 +29,13 @@ In general, the link:../../../variables/variable-scope\--qualifiers/const[const]
 
 [float]
 === Syntax
-[source,arduino]
-----
-#define constantName value
-----
-Note that the # is necessary.
-[%hardbreaks]
+`#define constantName value`
+
+
+[float]
+=== Parameters
+`constantName`: the name of the macro to define. +
+`value`: the value to assign to the macro.
 
 --
 // OVERVIEW SECTION ENDS

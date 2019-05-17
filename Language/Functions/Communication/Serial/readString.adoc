@@ -29,9 +29,10 @@ title: Serial.readString()
 === Parameters
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
+
 [float]
 === Returns
-A String read from the serial buffer
+A `String` read from the serial buffer
 
 --
 // OVERVIEW SECTION ENDS

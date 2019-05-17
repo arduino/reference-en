@@ -27,18 +27,17 @@ Modify in place a String removing chars from the provided index to the end of th
 `myString.remove(index)` +
 `myString.remove(index, count)`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
-
-`index`: a variable of type unsigned int
-
-`count`: a variable of type unsigned int
+`myString`: a variable of type `String`. +
+`index`: The position at which to start the remove process (zero indexed). Allowed data types: `unsigned int`. +
+`count`: The number of characters to remove. Allowed data types: `unsigned int`.
 
 
 [float]
 === Returns
-None
+Nothing
 
 --
 // OVERVIEW SECTION ENDS

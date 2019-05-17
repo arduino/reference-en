@@ -26,9 +26,11 @@ Converts the contents of a String as a C-style, null-terminated string. Note tha
 === Syntax
 `myString.c_str()`
 
+
 [float]
 === Parameters
-`myString`: a variable of type String
+`myString`: a variable of type `String`.
+
 
 [float]
 === Returns

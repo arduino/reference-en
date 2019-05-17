@@ -24,15 +24,13 @@ The right shift operator `>>` causes the bits of the left operand to be shifted 
 
 [float]
 === Syntax
-[source,arduino]
-----
-variable >> number_of_bits;
-----
+`variable >> number_of_bits;`
+
 
 [float]
 === Parameters
-`variable`: *Allowed data types:* byte, int, long +
-`number_of_bits`: a number that is < = 32. *Allowed data types:* int
+`variable`: Allowed data types: `byte`, `int`, `long`. +
+`number_of_bits`: a number that is < = 32. Allowed data types: `int`.
 
 --
 // OVERVIEW SECTION ENDS

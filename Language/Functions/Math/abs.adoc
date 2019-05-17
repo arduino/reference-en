@@ -25,14 +25,15 @@ Calculates the absolute value of a number.
 === Syntax
 `abs(x)`
 
+
 [float]
 === Parameters
 `x`: the number
 
+
 [float]
 === Returns
-`x`: if x is greater than or equal to 0.
-
+`x`: if x is greater than or equal to 0. +
 `-x`: if x is less than 0.
 
 --
