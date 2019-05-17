@@ -64,6 +64,7 @@ The Leonardo's definitions for modifier keys are listed below:
 |KEY_F10	|0xCB	|203
 |KEY_F11	|0xCC	|204
 |KEY_F12	|0xCD	|205
+|===
 
 --
 // OVERVIEW SECTION ENDS
