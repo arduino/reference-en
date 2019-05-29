@@ -36,6 +36,11 @@ Calculates the absolute value of a number.
 `x`: if x is greater than or equal to 0. +
 `-x`: if x is less than 0.
 
+Please view the graph below
+
+image::http://img.sparknotes.com/figures/1/15debaf09555bfc7c688d9ee8ae574bc/abs_graph.gif[caption="",title="Absolute value of x"]
+
+
 --
 // OVERVIEW SECTION ENDS
 
