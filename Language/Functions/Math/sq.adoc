@@ -35,6 +35,10 @@ Calculates the square of a number: the number multiplied by itself.
 === Returns
 The square of the number. Data type: `double`.
 
+
+Please view the graph below
+
+image::https://people.richland.edu/james/lecture/m116/functions/quadratic.gif[caption="",title="Square of variable x"]
 --
 // OVERVIEW SECTION ENDS
 
