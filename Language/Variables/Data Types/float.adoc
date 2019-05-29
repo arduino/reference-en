@@ -21,9 +21,39 @@ Datatype for floating-point numbers, a number that has a decimal point. Floating
 
 Floats have only 6-7 decimal digits of precision. That means the total number of digits, not the number to the right of the decimal point. Unlike other platforms, where you can get more precision by using a double (e.g. up to 15 digits), on the Arduino, double is the same size as float.
 
-Floating point numbers are not exact, and may yield strange results when compared. For example 6.0 / 3.0 may not equal 2.0. You should instead check that the absolute value of the difference between the numbers is less than some small number.
+Floating point numbers are not exact, and may yield strange results when compared. For example 6.0 / 3.0 may not equal 2.0. Also, a general problem of truncation arises during conversion from floating point to integer math.
+[float]
+=== Example Code
+// The example code tells the details of problem of truncation   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[source,arduino]
+----
+float x = 2.9; // A float type variable
+int y = x;  // 2
+----
+You should instead check that the absolute value of the difference between the numbers is less than some small number.
 
-Floating point math is also much slower than integer math in performing calculations, so should be avoided if, for example, a loop has to run at top speed for a critical timing function. Programmers often go to some lengths to convert floating point calculations to integer math to increase speed.
+Floating point math is also much slower than integer math in performing calculations, so should be avoided if, for example, a loop has to run at top speed for a critical timing function. Programmers often go to some lengths to convert floating point calculations to integer math to increase speed. 
+If performing the process of rounding off during the conversion process, you need to add `0.5` during the conversion process.
+[float]
+=== Example Code
+// The example code tells the details of problem of truncation   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[source,arduino]
+----
+float x = 2.9;
+int y = x + 0.5;  // 3
+----
+or use the `round()` function respectively.
+
+[float]
+=== Example Code
+// The example code tells the details of problem of truncation   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[source,arduino]
+----
+float x = 2.9;
+int y = round(x);  // 3
+----
+
+
 
 If doing math with floats, you need to add a decimal point, otherwise it will be treated as an int. See the link:../../constants/floatingpointconstants[Floating point] constants page for details.
 [%hardbreaks]
