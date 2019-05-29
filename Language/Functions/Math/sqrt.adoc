@@ -35,6 +35,9 @@ Calculates the square root of a number.
 === Returns
 The number's square root. Data type: `double`.
 
+Please view the graph below
+
+image::https://www.varsitytutors.com/assets/vt-hotmath-legacy/hotmath_help/topics/graphing-square-root-functions/graph-1.gif[caption="",title="Square of variable x"]
 --
 // OVERVIEW SECTION ENDS
 
