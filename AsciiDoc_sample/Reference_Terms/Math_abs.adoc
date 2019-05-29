@@ -51,7 +51,7 @@ Absolute value
 
 Please view the graph below
 
-image::https://cdn.kastatic.org/ka-perseus-graphie/ce9332312d1b383a6a15618a8165dd7ab8ee802f.svg[title="absolute value or modulus of x"]
+image::http://img.sparknotes.com/figures/1/15debaf09555bfc7c688d9ee8ae574bc/abs_graph.gif[title="absolute value or modulus of x"]
 
 
 --
