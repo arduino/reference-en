@@ -35,6 +35,11 @@ Calculates the absolute value of a number.
 === Returns
 `x`: if x is greater than or equal to 0. +
 `-x`: if x is less than 0.
+[%hardbreaks]
+image::https://www.mathsisfun.com/sets/images/function-absolute.svg[]
+In the figure above `y` represents `abs(x)`
+
+
 
 --
 // OVERVIEW SECTION ENDS
