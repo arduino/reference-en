@@ -29,7 +29,7 @@ Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. C
 | MKR boards *         | 0 - 8, 10, A3 (18), A4 (19)     | 732 Hz
 | MKR1000 WiFi *       | 0 - 8, 10, 11, A3 (18), A4 (19) | 732 Hz
 | Zero *               | 3 - 13, A0 (14), A1 (15)        | 732 Hz
-| Due                  | 3, 5, 6, 9, 10 and 11                | 1000 Hz                   
+| Due *                | 2-13                            | 1000 Hz
 | 101                  | 3, 5, 6, 9                      | pins 3 and 9: 490 Hz, pins 5 and 6: 980 Hz
 |====================================================================================================
 * In addition to PWM capabilities on the pins noted above, the Due has true analog output when using `analogWrite()` on pins DAC0 and DAC1
