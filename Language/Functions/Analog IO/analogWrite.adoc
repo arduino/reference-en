@@ -26,7 +26,8 @@ Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. C
 | Mega                 | 2 - 13, 44 - 46                 | 490 Hz (pins 4 and 13: 980 Hz)
 | Leonardo, Micro, Yún | 3, 5, 6, 9, 10, 11, 13          | 490 Hz (pins 3 and 11: 980 Hz)
 | Uno WiFi Rev.2       | 3, 5, 6, 9, 10                  | 976 Hz
-| MKR boards           | 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, A3 - or 18 -, A4 -or 19                           | 732 Hz                                
+| MKR boards *         | 0 - 8, 10, A3 (18), A4 (19)     | 732 Hz
+| MKR1000 WiFi *       | 0 - 8, 10, 11, A3 (18), A4 (19) | 732 Hz
 | Zero                 | 3, 4, 5, 6, 8, 9, 10, 11, 12, 13 | 730 Hz
 | Due                  | 3, 5, 6, 9, 10 and 11                | 1000 Hz                   
 | 101                  | 3, 5, 6, 9                      | pins 3 and 9: 490 Hz, pins 5 and 6: 980 Hz
