@@ -20,7 +20,7 @@ subCategories: [ "Analog I/O" ]
 Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to `analogWrite()`, the pin will generate a steady square wave of the specified duty cycle until the next call to `analogWrite()` (or a call to `digitalRead()` or `digitalWrite()`) on the same pin. 
 [options="header"]
 |====================================================================================================
-| Board                | PWM Pins                         | PWM Frequency                    
+| Board                | PWM Pins                        | PWM Frequency
 | Uno, Nano, Mini      | 3, 5, 6, 9, 10 and 11                | 490 Hz, exception pin 5 and 6(980 Hz)
 | Mega                 | 2 - 13 and 44 - 46               | 490 Hz, exception pin 4 and 13(980 Hz)
 | Leonardo, Micro, Yún | 3, 5, 6, 9, 10 and 11                | 490 Hz, exception pin 3 and 11(980 Hz)                
