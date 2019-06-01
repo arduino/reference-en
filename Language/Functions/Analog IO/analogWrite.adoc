@@ -34,7 +34,6 @@ Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. C
 * In addition to PWM capabilities on the pins noted above, the Due has true analog output when using `analogWrite()` on pins DAC0 and DAC1
 * In addition to PWM capabilities on the pins noted above, the MKR boards and Zero have true analog output when using `analogWrite()` on the DAC0 (A0) pin.
 
-
 [%hardbreaks]
 
 You do not need to call `pinMode()` to set the pin as an output before calling `analogWrite()`.
