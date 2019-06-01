@@ -31,7 +31,7 @@ Turns off the given interrupt.
 [float]
 === Parameters
 `interrupt`: the number of the interrupt to disable (see link:../attachinterrupt[attachInterrupt()] for more details). +
-`pin`: the pin number of the interrupt to disable
+`pin`: the Arduino pin number of the interrupt to disable
 
 
 [float]
