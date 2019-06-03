@@ -17,7 +17,7 @@ subCategories: [ "Variable Scope & Qualifiers" ]
 
 [float]
 === Description
-`volatile` is a keyword known as a variable _qualifier_, it is usually used before the datatype of a variable, to modify the way in which the compiler and subsequent program treats the variable.
+`volatile` is a keyword known as a variable _qualifier_, it is usually used before the datatype of a variable, to modify the way in which the compiler and subsequent program treat the variable.
 
 Declaring a variable `volatile` is a directive to the compiler. The compiler is software which translates your C/C++ code into the machine code, which are the real instructions for the Atmega chip in the Arduino.
 
