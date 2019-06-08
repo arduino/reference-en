@@ -4,10 +4,6 @@ categories: [ "Structure" ]
 subCategories: [ "Control Structure" ]
 ---
 
-
-
-
-
 = if...else
 
 
@@ -53,14 +49,17 @@ else {
 Below is an extract from a code for temperature sensor system
 [source,arduino]
 ----
-if (temperature >= 70) {
-  //Danger! Shut down the system
+if (temperature >= 70)
+{
+  // Danger! Shut down the system
 }
-else if (temperature >= 60 && temperature < 70) {
-  //Warning! User attention required
+else if (temperature >= 60)  // 60 <= temperature < 70
+{
+  // Warning! User attention required
 }
-else {
-  //Safe! Continue usual tasks...
+else  // temperature < 60
+{
+  // Safe! Continue usual tasks...
 }
 ----
 
