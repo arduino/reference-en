@@ -54,6 +54,7 @@ By setting the write resolution to 12 bits, you can use `analogWrite()` with val
 === Parameters
 `bits`: determines the resolution (in bits) of the values used in the `analogWrite()` function. The value can range from 1 to 32. If you choose a resolution higher or lower than your board's hardware capabilities, the value used in `analogWrite()` will be either truncated if it's too high or padded with zeros if it's too low. See the note below for details.
 
+
 [float]
 === Returns
 Nothing
@@ -75,7 +76,7 @@ Explain Code
 
 [source,arduino]
 ----
-void setup(){
+void setup() {
   // open a serial connection
   Serial.begin(9600);
   // make our digital pin an output
@@ -84,7 +85,7 @@ void setup(){
   pinMode(13, OUTPUT);
 }
 
-void loop(){
+void loop() {
   // read the input on A0 and map it to a PWM pin
   // with an attached LED
   int sensorVal = analogRead(A0);
@@ -93,9 +94,9 @@ void loop(){
 
   // the default PWM resolution
   analogWriteResolution(8);
-  analogWrite(11, map(sensorVal, 0, 1023, 0 ,255));
+  analogWrite(11, map(sensorVal, 0, 1023, 0, 255));
   Serial.print(" , 8-bit PWM value : ");
-  Serial.print(map(sensorVal, 0, 1023, 0 ,255));
+  Serial.print(map(sensorVal, 0, 1023, 0, 255));
 
   // change the PWM resolution to 12 bits
   // the full 12 bit resolution is only supported
@@ -139,7 +140,7 @@ If you set the `analogWriteResolution()` value to a value lower than your board'
 * #LANGUAGE# link:../../math/map[map()]
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins^]
 
 --
 // SEE ALSO SECTION ENDS

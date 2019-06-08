@@ -38,12 +38,10 @@ There are two different ways of marking a line as a comment:
 
 [source,arduino]
 ----
-// Pin 13 has an LED connected on most Arduino boards.
+// pin 13 has an LED connected on most Arduino boards.
 // give it a name:
 int led = 13;
-
-
-digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage level)
+digitalWrite(led, HIGH);  // turn the LED on (HIGH is the voltage level)
 ----
 [%hardbreaks]
 

@@ -14,26 +14,28 @@ title: Stream.find()
 
 [float]
 === Description
-`find()` reads data from the stream until the target string of given length is found The function returns true if target string is found, false if timed out.
+`find()` reads data from the stream until the target is found. The function returns true if target is found, false if timed out (see link:../streamsettimeout[Stream.setTimeout()]).
 
-This function is part of the Stream class, and is called by any class that inherits from it (Wire, Serial, etc). See the link:../../stream[stream class] main page for more information.
+This function is part of the Stream class, and can be called by any class that inherits from it (Wire, Serial, etc). See the link:../../stream[stream class] main page for more information.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-`stream.find(target)`
+`stream.find(target)` +
+`stream.find(target, length)`
 
 
 [float]
 === Parameters
-`stream` : an instance of a class that inherits from Stream.
+`stream`: an instance of a class that inherits from Stream. +
+`target`: the string to search for. Allowed data types: `char`. +
+`length`: length of the target. Allowed data types: `size_t`.
 
-`target` : the string to search for (char)
 
 [float]
 === Returns
-`bool`
+Data type: `bool`.
 
 --
 // OVERVIEW SECTION ENDS

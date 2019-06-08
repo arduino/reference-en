@@ -27,15 +27,13 @@ A review of the Bitwise OR `|` operator:
 
 [float]
 === Syntax
-[source,arduino]
-----
-x |= y;   // equivalent to x = x | y;
-----
+`x |= y; // equivalent to x = x | y;`
+
 
 [float]
 === Parameters
-`x`: variable. *Allowed data types:* char, int, long +
-`y`: variable or constant. *Allowed data types:* char, int, long
+`x`: variable. Allowed data types: `char`, `int`, `long`. +
+`y`: variable or constant. Allowed data types: `char`, `int`, `long`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -90,7 +88,7 @@ Here is the same representation with the variables bits replaced with the symbol
 So if:
 [source,arduino]
 ----
-myByte =  B10101010;
+myByte = B10101010;
 myByte |= B00000011 == B10101011;
 ----
 

@@ -35,9 +35,9 @@ If you do not set the `pinMode()` to `OUTPUT`, and connect an LED to a pin, when
 
 [float]
 === Parameters
-`pin`: the pin number
+`pin`: the Arduino pin number. +
+`value`: `HIGH` or `LOW`.
 
-`value`: `HIGH` or `LOW`
 
 [float]
 === Returns
@@ -60,24 +60,22 @@ The code makes the digital pin 13 an `OUTPUT` and toggles it by alternating betw
 
 [source,arduino]
 ----
-void setup()
-{
-  pinMode(13, OUTPUT);          // sets the digital pin 13 as output
+void setup() {
+  pinMode(13, OUTPUT);    // sets the digital pin 13 as output
 }
 
-void loop()
-{
-  digitalWrite(13, HIGH);       // sets the digital pin 13 on
-  delay(1000);                  // waits for a second
-  digitalWrite(13, LOW);        // sets the digital pin 13 off
-  delay(1000);                  // waits for a second
+void loop() {
+  digitalWrite(13, HIGH); // sets the digital pin 13 on
+  delay(1000);            // waits for a second
+  digitalWrite(13, LOW);  // sets the digital pin 13 off
+  delay(1000);            // waits for a second
 }
 ----
 [%hardbreaks]
 
 [float]
 === Notes and Warnings
-The analog input pins can be used as digital pins, referred to as A0, A1, etc.
+The analog input pins can be used as digital pins, referred to as A0, A1, etc. The exception is the Arduino Nano, Pro Mini, and Mini's A6 and A7 pins, which can only be used as analog inputs.
 
 --
 // HOW TO USE SECTION ENDS
@@ -91,7 +89,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Tutorial: Digital Pins]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Description of the digital pins^]
 
 --
 // SEE ALSO SECTION ENDS

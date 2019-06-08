@@ -64,7 +64,7 @@ This is the common-sense math with which you are acquainted. Constants without o
 === Example  Code:
 [source,arduino]
 ----
-n = 101;     // same as 101 decimal   ((1 * 10^2) + (0 * 10^1) + 1)
+n = 101;  // same as 101 decimal ((1 * 10^2) + (0 * 10^1) + 1)
 ----
 [%hardbreaks]
 
@@ -76,13 +76,13 @@ Only the characters 0 and 1 are valid.
 === Example  Code:
 [source,arduino]
 ----
-n = B101;    // same as 5 decimal   ((1 * 2^2) + (0 * 2^1) + 1)
+n = B101; // same as 5 decimal ((1 * 2^2) + (0 * 2^1) + 1)
 ----
 
 The binary formatter only works on bytes (8 bits) between 0 (B0) and 255 (B11111111). If it is convenient to input an int (16 bits) in binary form you can do it a two-step procedure such as:
 [source,arduino]
 ----
-myInt = (B11001100 * 256) + B10101010;    // B11001100 is the high byte`
+myInt = (B11001100 * 256) + B10101010;  // B11001100 is the high byte`
 ----
 [%hardbreaks]
 
@@ -94,7 +94,7 @@ Only the characters 0 through 7 are valid. Octal values are indicated by the pre
 === Example  Code:
 [source,arduino]
 ----
-n = 0101;    // same as 65 decimal   ((1 * 8^2) + (0 * 8^1) + 1)
+n = 0101; // same as 65 decimal ((1 * 8^2) + (0 * 8^1) + 1)
 ----
 It is possible to generate a hard-to-find bug by (unintentionally) including a leading zero before a constant and having the compiler unintentionally interpret your constant as octal.
 [%hardbreaks]
@@ -107,7 +107,7 @@ Valid characters are 0 through 9 and letters A through F; A has the value 10, B 
 === Example  Code:
 [source,arduino]
 ----
-n = 0x101;   // same as 257 decimal   ((1 * 16^2) + (0 * 16^1) + 1)
+n = 0x101;  // same as 257 decimal ((1 * 16^2) + (0 * 16^1) + 1)
 ----
 [%hardbreaks]
 

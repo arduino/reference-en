@@ -1,4 +1,4 @@
-﻿---
+---
 title: "startsWith()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,21 +24,19 @@ Tests whether or not a String starts with the characters of another String.
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.startsWith(string2)
-----
+`myString.startsWith(myString2)`
+
 
 [float]
 === Parameters
-`string, string2`: a variable of type String
+`myString, myString2`: a variable of type `String`.
 
 
 [float]
 === Returns
-`true`: if string starts with the characters of string2
-
+`true`: if myString starts with the characters of myString2. +
 `false`: otherwise
+
 --
 // OVERVIEW SECTION ENDS
 
@@ -55,6 +53,6 @@ string.startsWith(string2)
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

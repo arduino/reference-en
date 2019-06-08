@@ -35,15 +35,15 @@ subCategories: [ "Control Structure" ]
 In the following code, the control exits the `for` loop when the sensor value exceeds the threshold.
 [source,arduino]
 ----
-for (x = 0; x < 255; x ++)
-{
-    analogWrite(PWMpin, x);
-    sens = analogRead(sensorPin);
-    if (sens > threshold){      // bail out on sensor detect
-       x = 0;
-       break;
-    }
-    delay(50);
+int threshold = 40;
+for (int x = 0; x < 255; x++) {
+  analogWrite(PWMpin, x);
+  sens = analogRead(sensorPin);
+  if (sens > threshold) {     // bail out on sensor detect
+    x = 0;
+    break;
+  }
+  delay(50);
 }
 ----
 

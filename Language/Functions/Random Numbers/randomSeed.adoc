@@ -25,12 +25,15 @@ Conversely, it can occasionally be useful to use pseudo-random sequences that re
 [%hardbreaks]
 
 
-
+[float]
+=== Syntax
+`randomSeed(seed)`
 
 
 [float]
 === Parameters
-`seed` - number to initialize the pseudo-random sequence (unsigned long).
+`seed`: number to initialize the pseudo-random sequence. Allowed data types: `unsigned long`.
+
 
 [float]
 === Returns
@@ -49,24 +52,34 @@ Nothing
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code explanation required.
+The code generates a pseudo-random number and sends the generated number to the serial port.
 
 [source,arduino]
 ----
 long randNumber;
 
-void setup(){
+void setup() {
   Serial.begin(9600);
   randomSeed(analogRead(0));
 }
 
-void loop(){
+void loop() {
   randNumber = random(300);
   Serial.println(randNumber);
-
   delay(50);
 }
 ----
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

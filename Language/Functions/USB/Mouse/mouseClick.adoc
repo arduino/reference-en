@@ -22,17 +22,18 @@ Sends a momentary click to the computer at the location of the cursor. This is t
 
 [float]
 === Syntax
-`Mouse.click();` +
-`Mouse.click(button);`
+`Mouse.click()` +
+`Mouse.click(button)`
 
 
 [float]
 === Parameters
-`button`: which mouse button to press - `char`
+`button`: which mouse button to press. Allowed data types: `char`.
 
 * `MOUSE_LEFT` (default)
 * `MOUSE_RIGHT`
 * `MOUSE_MIDDLE`
+
 
 [float]
 === Returns
@@ -57,15 +58,15 @@ Nothing
 ----
 #include <Mouse.h>
 
-void setup(){
-  pinMode(2,INPUT);
+void setup() {
+  pinMode(2, INPUT);
   //initiate the Mouse library
   Mouse.begin();
 }
 
-void loop(){
+void loop() {
   //if the button is pressed, send a left mouse click
-  if(digitalRead(2) == HIGH){
+  if (digitalRead(2) == HIGH) {
     Mouse.click();
   }
 }

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ">"
 title_expanded: greater than
 categories: [ "Data Types" ]
@@ -20,26 +20,25 @@ subCategories: [ "StringObject Operator" ]
 === Description
 Tests if the String on the left is greater than the String on the right. This operator evaluates Strings in alphabetical order, on the first character where the two differ. So, for example "b" > "a" and "2" > "1", but "999" > "1000" because 9 comes after 1.
 
-Caution: String comparison operators can be confusing when you're comparing numeric strings, because the numbers are treated as Strings and not as numbers. If you need to compare numbers numerically, compare them as ints, floats, or longs, and not as Strings.
+Caution: String comparison operators can be confusing when you're comparing numeric Strings, because the numbers are treated as Strings and not as numbers. If you need to compare numbers numerically, compare them as ints, floats, or longs, and not as Strings.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-[source,arduino]
-----
-string1 > string2
-----
+`myString1 > myString2`
+
 
 [float]
 === Parameters
-`string1, string2` - a String variable
+`myString1`: a String variable. +
+`myString2`: a String variable.
+
 
 [float]
 === Returns
-`true`: if string1 is greater than string2 
-
-`false`: otherwise
+`true`: if myString1 is greater than myString2. +
+`false`: otherwise.
 
 --
 
@@ -58,6 +57,6 @@ string1 > string2
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

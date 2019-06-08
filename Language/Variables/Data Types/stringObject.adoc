@@ -1,15 +1,10 @@
-﻿---
+---
 title: "String()"
 categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = String()
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -54,22 +49,21 @@ gives you the String "1101", which is the binary representation of 13.
 
 [float]
 === Syntax
-[source,arduino]
-----
-String(val)
-String(val, base)
-String(val, decimalPlaces)
-----
+`String(val)` +
+`String(val, base)` +
+`String(val, decimalPlaces)`
+
 
 [float]
 === Parameters
-`val`:  a variable to format as a String - *Allowed data types:* string, char, byte, int, long, unsigned int, unsigned long, float, double +
-`base` (optional): the base in which to format an integral value
-`decimalPlaces` (*only if val is float or double*): the desired decimal places
+`val`:  a variable to format as a String. Allowed data types: string, char, byte, int, long, unsigned int, unsigned long, float, double. +
+`base`: (optional) the base in which to format an integral value. +
+`decimalPlaces`: *only if val is float or double*. The desired decimal places.
+
 
 [float]
 === Returns
-an instance of the String class.
+An instance of the String class.
 
 --
 // OVERVIEW SECTION ENDS
@@ -85,16 +79,16 @@ an instance of the String class.
 All of the following are valid declarations for Strings.
 [source,arduino]
 ----
-String stringOne = "Hello String";                        // using a constant String
-String stringOne =  String('a');                          // converting a constant char into a String
-String stringTwo =  String("This is a string");           // converting a constant string into a String object
-String stringOne =  String(stringTwo + " with more");     // concatenating two strings
-String stringOne =  String(13);                           // using a constant integer
-String stringOne =  String(analogRead(0), DEC);           // using an int and a base
-String stringOne =  String(45, HEX);                      // using an int and a base (hexadecimal)
-String stringOne =  String(255, BIN);                     // using an int and a base (binary)
-String stringOne =  String(millis(), DEC);                // using a long and a base
-String stringOne =  String(5.698, 3);                     // using a float and the decimal places
+String stringOne = "Hello String";                    // using a constant String
+String stringOne = String('a');                       // converting a constant char into a String
+String stringTwo = String("This is a string");        // converting a constant string into a String object
+String stringOne = String(stringTwo + " with more");  // concatenating two strings
+String stringOne = String(13);                        // using a constant integer
+String stringOne = String(analogRead(0), DEC);        // using an int and a base
+String stringOne = String(45, HEX);                   // using an int and a base (hexadecimal)
+String stringOne = String(255, BIN);                  // using an int and a base (binary)
+String stringOne = String(millis(), DEC);             // using a long and a base
+String stringOne = String(5.698, 3);                  // using a float and the decimal places
 ----
 
 --
@@ -123,6 +117,7 @@ String stringOne =  String(5.698, 3);                     // using a float and t
 * #LANGUAGE# link:../string/functions/startswith[startsWith()]
 * #LANGUAGE# link:../string/functions/substring[substring()]
 * #LANGUAGE# link:../string/functions/tochararray[toCharArray()]
+* #LANGUAGE# link:../string/functions/todouble[toDouble()]
 * #LANGUAGE# link:../string/functions/toint[toInt()]
 * #LANGUAGE# link:../string/functions/tofloat[toFloat()]
 * #LANGUAGE# link:../string/functions/tolowercase[toLowerCase()]
@@ -144,7 +139,7 @@ String stringOne =  String(5.698, 3);                     // using a float and t
 * #LANGUAGE# link:../string/operators/differentfrom[!= (different from)]
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 
 
 // SEE ALSO SECTION STARTS

@@ -17,20 +17,19 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is alpha (that is a letter). Returns true if thisChar contains a letter. 
+Analyse if a char is alpha (that is a letter). Returns true if thisChar contains a letter.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-[source,arduino]
-----
-isAlpha(thisChar)
-----
+`isAlpha(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns
@@ -50,15 +49,12 @@ isAlpha(thisChar)
 
 [source,arduino]
 ----
-if (isAlpha(this))      // tests if this is a letter
-{
-	Serial.println("The character is a letter");
+if (isAlpha(myChar)) {  // tests if myChar is a letter
+  Serial.println("The character is a letter");
 }
-else
-{
-	Serial.println("The character is not a letter");
+else {
+  Serial.println("The character is not a letter");
 }
-
 ----
 
 --

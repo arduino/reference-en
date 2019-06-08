@@ -1,4 +1,4 @@
-﻿---
+---
 title: "remove()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,29 +24,39 @@ Modify in place a String removing chars from the provided index to the end of th
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.remove(index)
+`myString.remove(index)` +
+`myString.remove(index, count)`
 
-string.remove(index, count)
-----
 
 [float]
 === Parameters
-`index`: a variable of type unsigned int
-
-`count`: a variable of type unsigned int
+`myString`: a variable of type `String`. +
+`index`: The position at which to start the remove process (zero indexed). Allowed data types: `unsigned int`. +
+`count`: The number of characters to remove. Allowed data types: `unsigned int`.
 
 
 [float]
 === Returns
-None
+Nothing
 
 --
 // OVERVIEW SECTION ENDS
 
 
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
 
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+[source,arduino]
+----
+String greeting = "hello";
+greeting.remove(2, 2);  // greeting now contains "heo"
+----
+[%hardbreaks]
+--
 // HOW TO USE SECTION ENDS
 
 
@@ -58,6 +68,6 @@ None
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

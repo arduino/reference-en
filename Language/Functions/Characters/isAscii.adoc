@@ -17,20 +17,19 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is Ascii. Returns true if thisChar contains an Ascii character. 
+Analyse if a char is Ascii. Returns true if thisChar contains an Ascii character.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-[source,arduino]
-----
 `isAscii(thisChar)`
-----
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns
@@ -50,15 +49,12 @@ Analyse if a char is Ascii. Returns true if thisChar contains an Ascii character
 
 [source,arduino]
 ----
-if (isAscii(this))      // tests if this is an Ascii character
-{
-	Serial.println("The character is Ascii");
+if (isAscii(myChar)) {  // tests if myChar is an Ascii character
+  Serial.println("The character is Ascii");
 }
-else
-{
-	Serial.println("The character is not Ascii");
+else {
+  Serial.println("The character is not Ascii");
 }
-
 ----
 
 --

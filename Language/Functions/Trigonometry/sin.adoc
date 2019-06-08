@@ -28,11 +28,12 @@ Calculates the sine of an angle (in radians). The result will be between -1 and 
 
 [float]
 === Parameters
-`rad`: The angle in Radians (`float`).
+`rad`: The angle in radians. Allowed data types: `float`.
+
 
 [float]
 === Returns
-The sine of the angle (`double`).
+The sine of the angle. Data type: `double`.
 
 --
 // OVERVIEW SECTION ENDS

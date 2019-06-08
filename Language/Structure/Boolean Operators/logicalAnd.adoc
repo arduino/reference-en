@@ -36,8 +36,8 @@ This operator can be used inside the condition of an link:../../control-structur
 
 [source,arduino]
 ----
-if (digitalRead(2) == HIGH  && digitalRead(3) == HIGH) { // if BOTH the switches read HIGH
-    // statements
+if (digitalRead(2) == HIGH && digitalRead(3) == HIGH) { // if BOTH the switches read HIGH
+  // statements
 }
 ----
 [%hardbreaks]

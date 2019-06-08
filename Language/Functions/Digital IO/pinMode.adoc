@@ -17,7 +17,7 @@ subCategories: [ "Digital I/O" ]
 
 [float]
 === Description
-Configures the specified pin to behave either as an input or an output. See the description of (http://arduino.cc/en/Tutorial/DigitalPins[digital pins]) for details on the functionality of the pins.
+Configures the specified pin to behave either as an input or an output. See the http://arduino.cc/en/Tutorial/DigitalPins[Digital Pins] page for details on the functionality of the pins.
 [%hardbreaks]
 As of Arduino 1.0.1, it is possible to enable the internal pullup resistors with the mode INPUT_PULLUP. Additionally, the INPUT mode explicitly disables the internal pullups.
 [%hardbreaks]
@@ -27,13 +27,12 @@ As of Arduino 1.0.1, it is possible to enable the internal pullup resistors with
 === Syntax
 `pinMode(pin, mode)`
 
+
 [float]
 === Parameters
-`pin`: the number of the pin whose mode you wish to set
+`pin`: the Arduino pin number to set the mode of. +
+`mode`: `INPUT`, `OUTPUT`, or `INPUT_PULLUP`. See the http://arduino.cc/en/Tutorial/DigitalPins[Digital Pins] page for a more complete description of the functionality.
 
-`mode`: `INPUT`, `OUTPUT`, or `INPUT_PULLUP`. (see the (http://arduino.cc/en/Tutorial/DigitalPins[digital pins]) page for a more complete description of the functionality.)
-
-//Check how to add links
 
 [float]
 === Returns
@@ -55,17 +54,15 @@ The code makes the digital pin 13 `OUTPUT` and Toggles it `HIGH` and `LOW`
 
 [source,arduino]
 ----
-void setup()
-{
-  pinMode(13, OUTPUT);          // sets the digital pin 13 as output
+void setup() {
+  pinMode(13, OUTPUT);    // sets the digital pin 13 as output
 }
 
-void loop()
-{
-  digitalWrite(13, HIGH);       // sets the digital pin 13 on
-  delay(1000);                  // waits for a second
-  digitalWrite(13, LOW);        // sets the digital pin 13 off
-  delay(1000);                  // waits for a second
+void loop() {
+  digitalWrite(13, HIGH); // sets the digital pin 13 on
+  delay(1000);            // waits for a second
+  digitalWrite(13, LOW);  // sets the digital pin 13 off
+  delay(1000);            // waits for a second
 }
 ----
 [%hardbreaks]
@@ -86,7 +83,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Description of the pins on an Arduino board^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Description of the digital pins^]
 
 --
 // SEE ALSO SECTION ENDS

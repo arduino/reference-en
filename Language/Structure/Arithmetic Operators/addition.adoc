@@ -24,17 +24,14 @@ subCategories: [ "Arithmetic Operators" ]
 
 [float]
 === Syntax
-[source,arduino]
-----
-sum = operand1 + operand2;
-----
+`sum = operand1 + operand2;`
 
 [float]
 === Parameters
-`sum` : variable. *Allowed data types:* int, float, double, byte, short, long +
-`operand1` : variable or constant. *Allowed data types:* int, float, double, byte, short, long +
-`operand2` : variable or constant. *Allowed data types:* int, float, double, byte, short, long
-[%hardbreaks]
+`sum`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`operand1`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`operand2`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
+
 --
 // OVERVIEW SECTION ENDS
 
@@ -50,8 +47,10 @@ sum = operand1 + operand2;
 
 [source,arduino]
 ----
-int a = 5, b = 10, c = 0;
-c = a + b; // the variable 'c' gets a value of 15 after this statement is executed
+int a = 5;
+int b = 10;
+int c = 0;
+c = a + b;  // the variable 'c' gets a value of 15 after this statement is executed
 ----
 [%hardbreaks]
 
@@ -65,9 +64,10 @@ c = a + b; // the variable 'c' gets a value of 15 after this statement is execut
 
 [source,arduino]
 ----
-float a = 5.5, b = 6.6;
+float a = 5.5;
+float b = 6.6;
 int c = 0;
-c = a + b; // the variable 'c' stores a value of 12 only as opposed to the expected sum of 12.1
+c = a + b;  // the variable 'c' stores a value of 12 only as opposed to the expected sum of 12.1
 ----
 [%hardbreaks]
 --

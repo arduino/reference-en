@@ -1,4 +1,4 @@
-﻿---
+---
 title: "!="
 title_expanded: different from
 categories: [ "Data Types" ]
@@ -25,20 +25,19 @@ Compares two Strings for difference. The comparison is case-sensitive, meaning t
 
 [float]
 === Syntax
-[source,arduino]
-----
-string1 != string2
-----
+`myString1 != myString2`
+
 
 [float]
 === Parameters
-`string1, string2` - a String variable
+`myString1: a String variable. +
+`myString2`: a String variable.
+
 
 [float]
 === Returns
-`true`: if string1 is different from string2 
-
-`false`: otherwise
+`true`: if myString1 is different from myString2. +
+`false`: otherwise.
 
 --
 
@@ -57,6 +56,6 @@ string1 != string2
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

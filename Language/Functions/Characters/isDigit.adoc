@@ -17,20 +17,19 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is a digit (that is a number). Returns true if thisChar is a number. 
+Analyse if a char is a digit (that is a number). Returns true if thisChar is a number.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-[source,arduino]
-----
-isDigit(thisChar)
-----
+`isDigit(thisChar)`
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns
@@ -50,15 +49,12 @@ isDigit(thisChar)
 
 [source,arduino]
 ----
-if (isDigit(this))      // tests if this is a digit
-{
-	Serial.println("The character is a number");
+if (isDigit(myChar)) {  // tests if myChar is a digit
+  Serial.println("The character is a number");
 }
-else
-{
-	Serial.println("The character is not a number");
+else {
+  Serial.println("The character is not a number");
 }
-
 ----
 
 --

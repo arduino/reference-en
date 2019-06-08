@@ -28,7 +28,8 @@ Reads the value from a specified digital pin, either `HIGH` or `LOW`.
 
 [float]
 === Parameters
-`pin`: the number of the digital pin you want to read
+`pin`: the Arduino pin number you want to read
+
 
 [float]
 === Returns
@@ -51,20 +52,18 @@ Sets pin 13 to the same value as pin 7, declared as an input.
 
 [source,arduino]
 ----
-int ledPin = 13;   // LED connected to digital pin 13
-int inPin = 7;     // pushbutton connected to digital pin 7
-int val = 0;       // variable to store the read value
+int ledPin = 13;  // LED connected to digital pin 13
+int inPin = 7;    // pushbutton connected to digital pin 7
+int val = 0;      // variable to store the read value
 
-void setup()
-{
-  pinMode(ledPin, OUTPUT);      // sets the digital pin 13 as output
-  pinMode(inPin, INPUT);        // sets the digital pin 7 as input
+void setup() {
+  pinMode(ledPin, OUTPUT);  // sets the digital pin 13 as output
+  pinMode(inPin, INPUT);    // sets the digital pin 7 as input
 }
 
-void loop()
-{
-  val = digitalRead(inPin);     // read the input pin
-  digitalWrite(ledPin, val);    // sets the LED to the button's value
+void loop() {
+  val = digitalRead(inPin);   // read the input pin
+  digitalWrite(ledPin, val);  // sets the LED to the button's value
 }
 ----
 [%hardbreaks]
@@ -73,7 +72,7 @@ void loop()
 === Notes and Warnings
 If the pin isn't connected to anything, digitalRead() can return either HIGH or LOW (and this can change randomly).
 
-The analog input pins can be used as digital pins, referred to as A0, A1, etc.
+The analog input pins can be used as digital pins, referred to as A0, A1, etc. The exception is the Arduino Nano, Pro Mini, and Mini's A6 and A7 pins, which can only be used as analog inputs.
 
 --
 // HOW TO USE SECTION ENDS
@@ -87,7 +86,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 === See also
 
 [role="example"]
-* #EXAMPLE# Tutorial: (http://arduino.cc/en/Tutorial/DigitalPins[Digital Pins])
+* #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Description of the digital pins^]
 
 --
 // SEE ALSO SECTION ENDS

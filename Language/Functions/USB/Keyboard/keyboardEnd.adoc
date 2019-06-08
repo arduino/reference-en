@@ -25,7 +25,8 @@ Stops the keyboard emulation to a connected computer. To start keyboard emulatio
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns
@@ -60,7 +61,7 @@ void setup() {
 }
 
 void loop() {
- //do nothing
+  //do nothing
 }
 ----
 

@@ -25,11 +25,12 @@ Lets go of the specified key. See link:../keyboardpress[Keyboard.press()] for mo
 
 [float]
 === Parameters
-`key` : the key to release. `char`
+`key`: the key to release. Allowed data types: `char`.
+
 
 [float]
 === Returns
-`size_t` : the number of keys released
+The number of keys released. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

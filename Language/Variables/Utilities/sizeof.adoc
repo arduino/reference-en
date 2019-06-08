@@ -12,7 +12,7 @@ subCategories: [ "Utilities" ]
 
 [float]
 === Description
-The sizeof operator returns the number of bytes in a variable type, or the number of bytes occupied by an array.
+The `sizeof` operator returns the number of bytes in a variable type, or the number of bytes occupied by an array.
 [%hardbreaks]
 
 
@@ -23,11 +23,12 @@ The sizeof operator returns the number of bytes in a variable type, or the numbe
 
 [float]
 === Parameters
-`variable`: any variable type or array (e.g. int, float, byte)
+`variable`: The thing to get the size of. Allowed data types: any variable type or array (e.g. `int`, `float`, `byte`).
+
 
 [float]
 === Returns
-The number of bytes in a variable or bytes occupied in an array. (size_t)
+The number of bytes in a variable or bytes occupied in an array. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,34 +47,49 @@ This program prints out a text string one character at a time. Try changing the 
 [source,arduino]
 ----
 char myStr[] = "this is a test";
-int i;
 
-void setup(){
+void setup() {
   Serial.begin(9600);
 }
 
 void loop() {
-  for (i = 0; i < sizeof(myStr) - 1; i++){
+  for (byte i = 0; i < sizeof(myStr) - 1; i++) {
     Serial.print(i, DEC);
     Serial.print(" = ");
     Serial.write(myStr[i]);
     Serial.println();
   }
-  delay(5000); // slow down the program
+  delay(5000);  // slow down the program
 }
 ----
 [%hardbreaks]
 
 [float]
 === Notes and Warnings
-Note that `sizeof` returns the total number of bytes. So for larger variable types such as ints, the for loop would look something like this. Note also that a properly formatted string ends with the NULL symbol, which has ASCII value 0.
+Note that `sizeof` returns the total number of bytes. So for arrays of larger variable types such as ints, the for loop would look something like this.
 
 [source,arduino]
 ----
-for (i = 0; i < (sizeof(myInts)/sizeof(int)); i++) {
-  // do something with myInts[i]
+int myValues[] = {123, 456, 789};
+
+// this for loop works correctly with an array of any type or size
+for (byte i = 0; i < (sizeof(myValues) / sizeof(myValues[0])); i++) {
+  // do something with myValues[i]
 }
 ----
 
+Note that a properly formatted string ends with the NULL symbol, which has ASCII value 0.
+
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

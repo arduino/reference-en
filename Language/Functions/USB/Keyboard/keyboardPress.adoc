@@ -22,16 +22,17 @@ It is necessary to call link:../keyboardbegin[Keyboard.begin()] before using `pr
 
 [float]
 === Syntax
-`Keyboard.press()`
+`Keyboard.press(key)`
 
 
 [float]
 === Parameters
-`char` : the key to press
+`key`: the key to press. Allowed data types: `char`.
+
 
 [float]
 === Returns
-`size_t` : number of key presses sent.
+Number of key presses sent. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -79,6 +80,7 @@ void loop() {
   Keyboard.releaseAll();
   // wait for new window to open:
   delay(1000);
+}
 ----
 
 --

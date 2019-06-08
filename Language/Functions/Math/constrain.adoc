@@ -28,17 +28,16 @@ Constrains a number to be within a range.
 
 [float]
 === Parameters
-`x`: the number to constrain, all data types
-`a`: the lower end of the range, all data types
-`b`: the upper end of the range, all data types
+`x`: the number to constrain Allowed data types: all data types. +
+`a`: the lower end of the range. Allowed data types: all data types. +
+`b`: the upper end of the range. Allowed data types: all data types.
+
 
 [float]
 === Returns
-x: if x is between a and b
-
-a: if x is less than a
-
-b: if x is greater than b
+x: if x is between a and b. +
+a: if x is less than a. +
+b: if x is greater than b.
 
 --
 // OVERVIEW SECTION ENDS
@@ -57,8 +56,37 @@ The code limits the sensor values to between 10 to 150.
 
 [source,arduino]
 ----
-sensVal = constrain(sensVal, 10, 150);    // limits range of sensor values to between 10 and 150
+sensVal = constrain(sensVal, 10, 150);  // limits range of sensor values to between 10 and 150
 ----
+
+[float]
+=== Notes and Warnings
+Because of the way the `constrain()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results.
+
+This code will yield incorrect results:
+[source,arduino]
+----
+int constrainedInput = constrain(Serial.parseInt(), minimumValue, maximumValue);   // avoid this
+----
+
+Use this instead:
+[source,arduino]
+----
+int input = Serial.parseInt();  // keep other operations outside the constrain function
+int constrainedInput = constrain(input, minimumValue, maximumValue);
+----
+[%hardbreaks]
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

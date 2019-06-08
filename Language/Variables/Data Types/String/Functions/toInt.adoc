@@ -1,4 +1,4 @@
-﻿---
+---
 title: "toInt()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,21 +24,17 @@ Converts a valid String to an integer. The input String should start with an int
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.toInt()
-----
+`myString.toInt()`
+
 
 [float]
 === Parameters
-`string`: a variable of type String
+`myString`: a variable of type `String`.
 
 
 [float]
 === Returns
-`long`
-
-If no valid conversion could be performed because the String doesn't start with a integer number, a zero is returned.
+If no valid conversion could be performed because the String doesn't start with a integer number, a zero is returned. Data type: `long`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -56,6 +52,6 @@ If no valid conversion could be performed because the String doesn't start with 
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

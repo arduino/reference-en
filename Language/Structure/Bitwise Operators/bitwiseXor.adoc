@@ -49,20 +49,20 @@ int z = x ^ y;  // binary: 0110, or decimal 6
 ----
 [%hardbreaks]
 
-The ^ operator is often used to toggle (i.e. change from 0 to 1, or 1 to 0) some of the bits in an integer expression. In a bitwise XOR operation if there is a 1 in the mask bit, that bit is inverted; if there is a 0, the bit is not inverted and stays the same. Below is a program to blink digital pin 5.
+The ^ operator is often used to toggle (i.e. change from 0 to 1, or 1 to 0) some of the bits in an integer expression. In a bitwise XOR operation if there is a 1 in the mask bit, that bit is inverted; if there is a 0, the bit is not inverted and stays the same.
 
 [source,arduino]
 ----
-// Blink_Pin_5
-// demo for Exclusive OR
-void setup(){
-DDRD = DDRD | B00100000; // set digital pin five as OUTPUT
-Serial.begin(9600);
+// Note: This code uses registers specific to AVR microcontrollers (Uno, Nano, Leonardo, Mega, etc.)
+// it will not compile for other architectures
+void setup() {
+  DDRB = DDRB | B00100000;  // set PB5 (pin 13 on Uno/Nano, pin 9 on Leonardo/Micro, pin 11 on Mega) as OUTPUT
+  Serial.begin(9600);
 }
 
-void loop(){
-PORTD = PORTD ^ B00100000;  // invert bit 5 (digital pin 5), leave others untouched
-delay(100);
+void loop() {
+  PORTB = PORTB ^ B00100000;  // invert PB5, leave others untouched
+  delay(100);
 }
 ----
 

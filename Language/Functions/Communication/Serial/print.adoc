@@ -19,7 +19,7 @@ Prints data to the serial port as human-readable ASCII text. This command can ta
 * `Serial.print(78)` gives "78" +
 * `Serial.print(1.23456)` gives "1.23" +
 * `Serial.print('N')` gives "N" +
-* `Serial.print("Hello world.")` gives "Hello world." 
+* `Serial.print("Hello world.")` gives "Hello world."
 
 
 An optional second parameter specifies the base (format) to use; permitted values are `BIN(binary, or base 2)`, `OCT(octal, or base 8)`, `DEC(decimal, or base 10)`, `HEX(hexadecimal, or base 16)`. For floating point numbers, this parameter specifies the number of decimal places to use. For example-
@@ -42,17 +42,19 @@ To send data without conversion to its representation as characters, use link:..
 
 [float]
 === Syntax
-`Serial.print(val)` +
-`Serial.print(val, format)`
+`_Serial_.print(val)` +
+`_Serial_.print(val, format)`
 
 
 [float]
 === Parameters
-`val`: the value to print - any data type
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`val`: the value to print. Allowed data types: any data type.
+
 
 [float]
 === Returns
-`size_t`: `print()` returns the number of bytes written, though reading that number is optional.
+`print()` returns the number of bytes written, though reading that number is optional. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -72,16 +74,16 @@ To send data without conversion to its representation as characters, use link:..
 [source,arduino]
 ----
 /*
-Uses a for loop to print numbers in various formats.
+  Uses a for loop to print numbers in various formats.
 */
 void setup() {
-  Serial.begin(9600);      // open the serial port at 9600 bps:
+  Serial.begin(9600); // open the serial port at 9600 bps:
 }
 
 void loop() {
   // print labels
   Serial.print("NO FORMAT");  // prints a label
-  Serial.print("\t");      // prints a tab
+  Serial.print("\t");         // prints a tab
 
   Serial.print("DEC");
   Serial.print("\t");
@@ -120,7 +122,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-As of version 1.0, serial transmission is asynchronous; `Serial.print()` will return before any characters are transmitted.
+For information on the asyncronicity of `Serial.print()`, see the Notes and Warnings section of the link:../write#howtouse[Serial.write() reference page].
 
 --
 // HOW TO USE SECTION ENDS

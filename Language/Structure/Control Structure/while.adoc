@@ -24,11 +24,15 @@ A `while` loop will loop continuously, and infinitely, until the expression insi
 === Syntax
 [source,arduino]
 ----
-while(condition){
+while (condition) {
   // statement(s)
 }
 ----
-The `condition` is a boolean expression that evaluates to `true` or `false`.
+
+
+[float]
+=== Parameters
+`condition`: a boolean expression that evaluates to `true` or `false`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,7 +50,7 @@ The `condition` is a boolean expression that evaluates to `true` or `false`.
 [source,arduino]
 ----
 var = 0;
-while(var < 200){
+while (var < 200) {
   // do something repetitive 200 times
   var++;
 }
@@ -67,7 +71,7 @@ while(var < 200){
 [role="language"]
 
 [role="example"]
-* #EXAMPLE#	https://arduino.cc/en/Tutorial/WhileLoop[While Loop Tutorial^]
+* #EXAMPLE# https://arduino.cc/en/Tutorial/WhileLoop[While Loop^]
 
 --
 // SEE ALSO SECTION ENDS

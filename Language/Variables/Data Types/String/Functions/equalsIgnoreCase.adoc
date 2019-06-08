@@ -1,4 +1,4 @@
-﻿---
+---
 title: "equalsIgnoreCase()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,21 +24,20 @@ Compares two Strings for equality. The comparison is not case-sensitive, meaning
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.equalsIgnoreCase(string2)
-----
+`myString.equalsIgnoreCase(myString2)`
+
 
 [float]
 === Parameters
-`string, string2`: variables of type String
+`myString`: variable of type `String`. +
+`myString2`: variable of type `String`.
 
 
 [float]
 === Returns
-`true`: if string equals string2 (ignoring case) 
+`true`: if myString equals myString2 (ignoring case). +
+`false`: otherwise.
 
-`false`: otherwise
 --
 // OVERVIEW SECTION ENDS
 
@@ -55,6 +54,6 @@ string.equalsIgnoreCase(string2)
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

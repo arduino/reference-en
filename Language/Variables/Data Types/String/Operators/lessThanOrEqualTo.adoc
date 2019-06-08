@@ -1,4 +1,4 @@
-﻿---
+---
 title: "<="
 title_expanded: less than or equal
 categories: [ "Data Types" ]
@@ -27,20 +27,19 @@ Caution: String comparison operators can be confusing when you're comparing nume
 
 [float]
 === Syntax
-[source,arduino]
-----
-string1 <= string2
-----
+`myString1 <= myString2`
+
 
 [float]
 === Parameters
-`string1, string2`: variables of type String
+`myString1`: variable of type String. +
+`myString2`: variable of type String.
+
 
 [float]
 === Returns
-`true`: if string1 is less than or equal to string2
-
-`false`: otherwise
+`true`: if myString1 is less than or equal to myString2. +
+`false`: otherwise.
 
 --
 
@@ -59,6 +58,6 @@ string1 <= string2
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

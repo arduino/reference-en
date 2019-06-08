@@ -1,4 +1,4 @@
-﻿---
+---
 title: "compareTo()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,25 +24,21 @@ Compares two Strings, testing whether one comes before or after the other, or wh
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.compareTo(string2)
-----
+`myString.compareTo(myString2)`
+
 
 [float]
 === Parameters
-`string`: a variable of type String
-
-`string2`: another variable of type String
+`myString`: a variable of type `String`. +
+`myString2`: another variable of type `String`.
 
 
 [float]
 === Returns
-`a negative number`: if string comes before string2
+`a negative number`: if myString comes before myString2. +
+`0`: if String equals myString2. +
+`a positive number`: if myString comes after myString2.
 
-`0`: if string equals string2
-
-`a positive number`: if string comes after string2
 --
 
 // OVERVIEW SECTION ENDS
@@ -60,6 +56,6 @@ string.compareTo(string2)
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

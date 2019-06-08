@@ -76,13 +76,11 @@ int ledPin = 9;      // LED connected to digital pin 9
 int analogPin = 3;   // potentiometer connected to analog pin 3
 int val = 0;         // variable to store the read value
 
-void setup()
-{
+void setup() {
   pinMode(ledPin, OUTPUT);   // sets the pin as output
 }
 
-void loop()
-{
+void loop() {
   val = analogRead(analogPin);   // read the input pin
   analogWrite(ledPin, val / 4);  // analogRead values go from 0 to 1023, analogWrite values from 0 to 255
 }
@@ -108,7 +106,7 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 
 [float]
 === See also
-// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#), 
+// Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
 // definitions: (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // examples: (please add the tag #EXAMPLE#)
 
@@ -117,7 +115,8 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 // Whenever you want to link to another Reference term, or more in general to a relative link,
 // use the syntax shown below. Please note that the file format is subsituted by  attribute.
 // Please note that you always need to replace spaces that you might find in folder/file names with %20
-// for language tag, items will be automatically generated for any other item of the same subcategory, 
+// The entire link to Reference pages must be lower case, regardless of the case of the folders and files in this repository.
+// For language tag, items will be automatically generated for any other item of the same subcategory,
 // no need to add links to other pages of the same subcategory
 // if you don't include this section, a minimal version with only the other pages of the same subcategory will be generated.
 * #LANGUAGE# link:../AsciiDoc_Template-Parent_Of_Entities[Parent Of Entities]
@@ -133,4 +132,3 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 
 --
 // SEE ALSO SECTION ENDS
-

@@ -23,15 +23,16 @@ Turns off the given interrupt.
 
 [float]
 === Syntax
-`detachInterrupt(digitalPinToInterrupt(pin))` (Arduino AVR Boards only, recommended) +
-`detachInterrupt(interrupt)` (Arduino AVR Boards only, not recommended) +
-`detachInterrupt(pin)` (Arduino SAMD Boards, Due, 101 only)
+`detachInterrupt(digitalPinToInterrupt(pin))` (recommended) +
+`detachInterrupt(interrupt)` (not recommended) +
+`detachInterrupt(pin)` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, Uno WiFi Rev2, Due, and 101.)
+
 
 [float]
 === Parameters
-`interrupt`: the number of the interrupt to disable (see link:../attachinterrupt[attachInterrupt()] for more details).
+`interrupt`: the number of the interrupt to disable (see link:../attachinterrupt[attachInterrupt()] for more details). +
+`pin`: the Arduino pin number of the interrupt to disable
 
-`pin`: the pin number of the interrupt to disable
 
 [float]
 === Returns
@@ -39,3 +40,14 @@ Nothing
 
 --
 // OVERVIEW SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

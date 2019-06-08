@@ -4,10 +4,6 @@ categories: [ "Functions" ]
 subCategories: [ "External Interrupts" ]
 ---
 
-
-
-
-
 = attachInterrupt()
 
 
@@ -19,13 +15,13 @@ subCategories: [ "External Interrupts" ]
 === Description
 *Digital Pins With Interrupts*
 
-The first parameter to attachInterrupt is an interrupt number. Normally you should use digitalPinToInterrupt(pin) to translate the actual digital pin to the specific interrupt number. For example, if you connect to pin 3, use digitalPinToInterrupt(3) as the first parameter to attachInterrupt.
+The first parameter to `attachInterrupt()` is an interrupt number. Normally you should use `digitalPinToInterrupt(pin)` to translate the actual digital pin to the specific interrupt number. For example, if you connect to pin 3, use `digitalPinToInterrupt(3)` as the first parameter to `attachInterrupt()`.
 
 [options="header"]
 |===================================================
 |Board                             |Digital Pins Usable For Interrupts
 |Uno, Nano, Mini, other 328-based  |2, 3
-|Uno WiFi Rev.2                    |all digital pins                   
+|Uno WiFi Rev.2                    |all digital pins
 |Mega, Mega2560, MegaADK           |2, 3, 18, 19, 20, 21
 |Micro, Leonardo, other 32u4-based |0, 1, 2, 3, 7
 |Zero                              |all digital pins, except 4
@@ -40,7 +36,7 @@ The first parameter to attachInterrupt is an interrupt number. Normally you shou
 === Notes and Warnings
 
 *Note* +
-Inside the attached function, `delay()` won't work and the value returned by `millis()` will not increment. Serial data received while in the function may be lost. You should declare as volatile any variables that you modify within the attached function. See the section on ISRs below for more information.
+Inside the attached function, `delay()` won't work and the value returned by `millis()` will not increment. Serial data received while in the function may be lost. You should declare as `volatile` any variables that you modify within the attached function. See the section on ISRs below for more information.
 [%hardbreaks]
 
 [float]
@@ -53,7 +49,7 @@ If you wanted to insure that a program always caught the pulses from a rotary en
 == About Interrupt Service Routines
 ISRs are special kinds of functions that have some unique limitations most other functions do not have. An ISR cannot have any parameters, and they shouldn't return anything.
 
-Generally, an ISR should be as short and fast as possible. If your sketch uses multiple ISRs, only one can run at a time, other interrupts will be executed after the current one finishes in an order that depends on the priority they have. millis() relies on interrupts to count, so it will never increment inside an ISR. Since delay() requires interrupts to work, it will not work if called inside an ISR. micros() works initially, but will start behaving erratically after 1-2 ms. delayMicroseconds() does not use any counter, so it will work as normal.
+Generally, an ISR should be as short and fast as possible. If your sketch uses multiple ISRs, only one can run at a time, other interrupts will be executed after the current one finishes in an order that depends on the priority they have. `millis()` relies on interrupts to count, so it will never increment inside an ISR. Since `delay()` requires interrupts to work, it will not work if called inside an ISR. `micros()` works initially, but will start behaving erratically after 1-2 ms. `delayMicroseconds()` does not use any counter, so it will work as normal.
 
 Typically global variables are used to pass data between an ISR and the main program. To make sure variables shared between an ISR and the main program are updated correctly, declare them as `volatile`.
 
@@ -61,15 +57,15 @@ For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gam
 
 [float]
 === Syntax
-`attachInterrupt(digitalPinToInterrupt(pin), ISR, mode);` (recommended) +
-`attachInterrupt(interrupt, ISR, mode);` (not recommended) +
-`attachInterrupt(pin, ISR, mode);` (not recommended Arduino Due, Zero, MKR1000, 101 only)
+`attachInterrupt(digitalPinToInterrupt(pin), ISR, mode)` (recommended) +
+`attachInterrupt(interrupt, ISR, mode)` (not recommended) +
+`attachInterrupt(pin, ISR, mode)` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, Uno WiFi Rev2, Due, and 101.)
 
 
 [float]
 === Parameters
-`interrupt`: the number of the interrupt (`int`) +
-`pin`: the pin number _(Arduino Due, Zero, MKR1000 only)_ +
+`interrupt`: the number of the interrupt. Allowed data types: `int`. +
+`pin`: the Arduino pin number. +
 `ISR`: the ISR to call when the interrupt occurs; this function must take no parameters and return nothing. This function is sometimes referred to as an interrupt service routine. +
 `mode`: defines when the interrupt should be triggered. Four constants are predefined as valid values: +
 
@@ -81,6 +77,7 @@ For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gam
 The Due, Zero and MKR1000 boards allows also: +
 
 * *HIGH* to trigger the interrupt whenever the pin is high.
+
 
 [float]
 === Returns
@@ -121,11 +118,11 @@ void blink() {
 
 [float]
 === Interrupt Numbers
-Normally you should use digitalPinToInterrupt(pin), rather than place an interrupt number directly into your sketch. The specific pins with interrupts, and their mapping to interrupt number varies on each type of board. Direct use of interrupt numbers may seem simple, but it can cause compatibility trouble when your sketch is run on a different board.
+Normally you should use `digitalPinToInterrupt(pin)`, rather than place an interrupt number directly into your sketch. The specific pins with interrupts, and their mapping to interrupt number varies on each type of board. Direct use of interrupt numbers may seem simple, but it can cause compatibility trouble when your sketch is run on a different board.
 
 However, older sketches often have direct interrupt numbers. Often number 0 (for digital pin 2) or number 1 (for digital pin 3) were used. The table below shows the available interrupt pins on various boards.
 
-Note that in the table below, the interrupt numbers refer to the number to be passed to attachInterrupt(). For historical reasons, this numbering does not always correspond directly to the interrupt numbering on the atmega chip (e.g. int.0 corresponds to INT4 on the Atmega2560 chip).
+Note that in the table below, the interrupt numbers refer to the number to be passed to `attachInterrupt()`. For historical reasons, this numbering does not always correspond directly to the interrupt numbering on the ATmega chip (e.g. int.0 corresponds to INT4 on the ATmega2560 chip).
 
 [options="header"]
 |===================================================
@@ -139,3 +136,14 @@ For Uno WiFiRev.2, Due, Zero, MKR Family and 101 boards the *interrupt number = 
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

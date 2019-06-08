@@ -24,15 +24,13 @@ The left shift operator `<<` causes the bits of the left operand to be shifted *
 
 [float]
 === Syntax
-[source,arduino]
-----
-variable << number_of_bits;
-----
+`variable << number_of_bits;`
+
 
 [float]
 === Parameters
-`variable`: *Allowed data types:* byte, int, long +
-`number_of_bits`: a number that is < = 32. *Allowed data types:* int
+`variable`: Allowed data types: `byte`, `int`, `long`. +
+`number_of_bits`: a number that is < = 32. Allowed data types: `int`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -48,8 +46,8 @@ variable << number_of_bits;
 
 [source,arduino]
 ----
-int a = 5;        // binary: 0000000000000101
-int b = a << 3;   // binary: 0000000000101000, or 40 in decimal
+int a = 5;      // binary: 0000000000000101
+int b = a << 3; // binary: 0000000000101000, or 40 in decimal
 ----
 [%hardbreaks]
 
@@ -59,7 +57,7 @@ When you shift a value x by y bits (x << y), the leftmost y bits in x are lost, 
 
 [source,arduino]
 ----
-int x = 5;        // binary: 0000000000000101
+int x = 5;  // binary: 0000000000000101
 int y = 14;
 int result = x << y;  // binary: 0100000000000000 - the first 1 in 101 was discarded
 ----
@@ -90,10 +88,10 @@ void printOut1(int c) {
   for (int bits = 7; bits > -1; bits--) {
     // Compare bits 7-0 in byte
     if (c & (1 << bits)) {
-      Serial.print ("1");
+      Serial.print("1");
     }
     else {
-      Serial.print ("0");
+      Serial.print("0");
     }
   }
 }

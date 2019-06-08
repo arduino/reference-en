@@ -1,4 +1,4 @@
-﻿---
+---
 title: "concat()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,20 +24,19 @@ Appends the parameter to a String.
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.concat(parameter)
-----
+`myString.concat(parameter)`
+
 
 [float]
 === Parameters
-`parameter`: *Allowed types are* String, string, char, byte, int, unsigned int, long, unsigned long, float, double, __FlashStringHelper(F() macro).
+`myString`: a variable of type `String`. +
+`parameter`: Allowed data types: `String`, `string`, `char`, `byte`, `int`, `unsigned int`, `long`, `unsigned long`, `float`, `double`, `__FlashStringHelper`(`F()` macro).
+
 
 [float]
 === Returns
-`true`: success
-
-`false`: failure (in which case the string is left unchanged).
+`true`: success. +
+`false`: failure (in which case the String is left unchanged).
 
 --
 // OVERVIEW SECTION ENDS
@@ -55,6 +54,6 @@ string.concat(parameter)
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

@@ -24,17 +24,13 @@ subCategories: [ "Arithmetic Operators" ]
 
 [float]
 === Syntax
-[source,arduino]
-----
-remainder = dividend % divisor;
-----
+`remainder = dividend % divisor;`
 
 [float]
 === Parameters
-`remainder` : variable. *Allowed data types:* int, float, double +
-`dividend` : variable or constant. *Allowed data types:* int +
-`divisor` : *non zero* variable or constant. *Allowed data types:* int
-[%hardbreaks]
+`remainder`: variable. Allowed data types: `int`, `float`, `double`. +
+`dividend`: variable or constant. Allowed data types: `int`. +
+`divisor`: *non zero* variable or constant. Allowed data types: `int`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -51,12 +47,12 @@ remainder = dividend % divisor;
 [source,arduino]
 ----
 int x = 0;
-x = 7 % 5;    // x now contains 2
-x = 9 % 5;    // x now contains 4
-x = 5 % 5;    // x now contains 0
-x = 4 % 5;    // x now contains 4
-x = -4 % 5;   // x now contains -4
-x = 4 % -5;   // x now contains 4
+x = 7 % 5;  // x now contains 2
+x = 9 % 5;  // x now contains 4
+x = 5 % 5;  // x now contains 0
+x = 4 % 5;  // x now contains 4
+x = -4 % 5; // x now contains -4
+x = 4 % -5; // x now contains 4
 ----
 
 [source,arduino]
@@ -68,10 +64,9 @@ int i = 0;
 
 void setup() {}
 
-void loop()
-{
+void loop() {
   values[i] = analogRead(0);
-  i = (i + 1) % 10;   // remainder operator rolls over variable
+  i = (i + 1) % 10; // remainder operator rolls over variable
 }
 ----
 [%hardbreaks]

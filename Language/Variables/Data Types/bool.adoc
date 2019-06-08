@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = bool
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -21,6 +16,17 @@ A `bool` holds one of two values, `true` or `false`. (Each `bool` variable occup
 
 
 [%hardbreaks]
+
+
+[float]
+=== Syntax
+`bool var = val;`
+
+
+[float]
+=== Parameters
+`var`: variable name. +
+`val`: the value to assign to that variable.
 
 --
 // OVERVIEW SECTION ENDS
@@ -39,25 +45,23 @@ This code shows how to use the `bool` datatype.
 
 [source,arduino]
 ----
-int LEDpin = 5;       // LED on pin 5
-int switchPin = 13;   // momentary switch on 13, other side connected to ground
+int LEDpin = 5;     // LED on pin 5
+int switchPin = 13; // momentary switch on 13, other side connected to ground
 
 bool running = false;
 
-void setup()
-{
+void setup() {
   pinMode(LEDpin, OUTPUT);
   pinMode(switchPin, INPUT);
-  digitalWrite(switchPin, HIGH);      // turn on pullup resistor
+  digitalWrite(switchPin, HIGH);  // turn on pullup resistor
 }
 
-void loop()
-{
-  if (digitalRead(switchPin) == LOW)
-  {  // switch is pressed - pullup keeps pin high normally
-    delay(100);                        // delay to debounce switch
-    running = !running;                // toggle running variable
-    digitalWrite(LEDpin, running);     // indicate via LED
+void loop() {
+  if (digitalRead(switchPin) == LOW) {
+    // switch is pressed - pullup keeps pin high normally
+    delay(100);                     // delay to debounce switch
+    running = !running;             // toggle running variable
+    digitalWrite(LEDpin, running);  // indicate via LED
   }
 }
 ----

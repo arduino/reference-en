@@ -33,6 +33,7 @@ The *Due, Zero and MKR Family* boards have 12-bit ADC capabilities that can be a
 === Parameters
 `bits`: determines the resolution (in bits) of the value returned by the `analogRead()` function. You can set this between 1 and 32. You can set resolutions higher than 12 but values returned by `analogRead()` will suffer approximation. See the note below for details.
 
+
 [float]
 === Returns
 Nothing
@@ -109,7 +110,7 @@ Using a 16 bit resolution (or any resolution *higher* than actual hardware capab
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins^]
 
 [role="language"]
 * #LANGUAGE# link:../../analog-io/analogread[analogRead()]

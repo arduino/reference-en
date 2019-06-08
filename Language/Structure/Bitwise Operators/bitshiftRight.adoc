@@ -24,15 +24,13 @@ The right shift operator `>>` causes the bits of the left operand to be shifted 
 
 [float]
 === Syntax
-[source,arduino]
-----
-variable >> number_of_bits;
-----
+`variable >> number_of_bits;`
+
 
 [float]
 === Parameters
-`variable`: *Allowed data types:* byte, int, long +
-`number_of_bits`: a number that is < = 32. *Allowed data types:* int
+`variable`: Allowed data types: `byte`, `int`, `long`. +
+`number_of_bits`: a number that is < = 32. Allowed data types: `int`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -48,8 +46,8 @@ variable >> number_of_bits;
 
 [source,arduino]
 ----
-int a = 40;       // binary: 0000000000101000
-int b = a >> 3;   // binary: 0000000000000101, or 5 in decimal
+int a = 40;     // binary: 0000000000101000
+int b = a >> 3; // binary: 0000000000000101, or 5 in decimal
 ----
 [%hardbreaks]
 
@@ -59,7 +57,7 @@ When you shift x right by y bits (x >> y), and the highest bit in x is a 1, the 
 
 [source,arduino]
 ----
-int x = -16;     // binary: 1111111111110000
+int x = -16;  // binary: 1111111111110000
 int y = 3;
 int result = x >> y;  // binary: 1111111111111110
 ----
@@ -67,7 +65,7 @@ This behavior, called sign extension, is often not the behavior you want. Instea
 
 [source,arduino]
 ----
-int x = -16;                   // binary: 1111111111110000
+int x = -16;  // binary: 1111111111110000
 int y = 3;
 int result = (unsigned int)x >> y;  // binary: 0001111111111110
 ----
@@ -76,7 +74,7 @@ If you are careful to avoid sign extension, you can use the right-shift operator
 [source,arduino]
 ----
 int x = 1000;
-int y = x >> 3;   // integer division of 1000 by 8, causing y = 125.
+int y = x >> 3; // integer division of 1000 by 8, causing y = 125.
 ----
 
 --

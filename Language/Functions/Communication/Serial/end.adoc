@@ -20,18 +20,13 @@ Disables serial communication, allowing the RX and TX pins to be used for genera
 
 [float]
 === Syntax
-`Serial.end()`
-
-_Arduino Mega only:_
-
-`Serial1.end()` +
-`Serial2.end()` +
-`Serial3.end()` +
+`_Serial_.end()`
 
 
 [float]
 === Parameters
-Nothing
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+
 
 [float]
 === Returns

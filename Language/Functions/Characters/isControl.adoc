@@ -17,20 +17,19 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is a control character. Returns true if thisChar is a control character. 
+Analyse if a char is a control character. Returns true if thisChar is a control character.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-[source,arduino]
-----
 `isControl(thisChar)`
-----
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns
@@ -50,15 +49,12 @@ Analyse if a char is a control character. Returns true if thisChar is a control 
 
 [source,arduino]
 ----
-if (isControl(this))      // tests if this is a control character
-{
-	Serial.println("The character is a control character");
+if (isControl(myChar)) {  // tests if myChar is a control character
+  Serial.println("The character is a control character");
 }
-else
-{
-	Serial.println("The character is not a control character");
+else {
+  Serial.println("The character is not a control character");
 }
-
 ----
 
 --

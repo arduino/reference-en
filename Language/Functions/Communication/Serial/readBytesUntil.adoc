@@ -24,23 +24,36 @@ Serial.readBytesUntil() reads characters from the serial buffer into an array. T
 
 [float]
 === Syntax
-`Serial.readBytesUntil(character, buffer, length)`
+`_Serial_.readBytesUntil(character, buffer, length)`
 
 
 [float]
 === Parameters
-`character` : the character to search for (`char`)
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`character`: the character to search for. Allowed data types: `char`. +
+`buffer`: the buffer to store the bytes in. Allowed data types: array of `char` or `byte`s. +
+`length`: the number of bytes to read. Allowed data types: `int`.
 
-`buffer`: the buffer to store the bytes in (`char[]` or `byte[]`)
-
-`length` : the number of bytes to read (`int`)
 
 [float]
 === Returns
-`size_t`
+Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Notes and Warnings
+The terminator character is discarded from the serial buffer.
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
 
 
 // SEE ALSO SECTION
@@ -52,7 +65,7 @@ Serial.readBytesUntil() reads characters from the serial buffer into an array. T
 
 [role="language"]
 * #LANGUAGE# link:../../stream[Stream]
-* #LANGUAGE# link:../../stream/streamreadbytesuntil[Stream.readByteUntil()]
+* #LANGUAGE# link:../../stream/streamreadbytesuntil[Stream.readBytesUntil()]
 
 --
 // SEE ALSO SECTION ENDS

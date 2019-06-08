@@ -30,7 +30,8 @@ Currently, the largest value that will produce an accurate delay is 16383. This 
 
 [float]
 === Parameters
-`us`: the number of microseconds to pause (`unsigned int`)
+`us`: the number of microseconds to pause. Allowed data types: `unsigned int`.
+
 
 [float]
 === Returns
@@ -49,23 +50,21 @@ Nothing
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code configures pin number 8 to work as an output pin. It sends a train of pulses of approximately 100 microseconds period. The approximation is due to execution of the other instructions in the code. 
+The code configures pin number 8 to work as an output pin. It sends a train of pulses of approximately 100 microseconds period. The approximation is due to execution of the other instructions in the code.
 
 [source,arduino]
 ----
-int outPin = 8;                 // digital pin 8
+int outPin = 8;               // digital pin 8
 
-void setup()
-{
-  pinMode(outPin, OUTPUT);      // sets the digital pin as output
+void setup() {
+  pinMode(outPin, OUTPUT);    // sets the digital pin as output
 }
 
-void loop()
-{
-  digitalWrite(outPin, HIGH);   // sets the pin on
-  delayMicroseconds(50);        // pauses for 50 microseconds
-  digitalWrite(outPin, LOW);    // sets the pin off
-  delayMicroseconds(50);        // pauses for 50 microseconds
+void loop() {
+  digitalWrite(outPin, HIGH); // sets the pin on
+  delayMicroseconds(50);      // pauses for 50 microseconds
+  digitalWrite(outPin, LOW);  // sets the pin off
+  delayMicroseconds(50);      // pauses for 50 microseconds
 }
 ----
 [%hardbreaks]
@@ -78,3 +77,14 @@ As of Arduino 0018, delayMicroseconds() no longer disables interrupts.
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

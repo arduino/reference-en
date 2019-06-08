@@ -1,4 +1,4 @@
-﻿---
+---
 title: "toCharArray()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,22 +24,19 @@ Copies the String's characters to the supplied buffer.
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.toCharArray(buf, len)
-----
+`myString.toCharArray(buf, len)`
+
 
 [float]
 === Parameters
-`string`: a variable of type String
+`myString`: a variable of type `String`. +
+`buf`: the buffer to copy the characters into. Allowed data types: array of `char`s. +
+`len`: the size of the buffer. Allowed data types: `unsigned int`.
 
-`buf`: the buffer to copy the characters into (_char []_)
-
-`len`: the size of the buffer (_unsigned int_)
 
 [float]
 === Returns
-None
+Nothing
 
 --
 // OVERVIEW SECTION ENDS
@@ -57,6 +54,6 @@ None
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

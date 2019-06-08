@@ -36,14 +36,13 @@ The `continue` statement skips the rest of the current iteration of a loop (link
 The following code writes the value of 0 to 255 to the `PWMpin`, but skips the values in the range of 41 to 119.
 [source,arduino]
 ----
-for (x = 0; x <= 255; x ++)
-{
-    if (x > 40 && x < 120){      // create jump in values
-        continue;
-    }
+for (int x = 0; x <= 255; x ++) {
+  if (x > 40 && x < 120) {  // create jump in values
+    continue;
+  }
 
-    analogWrite(PWMpin, x);
-    delay(50);
+  analogWrite(PWMpin, x);
+  delay(50);
 }
 ----
 

@@ -28,7 +28,8 @@ Re-enables interrupts (after they've been disabled by link:../nointerrupts[noint
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns
@@ -53,8 +54,7 @@ The code enables Interrupts.
 ----
 void setup() {}
 
-void loop()
-{
+void loop() {
   noInterrupts();
   // critical, time-sensitive code here
   interrupts();

@@ -39,15 +39,30 @@ Note that `#include`, similar to link:../define[`#define`], has no semicolon ter
 
 [float]
 === Example Code
-This example includes a library that is used to put data into the program space _flash_ instead of _ram_. This saves the ram space for dynamic memory needs and makes large lookup tables more practical.
+This example includes the Servo library so that its functions may be used to control a Servo motor.
 
 
 [source,arduino]
 ----
-#include <avr/pgmspace.h>
+#include <Servo.h>
 
-prog_uint16_t myConstants[] PROGMEM = {0, 21140, 702  , 9128,  0, 25764, 8456,
-0,0,0,0,0,0,0,0,29810,8968,29762,29762,4500};
+Servo myservo;  // create servo object to control a servo
+
+void setup() {
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+}
+
+void loop() {
+  for (int pos = 0; pos <= 180; pos += 1) { // goes from 0 degrees to 180 degrees
+    // in steps of 1 degree
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15ms for the servo to reach the position
+  }
+  for (int pos = 180; pos >= 0; pos -= 1) { // goes from 180 degrees to 0 degrees
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                       // waits 15ms for the servo to reach the position
+  }
+}
 ----
 
 

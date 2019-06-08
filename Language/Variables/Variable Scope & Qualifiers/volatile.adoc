@@ -17,17 +17,17 @@ subCategories: [ "Variable Scope & Qualifiers" ]
 
 [float]
 === Description
-`volatile` is a keyword known as a variable _qualifier_, it is usually used before the datatype of a variable, to modify the way in which the compiler and subsequent program treats the variable.
+`volatile` is a keyword known as a variable _qualifier_, it is usually used before the datatype of a variable, to modify the way in which the compiler and subsequent program treat the variable.
 
-Declaring a variable volatile is a directive to the compiler. The compiler is software which translates your C/C++ code into the machine code, which are the real instructions for the Atmega chip in the Arduino.
+Declaring a variable `volatile` is a directive to the compiler. The compiler is software which translates your C/C++ code into the machine code, which are the real instructions for the Atmega chip in the Arduino.
 
 Specifically, it directs the compiler to load the variable from RAM and not from a storage register, which is a temporary memory location where program variables are stored and manipulated. Under certain conditions, the value for a variable stored in registers can be inaccurate.
 
-A variable should be declared volatile whenever its value can be changed by something beyond the control of the code section in which it appears, such as a concurrently executing thread. In the Arduino, the only place that this is likely to occur is in sections of code associated with interrupts, called an interrupt service routine.
+A variable should be declared `volatile` whenever its value can be changed by something beyond the control of the code section in which it appears, such as a concurrently executing thread. In the Arduino, the only place that this is likely to occur is in sections of code associated with interrupts, called an interrupt service routine.
 
 [float]
 === int or long volatiles
-If the volatile variable is bigger than a byte (e.g. a 16 bit int or a 32 bit long), then the microcontroller can not read it in one step, because it is an 8 bit microcontroller. This means that while your main code section (e.g. your loop) reads the first 8 bits of the variable, the interrupt might already change the second 8 bits. This will produce random values for the variable.
+If the `volatile` variable is bigger than a byte (e.g. a 16 bit int or a 32 bit long), then the microcontroller can not read it in one step, because it is an 8 bit microcontroller. This means that while your main code section (e.g. your loop) reads the first 8 bits of the variable, the interrupt might already change the second 8 bits. This will produce random values for the variable.
 
 Remedy:
 
@@ -63,22 +63,18 @@ There are several ways to do this:
 int pin = 13;
 volatile byte state = LOW;
 
-void setup()
-{
+void setup() {
   pinMode(pin, OUTPUT);
-  attachInterrupt(0, blink, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(2), blink, CHANGE);
 }
 
-void loop()
-{
+void loop() {
   digitalWrite(pin, state);
 }
 
-void blink()
-{
+void blink() {
   state = !state;
 }
-
 ----
 
 
@@ -88,10 +84,9 @@ void blink()
 volatile int input_from_interrupt;
 
   ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
-     // code with interrupts blocked (consecutive atomic operations will not get interrupted)
-     int result = input_from_interrupt;
-   }
-
+    // code with interrupts blocked (consecutive atomic operations will not get interrupted)
+    int result = input_from_interrupt;
+  }
 ----
 
 

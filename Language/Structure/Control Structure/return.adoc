@@ -23,17 +23,13 @@ Terminate a function and return a value from a function to the calling function,
 
 [float]
 === Syntax
-[source,arduino]
-----
-return;
-
-return value; // both forms are valid
-----
+`return;` +
+`return value;`
 
 
 [float]
 === Parameters
-`value': any variable or constant type
+`value`: Allowed data types: any variable or constant type.
 
 --
 // OVERVIEW SECTION ENDS
@@ -51,27 +47,26 @@ A function to compare a sensor input to a threshold
 
 [source,arduino]
 ----
- int checkSensor(){
-    if (analogRead(0) > 400) {
-        return 1;
-    }
-    else{
-        return 0;
-    }
+int checkSensor() {
+  if (analogRead(0) > 400) {
+    return 1;
+  }
+  else {
+    return 0;
+  }
 }
 ----
 
 The return keyword is handy to test a section of code without having to "comment out" large sections of possibly buggy code.
 [source,arduino]
 ----
-void loop(){
+void loop() {
+  // brilliant code idea to test here
 
-// brilliant code idea to test here
+  return;
 
-return;
-
-// the rest of a dysfunctional sketch here
-// this code will never be executed
+  // the rest of a dysfunctional sketch here
+  // this code will never be executed
 }
 ----
 [%hardbreaks]

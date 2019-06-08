@@ -42,15 +42,12 @@ The `map()` function uses integer math so will not generate fractions, when the 
 
 [float]
 === Parameters
-`value`: the number to map
+`value`: the number to map. +
+`fromLow`: the lower bound of the value's current range. +
+`fromHigh`: the upper bound of the value's current range. +
+`toLow`: the lower bound of the value's target range. +
+`toHigh`: the upper bound of the value's target range.
 
-`fromLow`: the lower bound of the value's current range
-
-`fromHigh`: the upper bound of the value's current range
-
-`toLow`: the lower bound of the value's target range
-
-`toHigh`: the upper bound of the value's target range
 
 [float]
 === Returns
@@ -76,8 +73,7 @@ The mapped value.
 /* Map an analog value to 8 bits (0 to 255) */
 void setup() {}
 
-void loop()
-{
+void loop() {
   int val = analogRead(0);
   val = map(val, 0, 1023, 0, 255);
   analogWrite(9, val);
@@ -92,11 +88,26 @@ For the mathematically inclined, here's the whole function
 
 [source,arduino]
 ----
-long map(long x, long in_min, long in_max, long out_min, long out_max)
-{
+long map(long x, long in_min, long in_max, long out_min, long out_max) {
   return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }
 ----
 
+[float]
+=== Notes & Warnings
+
+As previously mentioned, the map() function uses integer math. So fractions might get suppressed due to this. For example, fractions like 3/2, 4/3, 5/4 will all be returned as 1 from the map() function, despite their different actual values. So if your project requires precise calculations (e.g. voltage accurate to 3 decimal places), please consider avoiding map() and implementing the calculations manually in your code yourself.
+
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

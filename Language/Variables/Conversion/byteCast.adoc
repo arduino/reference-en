@@ -28,11 +28,12 @@ Converts a value to the link:../../data-types/byte[byte] data type.
 
 [float]
 === Parameters
-`x`: a value of any type
+`x`: a value. Allowed data types: any type.
+
 
 [float]
 === Returns
-`byte`
+Data type: `byte`.
 
 --
 // OVERVIEW SECTION ENDS

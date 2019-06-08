@@ -11,28 +11,26 @@ title: Serial.available()
 
 [float]
 === Description
-Get the number of bytes (characters) available for reading from the serial port. This is data that's already arrived and stored in the serial receive buffer (which holds 64 bytes). `available()` inherits from the Stream utility class.
+Get the number of bytes (characters) available for reading from the serial port. This is data that's already arrived and stored in the serial receive buffer (which holds 64 bytes).
+
+`Serial.available()` inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-`Serial.available()`
-
-_Arduino Mega only:_
-
-`Serial1.available()` +
-`Serial2.available()` +
-`Serial3.available()`
+`_Serial_.available()`
 
 
 [float]
 === Parameters
-None
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+
 
 [float]
 === Returns
-The number of bytes available to read .
+The number of bytes available to read.
+
 --
 // OVERVIEW SECTION ENDS
 
@@ -42,27 +40,26 @@ The number of bytes available to read .
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The following code returns a character received through the serial port. 
+The following code returns a character received through the serial port.
 
 [source,arduino]
 ----
-int incomingByte = 0;	// for incoming serial data
+int incomingByte = 0; // for incoming serial data
 
 void setup() {
-	Serial.begin(9600);	// opens serial port, sets data rate to 9600 bps
+  Serial.begin(9600); // opens serial port, sets data rate to 9600 bps
 }
 
 void loop() {
+  // reply only when you receive data:
+  if (Serial.available() > 0) {
+    // read the incoming byte:
+    incomingByte = Serial.read();
 
-	// reply only when you receive data:
-	if (Serial.available() > 0) {
-		// read the incoming byte:
-		incomingByte = Serial.read();
-
-		// say what you got:
-		Serial.print("I received: ");
-		Serial.println(incomingByte, DEC);
-	}
+    // say what you got:
+    Serial.print("I received: ");
+    Serial.println(incomingByte, DEC);
+  }
 }
 ----
 [%hardbreaks]
@@ -75,7 +72,6 @@ This code sends data received in one serial port of the Arduino Mega to another.
 void setup() {
   Serial.begin(9600);
   Serial1.begin(9600);
-
 }
 
 void loop() {
@@ -83,7 +79,6 @@ void loop() {
   if (Serial.available()) {
     int inByte = Serial.read();
     Serial1.print(inByte, DEC);
-
   }
   // read from port 1, send to port 0:
   if (Serial1.available()) {

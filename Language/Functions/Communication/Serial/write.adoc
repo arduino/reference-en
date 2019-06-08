@@ -2,9 +2,6 @@
 title: Serial.write()
 ---
 
-
-
-
 = write()
 
 
@@ -20,28 +17,23 @@ Writes binary data to the serial port. This data is sent as a byte or series of 
 
 [float]
 === Syntax
-`Serial.write(val)` +
-`Serial.write(str)` +
-`Serial.write(buf, len)`
-
-_Arduino Mega also supports:_
-
-`Serial1`, `Serial2`, `Serial3` (in place of `Serial`)
+`_Serial_.write(val)` +
+`_Serial_.write(str)` +
+`_Serial_.write(buf, len)`
 
 
 [float]
 === Parameters
-`val`: a value to send as a single byte
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`val`: a value to send as a single byte. +
+`str`: a string to send as a series of bytes. +
+`buf`: an array to send as a series of bytes. +
+`len`: the number of bytes to be sent from the array.
 
-`str`: a string to send as a series of bytes
-
-`buf`: an array to send as a series of bytes
 
 [float]
 === Returns
-`size_t`
-
-`write()` will return the number of bytes written, though reading that number is optional
+`write()` will return the number of bytes written, though reading that number is optional. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -59,16 +51,21 @@ _Arduino Mega also supports:_
 
 [source,arduino]
 ----
-void setup(){
+void setup() {
   Serial.begin(9600);
 }
 
-void loop(){
+void loop() {
   Serial.write(45); // send a byte with the value 45
 
-   int bytesSent = Serial.write(“hello”); //send the string “hello” and return the length of the string.
+  int bytesSent = Serial.write(“hello”);  //send the string “hello” and return the length of the string.
 }
 ----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+As of Arduino IDE 1.0, serial transmission is asynchronous. If there is enough empty space in the transmit buffer, `Serial.write()` will return before any characters are transmitted over serial. If the transmit buffer is full then `Serial.write()` will block until there is enough space in the buffer. To avoid blocking calls to `Serial.write()`, you can first check the amount of free space in the transmit buffer using link:../availableforwrite[availableForWrite()].
 
 --
 // HOW TO USE SECTION ENDS

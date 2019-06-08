@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = boolean
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -36,7 +31,6 @@ subCategories: [ "Data Types" ]
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../../variables/data-types/bool/[bool]
 
 --
 // SEE ALSO SECTION ENDS

@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = string
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -27,7 +22,7 @@ All of the following are valid declarations for strings.
 `char Str1[15];` +
 `char Str2[8] = {'a', 'r', 'd', 'u', 'i', 'n', 'o'};` +
 `char Str3[8] = {'a', 'r', 'd', 'u', 'i', 'n', 'o', '\0'};` +
-`char Str4[ ] = "arduino";` +
+`char Str4[] = "arduino";` +
 `char Str5[8] = "arduino";` +
 `char Str6[15] = "arduino";`
 
@@ -67,7 +62,7 @@ char myString[] = "This is the first line"
 
 It is often convenient, when working with large amounts of text, such as a project with an LCD display, to setup an array of strings. Because strings themselves are arrays, this is in actually an example of a two-dimensional array.
 
-In the code below, the asterisk after the datatype `char` "`char*`" indicates that this is an array of "`pointers`". All array names are actually pointers, so this is required to make an array of arrays. Pointers are one of the more esoteric parts of C for beginners to understand, but it isn't necessary to understand pointers in detail to use them effectively here.
+In the code below, the asterisk after the datatype `char` "`char*`" indicates that this is an array of "`pointers`". All array names are actually pointers, so this is required to make an array of arrays. Pointers are one of the more esoteric parts of C++ for beginners to understand, but it isn't necessary to understand pointers in detail to use them effectively here.
 
 --
 // OVERVIEW SECTION ENDS
@@ -86,18 +81,19 @@ In the code below, the asterisk after the datatype `char` "`char*`" indicates th
 
 [source,arduino]
 ----
-char* myStrings[]={"This is string 1", "This is string 2", "This is string 3",
-"This is string 4", "This is string 5","This is string 6"};
+char *myStrings[] = {"This is string 1", "This is string 2", "This is string 3",
+                     "This is string 4", "This is string 5", "This is string 6"
+                    };
 
-void setup(){
-Serial.begin(9600);
+void setup() {
+  Serial.begin(9600);
 }
 
-void loop(){
-for (int i = 0; i < 6; i++){
-   Serial.println(myStrings[i]);
-   delay(500);
-   }
+void loop() {
+  for (int i = 0; i < 6; i++) {
+    Serial.println(myStrings[i]);
+    delay(500);
+  }
 }
 ----
 

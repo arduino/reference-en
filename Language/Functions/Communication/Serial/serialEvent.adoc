@@ -1,5 +1,5 @@
 ---
-title: Serial.serialEvent()
+title: serialEvent()
 ---
 
 
@@ -15,8 +15,6 @@ title: Serial.serialEvent()
 [float]
 === Description
 Called when data is available. Use `Serial.read()` to capture this data.
-
-NB : Currently, `serialEvent()` is not compatible with the Esplora, Leonardo, or Micro
 [%hardbreaks]
 
 
@@ -25,29 +23,31 @@ NB : Currently, `serialEvent()` is not compatible with the Esplora, Leonardo, or
 
 [source,arduino]
 ----
-void serialEvent(){
-//statements
+void serialEvent() {
+  //statements
 }
 ----
-Arduino Mega only:
+For boards with additional serial ports (see the list of available serial ports for each board on the link:../../serial[Serial main page]):
 [source,arduino]
 ----
-void serialEvent1(){
-//statements
+void serialEvent1() {
+  //statements
 }
 
-void serialEvent2(){
-//statements
+void serialEvent2() {
+  //statements
 }
 
-void serialEvent3(){
-//statements
+void serialEvent3() {
+  //statements
 }
 ----
+
 
 [float]
 === Parameters
 `statements`: any valid statements
+
 
 [float]
 === Returns
@@ -55,6 +55,23 @@ Nothing
 
 --
 // OVERVIEW SECTION ENDS
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Notes and Warnings
+`serialEvent()` doesn't work on the Leonardo, Micro, or Yún.
+
+`serialEvent()` and `serialEvent1()` don't work on the Arduino SAMD Boards
+
+`serialEvent()`, `serialEvent1()``serialEvent2()`, and `serialEvent3()`  don't work on the Arduino Due.
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
 
 
 // SEE ALSO SECTION
@@ -65,7 +82,7 @@ Nothing
 === See also
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/SerialEvent[SerialEvent Tutorial]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/SerialEvent[Serial Event^]
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()]

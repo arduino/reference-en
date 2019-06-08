@@ -4,12 +4,7 @@ categories: [ "Variables" ]
 subCategories: [ "Data Types" ]
 ---
 
-
-
-
-
 = word
-
 
 // OVERVIEW SECTION STARTS
 [#overview]
@@ -17,8 +12,19 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Description
-A word stores a 16-bit unsigned number, from 0 to 65535. Same as an unsigned int.
+A word can store an unsigned number of at least 16 bits (from 0 to 65535).
 [%hardbreaks]
+
+
+[float]
+=== Syntax
+`word var = val;`
+
+
+[float]
+=== Parameters
+`var`: variable name. +
+`val`: the value to assign to that variable.
 
 --
 // OVERVIEW SECTION ENDS
@@ -37,8 +43,19 @@ A word stores a 16-bit unsigned number, from 0 to 65535. Same as an unsigned int
 
 [source,arduino]
 ----
-  word w = 10000;
+word w = 10000;
 ----
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

@@ -24,15 +24,13 @@ Compares the variable on the left with the value or variable on the right of the
 
 [float]
 === Syntax
-[source,arduino]
-----
-x < y;   // is true if x is smaller than y and it is false if x is equal or bigger than y
-----
+`x < y;  // is true if x is smaller than y and it is false if x is equal or bigger than y`
+
 
 [float]
 === Parameters
-`x`: variable. *Allowed data types:* int, float, double, byte, short, long +
-`y`: variable or constant. *Allowed data types:* int, float, double, byte, short, long
+`x`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`y`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -48,16 +46,15 @@ x < y;   // is true if x is smaller than y and it is false if x is equal or bigg
 
 [source,arduino]
 ----
-if (x<y)      // tests if x is less (smaller) than y
-{
-// do something only if the comparison result is true
+if (x < y) {  // tests if x is less (smaller) than y
+  // do something only if the comparison result is true
 }
 ----
 [%hardbreaks]
 
 [float]
 === Notes and Warnings
-Negative numbers are less than positive numbers. 
+Negative numbers are less than positive numbers.
 [%hardbreaks]
 
 --

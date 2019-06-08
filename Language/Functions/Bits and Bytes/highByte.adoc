@@ -30,9 +30,10 @@ Extracts the high-order (leftmost) byte of a word (or the second lowest byte of 
 === Parameters
 `x`: a value of any type
 
+
 [float]
 === Returns
-byte
+Data type: `byte`.
 
 --
 // OVERVIEW SECTION ENDS

@@ -30,11 +30,12 @@ If doing math with floats, you need to add a decimal point, otherwise it will be
 
 [float]
 === Syntax
-`float var=val;`
+`float var = val;`
 
-`var` - your float variable name
-`val` - the value you assign to that variable
-[%hardbreaks]
+[float]
+=== Parameters
+`var`: variable name. +
+`val`: the value you assign to that variable.
 
 --
 // OVERVIEW SECTION ENDS
@@ -53,16 +54,16 @@ If doing math with floats, you need to add a decimal point, otherwise it will be
 
 [source,arduino]
 ----
-  float myfloat;
-  float sensorCalbrate = 1.117;
+float myfloat;
+float sensorCalbrate = 1.117;
 
-  int x;
-  int y;
-  float z;
+int x;
+int y;
+float z;
 
-  x = 1;
-  y = x / 2;            // y now contains 0, ints can't hold fractions
-  z = (float)x / 2.0;   // z now contains .5 (you have to use 2.0, not 2)
+x = 1;
+y = x / 2;          // y now contains 0, ints can't hold fractions
+z = (float)x / 2.0; // z now contains .5 (you have to use 2.0, not 2)
 ----
 
 

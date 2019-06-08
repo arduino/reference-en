@@ -28,14 +28,24 @@ Reads a bit of a number.
 
 [float]
 === Parameters
-`x`: the number from which to read
-
-`n`: which bit to read, starting at 0 for the least-significant (rightmost) bit
+`x`: the number from which to read. +
+`n`: which bit to read, starting at 0 for the least-significant (rightmost) bit.
 
 
 [float]
 === Returns
-the value of the bit (0 or 1).
+The value of the bit (0 or 1).
 
 --
 // OVERVIEW SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

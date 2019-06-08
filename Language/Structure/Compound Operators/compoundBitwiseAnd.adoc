@@ -31,15 +31,13 @@ A review of the Bitwise AND `&` operator:
 
 [float]
 === Syntax
-[source,arduino]
-----
-x &= y;   // equivalent to x = x & y;
-----
+`x &= y; // equivalent to x = x & y;`
+
 
 [float]
 === Parameters
-`x`: variable. *Allowed data types:* char, int, long +
-`y`: variable or constant. *Allowed data types:* char, int, long
+`x`: variable. Allowed data types: `char`, `int`, `long`. +
+`y`: variable or constant. Allowed data types: `char`, `int`, `long`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -95,8 +93,8 @@ So if:
 
 [source,arduino]
 ----
-myByte =  B10101010;
-myByte &= B11111100; // results in B10101000
+myByte = B10101010;
+myByte &= B11111100;  // results in B10101000
 ----
 
 [%hardbreaks]

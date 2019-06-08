@@ -18,7 +18,7 @@ subCategories: [ "Arithmetic Operators" ]
 
 [float]
 === Description
-The single equal sign `=` in the C programming language is called the assignment operator. It has a different meaning than in algebra class where it indicated an equation or equality. The assignment operator tells the microcontroller to evaluate whatever value or expression is on the right side of the equal sign, and store it in the variable to the left of the equal sign.
+The single equal sign `=` in the C++ programming language is called the assignment operator. It has a different meaning than in algebra class where it indicated an equation or equality. The assignment operator tells the microcontroller to evaluate whatever value or expression is on the right side of the equal sign, and store it in the variable to the left of the equal sign.
 [%hardbreaks]
 
 --

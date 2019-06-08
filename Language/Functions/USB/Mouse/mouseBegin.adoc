@@ -26,7 +26,8 @@ Begins emulating the mouse connected to a computer. `begin()` must be called bef
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns
@@ -51,17 +52,15 @@ Nothing
 ----
 #include <Mouse.h>
 
-void setup(){
- pinMode(2, INPUT);
+void setup() {
+  pinMode(2, INPUT);
 }
 
-void loop(){
-
+void loop() {
   //initiate the Mouse library when button is pressed
-  if(digitalRead(2) == HIGH){
-     Mouse.begin();
-   }
-
+  if (digitalRead(2) == HIGH) {
+    Mouse.begin();
+  }
 }
 ----
 
@@ -86,4 +85,3 @@ void loop(){
 
 --
 // SEE ALSO SECTION ENDS
-

@@ -16,7 +16,7 @@ title: Keyboard.write()
 === Description
 Sends a keystroke to a connected computer. This is similar to pressing and releasing a key on your keyboard. You can send some ASCII characters or the additional link:../keyboardmodifiers[keyboard modifiers and special keys].
 
-Only ASCII characters that are on the keyboard are supported. For example, ASCII 8 (backspace) would work, but ASCII 25 (Substitution) would not. When sending capital letters, Keyboard.write() sends a shift command plus the desired character, just as if typing on a keyboard. If sending a numeric type, it sends it as an ASCII character (ex. Keyboard.write(97) will send 'a').
+Only ASCII characters that are on the keyboard are supported. For example, ASCII 8 (backspace) would work, but ASCII 25 (Substitution) would not. When sending capital letters, `Keyboard.write()` sends a shift command plus the desired character, just as if typing on a keyboard. If sending a numeric type, it sends it as an ASCII character (ex. Keyboard.write(97) will send 'a').
 
 For a complete list of ASCII characters, see http://www.asciitable.com/[ASCIITable.com].
 [%hardbreaks]
@@ -29,7 +29,7 @@ For a complete list of ASCII characters, see http://www.asciitable.com/[ASCIITab
 
 [float]
 === Parameters
-`character` : a char or int to be sent to the computer. Can be sent in any notation that's acceptable for a char. For example, all of the below are acceptable and send the same value, 65 or ASCII A:
+`character`: a char or int to be sent to the computer. Can be sent in any notation that's acceptable for a char. For example, all of the below are acceptable and send the same value, 65 or ASCII A:
 [source,arduino]
 ----
 Keyboard.write(65);         // sends ASCII value 65, or A
@@ -38,9 +38,10 @@ Keyboard.write(0x41);       // same thing in hexadecimal
 Keyboard.write(0b01000001); // same thing in binary (weird choice, but it works)
 ----
 
+
 [float]
 === Returns
-`size_t` : number of bytes sent.
+Number of bytes sent. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -71,7 +72,7 @@ void setup() {
 
 void loop() {
   //if the button is pressed
-  if(digitalRead(2)==LOW){
+  if (digitalRead(2) == LOW) {
     //Send an ASCII 'A',
     Keyboard.write(65);
   }

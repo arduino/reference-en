@@ -25,7 +25,8 @@ When used with a Leonardo or Due board, `Keyboard.begin()` starts emulating a ke
 
 [float]
 === Parameters
-Nothing
+None
+
 
 [float]
 === Returns
@@ -60,11 +61,12 @@ void setup() {
 
 void loop() {
   //if the button is pressed
-  if(digitalRead(2)==LOW){
+  if (digitalRead(2) == LOW) {
     //Send the message
     Keyboard.print("Hello!");
   }
 }
 ----
 
+--
 // HOW TO USE SECTION ENDS

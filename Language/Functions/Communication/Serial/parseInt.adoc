@@ -14,12 +14,13 @@ title: Serial.parseInt()
 
 [float]
 === Description
-Looks for the next valid integer in the incoming serial `stream.parseInt()` inherits from the link:../../stream[Stream] utility class.
+Looks for the next valid integer in the incoming serial. The function terminates if it times out (see link:../settimeout[Serial.setTimeout()]).
+
+`Serial.parseInt()` inherits from the link:../../stream[Stream] utility class.
 
 
 In particular:
 
-* Initial characters that are not digits or a minus sign, are skipped; +
 * Parsing stops when no characters have been read for a configurable time-out value, or a non-digit is read; +
 * If no valid digits were read when the time-out (see Serial.setTimeout()) occurs, 0 is returned;
 [%hardbreaks]
@@ -27,23 +28,26 @@ In particular:
 
 [float]
 === Syntax
-`Serial.parseInt()`
-`Serial.parseInt(char skipChar)`
-
-_Arduino Mega only:_
-
-`Serial1.parseInt()` +
-`Serial2.parseInt()` +
-`Serial3.parseInt()`
+`_Serial_.parseInt()` +
+`_Serial_.parseInt(lookahead)` +
+`_Serial_.parseInt(lookahead, ignore)`
 
 
 [float]
 === Parameters
-`skipChar`: used to skip the indicated char in the search. Used for example to skip thousands divider.
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`lookahead`: the mode used to look ahead in the stream for an integer. Allowed data types: `LookaheadMode`. Allowed `lookahead` values:
+
+* `SKIP_ALL`: all characters other than digits or a minus sign are ignored when scanning the stream for an integer. This is the default mode.
+* `SKIP_NONE`: Nothing is skipped, and the stream is not touched unless the first waiting character is valid.
+* `SKIP_WHITESPACE`: Only tabs, spaces, line feeds, and carriage returns are skipped.
+
+`ignore`: used to skip the indicated char in the search. Used for example to skip thousands divider. Allowed data types: `char`
+
 
 [float]
 === Returns
-`long` : the next valid integer
+The next valid integer. Data type: `long`.
 
 --
 // OVERVIEW SECTION ENDS

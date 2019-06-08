@@ -54,11 +54,11 @@ int c = a & b;  // result:    0000000001000100, or 68 in decimal.
 Each of the 16 bits in a and b are processed by using the bitwise AND, and all 16 resulting bits are stored in c, resulting in the value 01000100 in binary, which is 68 in decimal.
 [%hardbreaks]
 
-One of the most common uses of bitwise AND is to select a particular bit (or bits) from an integer value, often called masking. See below for an example
+One of the most common uses of bitwise AND is to select a particular bit (or bits) from an integer value, often called masking. See below for an example (AVR architecture specific).
 
 [source,arduino]
 ----
-PORTD = PORTD & B00000011;  // clear out bits 2 - 7, leave pins 0 and 1 untouched (xx & 11 == xx)
+PORTD = PORTD & B00000011;  // clear out bits 2 - 7, leave pins PD0 and PD1 untouched (xx & 11 == xx)
 ----
 
 --

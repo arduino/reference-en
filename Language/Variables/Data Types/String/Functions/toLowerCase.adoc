@@ -1,4 +1,4 @@
-﻿---
+---
 title: "toLowerCase()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,19 +24,17 @@ Get a lower-case version of a String. As of 1.0, toLowerCase() modifies the Stri
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.toLowerCase()
-----
+`myString.toLowerCase()`
+
 
 [float]
 === Parameters
-`string`: a variable of type String
+`myString`: a variable of type `String`.
 
 
 [float]
 === Returns
-None
+Nothing
 
 --
 // OVERVIEW SECTION ENDS
@@ -54,6 +52,6 @@ None
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "substring()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,20 +24,15 @@ Get a substring of a String. The starting index is inclusive (the corresponding 
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.substring(from)
+`myString.substring(from)` +
+`myString.substring(from, to)`
 
-string.substring(from, to)
-----
 
 [float]
 === Parameters
-`string`: a variable of type String
-
-`from`: the index to start the substring at
-
-`to` (optional): the index to end the substring before
+`myString`: a variable of type `String`. +
+`from`: the index to start the substring at. +
+`to` (optional): the index to end the substring before.
 
 
 [float]
@@ -60,6 +55,6 @@ The substring.
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

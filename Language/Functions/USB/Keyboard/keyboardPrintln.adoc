@@ -26,15 +26,16 @@ Sends a keystroke to a connected computer, followed by a newline and carriage re
 `Keyboard.println(character)`+
 `Keyboard.println(characters)`
 
+
 [float]
 === Parameters
-`character` : a char or int to be sent to the computer as a keystroke, followed by newline and carriage return.
+`character`: a char or int to be sent to the computer as a keystroke, followed by newline and carriage return. +
+`characters`: a string to be sent to the computer as a keystroke, followed by a newline and carriage return.
 
-`characters` : a string to be sent to the computer as a keystroke, followed by a newline and carriage return.
 
 [float]
 === Returns
-`size_t` : number of bytes sent
+Number of bytes sent. Data type: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -63,7 +64,7 @@ void setup() {
 
 void loop() {
   //if the button is pressed
-  if(digitalRead(2)==LOW){
+  if (digitalRead(2) == LOW) {
     //Send the message
     Keyboard.println("Hello!");
   }

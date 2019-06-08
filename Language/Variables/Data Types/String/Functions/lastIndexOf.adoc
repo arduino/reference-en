@@ -1,4 +1,4 @@
-﻿---
+---
 title: "lastIndexOf()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,20 +24,15 @@ Locates a character or String within another String. By default, searches from t
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.lastIndexOf(val)
+`myString.lastIndexOf(val)` +
+`myString.lastIndexOf(val, from)`
 
-string.lastIndexOf(val, from)
-----
 
 [float]
 === Parameters
-`string`: a variable of type String
-
-`val`: the value to search for - char or String
-
-`from`: the index to work backwards from
+`myString`: a variable of type `String`. +
+`val`: the value to search for. Allowed data types: `char`, `String`. +
+`from`: the index to work backwards from.
 
 
 [float]
@@ -60,6 +55,6 @@ The index of val within the String, or -1 if not found.
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

@@ -28,9 +28,9 @@ Calculates the minimum of two numbers.
 
 [float]
 === Parameters
-`x`: the first number, any data type
+`x`: the first number. Allowed data types: any data type. +
+`y`: the second number. Allowed data types: any data type.
 
-`y`: the second number, any data type
 
 [float]
 === Returns
@@ -53,8 +53,8 @@ The code ensures that it never gets above 100.
 
 [source,arduino]
 ----
-sensVal = min(sensVal, 100); // assigns sensVal to the smaller of sensVal or 100
-                             // ensuring that it never gets above 100.
+sensVal = min(sensVal, 100);  // assigns sensVal to the smaller of sensVal or 100
+                              // ensuring that it never gets above 100.
 ----
 [%hardbreaks]
 
@@ -65,11 +65,22 @@ Perhaps counter-intuitively, `max()` is often used to constrain the lower end of
 Because of the way the `min()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results
 [source,arduino]
 ----
-min(a++, 100);   // avoid this - yields incorrect results
+min(a++, 100);  // avoid this - yields incorrect results
 
 min(a, 100);
-a++;    // use this instead - keep other math outside the function
+a++;  // use this instead - keep other math outside the function
 ----
 
 --
 // HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

@@ -4,10 +4,6 @@ categories: [ "Structure" ]
 subCategories: [ "Control Structure" ]
 ---
 
-
-
-
-
 = if...else
 
 
@@ -17,7 +13,7 @@ subCategories: [ "Control Structure" ]
 
 [float]
 === Description
-The `if...else` allows greater control over the flow of code than the basic link:../if[if] statement, by allowing multiple tests to be grouped together. An `else` clause (if at all exists) will be executed if the condition in the `if` statement results in `false`. The `else` can precede another `if` test, so that multiple, mutually exclusive tests can be run at the same time.
+The `if...else` allows greater control over the flow of code than the basic link:../if[if] statement, by allowing multiple tests to be grouped together. An `else` clause (if at all exists) will be executed if the condition in the `if` statement results in `false`. The `else` can proceed another `if` test, so that multiple, mutually exclusive tests can be run at the same time.
 [%hardbreaks]
 
 Each test will proceed to the next one until a true test is encountered. When a true test is found, its associated block of code is run, and the program then skips to the line following the entire if/else construction. If no test proves to be true, the default `else` block is executed, if one is present, and sets the default behavior.
@@ -29,19 +25,17 @@ Note that an `else if` block may be used with or without a terminating `else` bl
 === Syntax
 [source,arduino]
 ----
-if (condition1)
-{
+if (condition1) {
   // do Thing A
 }
-else if (condition2)
-{
+else if (condition2) {
   // do Thing B
 }
-else
-{
+else {
   // do Thing C
 }
 ----
+
 --
 // OVERVIEW SECTION ENDS
 
@@ -59,11 +53,11 @@ if (temperature >= 70)
 {
   // Danger! Shut down the system
 }
-else if (temperature >= 60)
+else if (temperature >= 60)  // 60 <= temperature < 70
 {
-  // Warning! Throttle down, run the fans, and notify the user
+  // Warning! User attention required
 }
-else
+else  // temperature < 60
 {
   // Safe! Continue usual tasks...
 }

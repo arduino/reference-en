@@ -41,8 +41,8 @@ In other words:
 
 [source,arduino]
 ----
-int a = 103;    // binary:  0000000001100111
-int b = ~a;     // binary:  1111111110011000 = -104
+int a = 103;  // binary:  0000000001100111
+int b = ~a;   // binary:  1111111110011000 = -104
 ----
 [%hardbreaks]
 
@@ -50,7 +50,7 @@ int b = ~a;     // binary:  1111111110011000 = -104
 === Notes and Warnings
 You might be surprised to see a negative number like -104 as the result of this operation. This is because the highest bit in an int variable is the so-called sign bit. If the highest bit is 1, the number is interpreted as negative. This encoding of positive and negative numbers is referred to as two's complement. For more information, see the Wikipedia article on http://en.wikipedia.org/wiki/Twos_complement[two's complement^].
 
-As an aside, it is interesting to note that for any integer x, ~x is the same as -x-1.
+As an aside, it is interesting to note that for any integer x, ~x is the same as -x - 1.
 
 At times, the sign bit in a signed integer expression can cause some unwanted surprises.
 [%hardbreaks]

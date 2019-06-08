@@ -18,7 +18,7 @@ subCategories: [ "Further Syntax" ]
 
 [float]
 === Description
-`#define` is a useful C component that allows the programmer to give a name to a constant value before the program is compiled. Defined constants in arduino don't take up any program memory space on the chip. The compiler will replace references to these constants with the defined value at compile time.
+`#define` is a useful C++ component that allows the programmer to give a name to a constant value before the program is compiled. Defined constants in arduino don't take up any program memory space on the chip. The compiler will replace references to these constants with the defined value at compile time.
 [%hardbreaks]
 
 This can have some unwanted side effects though, if for example, a constant name that had been #defined is included in some other constant or variable name. In that case the text would be replaced by the #defined number (or text).
@@ -29,12 +29,13 @@ In general, the link:../../../variables/variable-scope\--qualifiers/const[const]
 
 [float]
 === Syntax
-[source,arduino]
-----
-#define constantName value
-----
-Note that the # is necessary.
-[%hardbreaks]
+`#define constantName value`
+
+
+[float]
+=== Parameters
+`constantName`: the name of the macro to define. +
+`value`: the value to assign to the macro.
 
 --
 // OVERVIEW SECTION ENDS
@@ -62,14 +63,14 @@ There is no semicolon after the #define statement. If you include one, the compi
 
 [source,arduino]
 ----
-#define ledPin 3;    // this is an error
+#define ledPin 3; // this is an error
 ----
 
 Similarly, including an equal sign after the #define statement will also generate a cryptic compiler error further down the page.
 
 [source,arduino]
 ----
-#define ledPin  = 3  // this is also an error
+#define ledPin  = 3 // this is also an error
 ----
 [%hardbreaks]
 
@@ -87,8 +88,8 @@ Similarly, including an equal sign after the #define statement will also generat
 === See also
 
 [role="language"]
-* #LANGUAGE#	link:../../../variables/variable-scope\--qualifiers/const[const]
-* #LANGUAGE#	link:../../../variables/constants/constants[Constants]
+* #LANGUAGE# link:../../../variables/variable-scope\--qualifiers/const[const]
+* #LANGUAGE# link:../../../variables/constants/constants[Constants]
 
 --
 // SEE ALSO SECTION ENDS

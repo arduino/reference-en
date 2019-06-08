@@ -22,20 +22,19 @@ Compares two Strings for equality. The comparison is case-sensitive, meaning the
 
 [float]
 === Syntax
-[source,arduino]
-----
-string1 == string2
-----
+`myString1 == myString2`
 
 [float]
 === Parameters
-`string1, string2` - a String variable
+`myString1`: a String variable. +
+`myString2`: a String variable.
+
 
 [float]
 === Returns
-`true`: if string1 equals string2
- 
-`false`: otherwise
+`true`: if myString1 equals myString2. + 
+`false`: otherwise.
+
 --
 
 // OVERVIEW SECTION ENDS
@@ -53,6 +52,6 @@ string1 == string2
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

@@ -29,19 +29,16 @@ It is not possible to generate tones lower than 31Hz. For technical details, see
 
 [float]
 === Syntax
-`tone(pin, frequency)`
-
+`tone(pin, frequency)` +
 `tone(pin, frequency, duration)`
-[%hardbreaks]
+
 
 [float]
 === Parameters
-`pin`: the pin on which to generate the tone
+`pin`: the Arduino pin on which to generate the tone. +
+`frequency`: the frequency of the tone in hertz. Allowed data types: `unsigned int`. +
+`duration`: the duration of the tone in milliseconds (optional). Allowed data types: `unsigned long`.
 
-`frequency`: the frequency of the tone in hertz - `unsigned int`
-
-`duration`: the duration of the tone in milliseconds (optional) - `unsigned long`
-[%hardbreaks]
 
 [float]
 === Returns
@@ -77,10 +74,11 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 * #LANGUAGE# link:../../analog-io/analogwrite[analogWrite()]
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Tone^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Pitch follower^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone3[Simple Keyboard^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone4[multiple tones^]
+
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Tone Melody^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/tonePitchFollower[Pitch Follower^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone3[Tone Keyboard^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone4[Tone Multiple^]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/PWM[PWM^]
 
 --

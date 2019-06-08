@@ -17,20 +17,19 @@ subCategories: [ "Characters" ]
 
 [float]
 === Description
-Analyse if a char is printable (that is any character that produces an output, even a blank space). Returns true if thisChar is printable. 
+Analyse if a char is printable (that is any character that produces an output, even a blank space). Returns true if thisChar is printable.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-[source,arduino]
-----
 `isPrintable(thisChar)`
-----
+
 
 [float]
 === Parameters
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variable. Allowed data types: `char`.
+
 
 [float]
 === Returns
@@ -50,15 +49,12 @@ Analyse if a char is printable (that is any character that produces an output, e
 
 [source,arduino]
 ----
-if (isPrintable(this))      // tests if this is printable char
-{
-	Serial.println("The character is printable");
+if (isPrintable(myChar)) {  // tests if myChar is printable char
+  Serial.println("The character is printable");
 }
-else
-{
-	Serial.println("The character is not printable");
+else {
+  Serial.println("The character is not printable");
 }
-
 ----
 
 --

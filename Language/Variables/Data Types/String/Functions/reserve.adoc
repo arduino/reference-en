@@ -1,4 +1,4 @@
-﻿---
+---
 title: "reserve()"
 categories: [ "Data Types" ]
 subCategories: [ "StringObject Function" ]
@@ -24,19 +24,19 @@ The String reserve() function allows you to allocate a buffer in memory for mani
 
 [float]
 === Syntax
-[source,arduino]
-----
-string.reserve(size)
-----
+`myString.reserve(size)`
+
 
 [float]
 === Parameters
-`size`: unsigned int declaring the number of bytes in memory to save for String manipulation 
+`myString`: a variable of type `String`. +
+`size`: the number of bytes in memory to save for String manipulation. Allowed data types: `unsigned int`.
 
 
 [float]
 === Returns
-None
+Nothing
+
 --
 // OVERVIEW SECTION ENDS
 
@@ -68,10 +68,10 @@ void setup() {
 }
 
 void loop() {
- // nothing to do here
+  // nothing to do here
 }
- 
 ----
+--
 // HOW TO USE SECTION ENDS
 
 
@@ -83,6 +83,6 @@ void loop() {
 === See also
 
 [role="example"]
-* #EXAMPLE# link: https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[Built-in String Tutorials]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]
 --
 // SEE ALSO SECTION ENDS

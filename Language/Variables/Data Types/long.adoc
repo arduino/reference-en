@@ -24,12 +24,14 @@ If doing math with integers, at least one of the numbers must be followed by an 
 
 [float]
 === Syntax
-
 `long var = val;`
 
-`var` - the long variable name
-`val` - the value assigned to the variable
-[%hardbreaks]
+
+[float]
+=== Parameters
+`var`: variable name. +
+`val`: the value assigned to the variable.
+
 --
 // OVERVIEW SECTION ENDS
 
@@ -47,7 +49,7 @@ If doing math with integers, at least one of the numbers must be followed by an 
 
 [source,arduino]
 ----
-  long speedOfLight = 186000L;   // see the Integer Constants page for explanation of the 'L'
+long speedOfLight = 186000L;  // see the Integer Constants page for explanation of the 'L'
 ----
 
 --
