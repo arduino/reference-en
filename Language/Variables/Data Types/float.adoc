@@ -84,7 +84,7 @@ float x = 2.9; // A float type variable
 int y = x;  // 2
 ----
 
-If performing the process of rounding off during the conversion process, you need to add `0.5` during the conversion process.
+If, instead, you want to round off during the conversion process, you need to add `0.5`:
 [source,arduino]
 ----
 float x = 2.9;
