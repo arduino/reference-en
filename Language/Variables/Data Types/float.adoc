@@ -91,7 +91,7 @@ If performing the process of rounding off during the conversion process, you nee
 float x = 2.9;
 int y = x + 0.5;  // 3
 ----
-or use the `round()` function respectively.
+or use the `round()` function:
 [source,arduino]
 ----
 float x = 2.9;
