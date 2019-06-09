@@ -77,7 +77,6 @@ The float data type has only 6-7 decimal digits of precision. That means the tot
 Floating point numbers are not exact, and may yield strange results when compared. For example 6.0 / 3.0 may not equal 2.0. You should instead check that the absolute value of the difference between the numbers is less than some small number.
 
 Conversion from floating point to integer math results in truncation:
-// The example code tells the details of problem of truncation   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [source,arduino]
 ----
 float x = 2.9; // A float type variable
