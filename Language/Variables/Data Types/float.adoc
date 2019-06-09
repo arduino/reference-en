@@ -94,7 +94,6 @@ float x = 2.9;
 int y = x + 0.5;  // 3
 ----
 or use the `round()` function respectively.
-// The example code tells the details of rounding off   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [source,arduino]
 ----
 float x = 2.9;
