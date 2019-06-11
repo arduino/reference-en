@@ -40,7 +40,8 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 [float]
 === Parameters
 // List all available parameters, please describe them one by one adding the data type (e.g int, boolean, char, String, float, long, double...)  ►►►►► THIS SECTION IS MANDATORY FOR FUNCTIONS ◄◄◄◄◄
-`pin`: the number of the pin to write to. Allowed data types: int. +
+`pin`: the number of the pin to write to. Allowed data types: int.
+
 `value`: the duty cycle between 0 (always off) and 255 (always on). Allowed data types: int.
 
 
