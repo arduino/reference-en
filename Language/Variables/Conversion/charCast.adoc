@@ -23,7 +23,8 @@ Converts a value to the link:../../data-types/char[char] data type.
 
 [float]
 === Syntax
-`char(x)`
+`char(x)` +
+`(char)x` (C-style type conversion)
 
 
 [float]
