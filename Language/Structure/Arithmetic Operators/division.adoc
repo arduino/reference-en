@@ -59,7 +59,7 @@ c = a / b;  // the variable 'c' gets a value of 5 after this statement is execut
 === Notes and Warnings
 1. If one of the numbers (operands) are of the type float or of type double, floating point math will be used for the calculation.
 
-2. If the operands are of float / double data type and the variable that stores the sum is an integer, then only the integral part is stored and the fractional part of the number is lost.
+2. If the operands are of float / double data type and the variable that stores the result is an integer, then only the integral part is stored and the fractional part of the number is lost.
 
 [source,arduino]
 ----
