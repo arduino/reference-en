@@ -12,8 +12,6 @@ subCategories: [ "Subcategory Name" ]
 
 
 
-
-
 // PAGE TITLE
 = title
 
@@ -56,7 +54,6 @@ Nothing
 
 
 
-
 // HOW TO USE SECTION STARTS
 [#howtouse]
 --
@@ -65,7 +62,6 @@ Nothing
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 Sets the output to the LED proportional to the value read from the potentiometer.
-
 
 [source,arduino]
 // Add relevant code that exemplify the use of the Reference term,
@@ -100,6 +96,7 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 // HOW TO USE SECTION ENDS
 
 
+
 // SEE ALSO SECTION
 [#see_also]
 --
@@ -109,7 +106,6 @@ image::http://arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg[caption="
 // Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
 // definitions: (please add the tag #DEFINITION#), and examples of Projects and Tutorials
 // examples: (please add the tag #EXAMPLE#)
-
 
 [role="language"]
 // Whenever you want to link to another Reference term, or more in general to a relative link,
