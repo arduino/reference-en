@@ -45,6 +45,14 @@ To send data without conversion to its representation as characters, use link:..
 `_Serial_.print(val)` +
 `_Serial_.print(val, format)`
 
+For you to concatenate multiple strings and variables on the same print line you simply use the '+' operator between the strings and if it is not a string, you must convert the variable you want to insert into a string. For example-
+
+* `Serial.println(“Hello, today is day” + String(x) + “, good Morning!”)`
+
+[float]
+=== Syntax
+`_Serial_.print(“String” + String(var))`
+
 
 [float]
 === Parameters
