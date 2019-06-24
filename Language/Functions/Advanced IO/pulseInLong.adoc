@@ -33,8 +33,8 @@ The timing of this function has been determined empirically and will probably sh
 
 [float]
 === Parameters
-`pin`: the number of the pin on which you want to read the pulse. Allowed data types: `int`. +
-`value`: type of pulse to read: either link:../../../variables/constants/constants/[HIGH] or link:../../../variables/constants/constants/[LOW]. Allowed data types: `int`. +
+`pin`: the number of the Arduino pin on which you want to read the pulse. Allowed data types: `int`. +
+`value`: type of pulse to read: either link:../../../variables/constants/constants[HIGH] or link:../../../variables/constants/constants[LOW]. Allowed data types: `int`. +
 `timeout` (optional): the number of microseconds to wait for the pulse to start; default is one second. Allowed data types: `unsigned long`.
 
 

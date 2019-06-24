@@ -1,5 +1,5 @@
 ---
-title: byte()
+title: (unsigned int)
 categories: [ "Variables" ]
 subCategories: [ "Conversion" ]
 ---
@@ -8,7 +8,7 @@ subCategories: [ "Conversion" ]
 
 
 
-= byte()
+= (unsigned int)
 
 
 // OVERVIEW SECTION STARTS
@@ -17,31 +17,30 @@ subCategories: [ "Conversion" ]
 
 [float]
 === Description
-Converts a value to the link:../../data-types/byte[byte] data type.
+Converts a value to the link:../../data-types/unsignedint[unsigned int] data type.
 [%hardbreaks]
 
 
 [float]
 === Syntax
-`byte(x)` +
-`(byte)x` (C-style type conversion)
+`(unsigned int)x`
 
 
 [float]
 === Parameters
-`x`: a value. Allowed data types: any type.
-
+`x`: a value of any type
 
 [float]
 === Returns
-Data type: `byte`.
+`unsigned int`
 
 --
 // OVERVIEW SECTION ENDS
 
 
 
-// SEE ALSO SECTION BEGINS
+
+// SEE ALSO SECTION
 [#see_also]
 --
 
@@ -49,7 +48,8 @@ Data type: `byte`.
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../data-types/byte[byte]
+* #LANGUAGE# link:../../data-types/unsignedint[unsigned int]
+
 
 --
 // SEE ALSO SECTION ENDS

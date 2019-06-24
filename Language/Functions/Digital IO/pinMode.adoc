@@ -30,7 +30,7 @@ As of Arduino 1.0.1, it is possible to enable the internal pullup resistors with
 
 [float]
 === Parameters
-`pin`: the number of the pin whose mode you wish to set. +
+`pin`: the Arduino pin number to set the mode of. +
 `mode`: `INPUT`, `OUTPUT`, or `INPUT_PULLUP`. See the http://arduino.cc/en/Tutorial/DigitalPins[Digital Pins] page for a more complete description of the functionality.
 
 

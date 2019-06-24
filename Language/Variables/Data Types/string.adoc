@@ -60,7 +60,7 @@ char myString[] = "This is the first line"
 
 *Arrays of strings*
 
-It is often convenient, when working with large amounts of text, such as a project with an LCD display, to setup an array of strings. Because strings themselves are arrays, this is in actually an example of a two-dimensional array.
+It is often convenient, when working with large amounts of text, such as a project with an LCD display, to setup an array of strings. Because strings themselves are arrays, this is actually an example of a two-dimensional array.
 
 In the code below, the asterisk after the datatype `char` "`char*`" indicates that this is an array of "`pointers`". All array names are actually pointers, so this is required to make an array of arrays. Pointers are one of the more esoteric parts of C++ for beginners to understand, but it isn't necessary to understand pointers in detail to use them effectively here.
 

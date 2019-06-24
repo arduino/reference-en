@@ -35,7 +35,7 @@ It is not possible to generate tones lower than 31Hz. For technical details, see
 
 [float]
 === Parameters
-`pin`: the pin on which to generate the tone. +
+`pin`: the Arduino pin on which to generate the tone. +
 `frequency`: the frequency of the tone in hertz. Allowed data types: `unsigned int`. +
 `duration`: the duration of the tone in milliseconds (optional). Allowed data types: `unsigned long`.
 
