@@ -47,7 +47,7 @@ If you wanted to ensure that a program always caught the pulses from a rotary en
 
 [float]
 == About Interrupt Service Routines
-ISRs are special kinds of functions that have some unique limitations, most other functions do not have. An ISR cannot have any parameters, and they shouldn't return anything.
+ISRs are special kinds of functions that have some unique limitations most other functions do not have. An ISR cannot have any parameters, and they shouldn't return anything.
 
 Generally, an ISR should be as short and fast as possible. If your sketch uses multiple ISRs, only one can run at a time, other interrupts will be executed after the current one finishes in an order that depends on the priority they have. `millis()` relies on interrupts to count, so it will never increment inside an ISR. Since `delay()` requires interrupts to work, it will not work if called inside an ISR. `micros()` works initially but will start behaving erratically after 1-2 ms. `delayMicroseconds()` does not use any counter, so it will work as normal.
 
