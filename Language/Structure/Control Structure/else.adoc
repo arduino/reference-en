@@ -19,7 +19,7 @@ The `if...else` allows greater control over the flow of code than the basic link
 Each test will proceed to the next one until a true test is encountered. When a true test is found, its associated block of code is run, and the program then skips to the line following the entire if/else construction. If no test proves to be true, the default `else` block is executed, if one is present, and sets the default behavior.
 [%hardbreaks]
 
-Note that an `else if` block may be used with or without a terminating `else` block and vice versa. An unlimited number of such `else if` branches is allowed.
+Note that an `else if` block may be used with or without a terminating `else` block and vice versa. An unlimited number of such `else if` branches are allowed.
 
 [float]
 === Syntax
