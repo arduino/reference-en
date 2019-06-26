@@ -21,7 +21,7 @@ subCategories: [ "Further Syntax" ]
 *Comments* are lines in the program that are used to inform yourself or others about the way the program works. They are ignored by the compiler, and not exported to the processor, so they don't take up any space in the microcontroller's flash memory. Comments' only purpose is to help you understand (or remember), or to inform others about how your program works.
 [%hardbreaks]
 
-A *single line comment* begins with `//` (two adjacent slashes). This comment ends automatically at the end of a line. whatever follows `//` till the end of a line will be ignored by the compiler.
+A *single line comment* begins with `//` (two adjacent slashes). This comment ends automatically at the end of a line. Whatever follows `//` till the end of a line will be ignored by the compiler.
 --
 // OVERVIEW SECTION ENDS
 
