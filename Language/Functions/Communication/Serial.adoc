@@ -22,7 +22,7 @@ Used for communication between the Arduino board and a computer or other devices
 | Board                | USB CDC name                     | Serial pins                   | Serial1 pins     | Serial2 pins      | Serial3 pins
 | Uno, Nano, Mini      |                                  | 0(RX), 1(TX)                  |                  |                   |
 | Mega                 |                                  | 0(RX), 1(TX)                  | 19(RX), 18(TX)   | 17(RX), 16(TX)    | 15(RX), 14(TX)
-| Leonardo, Micro, Yún | Serial                           | 0(RX), 1(TX)                  |                  |                   |
+| Leonardo, Micro, Yún | Serial                           |                               | 0(RX), 1(TX)     |                   |
 | Uno WiFi Rev.2       |                                  | Connected to USB              | 0(RX), 1(TX)     | Connected to NINA |
 | MKR boards           | Serial                           |                               | 13(RX), 14(TX)   |                   |
 | Zero                 | SerialUSB (Native USB Port only) | Connected to Programming Port | 0(RX), 1(TX)     |                   |
