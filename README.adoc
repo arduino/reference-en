@@ -3,7 +3,7 @@
 Reference-en is the repo for the Language Reference documentation of the Arduino syntax in **English**.  
 All the Reference terms files are in AsciiDoc format.
 
-Thank you for taking the time to contribute to Arduino content, this is really helpful to the whole Arduino Community. If you want to learn more on how to contribute to this project, please check https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[this step by step tutorial].
+Thank you for taking the time to contribute to Arduino content, this is really helpful to the whole Arduino Community. If you want to learn more about how to contribute to this project, please check https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[this step by step tutorial].
 
 == Content Creation and Editing
 If you want to contribute new content, create a new file (with any text or code editor) and save it as .adoc.  
@@ -15,12 +15,12 @@ If you want to contribute to the Language Reference or edit existing content, yo
 * Use https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (rendered https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[here]) for terms such as link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
 * Use https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (rendered https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[here]) for groups of functions such as link:http://arduino.cc/en/Reference/Serial[Serial].
 
-Please note that every Reference file should include at least a Description, some Example Code, and links to other relevant infos (See Also section). 
+Please note that every Reference file should include at least a Description, some Example Code, and links to other relevant info (See Also section). 
 
 If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
 
 == Contribute Content on Github
-If you are not familiar with Git you can contribute content directly on Github via their online interface. We put together a short Tutorial to show you how, https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[CHECK IT OUT!]
+If you are not familiar with Git you can contribute content directly on Github via their online interface. We put together a short Tutorial to show you how - https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[CHECK IT OUT!]
 
 link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[You can also follow this guide] (written by the Github team) to learn how to edit an .adoc file and propose a file change to the Arduino team.  
 When suggesting a change, please follow the guidelines described in the Reference template files.
