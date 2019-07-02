@@ -70,7 +70,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-If the pin isn't connected to anything, digitalRead() can return either HIGH or LOW (and this can change randomly).
+If the pin isn't connected to anything, `digitalRead()` can return either `HIGH` or `LOW` (and this can change randomly).
 
 The analog input pins can be used as digital pins, referred to as A0, A1, etc. The exception is the Arduino Nano, Pro Mini, and Mini's A6 and A7 pins, which can only be used as analog inputs.
 
