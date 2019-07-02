@@ -45,7 +45,7 @@ Nothing
 
 [float]
 === Notes and Warnings
-If you want to play different pitches on multiple pins, you need to call noTone() on one pin before calling `tone()` on the next pin.
+If you want to play different pitches on multiple pins, you need to call `noTone()` on one pin before calling `tone()` on the next pin.
 [%hardbreaks]
 
 --
