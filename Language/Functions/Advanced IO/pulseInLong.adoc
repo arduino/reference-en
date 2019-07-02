@@ -76,7 +76,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-This function relies on micros() so cannot be used in link:../../interrupts/nointerrupts[noInterrupts()] context.
+This function relies on `micros()` so cannot be used in link:../../interrupts/nointerrupts[noInterrupts()] context.
 
 --
 // HOW TO USE SECTION ENDS
