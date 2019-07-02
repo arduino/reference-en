@@ -19,7 +19,7 @@ subCategories: [ "Advanced I/O" ]
 === Description
 Generates a square wave of the specified frequency (and 50% duty cycle) on a pin. A duration can be specified, otherwise the wave continues until a call to link:../noTone[noTone()]. The pin can be connected to a piezo buzzer or other speaker to play tones.
 
-Only one tone can be generated at a time. If a tone is already playing on a different pin, the call to tone() will have no effect. If the tone is playing on the same pin, the call will set its frequency.
+Only one tone can be generated at a time. If a tone is already playing on a different pin, the call to `tone()` will have no effect. If the tone is playing on the same pin, the call will set its frequency.
 
 Use of the `tone()` function will interfere with PWM output on pins 3 and 11 (on boards other than the Mega).
 
