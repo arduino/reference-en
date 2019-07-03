@@ -19,7 +19,7 @@ subCategories: [ "Digital I/O" ]
 === Description
 Configures the specified pin to behave either as an input or an output. See the http://arduino.cc/en/Tutorial/DigitalPins[Digital Pins] page for details on the functionality of the pins.
 [%hardbreaks]
-As of Arduino 1.0.1, it is possible to enable the internal pullup resistors with the mode INPUT_PULLUP. Additionally, the INPUT mode explicitly disables the internal pullups.
+As of Arduino 1.0.1, it is possible to enable the internal pullup resistors with the mode `INPUT_PULLUP`. Additionally, the `INPUT` mode explicitly disables the internal pullups.
 [%hardbreaks]
 
 
