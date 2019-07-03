@@ -32,7 +32,7 @@ On ATmega based boards (UNO, Nano, Mini, Mega), it takes about 100 microseconds 
 |===================================================
 
 *A0 through A5 are labelled on the board, A6 through A11 are respectively available on pins 4, 6, 8, 9, 10, and 12 +
-**The default analogRead() resolution for these boards is 10 bits, for compatibility. You need to use link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()] to change it to 12 bits.
+**The default `analogRead()` resolution for these boards is 10 bits, for compatibility. You need to use link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()] to change it to 12 bits.
 
 [%hardbreaks]
 
@@ -82,7 +82,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-If the analog input pin is not connected to anything, the value returned by analogRead() will fluctuate based on a number of factors (e.g. the values of the other analog inputs, how close your hand is to the board, etc.).
+If the analog input pin is not connected to anything, the value returned by `analogRead()` will fluctuate based on a number of factors (e.g. the values of the other analog inputs, how close your hand is to the board, etc.).
 
 --
 // HOW TO USE SECTION ENDS
