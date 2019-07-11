@@ -16,23 +16,23 @@ title: Serial.print()
 === Description
 Prints data to the serial port as human-readable ASCII text. This command can take many forms. Numbers are printed using an ASCII character for each digit. Floats are similarly printed as ASCII digits, defaulting to two decimal places. Bytes are sent as a single character. Characters and strings are sent as is. For example-
 
-* `Serial.print(78)` gives "78" +
-* `Serial.print(1.23456)` gives "1.23" +
-* `Serial.print('N')` gives "N" +
-* `Serial.print("Hello world.")` gives "Hello world."
+* `_Serial_.print(78)` gives "78" +
+* `_Serial_.print(1.23456)` gives "1.23" +
+* `_Serial_.print('N')` gives "N" +
+* `_Serial_.print("Hello world.")` gives "Hello world."
 
 
 An optional second parameter specifies the base (format) to use; permitted values are `BIN(binary, or base 2)`, `OCT(octal, or base 8)`, `DEC(decimal, or base 10)`, `HEX(hexadecimal, or base 16)`. For floating point numbers, this parameter specifies the number of decimal places to use. For example-
 
-* `Serial.print(78, BIN)` gives "1001110" +
-* `Serial.print(78, OCT)` gives "116" +
-* `Serial.print(78, DEC)` gives "78" +
-* `Serial.print(78, HEX)` gives "4E" +
-* `Serial.print(1.23456, 0)` gives "1" +
-* `Serial.print(1.23456, 2)` gives "1.23" +
-* `Serial.print(1.23456, 4)` gives "1.2346"
+* `_Serial_.print(78, BIN)` gives "1001110" +
+* `_Serial_.print(78, OCT)` gives "116" +
+* `_Serial_.print(78, DEC)` gives "78" +
+* `_Serial_.print(78, HEX)` gives "4E" +
+* `_Serial_.print(1.23456, 0)` gives "1" +
+* `_Serial_.print(1.23456, 2)` gives "1.23" +
+* `_Serial_.print(1.23456, 4)` gives "1.2346"
 
-You can pass flash-memory based strings to `Serial.print()` by wrapping them with link:../../../../variables/utilities/progmem[F()]. For example:
+You can pass flash-memory based strings to `_Serial_.print()` by wrapping them with link:../../../../variables/utilities/progmem[F()]. For example:
 
 `Serial.print(F(“Hello World”))`
 
@@ -122,7 +122,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-For information on the asyncronicity of `Serial.print()`, see the Notes and Warnings section of the link:../write#howtouse[Serial.write() reference page].
+For information on the asyncronicity of `_Serial_.print()`, see the Notes and Warnings section of the link:../write#howtouse[Serial.write() reference page].
 
 --
 // HOW TO USE SECTION ENDS
