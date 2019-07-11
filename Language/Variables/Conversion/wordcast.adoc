@@ -17,7 +17,7 @@ subCategories: [ "Conversion" ]
 
 [float]
 === Description
-Converts a value to the link:../../data-types/word[word] data type.
+Converts a value to the `link:../../data-types/word[word]` data type.
 [%hardbreaks]
 
 
@@ -37,7 +37,7 @@ Converts a value to the link:../../data-types/word[word] data type.
 
 [float]
 === Returns
-Data type: `word`.
+Data type: link:../../data-types/word[`word`].
 
 --
 // OVERVIEW SECTION ENDS
