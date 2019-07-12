@@ -17,7 +17,7 @@ subCategories: [ "Conversion" ]
 
 [float]
 === Description
-Converts a value to the link:../../data-types/int[int] data type.
+Converts a value to the `link:../../data-types/int[int]` data type.
 [%hardbreaks]
 
 
@@ -34,7 +34,7 @@ Converts a value to the link:../../data-types/int[int] data type.
 
 [float]
 === Returns
-Data type: `int`.
+Data type: link:../../data-types/int[`int`].
 
 --
 // OVERVIEW SECTION ENDS
