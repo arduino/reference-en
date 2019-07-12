@@ -48,7 +48,7 @@ Data type: link:../../data-types/float[`float`].
 
 [float]
 === Notes and Warnings
-See the reference for link:../../data-types/float[`float`] for details about the precision and limitations of floating point numbers on Arduino.
+See the reference for `link:../../data-types/float[float]` for details about the precision and limitations of floating point numbers on Arduino.
 [%hardbreaks]
 
 --
