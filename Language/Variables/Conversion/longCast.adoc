@@ -17,7 +17,7 @@ subCategories: [ "Conversion" ]
 
 [float]
 === Description
-Converts a value to the link:../../data-types/long[long] data type.
+Converts a value to the `link:../../data-types/long[long]` data type.
 [%hardbreaks]
 
 
@@ -34,7 +34,7 @@ Converts a value to the link:../../data-types/long[long] data type.
 
 [float]
 === Returns
-Data type: `long`.
+Data type: link:../../data-types/long[`long`].
 
 --
 // OVERVIEW SECTION ENDS
