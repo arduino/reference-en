@@ -17,7 +17,7 @@ subCategories: [ "Conversion" ]
 
 [float]
 === Description
-Converts a value to the link:../../data-types/unsignedlong[unsigned long] data type.
+Converts a value to the `link:../../data-types/unsignedlong[unsigned long]` data type.
 [%hardbreaks]
 
 
@@ -32,7 +32,7 @@ Converts a value to the link:../../data-types/unsignedlong[unsigned long] data t
 
 [float]
 === Returns
-`unsigned long`
+link:../../data-types/unsignedlong[`unsigned long`]
 
 --
 // OVERVIEW SECTION ENDS
