@@ -39,7 +39,7 @@ An optional second argument configures the data, parity, and stop bits. The defa
 `SERIAL_6N2` +
 `SERIAL_7N2` +
 `SERIAL_8N2` +
-`SERIAL_5E1` +
+`SERIAL_5E1`: even parity +
 `SERIAL_6E1` +
 `SERIAL_7E1` +
 `SERIAL_8E1` +
@@ -47,7 +47,7 @@ An optional second argument configures the data, parity, and stop bits. The defa
 `SERIAL_6E2` +
 `SERIAL_7E2` +
 `SERIAL_8E2` +
-`SERIAL_5O1` +
+`SERIAL_5O1`: odd parity +
 `SERIAL_6O1` +
 `SERIAL_7O1` +
 `SERIAL_8O1` +
