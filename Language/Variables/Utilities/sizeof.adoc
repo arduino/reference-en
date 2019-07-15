@@ -23,12 +23,12 @@ The `sizeof` operator returns the number of bytes in a variable type, or the num
 
 [float]
 === Parameters
-`variable`: The thing to get the size of. Allowed data types: any variable type or array (e.g. `int`, `float`, `byte`).
+`variable`: The thing to get the size of. Allowed data types: any variable type or array (e.g. `link:../../data-types/int[int]`, `link:../../data-types/float[float]`, `link:../../data-types/byte[byte]`).
 
 
 [float]
 === Returns
-The number of bytes in a variable or bytes occupied in an array. Data type: `size_t`.
+The number of bytes in a variable or bytes occupied in an array. Data type: `link:../../data-types/size_t[size_t]`.
 
 --
 // OVERVIEW SECTION ENDS
