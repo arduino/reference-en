@@ -20,7 +20,7 @@ On the Arduino Due and SAMD based boards (like MKR1000 and Zero), an int stores 
 
 int's store negative numbers with a technique called (http://en.wikipedia.org/wiki/2%27s_complement[2's complement math]). The highest bit, sometimes referred to as the "sign" bit, flags the number as a negative number. The rest of the bits are inverted and 1 is added.
 
-The Arduino takes care of dealing with negative numbers for you, so that arithmetic operations work transparently in the expected manner. There can be an unexpected complication in dealing with the link:../../../structure/bitwise-operators/bitshiftright[bitshift right operator] (>>) however.
+The Arduino takes care of dealing with negative numbers for you, so that arithmetic operations work transparently in the expected manner. There can be an unexpected complication in dealing with the `link:../../../structure/bitwise-operators/bitshiftright[bitshift right operator]` (>>) however.
 [%hardbreaks]
 
 
@@ -67,7 +67,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-When signed variables are made to exceed their maximum or minimum capacity they _overflow_. The result of an overflow is unpredictable so this should be avoided. A typical symptom of an overflow is the variable "rolling over" from its maximum capacity to its minimum or vice versa, but this is not always the case. If you want this behavior, use link:../unsignedint[unsigned int].
+When signed variables are made to exceed their maximum or minimum capacity they _overflow_. The result of an overflow is unpredictable so this should be avoided. A typical symptom of an overflow is the variable "rolling over" from its maximum capacity to its minimum or vice versa, but this is not always the case. If you want this behavior, use `link:../unsignedint[unsigned int]`.
 
 
 --
