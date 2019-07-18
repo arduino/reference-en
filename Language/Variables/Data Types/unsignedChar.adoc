@@ -12,11 +12,11 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Description
-An unsigned data type that occupies 1 byte of memory. Same as the link:../byte[byte] datatype.
+An unsigned data type that occupies 1 byte of memory. Same as the `link:../byte[byte]` datatype.
 
 The unsigned char datatype encodes numbers from 0 to 255.
 
-For consistency of Arduino programming style, the byte data type is to be preferred.
+For consistency of Arduino programming style, the link:../byte[`byte`] data type is to be preferred.
 [%hardbreaks]
 
 
