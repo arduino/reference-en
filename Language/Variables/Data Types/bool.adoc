@@ -12,7 +12,7 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Description
-A `bool` holds one of two values, `true` or `false`. (Each `bool` variable occupies one byte of memory.)
+A `bool` holds one of two values, `link:../../constants/constants[true]` or `link:../../constants/constants[false]`. (Each `bool` variable occupies one byte of memory.)
 
 
 [%hardbreaks]
