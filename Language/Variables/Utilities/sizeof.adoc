@@ -66,7 +66,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-Note that `sizeof` returns the total number of bytes. So for arrays of larger variable types such as ints, the for loop would look something like this.
+Note that `sizeof` returns the total number of bytes. So for arrays of larger variable types such as link:../../data-types/int[`int`]s, the for loop would look something like this.
 
 [source,arduino]
 ----
