@@ -24,7 +24,7 @@ subCategories: [ "Further Syntax" ]
 The main reference page for AVR C libraries (AVR is a reference to the Atmel chips on which the Arduino is based) is http://www.nongnu.org/avr-libc/user-manual/modules.html[here^].
 [%hardbreaks]
 
-Note that `#include`, similar to link:../define[`#define`], has no semicolon terminator, and the compiler will yield cryptic error messages if you add one.
+Note that `#include`, similar to `link:../define[#define]`, has no semicolon terminator, and the compiler will yield cryptic error messages if you add one.
 [%hardbreaks]
 
 --
