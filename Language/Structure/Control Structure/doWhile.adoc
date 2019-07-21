@@ -18,7 +18,7 @@ subCategories: [ "Control Structure" ]
 [float]
 === Description
 [%hardbreaks]
-The `do...while` loop works in the same manner as the link:../while[while] loop, with the exception that the condition is tested at the end of the loop, so the do loop will always run at least once.
+The `do...while` loop works in the same manner as the `link:../while[while]` loop, with the exception that the condition is tested at the end of the loop, so the do loop will always run at least once.
 
 [float]
 === Syntax
@@ -32,7 +32,7 @@ do {
 
 [float]
 === Parameters
-`condition`: a boolean expression that evaluates to `true` or `false`.
+`condition`: a boolean expression that evaluates to `link:../../../variables/constants/constants[true]` or `link:../../../variables/constants/constants[false]`.
 
 --
 // OVERVIEW SECTION ENDS
