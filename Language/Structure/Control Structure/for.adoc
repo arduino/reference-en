@@ -35,7 +35,7 @@ for (initialization; condition; increment) {
 === Parameters
 `initialization`: happens first and exactly once. +
 `condition`: each time through the loop, `condition` is tested; if it's `link:../../../variables/constants/constants[true]`, the statement block, and the *increment* is executed, then the *condition* is tested again. When the *condition* becomes `link:../../../variables/constants/constants[false]`, the loop ends. +
-`increment`: executed each time through the loop when `contition` is link:../../../variables/constants/constants[`true`].
+`increment`: executed each time through the loop when `condition` is link:../../../variables/constants/constants[`true`].
 
 --
 // OVERVIEW SECTION ENDS
@@ -69,7 +69,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-The C++ `for` loop is much more flexible than `for` loops found in some other computer languages, including BASIC. Any or all of the three header elements may be omitted, although the semicolons are required. Also the statements for initialization, condition, and increment can be any valid C++ statements with unrelated variables, and use any C++ datatypes including floats. These types of unusual `for` statements may provide solutions to some rare programming problems.
+The pass:[C++] `for` loop is much more flexible than `for` loops found in some other computer languages, including BASIC. Any or all of the three header elements may be omitted, although the semicolons are required. Also the statements for initialization, condition, and increment can be any valid pass:[C++] statements with unrelated variables, and use any pass:[C++] datatypes including floats. These types of unusual `for` statements may provide solutions to some rare programming problems.
 [%hardbreaks]
 
 For example, using a multiplication in the increment line will generate a logarithmic progression:
