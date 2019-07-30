@@ -12,7 +12,7 @@ subCategories: [ "Data Types" ]
 
 [float]
 === Description
-Text strings can be represented in two ways. you can use the String data type, which is part of the core as of version 0019, or you can make a string out of an array of type char and null-terminate it. This page described the latter method. For more details on the String object, which gives you more functionality at the cost of more memory, see the `link:../stringobject[String object]` page.
+Text strings can be represented in two ways. you can use the String data type, which is part of the core as of version 0019, or you can make a string out of an array of type char and null-terminate it. This page described the latter method. For more details on the String object, which gives you more functionality at the cost of more memory, see the link:../stringobject[String object] page.
 [%hardbreaks]
 
 [float]
