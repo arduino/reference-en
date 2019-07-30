@@ -13,7 +13,7 @@ subCategories: [ "Control Structure" ]
 
 [float]
 === Description
-The `if...else` allows greater control over the flow of code than the basic link:../if[if] statement, by allowing multiple tests to be grouped together. An `else` clause (if at all exists) will be executed if the condition in the `if` statement results in `false`. The `else` can proceed another `if` test, so that multiple, mutually exclusive tests can be run at the same time.
+The `if...else` allows greater control over the flow of code than the basic `link:../if[if]` statement, by allowing multiple tests to be grouped. An `else` clause (if at all exists) will be executed if the condition in the `if` statement results in `false`. The `else` can proceed another `if` test, so that multiple, mutually exclusive tests can be run at the same time.
 [%hardbreaks]
 
 Each test will proceed to the next one until a true test is encountered. When a true test is found, its associated block of code is run, and the program then skips to the line following the entire if/else construction. If no test proves to be true, the default `else` block is executed, if one is present, and sets the default behavior.
