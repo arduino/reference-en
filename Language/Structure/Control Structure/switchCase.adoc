@@ -24,6 +24,7 @@ The link:../break[break] keyword exits the switch statement, and is typically us
 [%hardbreaks]
 
 
+
 [float]
 === Syntax
 [source,arduino]
@@ -52,6 +53,10 @@ switch (var) {
 === Returns
 Nothing
 
+[float]
+=== Note
+
+If you need to declare one, or more, variables in a case you need to use curly brackets {} to define the scope specific to that case statement and define your variable within it. 
 --
 // OVERVIEW SECTION ENDS
 
@@ -71,9 +76,11 @@ switch (var) {
   case 1:
     //do something when var equals 1
     break;
-  case 2:
+  case 2:{
     //do something when var equals 2
+    int var2 = 1337; //to declare a variable you need the curly brackets
     break;
+  }
   default:
     // if nothing else matches, do the default
     // default is optional
