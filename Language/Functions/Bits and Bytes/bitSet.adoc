@@ -12,12 +12,12 @@ subCategories: [ "Bits and Bytes" ]
 
 
 // OVERVIEW SECTION STARTS
-Sets (writes a 1 to) a bit of a numeric variable.
 [#overview]
 --
 
 [float]
 === Description
+Sets (writes a 1 to) a bit of a numeric variable.
 [%hardbreaks]
 
 
