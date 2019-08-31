@@ -49,7 +49,7 @@ Data type: `size_t`.
 
 [float]
 === Notes and Warnings
-The terminator character is discarded from the serial buffer, unless the return value equals `length`. If the return value is less than `length`, it cannot be determined whether this is due to a time-out or due to the detection of the supplied terminator.
+The terminator character is discarded from the serial buffer, unless the return value equals `length`. If the return value is less than `length`, it cannot be determined whether this is due to a time-out or due to the detection of the supplied terminator. This function relies on millis() which uses timer0's overflow interrupt.
 [%hardbreaks]
 
 --
