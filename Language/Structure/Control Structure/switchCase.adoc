@@ -55,7 +55,7 @@ Nothing
 [float]
 === Note
 
-If you need to declare one, or more, variables in a case you need to use curly brackets {} to define the scope specific to that case statement and define your variable within it. 
+If you need to declare a variable in a case, use curly brackets {} to define a scope within the case statement to avoid a "crosses initialization of" compiler error. 
 --
 // OVERVIEW SECTION ENDS
 
