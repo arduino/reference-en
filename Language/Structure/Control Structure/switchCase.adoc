@@ -75,7 +75,7 @@ switch (var) {
   case 1:
     //do something when var equals 1
     break;
-  case 2:{
+  case 2: {
     //do something when var equals 2
     int var2 = 1337; //to declare a variable you need the curly brackets
     break;
