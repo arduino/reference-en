@@ -24,7 +24,6 @@ The link:../break[break] keyword exits the switch statement, and is typically us
 [%hardbreaks]
 
 
-
 [float]
 === Syntax
 [source,arduino]
