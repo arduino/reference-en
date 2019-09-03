@@ -34,7 +34,7 @@ An optional second parameter specifies the base (format) to use; permitted value
 
 You can pass flash-memory based strings to `_Serial_.print()` by wrapping them with link:../../../../variables/utilities/progmem[F()]. For example:
 
-`Serial.print(F(“Hello World”))`
+`Serial.print(F("Hello World"))`
 
 To send data without conversion to its representation as characters, use link:../write[Serial.write()].
 [%hardbreaks]
