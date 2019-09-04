@@ -14,9 +14,9 @@ title: Serial.readBytesUntil()
 
 [float]
 === Description
-Serial.readBytesUntil() reads characters from the serial buffer into an array. The function terminates if the terminator character is detected, the determined length has been read, or it times out (see link:../settimeout[Serial.setTimeout()]). The function returns the characters up to the last character before the supplied terminator. The terminator itself is not returned in the buffer.
+Serial.readBytesUntil() reads characters from the serial buffer into an array. The function terminates if the determined length has been read, if it times out (see link:../settimeout[Serial.setTimeout()]), or if the terminator character is detected . The function returns the characters up to the last character before the supplied terminator. The terminator itself is not returned in the buffer.
 
-`Serial.readBytesUntil()` returns the number of characters read into the buffer. A 0 means no valid data was found.
+`Serial.readBytesUntil()` returns the number of characters read into the buffer. A 0 means that supplied length < 0, a time out occured, or a termination character was found before any other input.
 
 `Serial.readBytesUntil()` inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
@@ -49,7 +49,7 @@ Data type: `size_t`.
 
 [float]
 === Notes and Warnings
-The terminator character is discarded from the serial buffer, unless the return value equals `length`. If the return value is less than `length`, it cannot be determined whether this is due to a time-out or due to the detection of the supplied terminator. This function relies on millis() which uses timer0's overflow interrupt.
+The terminator character is discarded from the serial buffer, unless the  number of characters read and copied into the buffer equals `length`.
 [%hardbreaks]
 
 --
