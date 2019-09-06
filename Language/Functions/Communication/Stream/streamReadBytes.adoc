@@ -30,7 +30,7 @@ This function is part of the Stream class, and can be called by any class that i
 [float]
 === Parameters
 `stream`: an instance of a class that inherits from Stream. +
-`buffer`: the buffer to store the bytes in. Allowed data types: array of `char` or `byte`s. +
+`buffer`: the buffer to store the bytes in. Allowed data types: array of `char` or `byte`. +
 `length`: the number of bytes to read. Allowed data types: `int`.
 
 
