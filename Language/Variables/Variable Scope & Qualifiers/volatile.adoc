@@ -55,6 +55,7 @@ There are several ways to do this:
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
+Use a `volatile byte` to store the pin state in a single byte:
 
 [source,arduino]
 ----
@@ -77,16 +78,19 @@ void blink() {
 }
 ----
 
+Use an atomic block for atomic access to a 16-bit `int`:
 
 [source,arduino]
 ----
 #include <util/atomic.h> // this library includes the ATOMIC_BLOCK macro.
 volatile int input_from_interrupt;
 
+void loop() {
   ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
     // code with interrupts blocked (consecutive atomic operations will not get interrupted)
     int result = input_from_interrupt;
   }
+}
 ----
 
 
