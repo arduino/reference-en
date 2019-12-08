@@ -55,42 +55,52 @@ There are several ways to do this:
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
-Use a `volatile byte` to store the pin state in a single byte:
+The `volatile` modifier ensures that changes to the `state` variable are immediately visible in `loop()`. Without the `volatile` modifier, the `state` variable would be loaded into a register when entering the function and would not be updated anymore until the function ends.
 
 [source,arduino]
 ----
-// toggles LED when interrupt pin changes state
+// Flashes the LED for 1 s if the input has changed
+// in the previous second.
 
-int pin = 13;
 volatile byte state = LOW;
 
 void setup() {
-  pinMode(pin, OUTPUT);
-  attachInterrupt(digitalPinToInterrupt(2), blink, CHANGE);
+  pinMode(LED_BUILTIN, OUTPUT);
+  attachInterrupt(digitalPinToInterrupt(2), toggle, CHANGE);
 }
 
 void loop() {
-  digitalWrite(pin, state);
+  bool changedInTheMeantime = false;
+
+  byte originalState = state;
+  delay(1000);
+  byte newState = state;
+
+  if (newState != originalState) {
+    // toggle() has been called during delay(1000)
+    changedInTheMeantime = true;
+  }
+
+  digitalWrite(LED_BUILTIN, changedInTheMeantime ? HIGH : LOW);
 }
 
-void blink() {
+void toggle() {
   state = !state;
 }
 ----
 
-Use an atomic block for atomic access to a 16-bit `int`:
+To access a variable with size greater than the microcontroller’s 8-bit data bus, use the `ATOMIC_BLOCK` macro. The macro ensures that the variable is read in an atomic operation, i.e. its contents cannot be altered while it is being read.
 
 [source,arduino]
 ----
 #include <util/atomic.h> // this library includes the ATOMIC_BLOCK macro.
 volatile int input_from_interrupt;
 
-void loop() {
+// Somewhere in the code, e.g. inside loop()
   ATOMIC_BLOCK(ATOMIC_RESTORESTATE) {
     // code with interrupts blocked (consecutive atomic operations will not get interrupted)
     int result = input_from_interrupt;
   }
-}
 ----
 
 
