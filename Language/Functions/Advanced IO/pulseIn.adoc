@@ -40,6 +40,8 @@ The timing of this function has been determined empirically and will probably sh
 === Returns
 The length of the pulse (in microseconds) or 0 if no pulse started before the timeout. Data type: `unsigned long`.
 
+The function inPulse( ) is not supported in the Arduino Primo build.
+
 --
 // OVERVIEW SECTION ENDS
 
