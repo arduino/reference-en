@@ -22,7 +22,7 @@ This function is part of the Stream class, and can be called by any class that i
 
 [float]
 === Syntax
-`stream.readString(terminator)`
+`stream.readStringUntil(terminator)`
 
 
 [float]
