@@ -51,6 +51,8 @@ The `analogWrite` function has nothing to do with the analog pins or the `analog
 `pin`: the Arduino pin to write to. Allowed data types: `int`. +
 `value`: the duty cycle: between 0 (always off) and 255 (always on). Allowed data types: `int`.
 
+Due* The duty cycle on the Due is between 0 (always off) and 4095 (always on). 16bits resolution.
+
 
 [float]
 === Returns
