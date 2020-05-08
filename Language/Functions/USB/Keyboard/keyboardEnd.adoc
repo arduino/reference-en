@@ -14,7 +14,7 @@ title: Keyboard.end()
 
 [float]
 === Description
-Stops the keyboard emulation to a connected computer. To start keyboard emulation, use link:../keyboardbegin[Keyboard.begin()].
+Stops the keyboard emulation to a connected computer. To start keyboard emulation, use link:../keyboard/keyboardbegin[Keyboard.begin()].
 [%hardbreaks]
 
 
