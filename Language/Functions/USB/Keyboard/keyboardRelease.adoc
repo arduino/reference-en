@@ -14,7 +14,7 @@ title: Keyboard.release()
 
 [float]
 === Description
-Lets go of the specified key. See link:../keyboardpress[Keyboard.press()] for more information.
+Lets go of the specified key. See link:../keyboard/keyboardpress[Keyboard.press()] for more information.
 [%hardbreaks]
 
 
