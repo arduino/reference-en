@@ -16,7 +16,7 @@ title: Keyboard.println()
 === Description
 Sends a keystroke to a connected computer, followed by a newline and carriage return.
 
-`Keyboard.println()` must be called after initiating link:../keyboardbegin[Keyboard.begin()].
+`Keyboard.println()` must be called after initiating link:../keyboard/keyboardbegin[Keyboard.begin()].
 [%hardbreaks]
 
 
