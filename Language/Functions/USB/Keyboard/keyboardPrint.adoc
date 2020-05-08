@@ -16,7 +16,7 @@ title: Keyboard.print()
 === Description
 Sends a keystroke to a connected computer.
 
-`Keyboard.print()` must be called after initiating link:../keyboardbegin[Keyboard.begin()].
+`Keyboard.print()` must be called after initiating link:../keyboard/keyboardbegin[Keyboard.begin()].
 [%hardbreaks]
 
 
