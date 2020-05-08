@@ -14,7 +14,7 @@ title: Keyboard.begin()
 
 [float]
 === Description
-When used with a Leonardo or Due board, `Keyboard.begin()` starts emulating a keyboard connected to a computer. To end control, use link:../keyboardend[Keyboard.end()].
+When used with a Leonardo or Due board, `Keyboard.begin()` starts emulating a keyboard connected to a computer. To end control, use link:../keyboard/keyboardend[Keyboard.end()].
 [%hardbreaks]
 
 
