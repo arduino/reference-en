@@ -51,27 +51,27 @@ To use these extra serial ports to communicate with your personal computer, you 
 
 [float]
 === Functions
-link:../serial/ifserial[if(Serial)] +
-link:../serial/available[available()] +
-link:../serial/availableforwrite[availableForWrite()] +
-link:../serial/begin[begin()] +
-link:../serial/end[end()] +
-link:../serial/find[find()] +
-link:../serial/finduntil[findUntil()] +
-link:../serial/flush[flush()] +
-link:../serial/parsefloat[parseFloat()] +
-link:../serial/parseint[parseInt()] +
-link:../serial/peek[peek()] +
-link:../serial/print[print()] +
-link:../serial/println[println()] +
-link:../serial/read[read()] +
-link:../serial/readbytes[readBytes()] +
-link:../serial/readbytesuntil[readBytesUntil()] +
-link:../serial/readstring[readString()] +
-link:../serial/readstringuntil[readStringUntil()] +
-link:../serial/settimeout[setTimeout()] +
-link:../serial/write[write()] +
-link:../serial/serialevent[serialEvent()]
+link:./serial/ifserial[if(Serial)] +
+link:./serial/available[available()] +
+link:./serial/availableforwrite[availableForWrite()] +
+link:./serial/begin[begin()] +
+link:./serial/end[end()] +
+link:./serial/find[find()] +
+link:./serial/finduntil[findUntil()] +
+link:./serial/flush[flush()] +
+link:./serial/parsefloat[parseFloat()] +
+link:./serial/parseint[parseInt()] +
+link:./serial/peek[peek()] +
+link:./serial/print[print()] +
+link:./serial/println[println()] +
+link:./serial/read[read()] +
+link:./serial/readbytes[readBytes()] +
+link:./serial/readbytesuntil[readBytesUntil()] +
+link:./serial/readstring[readString()] +
+link:./serial/readstringuntil[readStringUntil()] +
+link:./serial/settimeout[setTimeout()] +
+link:./serial/write[write()] +
+link:./serial/serialevent[serialEvent()]
 
 '''
 
