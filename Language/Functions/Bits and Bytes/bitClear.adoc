@@ -34,7 +34,7 @@ Clears (writes a 0 to) a bit of a numeric variable.
 
 [float]
 === Returns
-Nothing
+`x`: the value of the numeric variable after the bit at position `n` is cleared.
 
 --
 // OVERVIEW SECTION ENDS
@@ -45,6 +45,32 @@ Nothing
 --
 
 [float]
+=== Example Code
+// Describe what the example code is all about and add relevant code
+Prints the output of `bitClear(x,n)` on two given integers. The binary representation of 6 is 0110, so when `n=1`, the second bit from the right is set to 0. After this we are left with 0100 in binary, so 4 is returned.
+
+[source,arduino]
+----
+void setup() 
+{
+Serial.begin(9600); 
+}
+
+void loop() 
+{
+int x = 6; int n = 1;        //setting the value of x and n
+Serial.print(bitClear(x,n)); //printing the output of the bitClear(x,n)
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+The indexing of the rightmost bit starts from 0, so `n=1` clears the second bit from the right. If the bit at any given position is already zero, `x` is returned unchanged.
+
+Both `x` and `n` must be integers. 
+
+--
 === See also
 
 --
