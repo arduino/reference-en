@@ -52,6 +52,13 @@ Arduino SAM Boards (Due)
 
 * AR_DEFAULT: the default analog reference of 3.3V. This is the only supported option for the Due.
 
+Arduino mbed-enabled Boards (Nano 33 BLE only): only available when using the _Arduino mbed-enabled Boards_ platform, and not when using the _Arduino nRF528x Boards (Mbed OS)_ platform
+
+* AR_VDD: the default 3.3 V reference
+* AR_INTERNAL: built-in 0.6 V reference
+* AR_INTERNAL1V2: 1.2 V reference (internal 0.6 V reference with 2x gain)
+* AR_INTERNAL2V4: 2.4 V reference (internal 0.6 V reference with 4x gain)
+
 [%hardbreaks]
 
 
