@@ -68,14 +68,10 @@ void loop() {
 ----
 [%hardbreaks]
 
-[float]
-=== Notes and Warnings
-The indexing of the rightmost bit starts from 0, so `n=1` clears the second bit from the right. If the bit at any given position is already zero, `x` is returned unchanged.
 --
 // HOW TO USE SECTION ENDS
 
 
-Both `x` and `n` must be integers. 
 
 // SEE ALSO SECTION
 [#see_also]
