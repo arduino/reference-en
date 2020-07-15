@@ -40,8 +40,9 @@ Clears (writes a 0 to) a bit of a numeric variable.
 // OVERVIEW SECTION ENDS
 
 
-// SEE ALSO SECTION
-[#see_also]
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
 --
 
 [float]
@@ -67,10 +68,17 @@ Serial.print(bitClear(x,n)); //printing the output of the bitClear(x,n)
 [float]
 === Notes and Warnings
 The indexing of the rightmost bit starts from 0, so `n=1` clears the second bit from the right. If the bit at any given position is already zero, `x` is returned unchanged.
+--
+// HOW TO USE SECTION ENDS
+
 
 Both `x` and `n` must be integers. 
 
+// SEE ALSO SECTION
+[#see_also]
 --
+
+[float]
 === See also
 
 --
