@@ -53,6 +53,7 @@ int x = 0;
 do {
   delay(50);          // wait for sensors to stabilize
   x = readSensors();  // check the sensors
+  x = x + 1;          // increment the counter
 } while (x < 100);
 ----
 
