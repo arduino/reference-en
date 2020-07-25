@@ -34,10 +34,43 @@ Clears (writes a 0 to) a bit of a numeric variable.
 
 [float]
 === Returns
-Nothing
+`x`: the value of the numeric variable after the bit at position `n` is cleared.
 
 --
 // OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code
+Prints the output of `bitClear(x,n)` on two given integers. The binary representation of 6 is 0110, so when `n=1`, the second bit from the right is set to 0. After this we are left with 0100 in binary, so 4 is returned.
+
+[source,arduino]
+----
+void setup() {
+  Serial.begin(9600);
+  while (!Serial) {
+    ; // wait for serial port to connect. Needed for native USB port only
+  }
+
+  int x = 6;
+  int n = 1;
+  Serial.print(bitClear(x, n)); // print the output of bitClear(x,n)
+}
+
+void loop() {
+}
+----
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
+
 
 
 // SEE ALSO SECTION
