@@ -72,7 +72,6 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 
 [role="language"]
 * #LANGUAGE# link:../../analog-io/analogwrite[analogWrite()]
-* #LANGUAGE# link:../notone[noTone()]
 
 [role="example"]
 
