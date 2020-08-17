@@ -88,7 +88,7 @@ Similarly, including an equal sign after the #define statement will also generat
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../../variables/variable-scope\--qualifiers/const[const]
+* #LANGUAGE# link:../../../variables/variable-scope-qualifiers/const[const]
 * #LANGUAGE# link:../../../variables/constants/constants[Constants]
 
 --
