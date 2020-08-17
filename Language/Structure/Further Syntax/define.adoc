@@ -24,7 +24,7 @@ subCategories: [ "Further Syntax" ]
 This can have some unwanted side effects though, if for example, a constant name that had been #defined is included in some other constant or variable name. In that case the text would be replaced by the #defined number (or text).
 [%hardbreaks]
 
-In general, the `link:../../variables/variable-scope-qualifiers/const[const]` keyword is preferred for defining constants and should be used instead of `#define`.
+In general, the `link:../../../variables/variable-scope-qualifiers/const[const]` keyword is preferred for defining constants and should be used instead of `#define`.
 [%hardbreaks]
 
 [float]
@@ -88,8 +88,8 @@ Similarly, including an equal sign after the #define statement will also generat
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../variables/variable-scope-qualifiers/const[const]
-* #LANGUAGE# link:../../variables/constants/constants[Constants]
+* #LANGUAGE# link:../../../variables/variable-scope\--qualifiers/const[const]
+* #LANGUAGE# link:../../../variables/constants/constants[Constants]
 
 --
 // SEE ALSO SECTION ENDS
