@@ -19,7 +19,7 @@ subCategories: [ "Data Types" ]
 === Description
 Long variables are extended size variables for number storage, and store 32 bits (4 bytes), from -2,147,483,648 to 2,147,483,647.
 
-If doing math with integers, at least one of the numbers must be followed by an L, forcing it to be a long. See the link:../../constants/integerconstants[Integer Constants] page for details.
+If doing math with integers at least one of the values must be of type long, either an integer constant followed by an L or a variable of type long, forcing it to be a long. See the link:../../constants/integerconstants[Integer Constants] page for details.
 [%hardbreaks]
 
 [float]
@@ -28,7 +28,7 @@ If doing math with integers, at least one of the numbers must be followed by an 
 
 
 [float]
-=== Parameters
+=== Description
 `var`: variable name. +
 `val`: the value assigned to the variable.
 
@@ -49,7 +49,7 @@ If doing math with integers, at least one of the numbers must be followed by an 
 
 [source,arduino]
 ----
-long speedOfLight = 186000L;  // see the Integer Constants page for explanation of the 'L'
+long speedOfLight_km_s = 300000L;  // see the Integer Constants page for explanation of the 'L'
 ----
 
 --
