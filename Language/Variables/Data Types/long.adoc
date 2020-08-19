@@ -28,7 +28,7 @@ If doing math with integers at least one of the values must be of type long, eit
 
 
 [float]
-=== Description
+=== Parameters
 `var`: variable name. +
 `val`: the value assigned to the variable.
 
