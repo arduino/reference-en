@@ -86,7 +86,8 @@ void setup() {
   Serial.println();
 
   // read back a char
-  for (byte k = 0; k < strlen_P(signMessage); k++) {
+  int signMessageLength = strlen_P(signMessage);
+  for (byte k = 0; k < signMessageLength; k++) {
     myChar = pgm_read_byte_near(signMessage + k);
     Serial.print(myChar);
   }
