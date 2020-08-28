@@ -38,7 +38,7 @@ Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. C
 
 [%hardbreaks]
 
-You do not need to call `pinMode()` to set the pin as an output before calling `analogWrite()`.
+You do need to call `pinMode()` to set the pin as an output before calling `analogWrite()`.
 The `analogWrite` function has nothing to do with the analog pins or the `analogRead` function.
 [%hardbreaks]
 
