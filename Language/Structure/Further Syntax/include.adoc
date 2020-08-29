@@ -27,6 +27,18 @@ The main reference page for AVR C libraries (AVR is a reference to the Atmel chi
 Note that `#include`, similar to `link:../define[#define]`, has no semicolon terminator, and the compiler will yield cryptic error messages if you add one.
 [%hardbreaks]
 
+
+[float]
+=== Syntax
+`#include <LibraryFile.h>` +
+`#include "LocalFile.h"`
+
+
+[float]
+=== Parameters
+`LibraryFile.h`: when the angle brackets syntax is used, the libraries paths will be searched for the file. +
+`LocalFile.h`: When the double quotes syntax is used, the folder of the file using the `#include` directive will be searched for the specified file, then the libraries paths if it was not found in the local path. Use this syntax for header files in the sketch's folder.
+
 --
 // OVERVIEW SECTION ENDS
 
