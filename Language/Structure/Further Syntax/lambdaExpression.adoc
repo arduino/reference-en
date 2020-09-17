@@ -1,0 +1,121 @@
+---
+title: [](){ }
+title_expanded: Lambda Expression
+categories: [ "Structure" ]
+subCategories: [ "Further Syntax" ]
+---
+// ARDUINO LANGUAGE REFERENCE TAGS (above)   ►►►►► ALWAYS INCLUDE IN YOUR FILE ◄◄◄◄◄
+// title will show up in the Index of all Reference terms
+// If the title is an operator write it out in words in title_expanded
+// categories: Pick between Structure, Variable or Function
+// The subcategory within the ones available in the index ("Digital I/O", "Arithmetic Operators")
+
+
+
+// PAGE TITLE
+= Lambda Expression
+
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+// Describe what this Reference term does, and what it is used for	►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+A *lambda expression* —often called a lambda— is a convenient way of defining an anonymous function object (a closure) right at the location where it is invoked or passed as an argument to a function. Typically lambdas are used to encapsulate a few lines of code that are passed to algorithms or asynchronous methods like https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/[attachInterrupt()^].
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+// Enter Reference term syntax, please specify all available parameters  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+`[/* capture clause */](/* parameter list */){ /* body */ }`
+
+`[](int a, int b){ return a + b; } // by value`
+
+`[&](int a){ ++a; } // by reference`
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+Prints a motor's round per minute, it is calculated by attaching the *lambda* which increments the interrupts_counter to each *RISING* signal. 
+
+[source,arduino]
+// Add relevant code that exemplify the use of the Reference term,
+// Please note that sometimes when copy-pasting code, a few spaces can be added at the beginnng of each line of code.
+// If that happens, please remove the extra spaces. Thanks!
+----
+volatile uint8_t interrupts_counter = 0;
+volatile uint64_t start_time = 0;
+uint16_t motor_rpm = 0;
+
+// the setup function runs once on power or reset
+void setup() {
+  // attach interrupt to increment interrupts_count on RISING signal on pin 2
+  attachInterrupt(digitalPinToInterrupt(2), [](){ ++interrupts_counter; }, RISING);
+  // begin the serial for data transmission
+  Serial.begin(9600);
+  Serial.println("Motor speed (press any key to start):");
+}
+
+// the loop function loops forever
+void loop() {
+  // if there is a serial
+  if (Serial.available()) {
+    // time to start counting the interrupts
+    start_time = millis();
+    // reset number of interrupts
+    interrupts_counter = 0;
+    // count interrupts for one second
+    while (millis() - start_time < 1000);
+    // the motor rounds per minutes =
+    // interrupts / 2 (pulses per revolution) * 60 (seconds)
+    motor_rpm = interrupts_counter / 2 * 60;
+    // print the motor RPM to the serial
+    Serial.print(motor_rpm);
+    Serial.println(" RPM");
+  }
+}
+
+----
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
+
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+// // Link relevant content by category, such as other Reference terms (please add the tag #LANGUAGE#),
+// // definitions: (please add the tag #DEFINITION#), and examples of Projects and Tutorials
+// // examples: (please add the tag #EXAMPLE#)
+
+// [role="language"]
+// // Whenever you want to link to another Reference term, or more in general to a relative link,
+// // use the syntax shown below. Please note that the file format is subsituted by  attribute.
+// // Please note that you always need to replace spaces that you might find in folder/file names with %20
+// // The entire link to Reference pages must be lower case, regardless of the case of the folders and files in this repository.
+// // For language tag, items will be automatically generated for any other item of the same subcategory,
+// // no need to add links to other pages of the same subcategory
+// // if you don't include this section, a minimal version with only the other pages of the same subcategory will be generated.
+// * #LANGUAGE# link:../AsciiDoc_Template-Parent_Of_Entities[Parent Of Entities]
+// * #LANGUAGE# link:../../AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary[AsciiDoc Template Dictionary]
+
+--
+// SEE ALSO SECTION ENDS
