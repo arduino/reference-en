@@ -55,14 +55,14 @@ There are several ways to do this:
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
-The `volatile` modifier ensures that changes to the `state` variable are immediately visible in `loop()`. Without the `volatile` modifier, the `state` variable would be loaded into a register when entering the function and would not be updated anymore until the function ends.
+The `volatile` modifier ensures that changes to the `state` variable are immediately visible in `loop()`. Without the `volatile` modifier, the `state` variable may be loaded into a register when entering the function and would not be updated anymore until the function ends.
 
 [source,arduino]
 ----
 // Flashes the LED for 1 s if the input has changed
 // in the previous second.
 
-volatile byte state = LOW;
+volatile byte changed = 0;
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
@@ -70,22 +70,21 @@ void setup() {
 }
 
 void loop() {
-  bool changedInTheMeantime = false;
+  if (changed == 1) {
+    // toggle() has been called from interrupts!
 
-  byte originalState = state;
-  delay(1000);
-  byte newState = state;
+    // Reset changed to 0
+    changed = 0;
 
-  if (newState != originalState) {
-    // toggle() has been called during delay(1000)
-    changedInTheMeantime = true;
+    // Blink LED for 200 ms
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(200);
+    digitalWrite(LED_BUILTIN, LOW);
   }
-
-  digitalWrite(LED_BUILTIN, changedInTheMeantime ? HIGH : LOW);
 }
 
 void toggle() {
-  state = !state;
+  changed = 1;
 }
 ----
 
