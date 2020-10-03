@@ -24,11 +24,8 @@ Increments the value of a variable by 1.
 
 [float]
 === Syntax
-[source,arduino]
-----
-x++;  // increment x by one and returns the old value of x
-++x;  // increment x by one and returns the new value of x
-----
+`x{plus}{plus};  // increment x by one and returns the old value of x` +
+`{plus}{plus}x;  // increment x by one and returns the new value of x`
 
 
 [float]
