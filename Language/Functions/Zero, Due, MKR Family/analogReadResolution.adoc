@@ -1,7 +1,7 @@
 ---
 title: analogReadResolution()
 categories: [ "Functions" ]
-subCategories: [ "Zero, Due, MKR family, Nano 33 (BLE and IoT) and Portenta" ]
+subCategories: [ "Analog I/O" ]
 ---
 
 
