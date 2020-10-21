@@ -31,7 +31,7 @@ A *lambda expression* —often called a lambda— is a convenient way of definin
 [float]
 === Syntax
 // Enter Reference term syntax, please specify all available parameters  ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-`[/* capture clause */](/* parameter list */){ /* body */ }`
+`[/* capture clause \*/](/* parameter list \*/){ /* body */ }`
 
 `[](int a, int b){ return a + b; } // by value`
 
