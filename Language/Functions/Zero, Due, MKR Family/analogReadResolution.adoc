@@ -1,7 +1,7 @@
 ---
 title: analogReadResolution()
 categories: [ "Functions" ]
-subCategories: [ "Analog I/O" ]
+subCategories: [ "Zero, Due & MKR Family" ]
 ---
 
 
