@@ -32,7 +32,7 @@ The *Portenta H7* has a 16 bit ADC, which will allow values between 0 and 65535.
 
 [float]
 === Parameters
-`bits`: determines the resolution (in bits) of the value returned by the `analogRead()` function. You can set this between 1 and 32. You can set resolutions higher than the supported 10,12 or 16 bits, but values returned by `analogRead()` will suffer approximation. See the note below for details.
+`bits`: determines the resolution (in bits) of the value returned by the `analogRead()` function. You can set this between 1 and 32. You can set resolutions higher than the supported 12 or 16 bits, but values returned by `analogRead()` will suffer approximation. See the note below for details.
 
 
 [float]
