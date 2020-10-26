@@ -75,11 +75,11 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 
 [role="example"]
 
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Tone Melody^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/tonePitchFollower[Pitch Follower^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone3[Tone Keyboard^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone4[Tone Multiple^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/PWM[PWM^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody[Tone Melody^]
+* #EXAMPLE# https://arduino.cc/en/Tutorial/tonePitchFollower[Pitch Follower^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneKeyboard[Tone Keyboard^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMultiple[Tone Multiple^]
+* #EXAMPLE# https://arduino.cc/en/Tutorial/PWM[PWM^]
 
 --
 // SEE ALSO SECTION ENDS
