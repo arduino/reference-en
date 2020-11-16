@@ -15,6 +15,33 @@ title: serialEvent()
 [float]
 === Description
 Called when data is available. Use `Serial.read()` to capture this data.
+
+`serialEvent()` functionality is not available on all Arduino boards or `_Serial_` interfaces:
+[options="header"]
+|======================================================
+| Board           | Available `serialEvent()` functions
+| Uno +
+  Nano            | `serialEvent()`
+| Mega            | `serialEvent()` +
+                    `serialEvent1()` +
+                    `serialEvent2()` +
+                    `serialEvent3()`
+| Leonardo +
+  Micro +
+  Yún             | `serialEvent1()`
+| Uno WiFi Rev2 +
+  Nano Every      | None
+| MKR boards +
+  Nano 33 IoT +
+  Zero            | None
+| Nano 33 BLE     | None
+| Portenta H7     | None
+| Due             | `serialEvent()` +
+                    `serialEvent1()` +
+                    `serialEvent2()` +
+                    `serialEvent3()`
+| 101             | `serialEvent1()`
+|======================================================
 [%hardbreaks]
 
 
@@ -55,23 +82,6 @@ Nothing
 
 --
 // OVERVIEW SECTION ENDS
-
-
-// HOW TO USE SECTION STARTS
-[#howtouse]
---
-
-[float]
-=== Notes and Warnings
-`serialEvent()` doesn't work on the Leonardo, Micro, or Yún.
-
-`serialEvent()` and `serialEvent1()` don't work on the Arduino SAMD Boards
-
-`serialEvent()`, `serialEvent1()``serialEvent2()`, and `serialEvent3()`  don't work on the Arduino Due.
-[%hardbreaks]
-
---
-// HOW TO USE SECTION ENDS
 
 
 // SEE ALSO SECTION
