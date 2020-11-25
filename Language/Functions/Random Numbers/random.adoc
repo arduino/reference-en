@@ -50,7 +50,7 @@ A random number between min and max-1. Data type: `long`.
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code generates random numbers and displays them.
+The code generates random numbers and displays them in the Serial Monitor.
 
 [source,arduino]
 ----
