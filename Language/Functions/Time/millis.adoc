@@ -47,16 +47,16 @@ This example code prints on the serial port the number of milliseconds passed si
 
 [source,arduino]
 ----
-unsigned long time;
+unsigned long myTime;
 
 void setup() {
   Serial.begin(9600);
 }
 void loop() {
   Serial.print("Time: ");
-  time = millis();
+  myTime = millis();
 
-  Serial.println(time); //prints time since program started
+  Serial.println(myTime); //prints time since program started
   delay(1000);          // wait a second so as not to send massive amounts of data
 }
 ----
