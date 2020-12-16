@@ -26,7 +26,7 @@ The first parameter to `attachInterrupt()` is an interrupt number. Normally you 
 |Micro, Leonardo, other 32u4-based |0, 1, 2, 3, 7
 |Zero                              |all digital pins, except 4
 |MKR Family boards                 |0, 1, 4, 5, 6, 7, 8, 9, A1, A2
-|Nano 33 IoT                       |2, 3, 9, 10, 11, 13, 15, A5, A7
+|Nano 33 IoT                       |2, 3, 9, 10, 11, 13, A1, A5, A7
 |Nano 33 BLE, Nano 33 BLE Sense    |all pins
 |Due                               |all digital pins
 |101                               |all digital pins (Only pins 2, 5, 7, 8, 10, 11, 12, 13 work with *CHANGE*)
