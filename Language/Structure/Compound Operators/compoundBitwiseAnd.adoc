@@ -54,22 +54,22 @@ Bits that are "bitwise ANDed" with 0 are cleared to 0 so, if myByte is a byte va
 
 [source,arduino]
 ----
-myByte & B00000000 = 0;
+myByte & 0b00000000 = 0;
 ----
 
 Bits that are "bitwise ANDed" with 1 are unchanged so,
 
 [source,arduino]
 ----
-myByte & B11111111 = myByte;
+myByte & 0b11111111 = myByte;
 ----
 [%hardbreaks]
 
 [float]
 === Notes and Warnings
-Because we are dealing with bits in a bitwise operator - it is convenient to use the binary formatter with constants. The numbers are still the same value in other representations, they are just not as easy to understand. Also, B00000000 is shown for clarity, but zero in any number format is zero (hmmm something philosophical there?)
+Because we are dealing with bits in a bitwise operator - it is convenient to use the binary formatter with constants. The numbers are still the same value in other representations, they are just not as easy to understand. Also, 0b00000000 is shown for clarity, but zero in any number format is zero (hmmm something philosophical there?)
 
-Consequently - to clear (set to zero) bits 0 & 1 of a variable, while leaving the rest of the variable unchanged, use the compound bitwise AND operator (&=) with the constant B11111100
+Consequently - to clear (set to zero) bits 0 & 1 of a variable, while leaving the rest of the variable unchanged, use the compound bitwise AND operator (&=) with the constant 0b11111100
 
    1  0  1  0  1  0  1  0    variable
    1  1  1  1  1  1  0  0    mask
@@ -93,8 +93,8 @@ So if:
 
 [source,arduino]
 ----
-myByte = B10101010;
-myByte &= B11111100;  // results in B10101000
+myByte = 0b10101010;
+myByte &= 0b11111100;  // results in 0b10101000
 ----
 
 [%hardbreaks]

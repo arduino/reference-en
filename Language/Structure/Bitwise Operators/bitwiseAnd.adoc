@@ -58,7 +58,7 @@ One of the most common uses of bitwise AND is to select a particular bit (or bit
 
 [source,arduino]
 ----
-PORTD = PORTD & B00000011;  // clear out bits 2 - 7, leave pins PD0 and PD1 untouched (xx & 11 == xx)
+PORTD = PORTD & 0b00000011;  // clear out bits 2 - 7, leave pins PD0 and PD1 untouched (xx & 11 == xx)
 ----
 
 --
