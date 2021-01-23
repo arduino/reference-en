@@ -60,6 +60,62 @@ void loop() {
   delay(1000);          // wait a second so as not to send massive amounts of data
 }
 ----
+This example provides a better idea how millis() can actually be used to generate periodic code that doesn't interfere with concurrent code, running at the MCU execution rate.
+[source,arduino]
+----
+/**
+ * Example code demonstrating a way to use the millis() function to generate a periodic 
+ * event that avoids the execution blocking pitfall of the Delay_ms() function.  This 
+ * deomnstration involves a periodic message sent to a Serial Terminal, along with a 
+ * concurrent blinking of the built-in LED at around 6Hz [on an UNO].  
+ * 
+ * To experience the full extent of this example code, open a Serial Monitor so you can
+ * both see the periodic message, timed using the millis() function, while also 
+ * witnessing the concurrent blink of the built-in LED.
+ * 
+ * Also, the TX LED will flash once per period while the neighboing Built-in LED rapidly
+ * flashes, providing yet another visual.
+ */
+
+const int PERIOD = 1000;                             // In milliseconds - e.g. 1000 = 1 second
+
+unsigned long next_millis;
+int periods                               = 0;
+String message                            = "";
+#define MSG_FRAG  " Periods so far."
+
+const int LED_BLINK_PERIOD_AS_LOP_CYCLES  = 29200;   // Produces a ~6HZ blink on an UNO
+int led_blink_loop_count                  = 0;
+ 
+void setup() {
+    pinMode(LED_BUILTIN, OUTPUT);  // Prepare to blink the built-in LED
+    Serial.begin(115200);          // Make sure to set the serial montior to 115200 BAUD
+    
+    Serial.println("Demonstration of the use of millis() in place of Delay_ms()");
+
+    next_millis = millis() + PERIOD;
+    message = "1 Period so far.";  // Manages the singular vs plural dilemma
+}
+ 
+void loop() {
+    // This, and the next line, are what take the place of the Delay_ms() call.
+    if(millis() >= next_millis){
+        next_millis = millis() + PERIOD;
+
+        // Replace the following example code with the code you want executed periodically:
+        message = ++periods;
+        message += MSG_FRAG;
+        Serial.println(message);  // Sends a periodic message to the serial monitor.
+    }
+   
+    //Replace the following example code with the code you want to run concurrently:
+    if (++led_blink_loop_count >= LED_BLINK_PERIOD_AS_LOP_CYCLES)
+    {
+        led_blink_loop_count = 0;
+        digitalWrite(LED_BUILTIN, digitalRead(LED_BUILTIN) ^ 1);  // Toggle the LED state
+    }
+}
+----
 [%hardbreaks]
 
 [float]
