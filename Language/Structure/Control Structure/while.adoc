@@ -50,7 +50,7 @@ while (condition) {
 [source,arduino]
 ----
 var = 0;
-while (var < 200) {
+while (var <= 200) {
   // do something repetitive 200 times
   var++;
 }
