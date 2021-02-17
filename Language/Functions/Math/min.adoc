@@ -82,5 +82,9 @@ a++;  // use this instead - keep other math outside the function
 [float]
 === See also
 
+[role="language"]
+* #LANGUAGE# https://arduino.cc/reference/en/language/functions/math/map/[map()]
+* #LANGUAGE# https://arduino.cc/reference/en/language/functions/math/max/[max()]
+
 --
 // SEE ALSO SECTION ENDS

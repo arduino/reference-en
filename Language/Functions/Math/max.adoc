@@ -83,5 +83,9 @@ a--;  // keep other math outside the function
 [float]
 === See also
 
+[role="language"]
+* #LANGUAGE# https://arduino.cc/reference/en/language/functions/math/map/[map()]
+* #LANGUAGE# https://arduino.cc/reference/en/language/functions/math/min/[min()]
+
 --
 // SEE ALSO SECTION ENDS

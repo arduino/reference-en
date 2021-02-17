@@ -72,5 +72,10 @@ int inputSquared = sq(input);
 [float]
 === See also
 
+[role="language"]
+* #LANGUAGE# https://arduino.cc/reference/en/language/functions/math/map/[map()]
+* #LANGUAGE# https://arduino.cc/reference/en/language/functions/math/min/[min()]
+* #LANGUAGE# https://arduino.cc/reference/en/language/functions/math/max/[max()]
+
 --
 // SEE ALSO SECTION ENDS
