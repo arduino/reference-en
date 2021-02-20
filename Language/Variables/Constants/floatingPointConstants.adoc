@@ -34,7 +34,7 @@ Similar to integer constants, floating point constants are used to make code mor
 
 [source,arduino]
 ----
-n = 0.005;  // 0.005 is a floating point constant
+const float n = 0.005;  // 0.005 is a floating point constant
 ----
 [%hardbreaks]
 
