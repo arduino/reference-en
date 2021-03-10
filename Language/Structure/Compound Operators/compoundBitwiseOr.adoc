@@ -49,22 +49,22 @@ A review of the Bitwise OR `|` operator:
 Bits that are "bitwise ORed" with 0 are unchanged, so if myByte is a byte variable,
 [source,arduino]
 ----
-myByte | B00000000 = myByte;
+myByte | 0b00000000 = myByte;
 ----
 
 Bits that are "bitwise ORed" with 1 are set to 1 so:
 [source,arduino]
 ----
-myByte | B11111111 = B11111111;
+myByte | 0b11111111 = 0b11111111;
 ----
 [%hardbreaks]
 
 [float]
 === Notes and Warnings
-Because we are dealing with bits in a bitwise operator - it is convenient to use the binary formatter with constants. The numbers are still the same value in other representations, they are just not as easy to understand. Also, B00000000 is shown for clarity, but zero in any number format is zero.
+Because we are dealing with bits in a bitwise operator - it is convenient to use the binary formatter with constants. The numbers are still the same value in other representations, they are just not as easy to understand. Also, 0b00000000 is shown for clarity, but zero in any number format is zero.
 [%hardbreaks]
 
-Consequently - to set bits 0 & 1 of a variable, while leaving the rest of the variable unchanged, use the compound bitwise OR operator (|=) with the constant B00000011
+Consequently - to set bits 0 & 1 of a variable, while leaving the rest of the variable unchanged, use the compound bitwise OR operator (|=) with the constant 0b00000011
 
    1  0  1  0  1  0  1  0    variable
    0  0  0  0  0  0  1  1    mask
@@ -88,8 +88,8 @@ Here is the same representation with the variables bits replaced with the symbol
 So if:
 [source,arduino]
 ----
-myByte = B10101010;
-myByte |= B00000011 == B10101011;
+myByte = 0b10101010;
+myByte |= 0b00000011 == 0b10101011;
 ----
 
 --

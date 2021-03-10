@@ -16,7 +16,7 @@ subCategories: [ "Control Structure" ]
 --
 [float]
 === Description
-The `if` statement checks for a condition and executes the proceeding statement or set of statements if the condition is 'true'.
+The `if` statement checks for a condition and executes the following statement or set of statements if the condition is 'true'.
 [%hardbreaks]
 
 [float]

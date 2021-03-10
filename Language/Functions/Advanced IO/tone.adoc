@@ -17,7 +17,7 @@ subCategories: [ "Advanced I/O" ]
 
 [float]
 === Description
-Generates a square wave of the specified frequency (and 50% duty cycle) on a pin. A duration can be specified, otherwise the wave continues until a call to link:../noTone[noTone()]. The pin can be connected to a piezo buzzer or other speaker to play tones.
+Generates a square wave of the specified frequency (and 50% duty cycle) on a pin. A duration can be specified, otherwise the wave continues until a call to link:../notone[noTone()]. The pin can be connected to a piezo buzzer or other speaker to play tones.
 
 Only one tone can be generated at a time. If a tone is already playing on a different pin, the call to `tone()` will have no effect. If the tone is playing on the same pin, the call will set its frequency.
 
@@ -75,11 +75,11 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 
 [role="example"]
 
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone[Tone Melody^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/tonePitchFollower[Pitch Follower^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone3[Tone Keyboard^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/Tone4[Tone Multiple^]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/PWM[PWM^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMelody[Tone Melody^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/tonePitchFollower[Pitch Follower^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneKeyboard[Tone Keyboard^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples/toneMultiple[Tone Multiple^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/PWM[PWM^]
 
 --
 // SEE ALSO SECTION ENDS
