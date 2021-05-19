@@ -36,6 +36,10 @@ Returns the length of the String, in characters. (Note that this doesn't include
 === Returns
 The length of the String in characters.
 
+[float]
+=== Signature
+(in arduino/avr/cores/arduino/WString.h)
+inline unsigned int length(void) const;
 --
 // OVERVIEW SECTION ENDS
 
