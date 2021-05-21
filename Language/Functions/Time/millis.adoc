@@ -57,7 +57,7 @@ void loop() {
   myTime = millis();
 
   Serial.println(myTime); // prints time since program started
-  delay(1000);          // wait a second so as not to send massive amounts of data
+  delay(100);          // wait a second so as not to send massive amounts of data
 }
 ----
 [%hardbreaks]
