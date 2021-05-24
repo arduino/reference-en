@@ -36,7 +36,7 @@ gives you the String "13". You can use other bases, however. For example,
 String thisString = String(13, HEX);
 ----
 
-gives you the String "D", which is the hexadecimal representation of the decimal value 13. Or if you prefer binary,
+gives you the String "d", which is the hexadecimal representation of the decimal value 13. Or if you prefer binary,
 
 [source,arduino]
 ----
