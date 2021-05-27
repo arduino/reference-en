@@ -147,5 +147,8 @@ For Uno WiFiRev.2, Due, Zero, MKR Family and 101 boards the *interrupt number = 
 [float]
 === See also
 
+[role="language"]
+* #LANGUAGE# link:../../external-interrupts/detachinterrupt[detachInterrupts()]
 --
+
 // SEE ALSO SECTION ENDS
