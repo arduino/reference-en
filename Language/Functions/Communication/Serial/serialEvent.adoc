@@ -67,7 +67,7 @@ Nothing
 
 `serialEvent()` and `serialEvent1()` don't work on the Arduino SAMD Boards
 
-`serialEvent()`, `serialEvent1()``serialEvent2()`, and `serialEvent3()`  don't work on the Arduino Due.
+`serialEvent()`, `serialEvent1()`, `serialEvent2()`, and `serialEvent3()`  don't work on the Arduino Due.
 [%hardbreaks]
 
 --
