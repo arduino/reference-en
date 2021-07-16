@@ -45,7 +45,27 @@ Calculates the absolute value of a number.
 // HOW TO USE SECTION STARTS
 [#howtouse]
 --
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+Prints the absolute value of variable a to the Serial Monitor.
 
+[source,arduino]
+----
+int a = 5;
+float absolute = 0.0;
+
+void setup() {
+   Serial.begin(9600);
+}
+
+void loop() {
+   a++; //Adds one to the variable a
+   absolute = abs(a); //Stores the absolute value of the variable a to the variable absolute
+   Serial.println(absolute); //Prints to the Serial Monitor the value of the variable absolute
+}
+----
+[%hardbreaks]
 
 [float]
 === Notes and Warnings
