@@ -55,6 +55,40 @@ Generally, an ISR should be as short and fast as possible. If your sketch uses m
 
 Typically global variables are used to pass data between an ISR and the main program. To make sure variables shared between an ISR and the main program are updated correctly, declare them as `volatile`.
 
+Races, code which changes behaviour depending upon timing, can be a problem if both normal code and interrupt code tries to access variables at the same time. This leads to highly intermittent and hard to find bugs. The simplest solution is to disable interrupts when accessing shared variables from non-interrupt code. Interrupts are disabled by default in interrupt functions so unless interrupts are turned on there is no problem there. See `noInterrupts()` and `interrupts()`.
+
+Consider a common technique for interupts. The interrupt routine sets a flag which is acted on by code in the main loop.
+[source,arduino]
+----
+volatile bool iHaveBeenInterrupted = false;
+void interrupt() {
+  iHaveBeenInterrupted = true;
+}
+
+void checkForInterrupt() {
+  if (iHaveBeenInterrupted) {     // line A
+    iHaveBeenInterrupted = false; // line B
+    // Do what is necessary
+  }
+}
+----
+If the interrupt occurs between testing the flag in line A and the clearing of the flag in line B then the flag will set by the interrupt and immediately cleared by the non-interrupt code resulting in the interrupt being ignored. The solution is to prevent the interrupt from interrupting at that critical point.
+[source,arduino]
+----
+void checkForInterrupt() {
+  noInterupts();                  // disable interrupts
+  if (iHaveBeenInterrupted) {     // line A
+    iHaveBeenInterrupted = false; // line B
+    interrupts();                 // turn interrupts back on again as soon as possible
+    // Do what is necessary
+  }
+  else {
+    interrupts();                 // turn interrupts back on again as soon as possible
+  }
+}
+----
+The same problem, and other related problems, can arise with any data shared between an interrupt function and non-interrupt code.
+ 
 For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gammon's notes].
 
 [float]
