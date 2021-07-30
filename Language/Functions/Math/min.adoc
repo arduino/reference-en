@@ -82,5 +82,14 @@ a++;  // use this instead - keep other math outside the function
 [float]
 === See also
 
+[role="definition"]
+* #DEFINITION# link:../../../variables/data-types/abs[abs]
+* #DEFINITION# link:../../../variables/data-types/constrain[constrain]
+* #DEFINITION# link:../../../variables/data-types/map[map]
+* #DEFINITION# link:../../../variables/data-types/max[max]
+* #DEFINITION# link:../../../variables/data-types/pow[pow]
+* #DEFINITION# link:../../../variables/data-types/sq[sq]
+* #DEFENITION# link:../../../variables/data-types/sqrt[sqrt]
+
 --
 // SEE ALSO SECTION ENDS
