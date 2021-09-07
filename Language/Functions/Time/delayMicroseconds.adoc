@@ -19,7 +19,7 @@ subCategories: [ "Time" ]
 === Description
 Pauses the program for the amount of time (in microseconds) specified by the parameter. There are a thousand microseconds in a millisecond and a million microseconds in a second.
 
-Currently, the largest value that will produce an accurate delay is 16383. This could change in future Arduino releases. For delays longer than a few thousand microseconds, you should use `delay()` instead.
+Currently, the largest value that will produce an accurate delay is 16383; larger values can produce an extremely short delay. This could change in future Arduino releases. For delays longer than a few thousand microseconds, you should use `delay()` instead.
 [%hardbreaks]
 
 
@@ -71,7 +71,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-This function works very accurately in the range 3 microseconds and up. We cannot assure that delayMicroseconds will perform precisely for smaller delay-times.
+This function works very accurately in the range 3 microseconds and up to 16383. We cannot assure that delayMicroseconds will perform precisely for smaller delay-times. Larger delay times may actually delay for an extremely brief time. 
 
 As of Arduino 0018, delayMicroseconds() no longer disables interrupts.
 
