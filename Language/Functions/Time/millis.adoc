@@ -66,7 +66,7 @@ void loop() {
 === Notes and Warnings
 Please note that the return value for millis() is of type `unsigned long`, logic errors may occur if a programmer tries to do arithmetic with smaller data types such as `int`. Even signed `long` may encounter errors as its maximum value is half that of its unsigned counterpart.
 
-AVR-based architectures program a timer to implement millis(), reconfiguring these timers may result in inaccurate millis() readings. ArduinoCore-AVR relies on TIM0 which is programmed to generate an interrupt every 16384 clock cycles (clock divider set to 64, overflow every 256 ticks). The same holds for ArduinoCore-mega-AVR, except that it uses TIMx if MILLIS_USER_TIMx (0<=x<=3) is defined.
+On some architectures reconfiguration of timers may result in inaccurate millis() readings. AVR-based architectures program a timer to implement millis(): ArduinoCore-AVR programs TIM0 to generate an interrupt every 16384 clock cycles (clock divider set to 64, overflow every 256 ticks). The same holds for ArduinoCore-mega-AVR, except that it uses TIMx if MILLIS_USER_TIMx (0<=x<=3) is defined. The ArduinoCore-SAM(D) architectures rely on the Systick timer which is programmed to generate an interrupt every 1 ms.
 
 --
 // HOW TO USE SECTION ENDS
