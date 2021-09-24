@@ -48,7 +48,7 @@ Calculates the absolute value of a number.
 [float]
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-Prints the absolute value of variable a to the Serial Monitor.
+Prints the absolute value of variable `x` to the Serial Monitor.
 
 [source,arduino]
 ----
