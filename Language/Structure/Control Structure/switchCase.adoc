@@ -52,11 +52,6 @@ switch (var) {
 === Returns
 Nothing
 
-[float]
-=== Note
-
-If you need to declare a variable in a case, use curly brackets {} to define a scope within the case statement to avoid a "crosses initialization of" compiler error. 
---
 // OVERVIEW SECTION ENDS
 
 
@@ -75,6 +70,29 @@ switch (var) {
   case 1:
     //do something when var equals 1
     break;
+  case 2: 
+    //do something when var equals 2
+    break;
+  default:
+    // if nothing else matches, do the default
+    // default is optional
+    break;
+}
+
+----
+[%hardbreaks]
+
+
+[float]
+=== Notes and Warnings
+// Add useful notes, tips, caveat, known issues, and warnings about this Reference term
+If you need to declare a variable in a case, use curly brackets {} to define a scope within the case statement to avoid a "crosses initialization of" compiler error. 
+[source,arduino]
+----
+switch (var) {
+  case 1:
+    //do something when var equals 1
+    break;
   case 2: {
     //do something when var equals 2
     int var2 = 1337; //to declare a variable you need the curly brackets
@@ -85,9 +103,7 @@ switch (var) {
     // default is optional
     break;
 }
-
 ----
-[%hardbreaks]
 
 --
 // HOW TO USE SECTION ENDS
