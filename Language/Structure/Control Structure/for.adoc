@@ -68,6 +68,38 @@ void loop() {
 [%hardbreaks]
 
 [float]
+=== Example Code, loop with with multiple variables 
+[source,arduino]
+----
+// For loop example with multiple variables
+void setup() {
+  
+// Start serial
+Serial.begin(9600);
+}
+
+void loop() {
+
+// Loop trough 3 variables, i, j and p, use i < 100 as control
+
+  for (int i = 0, j = 50, p = 100 ; i < 100 ; i++, j++, p-- ) {
+
+// Plot variables 
+    Serial.print(i );
+    Serial.println("," );
+    Serial.print(j );
+    Serial.println("," );
+    Serial.print(p );
+    Serial.println("," );
+  }
+}
+----
+[%hardbreaks]
+
+
+[float]
+
+
 === Notes and Warnings
 The pass:[C++] `for` loop is much more flexible than `for` loops found in some other computer languages, including BASIC. Any or all of the three header elements may be omitted, although the semicolons are required. Also the statements for initialization, condition, and increment can be any valid pass:[C++] statements with unrelated variables, and use any pass:[C++] datatypes including floats. These types of unusual `for` statements may provide solutions to some rare programming problems.
 [%hardbreaks]
