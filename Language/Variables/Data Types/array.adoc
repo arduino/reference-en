@@ -21,7 +21,7 @@ All of the methods below are valid ways to create (declare) an array.
 ----
   int myInts[6];
   int myPins[] = {2, 4, 8, 3, 6};
-  int mySensVals[6] = {2, 4, -8, 3, 2};
+  int mySensVals[5] = {2, 4, -8, 3, 2};
   char message[6] = "hello";
 ----
 You can declare an array without initializing it as in myInts.
