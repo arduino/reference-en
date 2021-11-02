@@ -45,7 +45,34 @@ Calculates the absolute value of a number.
 // HOW TO USE SECTION STARTS
 [#howtouse]
 --
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+Prints the absolute value of variable `x` to the Serial Monitor.
 
+[source,arduino]
+----
+void setup() {
+  Serial.begin(9600);
+  while (!Serial) {
+    ;  // wait for serial port to connect. Needed for native USB port only
+  }
+  int x = 42;
+  Serial.print("The absolute value of ");
+  Serial.print(x);
+  Serial.print(" is ");
+  Serial.println(abs(x));
+  x = -42;
+  Serial.print("The absolute value of ");
+  Serial.print(x);
+  Serial.print(" is ");
+  Serial.println(abs(x));
+}
+
+void loop() {
+}
+----
+[%hardbreaks]
 
 [float]
 === Notes and Warnings
