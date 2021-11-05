@@ -23,7 +23,7 @@ Sends a keystroke to a connected computer, followed by a newline and carriage re
 [float]
 === Syntax
 `Keyboard.println()` +
-`Keyboard.println(character)`+
+`Keyboard.println(character)` +
 `Keyboard.println(characters)`
 
 
