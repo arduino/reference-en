@@ -20,12 +20,26 @@ When used with a Leonardo or Due board, `Keyboard.begin()` starts emulating a ke
 
 [float]
 === Syntax
-`Keyboard.begin()`
+`Keyboard.begin()` +
+`Keyboard.begin(layout)`
 
 
 [float]
 === Parameters
-None
+`layout`: the keyboard layout to use. This parameter is optional and defaults to `KeyboardLayout_en_US`.
+
+
+[float]
+=== Keyboard layouts
+Currently, the library supports the following national keyboard layouts:
+
+* `KeyboardLayout_de_DE`: Germany
+* `KeyboardLayout_en_US`: USA
+* `KeyboardLayout_es_ES`: Spain
+* `KeyboardLayout_fr_FR`: France
+* `KeyboardLayout_it_IT`: Italy
+
+Custom layouts can be created by copying and modifying an existing layout. See the instructions in the file KeyboardLayout.h.
 
 
 [float]
