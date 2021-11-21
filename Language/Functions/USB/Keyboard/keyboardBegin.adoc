@@ -39,8 +39,6 @@ Currently, the library supports the following national keyboard layouts:
 * `KeyboardLayout_fr_FR`: France
 * `KeyboardLayout_it_IT`: Italy
 
-Custom layouts can be created by copying and modifying an existing layout. See the instructions in the file KeyboardLayout.h.
-
 
 [float]
 === Returns
@@ -81,6 +79,11 @@ void loop() {
   }
 }
 ----
+
+
+[float]
+=== Notes and Warnings
+Custom layouts can be created by copying and modifying an existing layout. See the instructions in the Keyboard library's KeyboardLayout.h file.
 
 --
 // HOW TO USE SECTION ENDS
