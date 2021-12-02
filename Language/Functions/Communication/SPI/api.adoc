@@ -1,0 +1,269 @@
+---
+title: SPISettings
+categories: [ "Functions" ]
+subCategories: [ "Communication" ]
+---
+
+== SPISettings
+
+[float]
+==== Description
+
+The SPISettings object is used to configure the SPI port for your SPI device. All 3 parameters are combined to a single SPISettings object, which is given to SPI.beginTransaction().
+
+When all of your settings are constants, SPISettings should be used directly in SPI.beginTransaction(). See the syntax section below. For constants, this syntax results in smaller and faster code.
+
+If any of your settings are variables, you may create a SPISettings object to hold the 3 settings. Then you can give the object name to SPI.beginTransaction(). Creating a named SPISettings object may be more efficient when your settings are not constants, especially if the maximum speed is a variable computed or configured, rather than a number you type directly into your sketch.
+
+==== Syntax
+
+----
+SPI.beginTransaction(SPISettings(14000000, MSBFIRST, SPI_MODE0))
+----
+
+NOTE: Best if all 3 settings are constants
+
+----
+SPISettings mySettting(speedMaximum, dataOrder, dataMode)
+----
+
+NOTE: Best when any setting is a variable
+
+==== Parameters
+
+speedMaximum: The maximum speed of communication. For a SPI chip rated up to 20 MHz, use 20000000.
+
+dataOrder: MSBFIRST or LSBFIRST
+
+dataMode : SPI_MODE0, SPI_MODE1, SPI_MODE2, or SPI_MODE3
+
+==== Returns
+
+None.
+
+[float]
+=== `begin()`
+
+==== Description
+
+Initializes the SPI bus by setting SCK, MOSI, and SS to outputs, pulling SCK and MOSI low, and SS high.
+
+==== Syntax
+
+----
+SPI.begin()
+----
+
+==== Parameters
+
+None
+
+==== Returns
+
+None
+
+[float]
+=== `end()`
+
+==== Description
+
+Disables the SPI bus (leaving pin modes unchanged).
+
+==== Syntax
+
+----
+SPI.end()
+----
+
+==== Parameters
+
+None
+
+==== Returns
+
+None
+
+[float]
+=== `beginTransaction()`
+
+==== Description
+
+Initializes the SPI bus using the defined SPISettings.
+
+==== Syntax
+
+----
+SPI.beginTransaction(mySettings);
+----
+
+==== Parameters
+
+mySettings: the chosen settings according to SPISettings.
+
+==== Returns
+
+None.
+
+[float]
+=== `endTransaction()`
+
+==== Description
+
+Stop using the SPI bus. Normally this is called after de-asserting the chip select, to allow other libraries to use the SPI bus.
+
+==== Syntax
+
+----
+SPI.endTransaction()
+----
+
+==== Parameters
+
+None.
+
+==== Returns
+
+None.
+
+[float]
+=== `setBitOrder()`
+
+==== Description
+
+This function should not be used in new projects. Use SPISettings with SPI.beginTransaction() to configure SPI parameters.
+
+Sets the order of the bits shifted out of and into the SPI bus, either LSBFIRST (least-significant bit first) or MSBFIRST (most-significant bit first).
+
+==== Syntax
+
+----
+SPI.setBitOrder(order)
+----
+
+==== Parameters
+
+order: either LSBFIRST or MSBFIRST
+
+==== Returns
+
+None
+
+[float]
+=== `setClockDivider()`
+
+==== Description
+
+This function should not be used in new projects. Use SPISettings with SPI.beginTransaction() to configure SPI parameters.
+
+Sets the SPI clock divider relative to the system clock. On AVR based boards, the dividers available are 2, 4, 8, 16, 32, 64 or 128. The default setting is SPI_CLOCK_DIV4, which sets the SPI clock to one-quarter the frequency of the system clock (4 Mhz for the boards at 16 MHz).
+
+===== Arduino Due
+On the Due, the system clock can be divided by values from 1 to 255. The default value is 21, which sets the clock to 4 MHz like other Arduino boards.
+
+==== Syntax
+
+----
+SPI.setClockDivider(divider)
+----
+
+==== Parameters
+
+divider (On AVR boards):
+
+* SPI_CLOCK_DIV2
+* SPI_CLOCK_DIV4
+* SPI_CLOCK_DIV8
+* SPI_CLOCK_DIV16
+* SPI_CLOCK_DIV32
+* SPI_CLOCK_DIV64
+* SPI_CLOCK_DIV128
+
+slaveSelectPin:
+
+* slave device SS pin (Arduino Due only)
+
+divider (Arduino Due only):
+
+* a number from 1 to 255 (Arduino Due only)
+
+==== Returns
+
+None
+
+[float]
+=== `setDataMode()`
+
+==== Description
+
+This function should not be used in new projects. Use SPISettings with SPI.beginTransaction() to configure SPI parameters.
+
+Sets the SPI data mode: that is, clock polarity and phase. See the Wikipedia article on SPI for details.
+
+==== Syntax
+
+----
+SPI.setDataMode(mode)
+----
+
+==== Parameters
+
+mode:
+
+* SPI_MODE0
+* SPI_MODE1
+* SPI_MODE2
+* SPI_MODE3
+
+slaveSelectPin
+
+* slave device SS pin (Arduino Due only)
+
+==== Returns
+
+None
+
+[float]
+=== `transfer()`
+
+==== Description
+
+SPI transfer is based on a simultaneous send and receive: the received data is returned in receivedVal (or receivedVal16). In case of buffer transfers the received data is stored in the buffer in-place (the old data is replaced with the data received).
+
+==== Syntax
+
+----
+receivedVal = SPI.transfer(val)
+receivedVal16 = SPI.transfer16(val16)
+SPI.transfer(buffer, size)
+----
+
+==== Parameters
+
+* val: the byte to send out over the bus
+* val16: the two bytes variable to send out over the bus
+* buffer: the array of data to be transferred
+
+==== Returns
+
+the received data
+
+[float]
+=== `usingInterrupt()`
+
+==== Description
+
+If your program will perform SPI transactions within an interrupt, call this function to register the interrupt number or name with the SPI library. This allows SPI.beginTransaction() to prevent usage conflicts. Note that the interrupt specified in the call to usingInterrupt() will be disabled on a call to beginTransaction() and re-enabled in endTransaction().
+
+==== Syntax
+
+----
+SPI.usingInterrupt(interruptNumber)
+----
+
+==== Parameters
+
+interruptNumber: the associated interrupt number.
+
+==== Returns
+
+None.
