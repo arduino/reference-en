@@ -66,6 +66,10 @@ void loop() {
 === Notes and Warnings
 Please note that the return value for millis() is of type `unsigned long`, logic errors may occur if a programmer tries to do arithmetic with smaller data types such as `int`. Even signed `long` may encounter errors as its maximum value is half that of its unsigned counterpart.
 
+Note that millis() is incremented (for 16 MHz AVR chips and some others) every 1.024 milliseconds, then incrementing by 2 (rather than 1) every 41 or 42 ticks, to pull it back into synch; thus some millis() values are skipped. For accurate timing over short intervals, consider using micros().
+
+Note that millis() will wrap around to 0 after about 49 days (micros in about 71 minutes). 
+
 --
 // HOW TO USE SECTION ENDS
 
