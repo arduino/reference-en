@@ -1,0 +1,33 @@
+---
+title: SPI.end()
+---
+
+= SPI.end()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Disables the SPI bus (leaving pin modes unchanged).
+
+
+[float]
+=== Syntax
+`SPI.end()`
+
+
+[float]
+=== Parameters
+None.
+
+
+[float]
+=== Returns
+None.
+
+--
+// OVERVIEW SECTION ENDS
+

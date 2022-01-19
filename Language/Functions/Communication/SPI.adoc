@@ -1,0 +1,52 @@
+---
+title: SPI
+categories: [ "Functions" ]
+subCategories: [ "Communication" ]
+---
+
+
+= SPI
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+
+
+This library allows you to communicate with SPI devices, with the Arduino as the controller device. This library is bundled with every Arduino platform (avr, megaavr, mbed, samd, sam, arc32), so *you do not need to install* the library separately.
+
+To use this library
+
+`#include <SPI.h>`
+
+To read more about Arduino and SPI, you can visit the https://docs.arduino.cc/learn/communication/spi[Arduino & Serial Peripheral Interface (SPI)] guide.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+// FUNCTIONS SECTION STARTS
+[#functions]
+--
+
+'''
+
+[float]
+=== Functions
+link:../SPI/SPISettings[SPISettings] +
+link:../SPI/begin[begin()] +
+link:../SPI/beginTransaction[beginTransaction()] +
+link:../SPI/end[end()] +
+link:../SPI/setBitOrder[setBitOrder()] +
+link:../SPI/setClockDivider[setClockDivider()] +
+link:../SPI/setDataMode[setDataMode()] +
+link:../SPI/transfer[transfer()] +
+link:../SPI/usingInterrupt[usingInterrupt()]
+
+'''
+
+--
+// SEEALSO SECTION ENDS

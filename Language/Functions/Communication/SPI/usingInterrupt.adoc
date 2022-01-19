@@ -1,0 +1,33 @@
+---
+title: SPI.usingInterrupt()
+---
+
+= SPI.usingInterrupt()
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+
+If your program will perform SPI transactions within an interrupt, call this function to register the interrupt number or name with the SPI library. This allows `SPI.beginTransaction()` to prevent usage conflicts. Note that the interrupt specified in the call to usingInterrupt() will be disabled on a call to `beginTransaction()` and re-enabled in `endTransaction().`
+
+[float]
+=== Syntax
+
+`SPI.usingInterrupt(interruptNumber)`
+
+
+[float]
+=== Parameters
+
+interruptNumber: the associated interrupt number.
+
+[float]
+=== Returns
+None.
+
+--
+// OVERVIEW SECTION ENDS
+

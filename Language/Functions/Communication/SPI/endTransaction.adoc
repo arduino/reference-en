@@ -1,0 +1,33 @@
+---
+title: SPI.endTransaction()
+---
+
+= SPI.endTransaction()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Stop using the SPI bus. Normally this is called after de-asserting the chip select, to allow other libraries to use the SPI bus.
+
+
+[float]
+=== Syntax
+`SPI.endTransaction()`
+
+
+[float]
+=== Parameters
+None.
+
+
+[float]
+=== Returns
+None.
+
+--
+// OVERVIEW SECTION ENDS
+
