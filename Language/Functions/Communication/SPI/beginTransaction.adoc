@@ -11,7 +11,7 @@ title: SPI.beginTransaction()
 
 [float]
 === Description
-Initializes the SPI bus using the defined link:SPISettings[SPISettings].
+Initializes the SPI bus using the defined link:../spisettings[SPISettings].
 
 
 [float]
@@ -21,7 +21,7 @@ Initializes the SPI bus using the defined link:SPISettings[SPISettings].
 
 [float]
 === Parameters
-mySettings: the chosen settings according to link:SPISettings[SPISettings].
+mySettings: the chosen settings according to link:../spisettings[SPISettings].
 
 
 [float]

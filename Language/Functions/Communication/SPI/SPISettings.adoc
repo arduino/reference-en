@@ -22,12 +22,13 @@ If any of your settings are variables, you may create a SPISettings object to ho
 `SPI.beginTransaction(SPISettings(14000000, MSBFIRST, SPI_MODE0))`
 Note: Best if all 3 settings are constants
 
-`SPISettings mySettting(speedMaximum, dataOrder, dataMode)`
+`SPISettings mySetting(speedMaximum, dataOrder, dataMode)`
 Note: Best when any setting is a variable''
 
 
 [float]
 === Parameters
+
 `speedMaximum`: The maximum speed of communication. For a SPI chip rated up to 20 MHz, use 20000000. +
 `dataOrder`: MSBFIRST or LSBFIRST +
 `dataMode`: SPI_MODE0, SPI_MODE1, SPI_MODE2, or SPI_MODE3

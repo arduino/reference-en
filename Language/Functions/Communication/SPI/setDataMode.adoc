@@ -10,7 +10,7 @@ title: SPI.setDataMode()
 
 [float]
 === Description
-This function should not be used in new projects. Use link:SPISettings[SPISettings]. with link:beginTransaction[SPI.beginTransaction()]. to configure SPI parameters.
+This function should not be used in new projects. Use link:../spisettings[SPISettings]. with link:../begintransaction[SPI.beginTransaction()]. to configure SPI parameters.
 
 Sets the SPI data mode: that is, clock polarity and phase. See the Wikipedia article on http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus:[SPI] for details.
 

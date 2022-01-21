@@ -36,15 +36,15 @@ To read more about Arduino and SPI, you can visit the https://docs.arduino.cc/le
 
 [float]
 === Functions
-link:../SPI/SPISettings[SPISettings] +
-link:../SPI/begin[begin()] +
-link:../SPI/beginTransaction[beginTransaction()] +
-link:../SPI/end[end()] +
-link:../SPI/setBitOrder[setBitOrder()] +
-link:../SPI/setClockDivider[setClockDivider()] +
-link:../SPI/setDataMode[setDataMode()] +
-link:../SPI/transfer[transfer()] +
-link:../SPI/usingInterrupt[usingInterrupt()]
+link:../spi/spisettings[SPISettings] +
+link:../spi/begin[begin()] +
+link:../spi/begintransaction[beginTransaction()] +
+link:../spi/end[end()] +
+link:../spi/setbitorder[setBitOrder()] +
+link:../spi/setclockdivider[setClockDivider()] +
+link:../spi/setdatamode[setDataMode()] +
+link:../spi/transfer[transfer()] +
+link:../spi/usinginterrupt[usingInterrupt()]
 
 '''
 
