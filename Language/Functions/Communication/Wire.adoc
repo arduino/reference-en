@@ -1,0 +1,78 @@
+---
+title: Wire
+categories: [ "Functions" ]
+subCategories: [ "Communication" ]
+---
+
+
+= Wire
+
+
+//OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+
+
+This library allows you to communicate with I2C/TWI devices. On the Arduino boards with the R3 layout (1.0 pinout), the SDA (data line) and SCL (clock line) are on the pin headers close to the AREF pin. The Arduino Due has two I2C/TWI interfaces SDA1 and SCL1 are near to the AREF pin and the additional one is on pins 20 and 21.
+
+As a reference the table below shows where TWI pins are located on various Arduino boards.
+
+[cols="1,1"]
+|===
+|Board
+|I2C/TWI pins 
+
+|UNO, Ethernet 
+|A4 (SDA), A5 (SCL)   
+
+|Mega2560   
+|20 (SDA), 21 (SCL) 
+
+|Leonardo   
+|20 (SDA), 21 (SCL), SDA1, SCL1
+|=== 
+
+
+As of Arduino 1.0, the library inherits from the Stream functions, making it consistent with other read/write libraries. Because of this, `send()` and `receive()` have been replaced with `read()` and `write()`.
+
+Recent versions of the Wire library can use timeouts to prevent a lockup in the face of certain problems on the bus, but this is not enabled by default (yet) in current versions. It is recommended to always enable these timeouts when using the Wire library. See the Wire.setWireTimeout function for more details.
+
+*Note:* There are both 7 and 8-bit versions of I2C addresses. 7 bits identify the device, and the eighth bit determines if it's being written to or read from. The Wire library uses 7 bit addresses throughout. If you have a datasheet or sample code that uses 8-bit address, you'll want to drop the low bit (i.e. shift the value one bit to the right), yielding an address between 0 and 127. However the addresses from 0 to 7 are not used because are reserved so the first address that can be used is 8. Please note that a pull-up resistor is needed when connecting SDA/SCL pins. Please refer to the examples for more information. MEGA 2560 board has pull-up resistors on pins 20 and 21 onboard. 
+
+*The Wire library implementation uses a 32 byte buffer, therefore any communication should be within this limit. Exceeding bytes in a single transmission will just be dropped.*
+
+To use this library:
+
+`#include <Wire.h>`
+
+--
+// OVERVIEW SECTION ENDS
+
+//FUNCTION SECTION STARTS
+[#functions]
+--
+
+'''
+[float]
+=== Functions
+link:../wire/begin[begin()] +
+link:../wire/end[end()] +
+link:../wire/requestfrom[requestFrom()] +
+link:../wire/begintransmission[beginTransmission()] +
+link:../wire/write[write()] +
+link:../wire/available[available()] +
+link:../wire/read[read()] +
+link:../wire/setclock[setClock()] +
+link:../wire/onreceive[onReceive()] +
+link:../wire/onrequest[onRequest()] +
+link:../wire/setwiretimeout[setWireTimeout()] +
+link:../wire/clearwiretimeoutflag[clearWireTimeoutFlag()] +
+link:../wire/getwiretimeoutflag[getWireTimeoutFlag()]
+
+'''
+
+--
+// FUNCTION SECTION ENDS

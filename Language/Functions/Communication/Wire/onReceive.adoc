@@ -1,0 +1,30 @@
+---
+title: onReceieve()
+---
+
+= onReceive
+
+//OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description 
+
+This function registers a function to be called when a peripheral device receives a transmission from a controller device.
+
+[float]
+=== Syntax 
+`Wire.onReceive(handler)`
+
+[float]
+=== Parameters 
+
+* _handler_: the function to be called when the peripheral device receives data; this should take a single int parameter (the number of bytes read from the controller device) and return nothing.
+
+[float]
+=== Returns 
+
+None.
+--
+//OVERVIEW SECTION ENDS
