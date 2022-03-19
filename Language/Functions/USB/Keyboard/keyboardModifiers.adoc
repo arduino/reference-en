@@ -1,11 +1,11 @@
 ---
-title: Keyboard Modifiers
+title: Keyboard Modifiers and Special Keys
 ---
 
 
 
 
-= Keyboard Modifiers
+= Keyboard modifiers and special keys
 
 
 // OVERVIEW SECTION STARTS
@@ -16,9 +16,11 @@ title: Keyboard Modifiers
 === Description
 The `Keyboard.write()` and `Keyboard.press()` and `Keyboard.release()` commands don’t work with every possible ASCII character, only those that correspond to a key on the keyboard. For example, backspace works, but many of the other non-printable characters produce unpredictable results. For capital letters (and other keys), what’s sent is shift plus the character (i.e. the equivalent of pressing both of those keys on the keyboard).
 [%hardbreaks]
-A modifier key is a special key on a computer keyboard that modifies the normal action of another key when the two are pressed in combination.
-[%hardbreaks]
 For more on ASCII values and the characters or functions they represent, see http://www.asciitable.com/[asciitable.com]
+
+[float]
+=== Keyboard modifiers
+A modifier key is a special key on a computer keyboard that modifies the normal action of another key when the two are pressed in combination.
 [%hardbreaks]
 For multiple key presses use link:../keyboardpress[Keyboard.press]()
 [%hardbreaks]
@@ -37,6 +39,17 @@ The definitions of the modifier keys are listed below:
 |KEY_RIGHT_SHIFT |0x85 |133
 |KEY_RIGHT_ALT  |0x86 |134
 |KEY_RIGHT_GUI  |0x87 |135
+|===
+
+[float]
+=== Special keys
+These are four keys within the alphanumeric cluster of a keyboard (Tab, Caps Lock, Backspace and Return) as well as all keys from outside that cluster (Escape, function keys, Home, End, arrow keys...).
+
+The following special keys have been defined:
+
+|===
+|Key	|Hexadecimal value	|Decimal value
+
 |KEY_UP_ARROW   |0xDA |218
 |KEY_DOWN_ARROW |0xD9 |217
 |KEY_LEFT_ARROW |0xD8 |216
