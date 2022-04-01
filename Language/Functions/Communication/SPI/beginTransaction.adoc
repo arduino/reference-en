@@ -1,0 +1,33 @@
+---
+title: SPI.beginTransaction()
+---
+
+= SPI.beginTransaction()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+Initializes the SPI bus using the defined link:../spisettings[SPISettings].
+
+
+[float]
+=== Syntax
+`SPI.beginTransaction(mySettings)`
+
+
+[float]
+=== Parameters
+mySettings: the chosen settings according to link:../spisettings[SPISettings].
+
+
+[float]
+=== Returns
+None.
+
+--
+// OVERVIEW SECTION ENDS
+
