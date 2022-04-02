@@ -36,16 +36,16 @@ The available macros are listed below:
 These are eight keys within the alphanumeric cluster of the keyboard that are meant to modify the normal action of another key when the two are pressed in combination. Whereas Shift and AltGr are used to access extra characters, the others are mostly used for keyboard shortcuts.
 
 |===
-|Key	|Hexadecimal value	|Decimal value
+|Key	|Hexadecimal value	|Decimal value	|Notes
 
-|KEY_LEFT_CTRL  |0x80 |128
-|KEY_LEFT_SHIFT |0x81 |129
-|KEY_LEFT_ALT   |0x82 |130
-|KEY_LEFT_GUI   |0x83 |131
-|KEY_RIGHT_CTRL |0x84 |132
-|KEY_RIGHT_SHIFT |0x85 |133
-|KEY_RIGHT_ALT  |0x86 |134
-|KEY_RIGHT_GUI  |0x87 |135
+|KEY_LEFT_CTRL  |0x80 |128 |
+|KEY_LEFT_SHIFT |0x81 |129 |
+|KEY_LEFT_ALT   |0x82 |130 |option (⌥) on Mac
+|KEY_LEFT_GUI   |0x83 |131 |OS logo, command (⌘) on Mac
+|KEY_RIGHT_CTRL |0x84 |132 |
+|KEY_RIGHT_SHIFT |0x85 |133 |
+|KEY_RIGHT_ALT  |0x86 |134 |also AltGr, option (⌥) on Mac
+|KEY_RIGHT_GUI  |0x87 |135 |OS logo, command (⌘) on Mac
 |===
 
 [float]
