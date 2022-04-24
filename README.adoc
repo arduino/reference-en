@@ -47,7 +47,7 @@ reference-en
 │   ├── Functions
 │   ├── Structure
 │   └── Variables
-├── LICENCE.md
+├── LICENSE.md
 └── README.adoc
 
 ----
