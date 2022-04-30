@@ -23,7 +23,7 @@ Only one tone can be generated at a time. If a tone is already playing on a diff
 
 Use of the `tone()` function will interfere with PWM output on pins 3 and 11 (on boards other than the Mega).
 
-It is not possible to generate tones lower than 31Hz. For technical details, see https://github.com/bhagman/Tone#ugly-details[Brett Hagman's notes].
+It is not possible to generate tones lower than 30Hz. For technical details, see https://github.com/bhagman/Tone#ugly-details[Brett Hagman's notes].
 [%hardbreaks]
 
 
