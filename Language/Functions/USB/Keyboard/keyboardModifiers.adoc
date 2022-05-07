@@ -62,6 +62,7 @@ These are all the keys that do not match a printable ASCII character and are not
 |KEY_CAPS_LOCK  |0xC1 |193
 |KEY_BACKSPACE  |0xB2 |178
 |KEY_RETURN     |0xB0 |176
+|KEY_MENU       |0xED |237
 |===
 
 [float]
@@ -80,6 +81,31 @@ These are all the keys that do not match a printable ASCII character and are not
 |KEY_DOWN_ARROW |0xD9 |217
 |KEY_LEFT_ARROW |0xD8 |216
 |KEY_RIGHT_ARROW |0xD7 |215
+|===
+
+[float]
+==== Numeric keypad
+
+|===
+|Key	|Hexadecimal value	|Decimal value
+
+|KEY_NUM_LOCK   |0xDB |219
+|KEY_KP_SLASH   |0xDC |220
+|KEY_KP_ASTERISK |0xDD |221
+|KEY_KP_MINUS   |0xDE |222
+|KEY_KP_PLUS    |0xDF |223
+|KEY_KP_ENTER   |0xE0 |224
+|KEY_KP_1       |0xE1 |225
+|KEY_KP_2       |0xE2 |226
+|KEY_KP_3       |0xE3 |227
+|KEY_KP_4       |0xE4 |228
+|KEY_KP_5       |0xE5 |229
+|KEY_KP_6       |0xE6 |230
+|KEY_KP_7       |0xE7 |231
+|KEY_KP_8       |0xE8 |232
+|KEY_KP_9       |0xE9 |233
+|KEY_KP_0       |0xEA |234
+|KEY_KP_DOT     |0xEB |235
 |===
 
 [float]
@@ -115,6 +141,38 @@ The library can simulate function keys up to F24.
 |KEY_F23        |0xFA |250
 |KEY_F24        |0xFB |251
 |===
+
+[float]
+==== Function control keys
+These are three rarely used keys that sit above the navigation cluster.
+
+|===
+|Key	|Hexadecimal value	|Decimal value	|Notes
+
+|KEY_PRINT_SCREEN |0xCE |206 |Print Screen or PrtSc / SysRq
+|KEY_SCROLL_LOCK  |0xCF |207 |
+|KEY_PAUSE        |0xD0 |208 |Pause / Break
+|===
+
+[float]
+==== International keyboard layouts
+
+Some national layouts define extra keys. For example, the Swedish and Danish layouts define `KEY_A_RING` as `0xB7`, which is the key to the right of “P”, labeled “Å” on those layouts and “{”/“[” on the US layout. In order to use those definitions, one has to include the proper Keyboard_*.h file. For example:
+
+[source,arduino]
+----
+#include <Keyboard.h>
+#include <Keyboard_sv_SE.h> // extra key definitions from Swedish layout
+
+void setup() {
+  Keyboard.begin(KeyboardLayout_sv_SE); // use the Swedish layout
+  Keyboard.write(KEY_A_RING);
+}
+
+void loop() {} // do-nothing loop
+----
+
+For the list of layout-specific key definitions, see the respective Keyboard_*.h file within the library sources.
 
 --
 // OVERVIEW SECTION ENDS
