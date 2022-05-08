@@ -144,7 +144,7 @@ The library can simulate function keys up to F24.
 
 [float]
 ==== Function control keys
-These are three rarely used keys that sit above the navigation cluster.
+These are three keys that sit above the navigation cluster.
 
 |===
 |Key	|Hexadecimal value	|Decimal value	|Notes
