@@ -65,11 +65,11 @@ For accompanying circuit, see the https://arduino.cc/en/Tutorial/ShiftOut[tutori
 //****************************************************************
 
 //Pin connected to ST_CP of 74HC595
-int latchPin = 8;
+int latchPin = 12;
 //Pin connected to SH_CP of 74HC595
-int clockPin = 12;
+int clockPin = 11;
 ////Pin connected to DS of 74HC595
-int dataPin = 11;
+int dataPin = 14;
 
 void setup() {
   //set pins to output because they are addressed in the main loop
