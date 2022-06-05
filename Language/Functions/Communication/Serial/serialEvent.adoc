@@ -14,7 +14,7 @@ title: serialEvent()
 
 [float]
 === Description
-Called at the end of loop() when data is available. Use `Serial.read()` to capture this data.
+Called at the end of link:../../../../structure/sketch/loop[`loop()`] when data is available. Use `Serial.read()` to capture this data.
 [%hardbreaks]
 
 
