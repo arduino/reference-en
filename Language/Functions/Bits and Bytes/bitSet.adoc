@@ -34,7 +34,26 @@ Sets (writes a 1 to) a bit of a numeric variable.
 
 [float]
 === Returns
-Nothing
+x: the value of the numeric variable after the bit at position n is cleared.
+
+
+[float]
+=== Example Code
+Prints the output of bitSet(x,n) on two given integers. The binary representation of 4 is 0100, so when n=1, the second bit from the right is set to 1. After this we are left with 0110 in binary, so 6 is returned.
+
+void setup() {
+  Serial.begin(9600);
+  while (!Serial) {
+    ; // wait for serial port to connect. Needed for native USB port only
+  }
+
+  int x = 4;
+  int n = 1;
+  Serial.print(bitSet(x, n)); // print the output of bitSet(x,n)
+}
+
+void loop() {
+}
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,6 +65,7 @@ Nothing
 
 [float]
 === See also
+bitClear()
 
 --
 // SEE ALSO SECTION ENDS
