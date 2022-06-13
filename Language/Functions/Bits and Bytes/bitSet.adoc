@@ -34,7 +34,7 @@ Sets (writes a 1 to) a bit of a numeric variable.
 
 [float]
 === Returns
-x: the value of the numeric variable after the bit at position n is cleared.
+x: the value of the numeric variable after the bit at position n is set.
 
 
 [float]
