@@ -62,6 +62,7 @@ link:../wire/begin[begin()] +
 link:../wire/end[end()] +
 link:../wire/requestfrom[requestFrom()] +
 link:../wire/begintransmission[beginTransmission()] +
+link:../wire/endtransmission[endTransmission()] +
 link:../wire/write[write()] +
 link:../wire/available[available()] +
 link:../wire/read[read()] +
