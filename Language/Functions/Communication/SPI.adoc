@@ -44,7 +44,8 @@ link:../spi/setbitorder[setBitOrder()] +
 link:../spi/setclockdivider[setClockDivider()] +
 link:../spi/setdatamode[setDataMode()] +
 link:../spi/transfer[transfer()] +
-link:../spi/usinginterrupt[usingInterrupt()]
+link:../spi/usinginterrupt[usingInterrupt()] +
+link:../spi/endtransaction[endTransaction()]
 
 '''
 
