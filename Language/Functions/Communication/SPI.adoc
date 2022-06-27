@@ -39,13 +39,13 @@ To read more about Arduino and SPI, you can visit the https://docs.arduino.cc/le
 link:../spi/spisettings[SPISettings] +
 link:../spi/begin[begin()] +
 link:../spi/begintransaction[beginTransaction()] +
+link:../spi/endtransaction[endTransaction()] +
 link:../spi/end[end()] +
 link:../spi/setbitorder[setBitOrder()] +
 link:../spi/setclockdivider[setClockDivider()] +
 link:../spi/setdatamode[setDataMode()] +
 link:../spi/transfer[transfer()] +
-link:../spi/usinginterrupt[usingInterrupt()] +
-link:../spi/endtransaction[endTransaction()]
+link:../spi/usinginterrupt[usingInterrupt()]
 
 '''
 
