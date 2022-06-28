@@ -35,7 +35,7 @@ Access a particular character of the String.
 
 [float]
 === Returns
-The n'th character of the String.
+The character at index n of the String.
 
 --
 // OVERVIEW SECTION ENDS
