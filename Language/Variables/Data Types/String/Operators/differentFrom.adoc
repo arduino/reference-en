@@ -7,8 +7,6 @@ subCategories: [ "StringObject Operator" ]
 
 
 
-
-
 = != Different From
 
 
@@ -30,8 +28,8 @@ Compares two Strings for difference. The comparison is case-sensitive, meaning t
 
 [float]
 === Parameters
-`myString1: a String variable. +
-myString2: another String variable.`
+`myString1`: a String variable. +
+`myString2`: a String variable.
 
 
 [float]
