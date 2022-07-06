@@ -17,7 +17,7 @@ subCategories: [ "Utilities" ]
 
 [float]
 === Description
-Store data in flash (program) memory instead of SRAM. There's a description of the various http://www.arduino.cc/playground/Learning/Memory[types of memory] available on an Arduino board.
+Store data in flash (program) memory instead of SRAM. There's a description of the various https://www.arduino.cc/en/Tutorial/Foundations/Memory[types of memory] available on an Arduino board.
 
 The `PROGMEM` keyword is a variable modifier, it should be used only with the datatypes defined in pgmspace.h. It tells the compiler "put this information into flash memory", instead of into SRAM, where it would normally go.
 
@@ -205,7 +205,7 @@ Serial.print(F("Write something on the Serial Monitor that is stored in FLASH"))
 === See also
 
 [role="example"]
-* #EXAMPLE# https://www.arduino.cc/playground/Learning/Memory[Types of memory available on an Arduino board^]
+* #EXAMPLE# https://www.arduino.cc/en/Tutorial/Foundations/Memory[Types of memory available on an Arduino board^]
 
 [role="definition"]
 * #DEFINITION# link:../../data-types/array[array]
