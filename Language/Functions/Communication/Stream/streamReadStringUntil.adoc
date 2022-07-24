@@ -34,7 +34,7 @@ This function is part of the Stream class, and can be called by any class that i
 [float]
 === Returns
 The entire String read from a stream, up to the terminator character.
-If the terminator character can't be found, or if there is no data before the terminator character, it will return `null`.
+If the terminator character can't be found, or if there is no data before the terminator character, it will return `NULL`.
 
 --
 // OVERVIEW SECTION ENDS
