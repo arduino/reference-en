@@ -51,7 +51,7 @@ The `map()` function uses integer math so will not generate fractions, when the 
 
 [float]
 === Returns
-The mapped value. Data type: `int`.
+The mapped value. Data type: `long`.
 
 --
 // OVERVIEW SECTION ENDS
