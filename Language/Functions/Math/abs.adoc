@@ -73,13 +73,13 @@ a++;  // keep other math outside the function
 === See also
 
 [role="definition"]
-* #DEFINITION# link:../../../variables/data-types/constrain[constrain]
-* #DEFINITION# link:../../../variables/data-types/map[map]
-* #DEFINITION# link:../../../variables/data-types/max[max]
-* #DEFINITION# link:../../../variables/data-types/min[min]
-* #DEFINITION# link:../../../variables/data-types/pow[pow]
-* #DEFINITION# link:../../../variables/data-types/sq[sq]
-* #DEFENITION# link:../../../variables/data-types/sqrt[sqrt]
+* #LANGUAGE# link:../constrain[constrain()]
+* #LANGUAGE# link:../map[map()]
+* #LANGUAGE# link:../max[max()]
+* #LANGUAGE# link:../min[min()]
+* #LANGUAGE# link:../pow[pow()]
+* #LANGUAGE# link:../sq[sq()]
+* #LANGUAGE# link:../sqrt[sqrt()]
 
 --
 // SEE ALSO SECTION ENDS

@@ -110,13 +110,13 @@ As previously mentioned, the map() function uses integer math. So fractions migh
 === See also
 
 [role="definition"]
-* #DEFINITION# link:../../../variables/data-types/abs[abs]
-* #DEFINITION# link:../../../variables/data-types/constrain[constrain]
-* #DEFINITION# link:../../../variables/data-types/max[max]
-* #DEFINITION# link:../../../variables/data-types/min[min]
-* #DEFINITION# link:../../../variables/data-types/pow[pow]
-* #DEFINITION# link:../../../variables/data-types/sq[sq]
-* #DEFENITION# link:../../../variables/data-types/sqrt[sqrt]
+* #LANGUAGE# link:../abs[abs()]
+* #LANGUAGE# link:../constrain[constrain()]
+* #LANGUAGE# link:../max[max()]
+* #LANGUAGE# link:../min[min()]
+* #LANGUAGE# link:../pow[pow()]
+* #LANGUAGE# link:../sq[sq()]
+* #LANGUAGE# link:../sqrt[sqrt()]
 
 --
 // SEE ALSO SECTION ENDS
