@@ -70,7 +70,7 @@ void loop() {
 
 [float]
 === Notes and Warnings
-The function does not terminate early because of end of line characters and the returned String may contain carriage return and/or line feed characters if they were received.
+The function does not terminate early if the data contains end of line characters. The returned `String` may contain carriage return and/or line feed characters if they were received.
 [%hardbreaks]
 
 --
