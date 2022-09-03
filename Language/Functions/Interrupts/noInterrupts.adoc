@@ -66,9 +66,8 @@ void loop() {
 
 [float]
 === Notes and Warnings
-Note that disabling interrupts on the Arduino Nano 3.3v BLE will make the board
-not appear in the Ports tab, since this disables its ability to respond to USB
-handshakes (see  https://arduino.stackexchange.com/a/90045/83235[this answer^])
+Note that disabling interrupts on the Arduino boards with native USB capabilities (e.g., link:https://docs.arduino.cc/hardware/leonardo[Leonardo^]) will make the board
+not appear in the Port menu, since this disables its USB capability.
 
 --
 // HOW TO USE SECTION ENDS
