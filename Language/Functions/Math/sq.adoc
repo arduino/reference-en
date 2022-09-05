@@ -72,7 +72,7 @@ int inputSquared = sq(input);
 [float]
 === See also
 
-[role="definition"]
+[role="language"]
 * #LANGUAGE# link:../abs[abs()]
 * #LANGUAGE# link:../constrain[constrain()]
 * #LANGUAGE# link:../map[map()]
