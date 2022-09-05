@@ -72,7 +72,7 @@ a++;  // keep other math outside the function
 [float]
 === See also
 
-[role="definition"]
+[role="language"]
 * #LANGUAGE# link:../constrain[constrain()]
 * #LANGUAGE# link:../map[map()]
 * #LANGUAGE# link:../max[max()]
