@@ -88,7 +88,7 @@ int constrainedInput = constrain(input, minimumValue, maximumValue);
 [float]
 === See also
 
-[role="definition"]
+[role="language"]
 * #LANGUAGE# link:../abs[abs()]
 * #LANGUAGE# link:../map[map()]
 * #LANGUAGE# link:../max[max()]
