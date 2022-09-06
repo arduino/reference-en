@@ -109,5 +109,14 @@ As previously mentioned, the map() function uses integer math. So fractions migh
 [float]
 === See also
 
+[role="language"]
+* #LANGUAGE# link:../abs[abs()]
+* #LANGUAGE# link:../constrain[constrain()]
+* #LANGUAGE# link:../max[max()]
+* #LANGUAGE# link:../min[min()]
+* #LANGUAGE# link:../pow[pow()]
+* #LANGUAGE# link:../sq[sq()]
+* #LANGUAGE# link:../sqrt[sqrt()]
+
 --
 // SEE ALSO SECTION ENDS

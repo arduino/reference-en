@@ -66,9 +66,15 @@ See the (http://arduino.cc/playground/Main/Fscale[fscale]) sketch for a more com
 [float]
 === See also
 
-[role="definition"]
-* #DEFINITION# link:../../../variables/data-types/float[float]
-* #DEFENITION# link:../../../variables/data-types/double[double]
+[role="language"]
+* #LANGUAGE# link:../abs[abs()]
+* #LANGUAGE# link:../constrain[constrain()]
+* #LANGUAGE# link:../map[map()]
+* #LANGUAGE# link:../max[max()]
+* #LANGUAGE# link:../min[min()]
+* #LANGUAGE# link:../sq[sq()]
+* #LANGUAGE# link:../sqrt[sqrt()]
+
 
 --
 // SEE ALSO SECTION ENDS
