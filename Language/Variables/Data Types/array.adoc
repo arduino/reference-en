@@ -83,7 +83,7 @@ for (byte i = 0; i < 5; i = i + 1) {
 
 [float]
 === Example Code
-For a complete program that demonstrates the use of arrays, see the (http://www.arduino.cc/en/Tutorial/KnightRider[Knight Rider example]) from the (http://www.arduino.cc/en/Main/LearnArduino[Tutorials]).
+For a complete program that demonstrates the use of arrays, see the (https://docs.arduino.cc/built-in-examples/control-structures/Arrays[How to Use Arrays example]) from the (https://docs.arduino.cc/built-in-examples[Built-in Examples]).
 
 --
 // HOW TO USE SECTION ENDS
