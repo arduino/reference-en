@@ -12,6 +12,8 @@ title: write()
 === Description
 This function writes data from a peripheral device in response to a request from a controller device, or queues bytes for transmission from a controller to peripheral device (in-between calls to `beginTransmission()` and `endTransmission()`).
 
+Note that you can send a maimal of 32 bytes at once. This can be changed in the library to any number you like.
+
 [float]
 === Syntax
 `Wire.write(value)`
