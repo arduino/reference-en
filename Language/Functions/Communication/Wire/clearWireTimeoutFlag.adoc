@@ -26,7 +26,7 @@ None.
 
 [float]
 === Returns
-* bool: The current value of the flag
+None.
 
 [float]
 === Portability Notes
