@@ -1,0 +1,28 @@
+SimpleSub()
+[Sketch]
+Description
+The simplest form of subroutine. Any valid usefull name may be used 'mysub()' that does not conflict reserved words or other variables. 
+
+Example Code
+
+void loop() {
+    // other lines of program to run every time loop executes
+    if (true) {
+        SimpleSub() ;       //call SimpleSub  
+    }
+}
+
+                      //  Define your SimpleSub 
+                      //  Can be before or after 'void loop() {.....}' but must be outside all other functions '{......}' 
+void SimpleSub() {
+                      //  code to run each time SimpleSub() is called
+}
+
+Notes: This is very similar to void loop(), which is a unique case in that the micro calls loop() repeatedly after setup().
+No arguments are passed in this form. It is possible to pass arguments to a subroutine, and a subroutine may return a value in this case the 'void' specifies that nothing  will be  returned.  
+
+See also
+static
+loop()
+setup()
+void
