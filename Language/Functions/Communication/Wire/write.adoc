@@ -24,6 +24,8 @@ This function writes data from a peripheral device in response to a request from
 * _string_: a string to send as a series of bytes.
 * _data_: an array of data to send as bytes.
 * _length_: the number of bytes to transmit.
+
+be aware of the fact that you can't send more than 32 bytes at once due to the tx buffer limit in the library.
   
 [float]
 === Returns 
