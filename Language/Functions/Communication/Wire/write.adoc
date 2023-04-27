@@ -10,7 +10,8 @@ title: write()
 
 [float]
 === Description
-This function writes data from a peripheral device in response to a request from a controller device, or queues bytes for transmission from a controller to peripheral device (in-between calls to `beginTransmission()` and `endTransmission()`). You can write max 32 bytes at once.
+This function writes data from a peripheral device in response to a request from a controller device, or queues bytes for transmission from a controller to peripheral device (in-between calls to `beginTransmission()` and `endTransmission()`). 
+You can write a max 32 bytes at once to the tx buffer.
 
 [float]
 === Syntax
