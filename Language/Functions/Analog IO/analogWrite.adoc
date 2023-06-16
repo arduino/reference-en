@@ -17,24 +17,28 @@ subCategories: [ "Analog I/O" ]
 
 [float]
 === Description
-Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to `analogWrite()`, the pin will generate a steady rectangular wave of the specified duty cycle until the next call to `analogWrite()` (or a call to `digitalRead()` or `digitalWrite()`) on the same pin. 
+Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to `analogWrite()`, the pin will generate a steady rectangular wave of the specified duty cycle until the next call to `analogWrite()` (or a call to `digitalRead()` or `digitalWrite()`) on the same pin.
+
 [options="header"]
-|========================================================================================================
-| Board                     | PWM Pins                       | PWM Frequency
-| Uno, Nano, Mini           | 3, 5, 6, 9, 10, 11             | 490 Hz (pins 5 and 6: 980 Hz)
-| Mega                      | 2 - 13, 44 - 46                | 490 Hz (pins 4 and 13: 980 Hz)
-| Leonardo, Micro, Yún      | 3, 5, 6, 9, 10, 11, 13         | 490 Hz (pins 3 and 11: 980 Hz)
-| Uno WiFi Rev2, Nano Every | 3, 5, 6, 9, 10                 | 976 Hz
-| MKR boards *              | 0 - 8, 10, A3, A4              | 732 Hz
-| MKR1000 WiFi *            | 0 - 8, 10, 11, A3, A4          | 732 Hz
-| Zero *                    | 3 - 13, A0, A1                 | 732 Hz
-| Nano 33 IoT *             | 2, 3, 5, 6, 9 - 12, A2, A3, A5 | 732 Hz
-| Nano 33 BLE/BLE Sense     | 1 - 13, A0 - A7                | 500 Hz
-| Due **                    | 2-13                           | 1000 Hz
-| 101                       | 3, 5, 6, 9                     | pins 3 and 9: 490 Hz, pins 5 and 6: 980 Hz
-|========================================================================================================
-{empty}* In addition to PWM capabilities on the pins noted above, the MKR, Nano 33 IoT, and Zero boards have true analog output when using `analogWrite()` on the `DAC0` (`A0`) pin. +
-{empty}** In addition to PWM capabilities on the pins noted above, the Due has true analog output when using `analogWrite()` on pins `DAC0` and `DAC1`.
+|=========================================================================================================================
+| Board                                      | PWM Pins *                     | PWM Frequency
+| UNO (R3 and earlier), Nano, Mini           | 3, 5, 6, 9, 10, 11             | 490 Hz (pins 5 and 6: 980 Hz)
+| UNO R4 (Minima, WiFi)                      | 3, 5, 6, 9, 10, 11             | 490 Hz
+| Mega                                       | 2 - 13, 44 - 46                | 490 Hz (pins 4 and 13: 980 Hz)
+| GIGA R1                                    | 2 - 13                         |
+| Leonardo, Micro, Yún                       | 3, 5, 6, 9, 10, 11, 13         | 490 Hz (pins 3 and 11: 980 Hz)
+| UNO WiFi Rev2, Nano Every                  | 3, 5, 6, 9, 10                 | 976 Hz
+| MKR boards **                              | 0 - 8, 10, A3, A4              | 732 Hz
+| MKR1000 WiFi **                            | 0 - 8, 10, 11, A3, A4          | 732 Hz
+| Zero **                                    | 3 - 13, A0, A1                 | 732 Hz
+| Nano 33 IoT **                             | 2, 3, 5, 6, 9 - 12, A2, A3, A5 | 732 Hz
+| Nano 33 BLE/BLE Sense                      | 1 - 13, A0 - A7                | 500 Hz
+| Due \***                                   | 2-13                           | 1000 Hz
+| 101                                        | 3, 5, 6, 9                     | pins 3 and 9: 490 Hz, pins 5 and 6: 980 Hz
+|=========================================================================================================================
+{empty}* These pins are officially supported PWM pins. While some boards have additional pins capable of PWM, using them is recommended only for advanced users that can account for timer availability and potential conflicts with other uses of those pins.  +
+{empty}** In addition to PWM capabilities on the pins noted above, the MKR, Nano 33 IoT, and Zero boards have true analog output when using `analogWrite()` on the `DAC0` (`A0`) pin. +
+{empty}pass:specialcharacters[***] In addition to PWM capabilities on the pins noted above, the Due has true analog output when using `analogWrite()` on pins `DAC0` and `DAC1`.
 
 [%hardbreaks]
 
