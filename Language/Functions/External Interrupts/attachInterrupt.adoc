@@ -19,17 +19,17 @@ The first parameter to `attachInterrupt()` is an interrupt number. Normally you 
 
 [options="header"]
 |===================================================
-|Board                             |Digital Pins Usable For Interrupts
-|Uno, Nano, Mini, other 328-based  |2, 3
-|Uno WiFi Rev.2, Nano Every        |all digital pins
-|Mega, Mega2560, MegaADK           |2, 3, 18, 19, 20, 21 (*pins 20 & 21* are not available to use for interrupts while they are used for I2C communication)
-|Micro, Leonardo, other 32u4-based |0, 1, 2, 3, 7
-|Zero                              |all digital pins, except 4
-|MKR Family boards                 |0, 1, 4, 5, 6, 7, 8, 9, A1, A2
-|Nano 33 IoT                       |2, 3, 9, 10, 11, 13, A1, A5, A7
-|Nano 33 BLE, Nano 33 BLE Sense    |all pins
-|Due                               |all digital pins
-|101                               |all digital pins (Only pins 2, 5, 7, 8, 10, 11, 12, 13 work with *CHANGE*)
+|Board                              |Digital Pins Usable For Interrupts
+|UNO R3, Nano, Mini, other 328-based|2, 3
+|UNO WiFi Rev.2, Nano Every         |all digital pins
+|Mega, Mega2560, MegaADK            |2, 3, 18, 19, 20, 21 (*pins 20 & 21* are not available to use for interrupts while they are used for I2C communication)
+|Micro, Leonardo, other 32u4-based  |0, 1, 2, 3, 7
+|Zero                               |all digital pins, except 4
+|MKR Family boards                  |0, 1, 4, 5, 6, 7, 8, 9, A1, A2
+|Nano 33 IoT                        |2, 3, 9, 10, 11, 13, A1, A5, A7
+|Nano 33 BLE, Nano 33 BLE Sense     |all pins
+|Due                                |all digital pins
+|101                                |all digital pins (Only pins 2, 5, 7, 8, 10, 11, 12, 13 work with *CHANGE*)
 |===================================================
 
 [%hardbreaks]
@@ -61,7 +61,7 @@ For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gam
 === Syntax
 `attachInterrupt(digitalPinToInterrupt(pin), ISR, mode)` (recommended) +
 `attachInterrupt(interrupt, ISR, mode)` (not recommended) +
-`attachInterrupt(pin, ISR, mode)` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, Uno WiFi Rev2, Due, and 101.)
+`attachInterrupt(pin, ISR, mode)` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, UNO WiFi Rev2, Due, and 101.)
 
 
 [float]
@@ -129,11 +129,11 @@ Note that in the table below, the interrupt numbers refer to the number to be pa
 [options="header"]
 |===================================================
 |Board                            | int.0 | int.1 | int.2 | int.3 | int.4 | int.5
-|Uno, Ethernet                    | 2 | 3 | | | |
+|UNO R3, Ethernet                    | 2 | 3 | | | |
 |Mega2560                         | 2 | 3 | 21 | 20 | 19 | 18
 |32u4 based (e.g Leonardo, Micro) | 3 | 2 | 0 | 1 | 7 |
 |===================================================
-For Uno WiFiRev.2, Due, Zero, MKR Family and 101 boards the *interrupt number = pin number*.
+For UNO WiFiRev.2, Due, Zero, MKR Family and 101 boards the *interrupt number = pin number*.
 
 
 --

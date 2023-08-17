@@ -21,7 +21,7 @@ On ATmega based boards (UNO, Nano, Mini, Mega), it takes about 100 microseconds 
 [options="header"]
 |===================================================
 |Board                     |Operating voltage |Usable pins |Max resolution
-|Uno                       |5 Volts           |A0 to A5    |10 bits
+|UNO R3                    |5 Volts           |A0 to A5    |10 bits
 |Mini, Nano                |5 Volts           |A0 to A7    |10 bits
 |Mega, Mega2560, MegaADK   |5 Volts           |A0 to A14   |10 bits
 |Micro                     |5 Volts           |A0 to A11*  |10 bits

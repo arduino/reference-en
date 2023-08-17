@@ -55,7 +55,7 @@ One of the most common uses of the Bitwise OR is to set multiple bits in a bit-p
 ----
 // Note: This code is AVR architecture specific
 // set direction bits for pins 2 to 7, leave PD0 and PD1 untouched (xx | 00 == xx)
-// same as pinMode(pin, OUTPUT) for pins 2 to 7 on Uno or Nano
+// same as pinMode(pin, OUTPUT) for pins 2 to 7 on UNO R3 or Nano
 DDRD = DDRD | 0b11111100;
 ----
 

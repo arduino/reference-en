@@ -19,7 +19,7 @@ subCategories: [ "Analog I/O" ]
 === Description
 Configures the reference voltage used for analog input (i.e. the value used as the top of the input range). The options are:
 
-Arduino AVR Boards (Uno, Mega, Leonardo, etc.)
+Arduino AVR Boards (UNO R3, Mega, Leonardo, etc.)
 
 * DEFAULT: the default analog reference of 5 volts (on 5V Arduino boards) or 3.3 volts (on 3.3V Arduino boards)
 * INTERNAL: a built-in reference, equal to 1.1 volts on the ATmega168 or ATmega328P and 2.56 volts on the ATmega32U4 and ATmega8 (not available on the Arduino Mega)
@@ -36,11 +36,11 @@ Arduino SAMD Boards (Zero, etc.)
 * AR_INTERNAL2V23: a built-in 2.23V reference
 * AR_EXTERNAL: the voltage applied to the AREF pin is used as the reference
 
-Arduino megaAVR Boards (Uno WiFi Rev2)
+Arduino megaAVR Boards (UNO WiFi Rev2)
 
 * DEFAULT: a built-in 0.55V reference
 * INTERNAL: a built-in 0.55V reference
-* VDD: Vdd of the ATmega4809. 5V on the Uno WiFi Rev2
+* VDD: Vdd of the ATmega4809. 5V on the UNO WiFi Rev2
 * INTERNAL0V55: a built-in 0.55V reference
 * INTERNAL1V1: a built-in 1.1V reference
 * INTERNAL1V5: a built-in 1.5V reference

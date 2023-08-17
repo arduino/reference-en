@@ -53,10 +53,10 @@ The ^ operator is often used to toggle (i.e. change from 0 to 1, or 1 to 0) some
 
 [source,arduino]
 ----
-// Note: This code uses registers specific to AVR microcontrollers (Uno, Nano, Leonardo, Mega, etc.)
+// Note: This code uses registers specific to AVR microcontrollers (UNO R3, Nano, Leonardo, Mega, etc.)
 // it will not compile for other architectures
 void setup() {
-  DDRB = DDRB | 0b00100000;  // set PB5 (pin 13 on Uno/Nano, pin 9 on Leonardo/Micro, pin 11 on Mega) as OUTPUT
+  DDRB = DDRB | 0b00100000;  // set PB5 (pin 13 on UNO R3/Nano, pin 9 on Leonardo/Micro, pin 11 on Mega) as OUTPUT
   Serial.begin(9600);
 }
 
