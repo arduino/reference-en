@@ -21,7 +21,7 @@ analogReadResolution() is an extension of the Analog API for the Zero, Due, MKR 
 Sets the size (in bits) of the value returned by `analogRead()`. It defaults to 10 bits (returns values between 0-1023) for backward compatibility with AVR based boards.
 
 The *Zero, Due, MKR family and Nano 33 (BLE and IoT)* boards have 12-bit ADC capabilities that can be accessed by changing the resolution to 12. This will return values from `analogRead()` between 0 and 4095. +
-The *Portenta H7* has a 16 bit ADC, which will allow values between 0 and 65535.
+The *Portenta H7*, and the *GIGA R1 WiFi* both have a 16 bit ADC, which will allow values between 0 and 65535.
 [%hardbreaks]
 
 

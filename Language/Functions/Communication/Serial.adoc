@@ -19,15 +19,17 @@ subCategories: [ "Communication" ]
 Used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART), and some have several.
 [options="header"]
 |================================================================================================================================================
-| Board                | USB CDC name                     | Serial pins                   | Serial1 pins     | Serial2 pins      | Serial3 pins
-| Uno, Nano, Mini      |                                  | 0(RX), 1(TX)                  |                  |                   |
-| Mega                 |                                  | 0(RX), 1(TX)                  | 19(RX), 18(TX)   | 17(RX), 16(TX)    | 15(RX), 14(TX)
-| Leonardo, Micro, Yún | Serial                           |                               | 0(RX), 1(TX)     |                   |
-| Uno WiFi Rev.2       |                                  | Connected to USB              | 0(RX), 1(TX)     | Connected to NINA |
-| MKR boards           | Serial                           |                               | 13(RX), 14(TX)   |                   |
-| Zero                 | SerialUSB (Native USB Port only) | Connected to Programming Port | 0(RX), 1(TX)     |                   |
-| Due                  | SerialUSB (Native USB Port only) | 0(RX), 1(TX)                  | 19(RX), 18(TX)   | 17(RX), 16(TX)    | 15(RX), 14(TX)
-| 101                  | Serial                           |                               | 0(RX), 1(TX)     |                   |
+| Board                 | USB CDC name                     | Serial pins                   | Serial1 pins     | Serial2 pins      | Serial3 pins
+| Uno, Nano, Mini       |                                  | 0(RX), 1(TX)                  | 0(RX), 1(TX)     |                   |
+| UNO R4 (Minima & WiFi)|                                  | Connected to USB              | 0(RX), 1(TX)     |                   |
+| Mega                  |                                  | Connected to USB              | 19(RX), 18(TX)   | 17(RX), 16(TX)    | 15(RX), 14(TX)
+| GIGA R1 WiFi          |                                  | Connected to USB              | 19(RX), 18(TX)   | 17(RX), 16(TX)    | 15(RX), 14(TX)
+| Leonardo, Micro, Yún  | Serial                           |                               | 0(RX), 1(TX)     |                   |
+| Uno WiFi Rev.2        |                                  | Connected to USB              | 0(RX), 1(TX)     | Connected to NINA |
+| MKR boards            | Serial                           |                               | 13(RX), 14(TX)   |                   |
+| Zero                  | SerialUSB (Native USB Port only) | Connected to Programming Port | 0(RX), 1(TX)     |                   |
+| Due                   | SerialUSB (Native USB Port only) | 0(RX), 1(TX)                  | 19(RX), 18(TX)   | 17(RX), 16(TX)    | 15(RX), 14(TX)
+| 101                   | Serial                           |                               | 0(RX), 1(TX)     |                   |
 |================================================================================================================================================
 
 On Uno, Nano, Mini, and Mega, pins 0 and 1 are used for communication with the computer. Connecting anything to these pins can interfere with that communication, including causing failed uploads to the board.

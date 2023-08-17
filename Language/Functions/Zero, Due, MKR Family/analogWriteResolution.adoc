@@ -27,6 +27,13 @@ The *Due* has the following hardware capabilities:
 
 By setting the write resolution to 12, you can use `analogWrite()` with values between 0 and 4095 to exploit the full DAC resolution or to set the PWM signal without rolling over.
 
+The *GIGA R1 WiFi* has the following hardware capabilities:
+
+* 12 pins which default to 8-bit PWM, like the AVR-based boards. These can be changed to 12-bit resolution.
+* 2 pins with 12-bit DAC (Digital-to-Analog Converter)
+
+By setting the write resolution to 12, you can use `analogWrite()` with values between 0 and 4095 to exploit the full DAC resolution or to set the PWM signal without rolling over.
+
 
 The *Zero* has the following hardware capabilities:
 

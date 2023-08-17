@@ -28,7 +28,13 @@ As a reference the table below shows where TWI pins are located on various Ardui
 |UNO, Ethernet 
 |A4 (SDA), A5 (SCL)   
 
+|Nano family   
+|A4 (SDA), A5 (SCL) 
+
 |Mega2560   
+|20 (SDA), 21 (SCL) 
+
+|GIGA R1 WiFi   
 |20 (SDA), 21 (SCL) 
 
 |Leonardo   
