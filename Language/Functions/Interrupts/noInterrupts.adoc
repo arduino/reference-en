@@ -79,6 +79,9 @@ not appear in the Port menu, since this disables its USB capability.
 
 [float]
 === See also
-
+[role="language"]
+* #LANGUAGE# link:../../external-interrupts/attachinterrupt[attachInterrupts()]
+* #LANGUAGE# link:../../external-interrupts/detachinterrupt[detachInterrupts()]
+* #LANGUAGE# link:../../interrupts/interrupts[interrupts()]
 --
 // SEE ALSO SECTION ENDS

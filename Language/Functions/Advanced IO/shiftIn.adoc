@@ -51,6 +51,8 @@ The value read. Data type: `byte`.
 
 [float]
 === See also
+[role="language"]
+* #LANGUAGE# link:../../advanced-io/shiftout[shiftOut()]
 
 --
 // SEE ALSO SECTION ENDS

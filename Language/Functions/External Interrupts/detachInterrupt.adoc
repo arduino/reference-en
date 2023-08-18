@@ -48,6 +48,9 @@ Nothing
 
 [float]
 === See also
-
+[role="language"]
+* #LANGUAGE# link:../../external-interrupts/attachinterrupt[attachInterrupt()]
+* #LANGUAGE# link:../../interrupts/interrupts[interrupts()]
+* #LANGUAGE# link:../../interrupts/nointerrupts[noInterrupts()]
 --
 // SEE ALSO SECTION ENDS

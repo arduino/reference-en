@@ -126,6 +126,8 @@ Most Arduino boards have a pin connected to an on-board LED in series with a res
 === See also
 
 [role="language"]
-
+* #LANGUAGE# link:../../../functions/digital-io/pinmode[pinMode()]
+* #LANGUAGE# link:../../../functions/digital-io/digitalwrite[digitalWrite()]
+* #LANGUAGE# link:../../../functions/digital-io/digitalread[digitalRead()]
 --
 // SEE ALSO SECTION ENDS

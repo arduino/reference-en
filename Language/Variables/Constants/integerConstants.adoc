@@ -132,6 +132,7 @@ By default, an integer constant is treated as an int with the attendant limitati
 === See also
 
 [role="language"]
+* #LANGUAGE# link:../../constants/floatingpointconstants[Floating Point Constants]
 
 --
 // SEE ALSO SECTION ENDS

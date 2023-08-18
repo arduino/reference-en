@@ -126,6 +126,8 @@ shiftOut(dataPin, clock, LSBFIRST, (data >> 8));
 
 [float]
 === See also
+[role="language"]
+* #LANGUAGE# link:../../advanced-io/shiftin[shiftIn()]
 
 --
 // SEE ALSO SECTION ENDS

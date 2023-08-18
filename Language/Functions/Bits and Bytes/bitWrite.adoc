@@ -74,6 +74,10 @@ void loop() {}
 
 [float]
 === See also
-
+[role="language"]
+* #LANGUAGE# link:../../bits-and-bytes/bit[bit()]
+* #LANGUAGE# link:../../bits-and-bytes/bitclear[bitClear()]
+* #LANGUAGE# link:../../bits-and-bytes/bitset[bitSet()]
+* #LANGUAGE# link:../../bits-and-bytes/bitread[bitRead()]
 --
 // SEE ALSO SECTION ENDS

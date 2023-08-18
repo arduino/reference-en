@@ -76,6 +76,7 @@ void loop() {
 [role="language"]
 * #LANGUAGE# link:../../external-interrupts/attachinterrupt[attachInterrupts()]
 * #LANGUAGE# link:../../external-interrupts/detachinterrupt[detachInterrupts()]
+* #LANGUAGE# link:../../interrupts/nointerrupts[noInterrupts()]
 
 --
 // SEE ALSO SECTION ENDS

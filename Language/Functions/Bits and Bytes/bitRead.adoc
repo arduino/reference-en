@@ -46,6 +46,10 @@ The value of the bit (0 or 1).
 
 [float]
 === See also
-
+[role="language"]
+* #LANGUAGE# link:../../bits-and-bytes/bit[bit()]
+* #LANGUAGE# link:../../bits-and-bytes/bitset[bitSet()]
+* #LANGUAGE# link:../../bits-and-bytes/bitclear[bitClear()]
+* #LANGUAGE# link:../../bits-and-bytes/bitwrite[bitWrite()]
 --
 // SEE ALSO SECTION ENDS
