@@ -29,7 +29,7 @@ By setting the write resolution to 12, you can use `analogWrite()` with values b
 
 The *GIGA R1 WiFi* has the following hardware capabilities:
 
-* 12 pins which default to 8-bit PWM, like the AVR-based boards. These can be changed to 12-bit resolution.
+* 12 pins which default to 8-bit PWM, like the AVR-based boards. 
 * 2 pins with 12-bit DAC (Digital-to-Analog Converter)
 
 By setting the write resolution to 12, you can use `analogWrite()` with values between 0 and 4095 to exploit the full DAC resolution or to set the PWM signal without rolling over.
