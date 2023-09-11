@@ -31,6 +31,7 @@ The first parameter to `attachInterrupt()` is an interrupt number. Normally you 
 |Nano 33 BLE, Nano 33 BLE Sense    |all pins
 |Nano RP2040 Connect               |all pins except A6/A7
 |Nano ESP32                        |all pins
+|GIGA R1 WiFi                      |all pins
 |Due                               |all digital pins
 |101                               |all digital pins (Only pins 2, 5, 7, 8, 10, 11, 12, 13 work with *CHANGE*)
 |===================================================
