@@ -151,7 +151,7 @@ void loop() {
 
 
   for (int i = 0; i < 6; i++) {
-    strcpy_P(buffer, (char *)pgm_read_word(&(string_table[i])));  // Necessary casts and dereferencing, just copy.
+    strcpy_P(buffer, (char *)pgm_read_ptr(&(string_table[i])));  // Necessary casts and dereferencing, just copy.
     Serial.println(buffer);
     delay(500);
   }
