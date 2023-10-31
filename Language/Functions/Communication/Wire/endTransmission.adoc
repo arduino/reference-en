@@ -1,0 +1,34 @@
+---
+title: endTransmission()
+---
+
+= endTransmission
+
+//OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+This function ends a transmission to a peripheral device that was begun by `beginTransmission()` and transmits the bytes that were queued by `write()`. As of Arduino 1.0.1, `endTransmission()` accepts a boolean argument changing its behavior for compatibility with certain I2C devices. If true, `endTransmission()` sends a stop message after transmission, releasing the I2C bus. If false, `endTransmission()` sends a restart message after transmission. The bus will not be released, which prevents another controller device from transmitting between messages. This allows one controller device to send multiple transmissions while in control. The default value is true.
+
+[float]
+=== Syntax
+`Wire.endTransmission()`
+`Wire.endTransmission(stop)`
+
+[float]
+=== Parameters
+
+* _stop_: true or false. True will send a stop message, releasing the bus after transmission. False will send a restart, keeping the connection active.
+[float]
+=== Returns
+
+* _0_: success.
+* _1_: data too long to fit in transmit buffer.
+* _2_: received NACK on transmit of address.
+* _3_: received NACK on transmit of data.
+* _4_: other error.
+* _5_: timeout
+--
+//OVERVIEW SECTION ENDS

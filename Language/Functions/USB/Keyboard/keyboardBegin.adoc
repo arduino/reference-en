@@ -33,11 +33,13 @@ When used with a Leonardo or Due board, `Keyboard.begin()` starts emulating a ke
 === Keyboard layouts
 Currently, the library supports the following national keyboard layouts:
 
+* `KeyboardLayout_da_DK`: Denmark
 * `KeyboardLayout_de_DE`: Germany
 * `KeyboardLayout_en_US`: USA
 * `KeyboardLayout_es_ES`: Spain
 * `KeyboardLayout_fr_FR`: France
 * `KeyboardLayout_it_IT`: Italy
+* `KeyboardLayout_sv_SE`: Sweden
 
 
 [float]
