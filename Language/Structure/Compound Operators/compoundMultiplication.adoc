@@ -47,7 +47,7 @@ This is a convenient shorthand to perform multiplication of a variable with anot
 [source,arduino]
 ----
 x = 2;
-x *= 2; // x now contains 4
+x *= 3; // x now contains 6
 ----
 
 

@@ -1,0 +1,61 @@
+---
+title: Print
+categories: [ "Functions" ]
+subCategories: [ "Communication" ]
+---
+
+
+
+
+= Print
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The Print class is an abstract base class that provides a common interface for printing data to different output devices. It defines several methods that allow printing data in different formats.
+
+Print class is related to several libraries in Arduino that use the printing funcionality to interact with devices such as Serial Monitor, LCD Screen, printers, etc.
+
+Some of the libraries that use the Print class are:
+
+* link:../serial[Serial]
+* link:https://reference.arduino.cc/reference/en/libraries/liquidcrystal/[LiquidCrystal]
+* link:https://www.arduino.cc/en/Reference/Ethernet[Ethernet]
+* link:https://reference.arduino.cc/reference/en/libraries/wifi/wificlient/[Wifi]
+
+
+--
+// OVERVIEW SECTION ENDS
+
+
+// FUNCTIONS SECTION STARTS
+[#functions]
+--
+
+'''
+
+[float]
+=== Functions
+link:https://www.arduino.cc/reference/en/language/functions/communication/wire/write/[write()] +
+link:https://www.arduino.cc/reference/en/language/functions/communication/serial/print/[print()] +
+link:https://www.arduino.cc/reference/en/language/functions/communication/serial/println/[println()]
+
+'''
+
+--
+// FUNCTIONS SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+--
+// SEE ALSO SECTION ENDS

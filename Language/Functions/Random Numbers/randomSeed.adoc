@@ -32,7 +32,7 @@ Conversely, it can occasionally be useful to use pseudo-random sequences that re
 
 [float]
 === Parameters
-`seed`: number to initialize the pseudo-random sequence. Allowed data types: `unsigned long`.
+`seed`: non-zero number to initialize the pseudo-random sequence. Allowed data types: `unsigned long`.
 
 
 [float]
@@ -69,6 +69,11 @@ void loop() {
   delay(50);
 }
 ----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+If the `seed` is 0, `randomSeed(seed)` will have no effect.
 
 --
 // HOW TO USE SECTION ENDS

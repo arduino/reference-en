@@ -19,16 +19,21 @@ An array is a collection of variables that are accessed with an index number. Ar
 All of the methods below are valid ways to create (declare) an array.
 [source,arduino]
 ----
+  // Declare an array of a given length without initializing the values:
   int myInts[6];
-  int myPins[] = {2, 4, 8, 3, 6};
-  int mySensVals[6] = {2, 4, -8, 3, 2};
+
+  // Declare an array without explicitely choosing a size (the compiler 
+  // counts the elements and creates an array of the appropriate size):
+  int myPins[] = {2, 4, 8, 3, 6, 4};
+
+  // Declare an array of a given length and initialize its values:
+  int mySensVals[5] = {2, 4, -8, 3, 2};
+
+  // When declaring an array of type char, you'll need to make it longer
+  // by one element to hold the required the null termination character:
   char message[6] = "hello";
 ----
-You can declare an array without initializing it as in myInts.
-{empty} +
-In myPins we declare an array without explicitly choosing a size. The compiler counts the elements and creates an array of the appropriate size.
-{empty} +
-Finally you can both initialize and size your array, as in mySensVals. Note that when declaring an array of type char, one more element than your initialization is required, to hold the required null character.
+
 [%hardbreaks]
 
 [float]
@@ -83,7 +88,7 @@ for (byte i = 0; i < 5; i = i + 1) {
 
 [float]
 === Example Code
-For a complete program that demonstrates the use of arrays, see the (http://www.arduino.cc/en/Tutorial/KnightRider[Knight Rider example]) from the (http://www.arduino.cc/en/Main/LearnArduino[Tutorials]).
+For a complete program that demonstrates the use of arrays, see the (https://docs.arduino.cc/built-in-examples/control-structures/Arrays[How to Use Arrays example]) from the (https://docs.arduino.cc/built-in-examples[Built-in Examples]).
 
 --
 // HOW TO USE SECTION ENDS

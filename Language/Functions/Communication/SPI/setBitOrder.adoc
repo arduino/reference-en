@@ -1,0 +1,35 @@
+---
+title: SPI.setBitOrder()
+---
+
+= SPI.setBitOrder()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+This function should not be used in new projects. Use link:../spisettings[SPISettings]. with link:../begintransaction[SPI.beginTransaction()]. to configure SPI parameters.
+
+Sets the order of the bits shifted out of and into the SPI bus, either LSBFIRST (least-significant bit first) or MSBFIRST (most-significant bit first). 
+
+
+[float]
+=== Syntax
+`SPI.setBitOrder(order)`
+
+
+[float]
+=== Parameters
+order: either LSBFIRST or MSBFIRST
+
+
+[float]
+=== Returns
+None.
+
+--
+// OVERVIEW SECTION ENDS
+
