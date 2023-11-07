@@ -36,6 +36,7 @@ None
 === Returns
 Returns true if the specified serial port is available. This will only return false if querying the Leonardo's USB CDC serial connection before it is ready. Data type: `bool`.
 
+
 --
 // OVERVIEW SECTION ENDS
 
@@ -65,6 +66,10 @@ void loop() {
   //proceed normally
 }
 ----
+
+[float]
+=== Notes and Warnings
+This function adds a delay of 10ms in an attempt to solve "open but not quite" situations. Don't use it in tight loops.
 
 --
 // HOW TO USE SECTION ENDS
