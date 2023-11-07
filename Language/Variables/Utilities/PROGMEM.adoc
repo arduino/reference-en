@@ -188,7 +188,7 @@ When an instruction like :
 Serial.print("Write something on  the Serial Monitor");
 ----
 
-is used, the string to be printed is normally saved in RAM. If your sketch prints a lot of stuff on the Serial Monitor, you can easily fill the RAM. If you have free FLASH memory space, you can easily indicate that the string must be saved in FLASH using the syntax:
+is used, the string to be printed is normally saved in RAM. If your sketch prints a lot of stuff on the Serial Monitor, you can easily fill the RAM. This can be avoided by not loading strings from the FLASH memory space until they are needed. You can easily indicate that the string is not to be copied to RAM at start up using the syntax:
 
 [source,arduino]
 ----
