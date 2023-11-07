@@ -34,7 +34,7 @@ Returns the length of the String, in characters. (Note that this doesn't include
 
 [float]
 === Returns
-The length of the String in characters.
+The length of the String in characters. Data type: `unsigned int`.
 
 --
 // OVERVIEW SECTION ENDS

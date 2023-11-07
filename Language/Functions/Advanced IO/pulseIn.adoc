@@ -20,6 +20,8 @@ subCategories: [ "Advanced I/O" ]
 Reads a pulse (either `HIGH` or `LOW`) on a pin. For example, if `value` is `HIGH`, `pulseIn()` waits for the pin to go from `LOW` to `HIGH`, starts timing, then waits for the pin to go `LOW` and stops timing. Returns the length of the pulse in microseconds or gives up and returns 0 if no complete pulse was received within the timeout.
 
 The timing of this function has been determined empirically and will probably show errors in longer pulses. Works on pulses from 10 microseconds to 3 minutes in length.
+
+NOTE:  if the optional timeout is used code will execute faster.
 [%hardbreaks]
 
 

@@ -1,0 +1,31 @@
+---
+title: begin()
+---
+= begin
+
+//OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+
+This function initializes the Wire library and join the I2C bus as a controller or a peripheral. This function should normally be called only once.
+
+[float]
+=== Syntax
+
+`Wire.begin()`
+
+`Wire.begin(address)`
+
+[float]
+=== Parameters
+* _address_: the 7-bit slave address (optional); if not specified, join the bus as a controller device.
+
+[float]
+=== Returns
+None. 
+--
+
+//OVERVIEW SECTION ENDS 

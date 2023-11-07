@@ -34,8 +34,47 @@ title: Serial.readString()
 === Returns
 A `String` read from the serial buffer
 
+
 --
 // OVERVIEW SECTION ENDS
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+Demonstrate Serial.readString()
+
+[source,arduino]
+----
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.println("Enter data:");
+  while (Serial.available() == 0) {}     //wait for data available
+  String teststr = Serial.readString();  //read until timeout
+  teststr.trim();                        // remove any \r \n whitespace at the end of the String
+  if (teststr == "red") {
+    Serial.println("A primary color");
+  } else {
+    Serial.println("Something else");
+  }
+}
+----
+[%hardbreaks]
+
+
+[float]
+=== Notes and Warnings
+The function does not terminate early if the data contains end of line characters. The returned `String` may contain carriage return and/or line feed characters if they were received.
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
 
 
 // SEE ALSO SECTION
