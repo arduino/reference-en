@@ -20,19 +20,23 @@ On ATmega based boards (UNO, Nano, Mini, Mega), it takes about 100 microseconds 
 
 [options="header"]
 |===================================================
-|Board                     |Operating voltage |Usable pins |Max resolution
-|Uno                       |5 Volts           |A0 to A5    |10 bits
-|Mini, Nano                |5 Volts           |A0 to A7    |10 bits
-|Mega, Mega2560, MegaADK   |5 Volts           |A0 to A14   |10 bits
-|Micro                     |5 Volts           |A0 to A11*  |10 bits
-|Leonardo                  |5 Volts           |A0 to A11*  |10 bits
-|Zero                      |3.3 Volts         |A0 to A5    |12 bits**
-|Due                       |3.3 Volts         |A0 to A11   |12 bits**
-|MKR Family boards         |3.3 Volts         |A0 to A6    |12 bits**
+|Board                            |Operating voltage |Usable pins |Max resolution
+|UNO R3                           |5 Volts           |A0 to A5    |10 bits
+|UNO R4 (Minima, WiFi)            |5 Volts           |A0 to A5    |14 bits**
+|Mini                             |5 Volts           |A0 to A7    |10 bits
+|Nano, Nano Every                 |5 Volts           |A0 to A7    |10 bits
+|Nano 33 (IoT, BLE, RP2040, ESP32)|3.3  Volts        |A0 to A7    |12 bits**
+|Mega, Mega2560, MegaADK          |5 Volts           |A0 to A14   |10 bits
+|Micro                            |5 Volts           |A0 to A11*  |10 bits
+|Leonardo                         |5 Volts           |A0 to A11*  |10 bits
+|Zero                             |3.3 Volts         |A0 to A5    |12 bits**
+|Due                              |3.3 Volts         |A0 to A11   |12 bits**
+|GIGA R1                          |3.3 Volts         |A0 to A11   |16 bits**
+|MKR Family boards                |3.3 Volts         |A0 to A6    |12 bits**
 |===================================================
 
 *A0 through A5 are labelled on the board, A6 through A11 are respectively available on pins 4, 6, 8, 9, 10, and 12 +
-**The default `analogRead()` resolution for these boards is 10 bits, for compatibility. You need to use link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()] to change it to 12 bits.
+**The default `analogRead()` resolution for these boards is 10 bits, for compatibility. You need to use link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()] to change it to a higher resolution.
 
 [%hardbreaks]
 
@@ -43,7 +47,7 @@ On ATmega based boards (UNO, Nano, Mini, Mega), it takes about 100 microseconds 
 
 [float]
 === Parameters
-`pin`: the name of the analog input pin to read from (A0 to A5 on most boards, A0 to A6 on MKR boards, A0 to A7 on the Mini and Nano, A0 to A15 on the Mega).
+`pin`: the name of the analog input pin to read from.
 
 
 [float]
