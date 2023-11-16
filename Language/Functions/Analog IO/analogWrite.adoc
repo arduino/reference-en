@@ -36,7 +36,7 @@ Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. C
 | Nano 33 BLE/BLE Sense +****+               | 1 - 13, A0 - A7                | 500 Hz
 | Due +***+                                  | 2-13                           | 1000 Hz
 | 101                                        | 3, 5, 6, 9                     | pins 3 and 9: 490 Hz, pins 5 and 6: 980 Hz
-|=======================================================================================================================
+|=========================================================================================================================
 
 +*+ These pins are officially supported PWM pins. While some boards have additional pins capable of PWM, using them is recommended only for advanced users that can account for timer availability and potential conflicts with other uses of those pins.  +
 +**+ In addition to PWM capabilities on the pins noted above, the MKR, Nano 33 IoT, Zero and UNO R4 boards have true analog output when using `analogWrite()` on the `DAC0` (`A0`) pin. +
