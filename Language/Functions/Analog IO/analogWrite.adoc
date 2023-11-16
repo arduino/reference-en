@@ -22,15 +22,14 @@ Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. C
 [options="header"]
 
 |=========================================================================================================================
-|=========================================================================================================================
 | Board                                      | PWM Pins +*+                   | PWM Frequency
 | UNO (R3 and earlier), Nano, Mini           | 3, 5, 6, 9, 10, 11             | 490 Hz (pins 5 and 6: 980 Hz)
-| UNO R4 (Minima, WiFi)                      | 3, 5, 6, 9, 10, 11             | 490 Hz
+| UNO R4 (Minima, WiFi) +*+                  | 3, 5, 6, 9, 10, 11             | 490 Hz
 | Mega                                       | 2 - 13, 44 - 46                | 490 Hz (pins 4 and 13: 980 Hz)
-| GIGA R1                                    | 2 - 13                         | 500 Hz
+| GIGA R1 +**+                               | 2 - 13                         | 500 Hz
 | Leonardo, Micro, Yún                       | 3, 5, 6, 9, 10, 11, 13         | 490 Hz (pins 3 and 11: 980 Hz)
 | UNO WiFi Rev2, Nano Every                  | 3, 5, 6, 9, 10                 | 976 Hz
-| MKR boards +**+                            | 0 - 8, 10, A3, A4              | 732 Hz
+| MKR boards +*+                             | 0 - 8, 10, A3, A4              | 732 Hz
 | MKR1000 WiFi +**+                          | 0 - 8, 10, 11, A3, A4          | 732 Hz
 | Zero +**+                                  | 3 - 13, A0, A1                 | 732 Hz
 | Nano 33 IoT +**+                           | 2, 3, 5, 6, 9 - 12, A2, A3, A5 | 732 Hz
@@ -38,9 +37,10 @@ Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. C
 | Due +***+                                  | 2-13                           | 1000 Hz
 | 101                                        | 3, 5, 6, 9                     | pins 3 and 9: 490 Hz, pins 5 and 6: 980 Hz
 |=========================================================================================================================
+
 +*+ These pins are officially supported PWM pins. While some boards have additional pins capable of PWM, using them is recommended only for advanced users that can account for timer availability and potential conflicts with other uses of those pins.  +
-+**+ In addition to PWM capabilities on the pins noted above, the MKR, Nano 33 IoT, and Zero boards have true analog output when using `analogWrite()` on the `DAC0` (`A0`) pin. +
-+***+ In addition to PWM capabilities on the pins noted above, the Due has true analog output when using `analogWrite()` on pins `DAC0` and `DAC1`.
++**+ In addition to PWM capabilities on the pins noted above, the MKR, Nano 33 IoT, Zero and UNO R4 boards have true analog output when using `analogWrite()` on the `DAC0` (`A0`) pin. +
++***+ In addition to PWM capabilities on the pins noted above, the Due and GIGA R1 boards have true analog output when using `analogWrite()` on pins `DAC0` and `DAC1`.
 +****+ Only 4 different pins can be used at the same time. Enabling PWM on more than 4 pins will abort the running sketch and require resetting the board to upload a new sketch again. +
 
 [%hardbreaks]
