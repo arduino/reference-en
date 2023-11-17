@@ -17,7 +17,7 @@ subCategories: [ "Bits and Bytes" ]
 
 [float]
 === Description
-Writes a bit of a numeric variable.
+Writes to a bit of a variable, e.g. `bool`, `int`, `long`. Note that `float` & `double` are not supported. You can read the bit of variables up to an `unsigned long` (32 bits / 8 bytes).
 [%hardbreaks]
 
 
