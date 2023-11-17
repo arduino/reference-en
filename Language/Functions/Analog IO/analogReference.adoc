@@ -27,6 +27,15 @@ Arduino AVR Boards (Uno, Mega, Leonardo, etc.)
 * INTERNAL2V56: a built-in 2.56V reference (Arduino Mega only)
 * EXTERNAL: the voltage applied to the AREF pin (0 to 5V only) is used as the reference.
 
+Arduino Renesas Boards (UNO R4, Portenta C33)
+
+* AR_DEFAULT: the default analog reference of 5 volts.
+* AR_INTERNAL: A built-in reference, equal to 1.5 Volts on the RA4M1 of the UNO R4
+* AR_INTERNAL_1_5V: A built-in reference, equal to 1.5 V on the R7FA6M5 of the Portenta C33
+* AR_INTERNAL_2_0V: A built-in reference, equal to 2.0 V on the R7FA6M5 of the Portenta C33
+* AR_INTERNAL_2_5V: A built-in reference, equal to 2.5 V on the R7FA6M5 of the Portenta C33
+* AR_EXTERNAL: the voltage applied to the AREF pin (0 to 5V only) is used as the reference.
+
 Arduino SAMD Boards (Zero, etc.)
 
 * AR_DEFAULT: the default analog reference of 3.3V
