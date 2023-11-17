@@ -29,8 +29,8 @@ The right shift operator `>>` causes the bits of the left operand to be shifted 
 
 [float]
 === Parameters
-`variable`: Allowed data types: `byte`, `int`, `long`. +
-`number_of_bits`: a number that is < = 32. Allowed data types: `int`.
+`variable`: Allowed data types: any integer type (`byte`, `short`, `int`, `long`, `unsigned short`...). +
+`number_of_bits`: a positive number smaller than the bit-width of `variable`. Allowed data types: `int`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -47,29 +47,29 @@ The right shift operator `>>` causes the bits of the left operand to be shifted 
 [source,arduino]
 ----
 int a = 40;     // binary: 0000000000101000
-int b = a >> 3; // binary: 0000000000000101, or 5 in decimal
+int b = a >> 3; // binary: 0000000000000101, decimal: 5
 ----
 [%hardbreaks]
 
 [float]
 === Notes and Warnings
-When you shift x right by y bits (x >> y), and the highest bit in x is a 1, the behavior depends on the exact data type of x. If x is of type int, the highest bit is the sign bit, determining whether x is negative or not, as we have discussed above. In that case, the sign bit is copied into lower bits, for esoteric historical reasons:
+When you shift `x` right by `y` bits (`x >> y`), the `y` rightmost bits of `x` “fall off” and are discarded. If `x` has an unsigned type (e.g. `unsigned int`), the `y` leftmost bits of the result are filled with zeroes. If `x` has a signed type (e.g. `int`), its leftmost bit is the sign bit, which determines whether it is positive or negative. In this case, the `y` leftmost bits of the result are filled with copies of the sign bit. This behavior, called “sign extension”, ensures the result has the same sign as `x`.
 
 [source,arduino]
 ----
-int x = -16;  // binary: 1111111111110000
+int x = -16;          // binary: 1111111111110000
 int y = 3;
-int result = x >> y;  // binary: 1111111111111110
+int result = x >> y;  // binary: 1111111111111110, decimal: -2
 ----
-This behavior, called sign extension, is often not the behavior you want. Instead, you may wish zeros to be shifted in from the left. It turns out that the right shift rules are different for unsigned int expressions, so you can use a typecast to suppress ones being copied from the left:
+This may not be the behavior you want. If you instead want zeros to be shifted in from the left, you can use a typecast to suppress sign extension:
 
 [source,arduino]
 ----
-int x = -16;  // binary: 1111111111110000
+int x = -16;                        // binary: 1111111111110000
 int y = 3;
-int result = (unsigned int)x >> y;  // binary: 0001111111111110
+int result = (unsigned int)x >> y;  // binary: 0001111111111110, decimal: 8190
 ----
-Sign extension causes that you can use the right-shift operator `>>` as a way to divide by powers of 2, even negative numbers. For example:
+Sign extension causes the right-shift operator `>>` to perform a division by powers of 2, even with negative numbers. For example:
 
 [source,arduino]
 ----
