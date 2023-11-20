@@ -25,6 +25,24 @@ The library supports the use of modifier keys. Modifier keys change the behavior
 // OVERVIEW SECTION ENDS
 
 [float]
+=== Compatible Hardware
+HID is supported on the following boards:
+[options="header"]
+|=================================================================================================
+| Board                                                                | Supported Pins                     
+| link:https://docs.arduino.cc/hardware/leonardo[Leonardo]             | All digital & analog pins
+| link:https://docs.arduino.cc/hardware/micro[Micro]                   | All digital & analog pins
+| link:https://docs.arduino.cc/hardware/due[Due]                       | All digital & analog pins
+| link:https://docs.arduino.cc/hardware/zero[Zero]                     | All digital & analog pins
+| link:https://docs.arduino.cc/hardware/uno-r4-minima[UNO R4 Minima]   | All digital & analog pins
+| link:https://docs.arduino.cc/hardware/uno-r4-wifi[UNO R4 WiFi]       | All digital & analog pins
+| link:https://docs.arduino.cc/hardware/giga-r1[Giga R1]               | All digital & analog pins
+| link:https://docs.arduino.cc/hardware/nano-esp32[Nano ESP32]         | All digital & analog pins
+| link:https://docs.arduino.cc/hardware/mkr-1000-wifi[Nano ESP32]      | All digital & analog pins
+| link:https://docs.arduino.cc/#mkr-family[MKR Family]                 | All digital & analog pins
+|=================================================================================================
+
+[float]
 === Notes and Warnings
 These core libraries allow the 32u4 and SAMD based boards (Leonardo, Esplora, Zero, Due and MKR Family) to appear as a native Mouse and/or Keyboard to a connected computer.
 [%hardbreaks]
