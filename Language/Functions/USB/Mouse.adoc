@@ -23,6 +23,30 @@ The mouse functions enable 32u4 or SAMD micro based boards to control cursor mov
 --
 // OVERVIEW SECTION ENDS
 
+[float]
+=== Compatible Hardware
+HID is supported on the following boards:
+[options="header"]
+|=========================================================
+| Board                | Pins                     
+| link:https://docs.arduino.cc/hardware/leonardo[Leonardo]             | Digital / Analog Pins 
+| link:https://docs.arduino.cc/hardware/micro[Micro]                   | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/due[Due]                       | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/zero[Zero]                     | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/uno-r4-minima[UNO R4 Minima]   | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/uno-r4-wifi[UNO R4 WiFi]       | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/giga-r1[Giga R1]               | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/nano-esp32[Nano ESP32]         | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/mkr-1000-wifi[Nano ESP32]      | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/mkr-fox-1200[MKR FOX 1200]     | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/mkr-gsm-1400[MKR GSM 1400]     | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/mkr-nb-1500[MKR NB 1500]       | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/mkr-vidor-4000[MKR Vidor 4000] | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/mkr-wan-1300[MKR WAN 1300]     | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/mkr-wan-1310[MKR WAN 1310]     | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/mkr-wifi-1010[MKR WiFi 1010]   | Digital / Analog Pins
+| link:https://docs.arduino.cc/hardware/mkr-zero[MKR Zero]             | Digital / Analog Pins
+|=========================================================
 
 [float]
 === Notes and Warnings
