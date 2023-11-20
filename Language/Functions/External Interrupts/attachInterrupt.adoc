@@ -19,21 +19,21 @@ The first parameter to `attachInterrupt()` is an interrupt number. Normally you 
 
 [options="header"]
 |===================================================
-|Board                             |Digital Pins Usable For Interrupts
-|Uno, Nano, Mini, other 328-based  |2, 3
-|UNO R4 Minima, UNO R4 WiFi        |2, 3
-|Uno WiFi Rev.2, Nano Every        |all digital pins
-|Mega, Mega2560, MegaADK           |2, 3, 18, 19, 20, 21 (*pins 20 & 21* are not available to use for interrupts while they are used for I2C communication; they also have external pull-ups that cannot be disabled)
-|Micro, Leonardo, other 32u4-based |0, 1, 2, 3, 7
-|Zero                              |all digital pins, except 4
-|MKR Family boards                 |0, 1, 4, 5, 6, 7, 8, 9, A1, A2
-|Nano 33 IoT                       |2, 3, 9, 10, 11, 13, A1, A5, A7
-|Nano 33 BLE, Nano 33 BLE Sense    |all pins
-|Nano RP2040 Connect               |all pins except A6/A7
-|Nano ESP32                        |all pins
-|GIGA R1 WiFi                      |all pins
-|Due                               |all digital pins
-|101                               |all digital pins (Only pins 2, 5, 7, 8, 10, 11, 12, 13 work with *CHANGE*)
+|Board                                            |Digital Pins Usable For Interrupts| Notes
+|Uno Rev3, Nano, Mini, other 328-based            |2, 3|
+|UNO R4 Minima, UNO R4 WiFi                       |2, 3|
+|Uno WiFi Rev2, Nano Every                        |All digital pins|
+|Mega, Mega2560, MegaADK                          |2, 3, 18, 19, 20, 21 |(*pins 20 & 21* are not available to use for interrupts while they are used for I2C communication; they also have external pull-ups that cannot be disabled)
+|Micro, Leonardo                                  |0, 1, 2, 3, 7|
+|Zero                                             |0-3, 5-13, A0-A5| Pin 4 cannot be used as an interrupt.   
+|MKR Family boards                                |0, 1, 4, 5, 6, 7, 8, 9, A1, A2|
+|Nano 33 IoT                                      |2, 3, 9, 10, 11, 13, A1, A5, A7|
+|Nano 33 BLE, Nano 33 BLE Sense (rev 1 & 2)       |all pins|
+|Nano RP2040 Connect                              |0-13, A0-A5|
+|Nano ESP32                                       |all pins|
+|GIGA R1 WiFi                                     |all pins|
+|Due                                              |all digital pins|
+|101                                              |all digital pins | (Only pins 2, 5, 7, 8, 10, 11, 12, 13 work with *CHANGE*))
 |===================================================
 
 [%hardbreaks]
@@ -137,8 +137,8 @@ Note that in the table below, the interrupt numbers refer to the number to be pa
 |Mega2560                         | 2 | 3 | 21 | 20 | 19 | 18
 |32u4 based (e.g Leonardo, Micro) | 3 | 2 | 0 | 1 | 7 |
 |===================================================
-For Uno WiFiRev.2, Due, Zero, MKR Family and 101 boards the *interrupt number = pin number*.
 
+For Uno WiFi Rev2, Due, Zero, MKR Family and 101 boards the *interrupt number = pin number*.
 
 --
 // HOW TO USE SECTION ENDS
