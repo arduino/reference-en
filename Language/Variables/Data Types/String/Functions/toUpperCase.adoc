@@ -17,7 +17,7 @@ subCategories: [ "StringObject Function" ]
 
 [float]
 === Description
-Get an upper-case version of a String. As of 1.0, toUpperCase() modifies the String in place rather than returning a new one.
+Get an upper-case version of a String. The `toUpperCase()` modifies the String in place rather than returning a new one.
 [%hardbreaks]
 
 

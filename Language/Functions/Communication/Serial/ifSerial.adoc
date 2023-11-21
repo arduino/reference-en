@@ -18,7 +18,6 @@ Indicates if the specified Serial port is ready.
 
 On the boards with native USB, `if (Serial)` (or `if(SerialUSB)` on the Due) indicates whether or not the USB CDC serial connection is open. For all other boards, and the non-USB CDC ports, this will always return true.
 
-This was introduced in Arduino IDE 1.0.1.
 [%hardbreaks]
 
 

@@ -14,7 +14,7 @@ title: Serial.flush()
 
 [float]
 === Description
-Waits for the transmission of outgoing serial data to complete. (Prior to Arduino 1.0, this instead removed any buffered incoming serial data.)
+Waits for the transmission of outgoing serial data to complete.
 
 `flush()` inherits from the link:../../stream/streamflush[Stream] utility class.
 [%hardbreaks]
