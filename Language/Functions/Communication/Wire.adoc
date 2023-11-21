@@ -16,7 +16,7 @@ subCategories: [ "Communication" ]
 === Description
 
 
-This library allows you to communicate with I2C/TWI devices. On the Arduino boards with the R3 layout (1.0 pinout), the SDA (data line) and SCL (clock line) are on the pin headers close to the AREF pin. The Arduino Due has two I2C/TWI interfaces SDA1 and SCL1 are near to the AREF pin and the additional one is on pins 20 and 21.
+This library allows you to communicate with I2C/TWI devices. On the Arduino boards with the R3 layout, the SDA (data line) and SCL (clock line) are on the pin headers close to the AREF pin. The Arduino Due has two I2C/TWI interfaces SDA1 and SCL1 are near to the AREF pin and the additional one is on pins 20 and 21.
 
 As a reference the table below shows where TWI pins are located on various Arduino boards.
 
@@ -36,7 +36,7 @@ As a reference the table below shows where TWI pins are located on various Ardui
 |=== 
 
 
-As of Arduino 1.0, the library inherits from the Stream functions, making it consistent with other read/write libraries. Because of this, `send()` and `receive()` have been replaced with `read()` and `write()`.
+This library inherits from the Stream functions, making it consistent with other read/write libraries. Because of this, `send()` and `receive()` have been replaced with `read()` and `write()`.
 
 Recent versions of the Wire library can use timeouts to prevent a lockup in the face of certain problems on the bus, but this is not enabled by default (yet) in current versions. It is recommended to always enable these timeouts when using the Wire library. See the Wire.setWireTimeout function for more details.
 
