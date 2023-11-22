@@ -30,7 +30,7 @@ Using `PROGMEM` is a two-step procedure. Once a variable has been defined with `
 
 ==== Important Note!
 
-`PROGMEM` is useful _only_ when working with AVR boards (Uno Rev3, Leonardo etc.). Newer boards (Due, MKR WiFi 1010, GIGA R1 WiFi etc.), automatically uses the program space when a variable is declared as a `const`. However, for retro compatibility, `PROGMEM` can still be used with newer boards. This implementation currently lives link:https://github.com/arduino/ArduinoCore-API/blob/master/api/deprecated-avr-comp/avr/pgmspace.h[here].
+`PROGMEM` is useful _only_ when working with AVR boards (Uno Rev3, Leonardo etc.). Newer boards (Due, MKR WiFi 1010, GIGA R1 WiFi etc.) automatically use the program space when a variable is declared as a `const`. However, for retro compatibility, `PROGMEM` can still be used with newer boards. This implementation currently lives link:https://github.com/arduino/ArduinoCore-API/blob/master/api/deprecated-avr-comp/avr/pgmspace.h[here].
 
 
 [%hardbreaks]
