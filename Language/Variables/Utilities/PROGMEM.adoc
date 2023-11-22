@@ -21,9 +21,7 @@ Keep constant data in flash (program) memory only, instead of copying it to SRAM
 
 The `PROGMEM` keyword is a variable modifier, it should be used only with the datatypes defined in pgmspace.h. It tells the compiler "keep this information in flash memory only", instead of copying it to SRAM at start up, like it would normally do.
 
-PROGMEM is part of the link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library. It is included automatically in modern versions of the IDE. However, if you are using an IDE version below 1.0 (2011), you'll first need to include the library at the top of your sketch, like this:
-
-`#include <avr/pgmspace.h>`
+PROGMEM is part of the link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library. It is included automatically by the IDE.
 
 While `PROGMEM` could be used on a single variable, it is really only worth the fuss if you have a larger block of data that needs to be stored, which is usually easiest in an array, (or another C++ data structure beyond our present discussion).
 
