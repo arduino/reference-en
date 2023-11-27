@@ -1,0 +1,49 @@
+---
+title: OUTPUT
+categories: [ "Variables" ]
+subCategories: [ "Constants" ]
+---
+
+= OUTPUT
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+
+[float]
+== Defining Digital Pins modes: INPUT, INPUT_PULLUP, and OUTPUT
+Digital pins can be used as `INPUT`, `INPUT_PULLUP`, or `OUTPUT`. Changing a pin with link:../../../functions/digital-io/pinmode[`pinMode()`] changes the electrical behavior of the pin.
+
+--
+// OVERVIEW SECTION ENDS
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+
+[float]
+=== Pins Configured as OUTPUT
+Pins configured as `OUTPUT` with link:../../../functions/digital-io/pinmode[`pinMode()`] are said to be in a _low-impedance_ state. This means that they can provide a substantial amount of current to other circuits. ATmega pins can source (provide current) or sink (absorb current) up to 40 mA (milliamps) of current to other devices/circuits. This makes them useful for powering LEDs because LEDs typically use less than 40 mA. Loads greater than 40 mA (e.g. motors) will require a transistor or other interface circuitry.
+[%hardbreaks]
+
+Pins configured as outputs can be damaged or destroyed if they are connected to either the ground or positive power rails.
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
+
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+--
+// SEE ALSO SECTION ENDS

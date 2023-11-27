@@ -1,0 +1,38 @@
+---
+title: false
+categories: [ "Variables" ]
+subCategories: [ "Constants" ]
+---
+
+= false
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+== Defining Logical Levels: true and false (Boolean Constants)
+There are two constants used to represent truth and falsity in the Arduino language: `true`, and `false`.
+
+[float]
+`false` is the easier of the two to define. false is defined as 0 (zero).
+[%hardbreaks]
+
+Note that the `true` and `false` constants are typed in lowercase unlike `HIGH`, `LOW`, `INPUT`, and `OUTPUT`.
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+--
+// SEE ALSO SECTION ENDS

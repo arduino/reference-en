@@ -1,0 +1,36 @@
+---
+title: LOW
+categories: [ "Variables" ]
+subCategories: [ "Constants" ]
+---
+
+= LOW
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+The meaning of `LOW` also has a different meaning depending on whether a pin is set to `INPUT` or `OUTPUT`. When a pin is configured as an `INPUT` with link:../../../functions/digital-io/pinmode[`pinMode()`], and read with link:../../../functions/digital-io/digitalread[`digitalRead()`], the Arduino (ATmega) will report LOW if:
+
+  - a voltage less than 1.5V is present at the pin (5V boards)
+  - a voltage less than 1.0V (Approx) is present at the pin (3.3V boards)
+
+When a pin is configured to `OUTPUT` with link:../../../functions/digital-io/pinmode[`pinMode()`], and set to `LOW` with link:../../../functions/digital-io/digitalwrite[`digitalWrite()`], the pin is at 0 volts (both 5V and 3.3V boards). In this state it can sink current, e.g. light an LED that is connected through a series resistor to +5 volts (or +3.3 volts).
+[%hardbreaks]
+
+--
+// OVERVIEW SECTION ENDS
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+--
+// SEE ALSO SECTION ENDS
