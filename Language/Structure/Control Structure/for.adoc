@@ -34,8 +34,8 @@ for (initialization; condition; increment) {
 [float]
 === Parameters
 `initialization`: happens first and exactly once. +
-`condition`: each time through the loop, `condition` is tested; if it's `link:../../../variables/constants/constants[true]`, the statement block, and the *increment* is executed, then the *condition* is tested again. When the *condition* becomes `link:../../../variables/constants/constants[false]`, the loop ends. +
-`increment`: executed each time through the loop when `condition` is link:../../../variables/constants/constants[`true`].
+`condition`: each time through the loop, `condition` is tested; if it's `link:../../../variables/constants/truefalse[true]`, the statement block, and the *increment* is executed, then the *condition* is tested again. When the *condition* becomes `link:../../../variables/constants/truefalse[false]`, the loop ends. +
+`increment`: executed each time through the loop when `condition` is link:../../../variables/constants/truefalse[`true`].
 
 --
 // OVERVIEW SECTION ENDS

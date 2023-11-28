@@ -32,7 +32,7 @@ do {
 
 [float]
 === Parameters
-`condition`: a boolean expression that evaluates to `link:../../../variables/constants/constants[true]` or `link:../../../variables/constants/constants[false]`.
+`condition`: a boolean expression that evaluates to `link:../../../variables/constants/truefalse[true]` or `link:../../../variables/constants/truefalse[false]`.
 
 --
 // OVERVIEW SECTION ENDS
