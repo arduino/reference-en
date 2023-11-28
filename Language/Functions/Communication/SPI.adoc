@@ -39,7 +39,7 @@ To read more about Arduino and SPI, you can visit the https://docs.arduino.cc/le
 | Nano boards          | 11(COPI), 12(CIPO), 13(SCK)      | |
 | MKR boards           | 8(COPI), 9(SCK), 10(CIPO)        | |
 | Due                  | 74(CIPO), 75(MOSI), 76(SCK) | |
-| GIGA R1 WiFi         | 12(CIPO), 11(COPI), 13(SCK), 10(CS) | 89(CIPO), 90(COPI), 91(SCK) |
+| GIGA R1 WiFi         | 89(CIPO), 90(COPI), 91(SCK) | 12(CIPO), 11(COPI), 13(SCK), 10(CS) |
 | Mega 2560 Rev3       | 50(CIPO), 51(COPI), 52(SCK), 53(CS) |  |
 |================================================================================================================================================
 
