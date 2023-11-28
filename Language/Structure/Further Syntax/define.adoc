@@ -89,7 +89,6 @@ Similarly, including an equal sign after the #define statement will also generat
 
 [role="language"]
 * #LANGUAGE# link:../../../variables/variable-scope-qualifiers/const[const]
-* #LANGUAGE# link:../../../variables/constants/constants[Constants]
 
 --
 // SEE ALSO SECTION ENDS
