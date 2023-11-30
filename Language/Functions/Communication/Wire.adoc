@@ -20,20 +20,18 @@ This library allows you to communicate with I2C/TWI devices. On the Arduino boar
 
 As a reference the table below shows where TWI pins are located on various Arduino boards.
 
-[cols="1,1"]
-|===
-|Board
-|I2C/TWI pins 
-
-|UNO, Ethernet 
-|A4 (SDA), A5 (SCL)   
-
-|Mega2560   
-|20 (SDA), 21 (SCL) 
-
-|Leonardo   
-|20 (SDA), 21 (SCL), SDA1, SCL1
-|=== 
+|================================================================================================================================================
+| Board                            | I2C/TWI pins              |
+| UNO R3                           | 13(SDA), 14(SCL)          |
+| UNO R3 SMD, UNO Mini Ltd         | 18(SDA), 19(SCL)          |
+| UNO WiFi Rev2                    | 20(SDA), 21(SCL)          |
+| UNO R4 Minima, UNO R4 WiFi       | 2(SDA), 1(SCL)            |
+| Micro, Yún Rev2                  | D2(SDA), D3(SCL)          |
+| Leonardo, GIGA R1 WiFi           | 20(SDA), 21(SCL), SDA1, SCL1 |
+| Nano boards                      | A4(SDA), A5(SCL)          |
+| MKR boards                       |  D11(SDA), D12(SCL)       | 
+| Due, MKR Zero, Mega, Mega 2560 Rev3 | D20(SDA), D21(SCL)     |
+|================================================================================================================================================
 
 
 This library inherits from the Stream functions, making it consistent with other read/write libraries. Because of this, `send()` and `receive()` have been replaced with `read()` and `write()`.
