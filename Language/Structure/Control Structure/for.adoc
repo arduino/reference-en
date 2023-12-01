@@ -51,8 +51,8 @@ for (initialization; condition; increment) {
 === Example Code
 [source,arduino]
 ----
-// Dim an LED using a PWM pin
-int PWMpin = 10;  // LED in series with 470 ohm resistor on pin 10
+// Brighten an LED using a PWM pin
+int PWMpin = 10;  // LED in series with 470 ohm resistor from pin 10 to ground
 
 void setup() {
   // no setup needed
