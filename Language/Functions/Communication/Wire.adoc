@@ -16,9 +16,10 @@ subCategories: [ "Communication" ]
 === Description
 
 
-This library allows you to communicate with I2C/TWI devices. On the Arduino boards with the R3 layout, the SDA (data line) and SCL (clock line) are on the pin headers close to the AREF pin. The Arduino Due has two I2C/TWI interfaces SDA1 and SCL1 are near to the AREF pin and the additional one is on pins 20 and 21.
+This library allows you to communicate with I2C devices, a feature that is present on all Arduino boards. I2C is a very common protocol, primarly used for reading/sending data to/from external I2C components. To learn more, visit link:https://docs.arduino.cc/learn/communication/wire[this article for Arduino & I2C].
 
-As a reference the table below shows where TWI pins are located on various Arduino boards.
+Due to the hardware design and various architectural differences, the I2C pins are located in different places. The pin map just below highlights the default pins, as well as additional ports available on certain boards.
+
 
 |================================================================================================================================================
 | Board                               | I2C Default         | I2C1                      | I2C2                 | Notes
