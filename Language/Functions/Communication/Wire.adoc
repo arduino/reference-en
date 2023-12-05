@@ -21,16 +21,16 @@ This library allows you to communicate with I2C/TWI devices. On the Arduino boar
 As a reference the table below shows where TWI pins are located on various Arduino boards.
 
 |================================================================================================================================================
-| Board                            | I2C/TWI pins              |
-| UNO R3                           | 13(SDA), 14(SCL)          |
-| UNO R3 SMD, UNO Mini Ltd         | 18(SDA), 19(SCL)          |
-| UNO WiFi Rev2                    | 20(SDA), 21(SCL)          |
-| UNO R4 Minima, UNO R4 WiFi       | 2(SDA), 1(SCL)            |
-| Micro, Yún Rev2                  | D2(SDA), D3(SCL)          |
-| Leonardo, GIGA R1 WiFi           | 20(SDA), 21(SCL), SDA1, SCL1 |
-| Nano boards                      | A4(SDA), A5(SCL)          |
-| MKR boards                       |  D11(SDA), D12(SCL)       | 
-| Due, MKR Zero, Mega, Mega 2560 Rev3 | D20(SDA), D21(SCL)     |
+| Board                               | I2C Default         | I2C1                      | I2C2                 | Notes
+| UNO R3, UNO R3 SMD, UNO Mini Ltd    | A4(SDA), A5(SCL)    |                           |                      | I2C also available on the SDA / SCL pins (digital header).        
+| UNO R4 Minima, UNO R4 WiFi          | A4(SDA), A5(SCL)    | Qwiic: D27(SDA), D26(SCL) |                      | I2C also available on the SDA / SCL pins (digital header).
+| UNO WiFi Rev2, Zero                 | 20(SDA), 21(SCL)    |                           |                      | 
+| Leonardo, Micro, Yùn Rev2           | D2(SDA), D3(SCL)    |                           |                      | 
+| Nano boards                         | A4(SDA), A5(SCL)    |                           |                      | 
+| MKR boards                          | D11(SDA), D12(SCL)  |                           |                      |  
+| GIGA R1 WiFi                        | 20(SDA), 21(SCL)    |  D102(SDA1), D101 (SCL1)  | D9(SDA2), D8 (SCL2)  | Use `Wire1.begin()` for I2C1, and `Wire2.begin()` for I2C2.
+| Due                                 | 20(SDA), 21(SCL)    |  D70(SDA1), D71(SCL1)     |                      | Use `Wire1.begin()` for I2C1
+| Mega 2560 Rev3                      | D20(SDA), D21(SCL)  |                           |                      | 
 |================================================================================================================================================
 
 
