@@ -21,8 +21,8 @@ Used for communication between the Arduino board and a computer or other devices
 
 |================================================================================================================================================
 | Board                | USB CDC name                     | Serial pins                   | Serial1 pins     | Serial2 pins      | Serial3 pins
-| UNO R3, UNO R3 SMD, UNO WiFi Rev2, UNO Mini Ltd, Mini|  |                               | 0(RX), 1(TX)     |                   |               
-| UNO R4 Minima, UNO R4 WiFi|                             | 18(RX), 17(TX)                |  | | 
+| UNO R3, UNO R3 SMD, UNO WiFi Rev2, UNO Mini Ltd, Mini|  |                        0(RX), 1(TX)       |      |                   |               
+| UNO R4 Minima, UNO R4 WiFi| Serial                            | Connected to USB               |0(RX),1(TX)  | | 
 | Leonardo, Micro, Yún Rev2| Serial                       |                               | 0(RX), 1(TX)     |                   |
 | Uno WiFi Rev.2       |                                  | Connected to USB              | 0(RX), 1(TX)     | Connected to NINA |
 | Nano ESP32           |  | 14(RX), 15(TX)  | | |
