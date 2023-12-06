@@ -4,9 +4,6 @@ categories: [ "Functions" ]
 subCategories: [ "Communication" ]
 ---
 
-
-
-
 = Serial()
 
 
@@ -20,24 +17,22 @@ Used for communication between the Arduino board and a computer or other devices
 [options="header"]
 
 |================================================================================================================================================
-| Board                | USB CDC name                     | Serial pins                   | Serial1 pins     | Serial2 pins      | Serial3 pins
-| UNO R3, UNO R3 SMD, UNO WiFi Rev2, UNO Mini Ltd, Mini|  |                               | 0(RX), 1(TX)     |                   |               
-| UNO R4 Minima, UNO R4 WiFi|                             | 18(RX), 17(TX)                |  | | 
-| Leonardo, Micro, Yún Rev2| Serial                       |                               | 0(RX), 1(TX)     |                   |
-| Uno WiFi Rev.2       |                                  | Connected to USB              | 0(RX), 1(TX)     | Connected to NINA |
-| Nano ESP32           |  | 14(RX), 15(TX)  | | |
-| Nano 33 BLE, Nano 33 BLE Sense, Nano 33 BLE Sense Rev2, Nano 33 IoT, Nano Every | | 17(RX), 16(TX) |  | |
-| Nano RP2040 Connect, Nano |                             | 2(RX), 1(TX)                  |                  |                   | 
-| MKR boards           | Serial                           |                               | 22(RX), 23(TX)   |                   |
-| MKR Zero             | SerialUSB (Native USB Port only) | Connected to Programming Port | 0(RX), 1(TX)     |                   |
-| Due                  | SerialUSB (Native USB Port only) | 0(RX), 1(TX)                  | 19(RX), 18(TX)   | 17(RX), 16(TX)    | 15(RX), 14(TX)
-| 101                  | Serial                           |                               | 0(RX), 1(TX)     |                   |
-| GIGA R1 WiFi         |                                  |                               | 24(RX), 23(TX)   | 22(RX), 21(TX)    | 20(RX), 19(TX)
-| Mega 2560 Rev3       |                                  | 18(RX), 17(TX)                | 24(RX), 23(TX)   | 22(RX), 21(TX)    | 20(RX), 19(TX)
-| Mega                 |                                  | 0(RX), 1(TX)                  | 19(RX), 18(TX)   | 17(RX), 16(TX)    | 15(RX), 14(TX)
+| Board                     | Serial pins                   | Serial1 pins     | Serial2 pins        | Serial3 pins        
+| UNO R3, UNO R3 SMD Mini   | 0(RX), 1(TX)                  |                  |                     |                    
+| UNO R4 Minima, UNO R4 WiFi| 18(RX), 17(TX)                |                  |                     |                     
+| Leonardo, Micro, Yún Rev2 | 0(RX), 1(TX)                  |                  |                     |                     
+| Uno WiFi Rev.2            | 0(RX), 1(TX)                  |                  |                     |                    
+| 101                       | 0(RX), 1(TX)                  |                  |                     |                    
+| MKR boards                | 13(RX), 14(TX)                |                  |                     |                    
+| Nano boards               | 0(RX), 1(TX)                  |                  |                     |                  
+| Zero                      | 0(RX), 1(TX)                  |                  |                     |                      
+| Due                       | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3)             
+| GIGA R1 WiFi              | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3)   
+| Mega 2560 Rev3            | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3)    
 |================================================================================================================================================
 
-On Uno, Nano, Mini, and Mega, pins 0 and 1 are used for communication with the computer. Connecting anything to these pins can interfere with that communication, including causing failed uploads to the board.
+
+On older boards (Uno, Nano, Mini, and Mega), pins 0 and 1 are used for communication with the computer. Connecting anything to these pins can interfere with that communication, including causing failed uploads to the board.
 [%hardbreaks]
 You can use the Arduino environment's built-in serial monitor to communicate with an Arduino board. Click the serial monitor button in the toolbar and select the same baud rate used in the call to `begin()`.
 [%hardbreaks]
