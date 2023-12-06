@@ -36,6 +36,7 @@ Reads a bit of a variable, e.g. `bool`, `int`. Note that `float` & `double` are 
 === Returns
 The value of the bit (0 or 1).
 
+[float]
 === Example Code
 
 This example code demonstrates how to read two variables, one increasing counter, one decreasing counter, and print out both the binary and decimal values of the variables.
