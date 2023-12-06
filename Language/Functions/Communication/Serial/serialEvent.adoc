@@ -30,7 +30,7 @@ void serialEvent() {
 }
 ----
 
-The Mega 2560 R3 has additional serial ports which can be accessed by adding the corresponding number at the end of the function.
+The Mega 2560 R3 and Due boards have additional serial ports which can be accessed by adding the corresponding number at the end of the function.
 
 [source,arduino]
 ----
@@ -67,9 +67,9 @@ Nothing
 
 [float]
 === Notes and Warnings
-Please note that `serialEvent()` *does not work* on any modern Arduino boards. The only recognized boards to have support as of 2023/12/06 is the *UNO R3* and *Mega 2560 R3*, which are based on the ATmega328P and ATmega2560 chips. 
+Please note that `serialEvent()` *does not work* on any modern Arduino boards. The only recognized boards to have support as of 2023/12/06 is the *UNO R3*, *Mega 2560 R3* and *Due*.
 
-Instead, you can use the link:../available[`available()`] method. Examples in this page demonstrates how to read serial data only when it is available, which is exactly what `Serial.event()` does.
+Instead, you can use the link:../available[`available()`] method. Examples in this page demonstrates how to read serial data only when it is available, similarly to how `Serial.event()` is implemented.
 [%hardbreaks]
 
 --
