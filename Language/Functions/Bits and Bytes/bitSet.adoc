@@ -34,10 +34,41 @@ Sets (writes a 1 to) a bit of a numeric variable.
 
 [float]
 === Returns
-Nothing
+`x`: the value of the numeric variable after the bit at position `n` is set.
 
 --
 // OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+Prints the output of `bitSet(x,n)` on two given integers. The binary representation of 4 is 0100, so when `n=1`, the second bit from the right is set to 1. After this we are left with 0110 in binary, so 6 is returned.
+
+[source,arduino]
+----
+void setup() {
+  Serial.begin(9600);
+  while (!Serial) {
+    ; // wait for serial port to connect. Needed for native USB port only
+  }
+
+  int x = 4;
+  int n = 1;
+  Serial.print(bitSet(x, n)); // print the output of bitSet(x,n)
+}
+
+void loop() {
+}
+----
+[%hardbreaks]
+
+--
+// HOW TO USE SECTION ENDS
 
 
 // SEE ALSO SECTION
@@ -46,6 +77,9 @@ Nothing
 
 [float]
 === See also
+
+[role="language"]
+* #LANGUAGE# link:../bitclear[bitClear()]
 
 --
 // SEE ALSO SECTION ENDS
