@@ -67,7 +67,7 @@ Nothing
 
 [float]
 === Notes and Warnings
-Please note that `serialEvent()` *does not work* on any modern Arduino boards. The only recognized boards to have support as of 2023/12/06 is the *UNO R3*, *Mega 2560 R3* and *Due*.
+Please note that `serialEvent()` *does not work* on any modern Arduino boards. The only recognized boards to have support as of 2023/12/06 are the *UNO R3*, *Nano*, *Mega 2560 R3* and *Due*.
 
 Instead, you can use the link:../available[`available()`] method. Examples in this page demonstrates how to read serial data only when it is available, similarly to how `Serial.event()` is implemented.
 [%hardbreaks]
