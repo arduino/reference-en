@@ -55,7 +55,6 @@ Note that you can also negative values as input.
 === Returns
 Nothing
 
---
 // OVERVIEW SECTION ENDS
 
 
@@ -74,7 +73,7 @@ switch (var) {
   case 1:
     //do something when var equals 1
     break;
-  case 2:
+  case 2: 
     //do something when var equals 2
     break;
   default:
@@ -85,6 +84,29 @@ switch (var) {
 
 ----
 [%hardbreaks]
+
+
+[float]
+=== Notes and Warnings
+// Add useful notes, tips, caveat, known issues, and warnings about this Reference term
+If you need to declare a variable in a case, use curly brackets {} to define a scope within the case statement to avoid a "crosses initialization of" compiler error. 
+[source,arduino]
+----
+switch (var) {
+  case 1:
+    //do something when var equals 1
+    break;
+  case 2: {
+    //do something when var equals 2
+    int var2 = 1337; //to declare a variable you need the curly brackets
+    break;
+  }
+  default:
+    // if nothing else matches, do the default
+    // default is optional
+    break;
+}
+----
 
 --
 // HOW TO USE SECTION ENDS
