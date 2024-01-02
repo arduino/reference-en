@@ -35,9 +35,8 @@ HID is supported on the following boards:
 | link:https://docs.arduino.cc/hardware/zero[Zero]                     | All digital & analog pins
 | link:https://docs.arduino.cc/hardware/uno-r4-minima[UNO R4 Minima]   | All digital & analog pins
 | link:https://docs.arduino.cc/hardware/uno-r4-wifi[UNO R4 WiFi]       | All digital & analog pins
-| link:https://docs.arduino.cc/hardware/giga-r1[Giga R1]               | All digital & analog pins
+| link:https://docs.arduino.cc/hardware/giga-r1-wifi[Giga R1]               | All digital & analog pins
 | link:https://docs.arduino.cc/hardware/nano-esp32[Nano ESP32]         | All digital & analog pins
-| link:https://docs.arduino.cc/hardware/mkr-1000-wifi[Nano ESP32]      | All digital & analog pins
 | link:https://docs.arduino.cc/#mkr-family[MKR Family]                 | All digital & analog pins
 |=================================================================================================
 
