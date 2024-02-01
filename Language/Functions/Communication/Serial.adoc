@@ -17,19 +17,24 @@ Used for communication between the Arduino board and a computer or other devices
 [options="header"]
 
 |================================================================================================================================================
-| Board                     | Serial pins                   | Serial1 pins     | Serial2 pins        | Serial3 pins        
-| UNO R3, UNO R3 SMD Mini   | 0(RX), 1(TX)                  |                  |                     |                    
-| UNO R4 Minima, UNO R4 WiFi| 18(RX), 17(TX)                |                  |                     |                     
-| Leonardo, Micro, Yún Rev2 | 0(RX), 1(TX)                  |                  |                     |                     
-| Uno WiFi Rev.2            | 0(RX), 1(TX)                  |                  |                     |                    
-| 101                       | 0(RX), 1(TX)                  |                  |                     |                    
-| MKR boards                | 13(RX), 14(TX)                |                  |                     |                    
-| Nano boards               | 0(RX), 1(TX)                  |                  |                     |                  
-| Zero                      | 0(RX), 1(TX)                  |                  |                     |                      
-| Due                       | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3)             
-| GIGA R1 WiFi              | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3)   
-| Mega 2560 Rev3            | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3)    
+| Board                     | Serial pins                   | Serial1 pins     | Serial2 pins        | Serial3 pins     | Serial4 pins
+| UNO R3, UNO R3 SMD Mini   | 0(RX), 1(TX)                  |                  |                     |                  |
+| Nano (classic)            | 0(RX), 1(TX)                  |                  |                     |                  |
+| UNO R4 Minima, UNO R4 WiFi|                               | 0(RX0), 1(TX0)   |                     |                  |
+| Leonardo, Micro, Yún Rev2 |                               | 0(RX), 1(TX)     |                     |                  |
+| Uno WiFi Rev.2            |                               | 0(RX), 1(TX)     |                     |                  |
+| MKR boards                |                               | 13(RX), 14(TX)   |                     |                  |
+| Zero                      |                               | 0(RX), 1(TX)     |                     |                  | 
+| GIGA R1 WiFi              |                               | 0(RX), 1(TX)     | 19(RX1), 18(TX1)    | 17(RX2), 16(TX2) | 15(RX3), 14(TX3)
+| Due                       | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3) |        
+| Mega 2560 Rev3            | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3) |
+| Nano 33 IoT               |                               | 0(RX0), 1(TX0)   |                     |                  |
+| Nano RP2040 Connect       |                               | 0(RX0), 1(TX0)   |                     |                  |
+| Nano BLE / BLE Sense      |                               | 0(RX0), 1(TX0)   |                     |                  |
+| Nano ESP32                |                               | 0(RX0), 1(TX0)   | Any free GPIO [1]   |                  |
 |================================================================================================================================================
+
+* [1] The Nano ESP32 has a second hardware serial port available, but you need to specify the pins. 
 
 
 On older boards (Uno, Nano, Mini, and Mega), pins 0 and 1 are used for communication with the computer. Connecting anything to these pins can interfere with that communication, including causing failed uploads to the board.
