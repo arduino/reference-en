@@ -72,10 +72,10 @@ Nothing
 ----
 switch (var) {
   case 1:
-    //do something when var equals 1
+    // do something when var equals 1
     break;
   case 2:
-    //do something when var equals 2
+    // do something when var equals 2
     break;
   default:
     // if nothing else matches, do the default
