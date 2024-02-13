@@ -49,7 +49,7 @@ switch (var) {
 
 *You can also use the `bool` data type when you just two switch cases.
 
-Note that you can also negative values as input.
+Note that you can also use negative values as input.
 
 [float]
 === Returns
