@@ -12,7 +12,7 @@ subCategories: [ "Constants" ]
 
 [float]
 == Defining Pin Levels: HIGH and LOW
-When reading or writing to a digital pin there are only two possible values a pin can take/be-set-to: `HIGH` and `LOW`. These are the same as `true` and `false`, as well as `0` and `1`.
+When reading or writing to a digital pin there are only two possible values a pin can take/be-set-to: `HIGH` and `LOW`. These are the same as `true` and `false`, as well as `1` and `0`.
 
 [float]
 === HIGH
