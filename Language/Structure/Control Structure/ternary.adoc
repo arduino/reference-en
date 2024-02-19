@@ -1,0 +1,71 @@
+---
+title: ternary
+categories: [ "Structure" ]
+subCategories: [ "Control Structure" ]
+---
+
+
+
+
+
+= ?: Ternary Operator
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+It takes three arguments rather than the typical one or two that most operators use. The first argument is a comparison argument, the second is the result upon a true comparison, and the third is the result upon a false comparison. It is an alternative to shorten an if-else block. It can help increase the readability and reduce the number of lines in your code.
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`expression_1 ? expression_2 : expression_3; // if expression_1 evaluates to true then expression_2 is evaluated else expression_3`
+
+
+[float]
+=== Parameters
+`expression`. An expression is any legal combination of symbols that represents a value.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+
+[source,arduino]
+----
+int x = 10, y = 20, z; // declared and defined three variables x, y and z
+z = (x < y) ? x : y;
+// the statement checks the conditional expression and assigns z the value of x, the expression x<y is true
+----
+[%hardbreaks]
+
+
+--
+// HOW TO USE SECTION ENDS
+
+
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+
+--
+// SEE ALSO SECTION ENDS
