@@ -17,7 +17,7 @@ subCategories: [ "Bits and Bytes" ]
 
 [float]
 === Description
-Computes the value of the specified bit (bit 0 is 1, bit 1 is 2, bit 2 is 4, etc.).
+Computes the value of the specified bit (bit 0 is 1, bit 1 is 2, bit 2 is 4, etc). The value returned is 2^n where n is an integer input.
 [%hardbreaks]
 
 
@@ -44,6 +44,32 @@ The value of the bit.
 --
 
 [float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+Prints the output of `bit(n)` for n=0 to n=10 to the serial monitor. Values returned are 1 2 4 8 16 till 1024.
+[source,arduino]
+----
+void setup() {
+Serial.begin(9600); 
+}
+
+void loop() {
+for(int n=0;n<=10;n++)  //loop from n=0 till 10
+  {
+  Serial.print(" ");    //space between numbers, for readability
+  Serial.print(bit(n)); //print the value of bit(n)
+  delay(1000);
+  }
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+The variable `n` must be an integer type. float and double will return an error and the program will not compile.
+
+The maximum value that can be returned by `bit(n)` is 2^31 = 2147483648 after which 0 is returned.
+--
 === See also
 
 --
