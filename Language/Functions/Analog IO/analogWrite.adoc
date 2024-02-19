@@ -40,7 +40,7 @@ Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. C
 
 +*+ These pins are officially supported PWM pins. While some boards have additional pins capable of PWM, using them is recommended only for advanced users that can account for timer availability and potential conflicts with other uses of those pins.  +
 +**+ In addition to PWM capabilities on the pins noted above, the MKR, Nano 33 IoT, Zero and UNO R4 boards have true analog output when using `analogWrite()` on the `DAC0` (`A0`) pin. +
-+***+ In addition to PWM capabilities on the pins noted above, the Due and GIGA R1 boards have true analog output when using `analogWrite()` on pins `DAC0` and `DAC1`.
++***+ In addition to PWM capabilities on the pins noted above, the Due and GIGA R1 boards have true analog output when using `analogWrite()` on pins `DAC0` and `DAC1`. +
 +****+ Only 4 different pins can be used at the same time. Enabling PWM on more than 4 pins will abort the running sketch and require resetting the board to upload a new sketch again. +
 
 [%hardbreaks]
