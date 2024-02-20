@@ -17,7 +17,10 @@ subCategories: [ "External Interrupts" ]
 
 [float]
 === Description
-The `digitalPinToInterrupt()` function takes a pin as an argument, and returns the same pin *if* it can be used as an interrupt. For example, `digitalPinToInterrupt(4)` on an Arduino UNO will not work, as interrupts are only supported on pins 2,3.
+
+*AVR only*: The `digitalPinToInterrupt()` returns the interrupt number for a specific pin. If the provided pin is not interrupt capable, returns NOT_AN_INTERRUPT (-1). For example: `digitalPinToInterrupt(4)` on an Arduino UNO will not work, as interrupts are only supported on pins 2,3.
+
+*All other platforms*: Returns the parameter, without checking for interrupt capability. attachInterrupt() implementation should perform the check instead. For example, `digitalPinToInterrupt(4)` on an Arduino UNO R4 WiFi will return *4* without checking if it is an interrupt pin.
 
 See link:../../external-interrupts/attachinterrupt[attachInterrupt()] for a full list of supported interrupt pins on all boards.
 
@@ -37,7 +40,7 @@ See link:../../external-interrupts/attachinterrupt[attachInterrupt()] for a full
 [float]
 === Returns
 - The pin to interrupt (e.g. `2`)+
-- If pin is not available for interrupt, returns `-1`.
+- *AVR only*: If pin is not available for interrupt, returns `-1`.
 
 --
 // OVERVIEW SECTION ENDS

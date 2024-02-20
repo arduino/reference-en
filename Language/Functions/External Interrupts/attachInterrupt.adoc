@@ -63,14 +63,14 @@ For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gam
 
 [float]
 === Syntax
-`attachInterrupt(digitalPinToInterrupt(pin), ISR, mode)` (recommended) +
-`attachInterrupt(interrupt, ISR, mode)` (not recommended) +
-`attachInterrupt(pin, ISR, mode)` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, Uno WiFi Rev2, Due, and 101.)
 
+The attachInterrupt() first parameter is a *pinNumber* starting from *ArduinoCore-API 1.0*. For legacy reasons (for example, if targeting an AVR board) you can still pass the argument via the old digitalPinToInterrupt() macro. This macro expands into the pinNumber in modern architectures, thus cannot be used to evaluate if a pin is interrupt capable.
+
+`attachInterrupt(pin, ISR, mode)`
+`attachInterrupt(digitalPinToInterrupt(pin), ISR, mode)` (AVR and older boards) +
 
 [float]
 === Parameters
-`interrupt`: the number of the interrupt. Allowed data types: `int`. +
 `pin`: the Arduino pin number. +
 `ISR`: the ISR to call when the interrupt occurs; this function must take no parameters and return nothing. This function is sometimes referred to as an interrupt service routine. +
 `mode`: defines when the interrupt should be triggered. Four constants are predefined as valid values: +
@@ -150,6 +150,10 @@ For Uno WiFi Rev2, Due, Zero, MKR Family and 101 boards the *interrupt number = 
 
 [float]
 === See also
+
+[role="language"]
+* #LANGUAGE# link:../../external-interrupts/detachinterrupt[detachInterrupts()]
+* #LANGUAGE# link:../../external-interrupts/digitalpintointerrupt[digitalPinToInterrupt()]
 
 --
 // SEE ALSO SECTION ENDS
