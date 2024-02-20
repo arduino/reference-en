@@ -17,21 +17,35 @@ Used for communication between the Arduino board and a computer or other devices
 [options="header"]
 
 |================================================================================================================================================
-| Board                     | Serial pins                   | Serial1 pins     | Serial2 pins        | Serial3 pins        
-| UNO R3, UNO R3 SMD Mini   | 0(RX), 1(TX)                  |                  |                     |                    
-| UNO R4 Minima, UNO R4 WiFi| 18(RX), 17(TX)                |                  |                     |                     
-| Leonardo, Micro, Yún Rev2 | 0(RX), 1(TX)                  |                  |                     |                     
-| Uno WiFi Rev.2            | 0(RX), 1(TX)                  |                  |                     |                    
-| 101                       | 0(RX), 1(TX)                  |                  |                     |                    
-| MKR boards                | 13(RX), 14(TX)                |                  |                     |                    
-| Nano boards               | 0(RX), 1(TX)                  |                  |                     |                  
-| Zero                      | 0(RX), 1(TX)                  |                  |                     |                      
-| Due                       | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3)             
-| GIGA R1 WiFi              | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3)   
-| Mega 2560 Rev3            | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3)    
+| Board                     | Serial pins                   | Serial1 pins     | Serial2 pins        | Serial3 pins     | Serial4 pins
+| UNO R3, UNO R3 SMD Mini   | 0(RX), 1(TX)                  |                  |                     |                  |
+| Nano (classic)            | 0(RX), 1(TX)                  |                  |                     |                  |
+| UNO R4 Minima, UNO R4 WiFi|                               | 0(RX0), 1(TX0)   |                     |                  |
+| Leonardo, Micro, Yún Rev2 |                               | 0(RX), 1(TX)     |                     |                  |
+| Uno WiFi Rev.2            |                               | 0(RX), 1(TX)     |                     |                  |
+| MKR boards                |                               | 13(RX), 14(TX)   |                     |                  |
+| Zero                      |                               | 0(RX), 1(TX)     |                     |                  | 
+| GIGA R1 WiFi              |                               | 0(RX), 1(TX)     | 19(RX1), 18(TX1)    | 17(RX2), 16(TX2) | 15(RX3), 14(TX3)
+| Due                       | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3) |        
+| Mega 2560 Rev3            | 0(RX), 1(TX)                  | 19(RX1), 18(TX1) | 17(RX2), 16(TX2)    | 15(RX3), 14(TX3) |
+| Nano 33 IoT               |                               | 0(RX0), 1(TX0)   |                     |                  |
+| Nano RP2040 Connect       |                               | 0(RX0), 1(TX0)   |                     |                  |
+| Nano BLE / BLE Sense      |                               | 0(RX0), 1(TX0)   |                     |                  |
 |================================================================================================================================================
 
 
+[options="header"]
+
+The Nano ESP32 board is an exception due to being based on the ESP32 core. Here, `Serial0` refers to `RX0` and `TX0`, while `Serial1` and `Serial2` are additional ports that can be assigned to any free GPIO.
+
+|================================================================================================================================================
+| Board                     | Serial0 pins                   | Serial1 pins        | Serial2 pins        | Serial3 pins     | Serial4 pins
+| Nano ESP32                | 0(RX0), 1(TX0)                 | Any free GPIO       | Any free GPIO       |                  |
+|================================================================================================================================================
+
+You can read more about configuring the Nano ESP32's additional serial ports in https://docs.arduino.cc/tutorials/nano-esp32/cheat-sheet/#uart[this article].
+
+[%hardbreaks]
 On older boards (Uno, Nano, Mini, and Mega), pins 0 and 1 are used for communication with the computer. Connecting anything to these pins can interfere with that communication, including causing failed uploads to the board.
 [%hardbreaks]
 You can use the Arduino environment's built-in serial monitor to communicate with an Arduino board. Click the serial monitor button in the toolbar and select the same baud rate used in the call to `begin()`.
