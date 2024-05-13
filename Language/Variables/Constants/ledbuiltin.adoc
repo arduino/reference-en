@@ -1,0 +1,31 @@
+---
+title: LED_BUILTIN
+categories: [ "Variables" ]
+subCategories: [ "Constants" ]
+---
+
+= LED_BUILTIN
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+== Defining built-ins: LED_BUILTIN
+Most Arduino boards have a pin connected to an on-board LED in series with a resistor. The constant `LED_BUILTIN` is the number of the pin to which the on-board LED is connected. Most boards have this LED connected to digital pin 13.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+// SEE ALSO SECTION BEGINS
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+
+--
+// SEE ALSO SECTION ENDS

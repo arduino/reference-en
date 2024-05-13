@@ -73,8 +73,6 @@ void loop() {
 === Notes and Warnings
 This function works very accurately in the range 3 microseconds and up to 16383. We cannot assure that delayMicroseconds will perform precisely for smaller delay-times. Larger delay times may actually delay for an extremely brief time. 
 
-As of Arduino 0018, delayMicroseconds() no longer disables interrupts.
-
 --
 // HOW TO USE SECTION ENDS
 

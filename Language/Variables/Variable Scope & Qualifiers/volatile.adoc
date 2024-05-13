@@ -55,7 +55,7 @@ There are several ways to do this:
 === Example Code
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
-The `volatile` modifier ensures that changes to the `state` variable are immediately visible in `loop()`. Without the `volatile` modifier, the `state` variable may be loaded into a register when entering the function and would not be updated anymore until the function ends.
+The `volatile` modifier ensures that changes to the `changed` variable are immediately visible in `loop()`. Without the `volatile` modifier, the `changed` variable may be loaded into a register when entering the function and would not be updated anymore until the function ends.
 
 [source,arduino]
 ----

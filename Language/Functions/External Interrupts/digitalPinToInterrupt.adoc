@@ -1,0 +1,92 @@
+---
+title: digitalPinToInterrupt()
+categories: [ "Functions" ]
+subCategories: [ "External Interrupts" ]
+---
+
+
+
+
+
+= digitalPinToInterrupt()
+
+
+// OVERVIEW SECTION STARTS
+[#overview]
+--
+
+[float]
+=== Description
+The `digitalPinToInterrupt()` function takes a pin as an argument, and returns the same pin *if* it can be used as an interrupt. For example, `digitalPinToInterrupt(4)` on an Arduino UNO will not work, as interrupts are only supported on pins 2,3.
+
+See link:../../external-interrupts/attachinterrupt[attachInterrupt()] for a full list of supported interrupt pins on all boards.
+
+[%hardbreaks]
+
+
+[float]
+=== Syntax
+`digitalPinToInterrupt(pin)`
+
+
+[float]
+=== Parameters
+- `pin` - the pin we want to use for an interrupt.
+
+
+[float]
+=== Returns
+- The pin to interrupt (e.g. `2`)+
+- If pin is not available for interrupt, returns `-1`.
+
+--
+// OVERVIEW SECTION ENDS
+
+
+
+
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+
+[float]
+=== Example Code
+// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+This example checks if a pin can be used as an interrupt.
+
+[source,arduino]
+----
+int pin = 2;
+
+void setup() {
+  Serial.begin(9600);
+  int checkPin = digitalPinToInterrupt(pin);
+
+  if (checkPin == -1) {
+    Serial.println("Not a valid interrupt pin!");
+  } else {
+    Serial.println("Valid interrupt pin.");
+  }
+}
+
+void loop() {
+}
+----
+
+--
+// HOW TO USE SECTION ENDS
+
+
+// SEE ALSO SECTION
+[#see_also]
+--
+
+[float]
+=== See also
+
+[role="language"]
+* #LANGUAGE# link:../../external-interrupts/attachinterrupt[attachInterrupts()]
+* #LANGUAGE# link:../../external-interrupts/detachinterrupt[detachInterrupts()]
+
+--
+// SEE ALSO SECTION ENDS

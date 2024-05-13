@@ -27,6 +27,24 @@ To read more about Arduino and SPI, you can visit the https://docs.arduino.cc/le
 --
 // OVERVIEW SECTION ENDS
 
+// HOW TO USE SECTION STARTS
+[#howtouse]
+--
+|================================================================================================================================================
+|                                                    Boards                                            | Default SPI Pins                            | Additonal SPI Pins | Notes 
+| UNO R3, UNO R3 SMD, UNO WiFi Rev2, UNO Mini Ltd| 10(CS), 11(COPI), 12(CIPO), 13(SCK) | | SPI pins available on ICSP header 
+| UNO R4 Minima, UNO R4 WiFi| 10(CS), 11(COPI), 12(CIPO), 13(SCK) | | SPI pins available on ICSP header 
+| Leonardo, Yún Rev2, Zero| 10(CS), 11(COPI), 12(CIPO), 13(SCK) | | SPI pins available on ICSP header 
+| Micro                | 14(CIPO), 15(SCK), 16(COPI)      | | 
+| Nano boards          | 11(COPI), 12(CIPO), 13(SCK)      | |
+| MKR boards           | 8(COPI), 9(SCK), 10(CIPO)        | |
+| Due                  | 74(CIPO), 75(MOSI), 76(SCK) | SPI pins available on dedicated SPI header |  
+| GIGA R1 WiFi         | 89(CIPO), 90(COPI), 91(SCK) | 12(CIPO), 11(COPI), 13(SCK), 10(CS) | Note that pin 89,90,91 are located on the SPI header 
+| Mega 2560 Rev3       | 50(CIPO), 51(COPI), 52(SCK), 53(CS) |  | SPI pins available on ICSP header 
+|================================================================================================================================================
+
+--
+// HOW TO USE SECTION ENDS
 
 // FUNCTIONS SECTION STARTS
 [#functions]

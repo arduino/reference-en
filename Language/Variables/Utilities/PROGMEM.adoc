@@ -17,16 +17,22 @@ subCategories: [ "Utilities" ]
 
 [float]
 === Description
-Store data in flash (program) memory instead of SRAM. There's a description of the various https://www.arduino.cc/en/Tutorial/Foundations/Memory[types of memory] available on an Arduino board.
 
-The `PROGMEM` keyword is a variable modifier, it should be used only with the datatypes defined in pgmspace.h. It tells the compiler "put this information into flash memory", instead of into SRAM, where it would normally go.
+Keep constant data in flash (program) memory only, instead of copying it to SRAM when the program starts. There's a description of the various https://www.arduino.cc/en/Tutorial/Foundations/Memory[types of memory] available on an Arduino board.
 
-PROGMEM is part of the link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library. It is included automatically in modern versions of the IDE. However, if you are using an IDE version below 1.0 (2011), you'll first need to include the library at the top of your sketch, like this:
+The `PROGMEM` keyword is a variable modifier, it should be used only with the datatypes defined in pgmspace.h. It tells the compiler "keep this information in flash memory only", instead of copying it to SRAM at start up, like it would normally do.
 
-`#include <avr/pgmspace.h>`
+PROGMEM is part of the link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library. It is included automatically in the Arduino IDE.
+
 While `PROGMEM` could be used on a single variable, it is really only worth the fuss if you have a larger block of data that needs to be stored, which is usually easiest in an array, (or another C++ data structure beyond our present discussion).
 
-Using `PROGMEM` is also a two-step procedure. After getting the data into Flash memory, it requires special methods (functions), also defined in the link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h] library, to read the data from program memory back into SRAM, so we can do something useful with it.
+Using `PROGMEM` is a two-step procedure. Once a variable has been defined with `PROGMEM`, it cannot be read like a regular SRAM-based variable: you have to read it using specific functions, also defined in link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h].
+
+==== Important Note!
+
+`PROGMEM` is useful _only_ when working with AVR boards (Uno Rev3, Leonardo etc.). Newer boards (Due, MKR WiFi 1010, GIGA R1 WiFi etc.) automatically use the program space when a variable is declared as a `const`. However, for retro compatibility, `PROGMEM` can still be used with newer boards. This implementation currently lives link:https://github.com/arduino/ArduinoCore-API/blob/master/api/deprecated-avr-comp/avr/pgmspace.h[here].
+
+
 [%hardbreaks]
 
 
