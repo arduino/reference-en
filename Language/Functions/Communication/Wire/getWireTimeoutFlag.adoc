@@ -10,7 +10,7 @@ title: getWireTimeoutFlag()
 [float]
 === Description
 
-Checks whether a timeout has occured since the last time the flag was cleared.
+Checks whether a timeout has occurred since the last time the flag was cleared.
 
 This flag is set is set whenever a timeout occurs and cleared when `Wire.clearWireTimeoutFlag()` is called, or when the timeout is changed using `Wire.setWireTimeout()`.
 
