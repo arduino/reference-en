@@ -92,7 +92,7 @@ switch (var) {
 
 
 
-// SEE ALSO SECTIN BEGINS
+// SEE ALSO SECTION BEGINS
 [#see_also]
 --
 
