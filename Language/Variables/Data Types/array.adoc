@@ -22,7 +22,7 @@ All of the methods below are valid ways to create (declare) an array.
   // Declare an array of a given length without initializing the values:
   int myInts[6];
 
-  // Declare an array without explicitely choosing a size (the compiler 
+  // Declare an array without explicitly choosing a size (the compiler 
   // counts the elements and creates an array of the appropriate size):
   int myPins[] = {2, 4, 8, 3, 6, 4};
 
