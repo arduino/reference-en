@@ -100,7 +100,7 @@ void loop() {
   for (int x = 0; x < 64; x++) { // only part of the ASCII chart, change to suit
     // print it out in many formats:
     Serial.print(x);       // print as an ASCII-encoded decimal - same as "DEC"
-    Serial.print("\t\t");  // prints two tabs to accomodate the label length
+    Serial.print("\t\t");  // prints two tabs to accommodate the label length
 
     Serial.print(x, DEC);  // print as an ASCII-encoded decimal
     Serial.print("\t");    // prints a tab
