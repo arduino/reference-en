@@ -16,7 +16,7 @@ subCategories: [ "Communication" ]
 === Description
 
 
-This library allows you to communicate with I2C devices, a feature that is present on all Arduino boards. I2C is a very common protocol, primarly used for reading/sending data to/from external I2C components. To learn more, visit link:https://docs.arduino.cc/learn/communication/wire[this article for Arduino & I2C].
+This library allows you to communicate with I2C devices, a feature that is present on all Arduino boards. I2C is a very common protocol, primarily used for reading/sending data to/from external I2C components. To learn more, visit link:https://docs.arduino.cc/learn/communication/wire[this article for Arduino & I2C].
 
 Due to the hardware design and various architectural differences, the I2C pins are located in different places. The pin map just below highlights the default pins, as well as additional ports available on certain boards.
 

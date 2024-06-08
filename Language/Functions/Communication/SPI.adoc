@@ -31,7 +31,7 @@ To read more about Arduino and SPI, you can visit the https://docs.arduino.cc/le
 [#howtouse]
 --
 |================================================================================================================================================
-|                                                    Boards                                            | Default SPI Pins                            | Additonal SPI Pins | Notes 
+|                                                    Boards                                            | Default SPI Pins                            | Additional SPI Pins | Notes 
 | UNO R3, UNO R3 SMD, UNO WiFi Rev2, UNO Mini Ltd| 10(CS), 11(COPI), 12(CIPO), 13(SCK) | | SPI pins available on ICSP header 
 | UNO R4 Minima, UNO R4 WiFi| 10(CS), 11(COPI), 12(CIPO), 13(SCK) | | SPI pins available on ICSP header 
 | Leonardo, Yún Rev2, Zero| 10(CS), 11(COPI), 12(CIPO), 13(SCK) | | SPI pins available on ICSP header 
