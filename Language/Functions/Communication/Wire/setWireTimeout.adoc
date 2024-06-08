@@ -53,7 +53,7 @@ void loop() {
   Wire.write(123);           // send command
   byte error = Wire.endTransmission(); // run transaction
   if (error) {
-    Serial.println("Error occured when writing");
+    Serial.println("Error occurred when writing");
     if (error == 5)
       Serial.println("It was a timeout");
   }
@@ -66,7 +66,7 @@ void loop() {
   #endif
   byte len = Wire.requestFrom(8, 1); // request 1 byte from device #8
   if (len == 0) {
-    Serial.println("Error occured when reading");
+    Serial.println("Error occurred when reading");
     #if defined(WIRE_HAS_TIMEOUT)
     if (Wire.getWireTimeoutFlag())
       Serial.println("It was a timeout");
@@ -88,7 +88,7 @@ If `reset_on_timeout` was set to true and the platform supports this, the Wire h
 
 When a timeout is triggered, a flag is set that can be queried with `getWireTimeoutFlag()` and must be cleared manually using `clearWireTimeoutFlag()` (and is also cleared when `setWireTimeout()` is called).
 
-Note that this timeout can also trigger while waiting for clock stretching or waiting for a second master to complete its transaction. So make sure to adapt the timeout to accomodate for those cases if needed. A typical timeout would be 25ms (which is the maximum clock stretching allowed by the SMBus protocol), but (much) shorter values will usually also work.
+Note that this timeout can also trigger while waiting for clock stretching or waiting for a second master to complete its transaction. So make sure to adapt the timeout to accommodate for those cases if needed. A typical timeout would be 25ms (which is the maximum clock stretching allowed by the SMBus protocol), but (much) shorter values will usually also work.
 
 
 [float]
