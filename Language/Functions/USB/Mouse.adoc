@@ -27,18 +27,17 @@ The mouse functions enable 32u4 or SAMD micro based boards to control cursor mov
 === Compatible Hardware
 HID is supported on the following boards:
 [options="header"]
-|=================================================================================================
-| Board                                                                | Supported Pins                     
-| link:https://docs.arduino.cc/hardware/leonardo[Leonardo]             | All digital & analog pins
-| link:https://docs.arduino.cc/hardware/micro[Micro]                   | All digital & analog pins
-| link:https://docs.arduino.cc/hardware/due[Due]                       | All digital & analog pins
-| link:https://docs.arduino.cc/hardware/zero[Zero]                     | All digital & analog pins
-| link:https://docs.arduino.cc/hardware/uno-r4-minima[UNO R4 Minima]   | All digital & analog pins
-| link:https://docs.arduino.cc/hardware/uno-r4-wifi[UNO R4 WiFi]       | All digital & analog pins
-| link:https://docs.arduino.cc/hardware/giga-r1-wifi[Giga R1]               | All digital & analog pins
-| link:https://docs.arduino.cc/hardware/nano-esp32[Nano ESP32]         | All digital & analog pins
-| link:https://docs.arduino.cc/#mkr-family[MKR Family]                 | All digital & analog pins
-|=================================================================================================
+|======================================================================
+| Board                                                                                     
+| link:https://docs.arduino.cc/hardware/leonardo[Leonardo]             
+| link:https://docs.arduino.cc/hardware/micro[Micro]                   
+| link:https://docs.arduino.cc/hardware/due[Due]                       
+| link:https://docs.arduino.cc/hardware/zero[Zero]                     
+| link:https://docs.arduino.cc/hardware/uno-r4-minima[UNO R4 Minima]   
+| link:https://docs.arduino.cc/hardware/uno-r4-wifi[UNO R4 WiFi]       
+| link:https://docs.arduino.cc/hardware/mkr-1000-wifi[MKR 1000 WiFi]   
+| link:https://docs.arduino.cc/#mkr-family[MKR Family]                 
+|======================================================================
 
 [float]
 === Notes and Warnings
