@@ -43,6 +43,8 @@ The first parameter to `attachInterrupt()` is an interrupt number. Normally you 
 
 *Note* +
 Inside the attached function, `delay()` won't work and the value returned by `millis()` will not increment. Serial data received while in the function may be lost. You should declare as `volatile` any variables that you modify within the attached function. See the section on ISRs below for more information.
+
+Pushbuttons, switches, and relays have mechanical chatter which can cause many rapid signal changes.  The https://github.com/thomasfredericks/Bounce2[Bounce2 library] is often a better choice than `attachInterrupt()` to reliably detect changes from mechanical switches.
 [%hardbreaks]
 
 [float]
@@ -104,7 +106,7 @@ Nothing
 [source,arduino]
 ----
 const byte ledPin = 13;
-const byte interruptPin = 2;
+const byte interruptPin = 2; // Use a "clean" digital signal.  See notes about mechanical switch chatter.
 volatile byte state = LOW;
 
 void setup() {
