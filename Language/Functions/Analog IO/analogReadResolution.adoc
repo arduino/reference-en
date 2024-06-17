@@ -16,11 +16,12 @@ subCategories: [ "Analog I/O" ]
 
 [float]
 === Description
-analogReadResolution() is an extension of the Analog API for the Zero, Due, MKR family, Nano 33 (BLE and IoT) and Portenta.
+analogReadResolution() is an extension of the Analog API for the Zero, Due, MKR family, Nano 33 (BLE and IoT), UNO R4 (Minima and WiFi) and Portenta.
 
 Sets the size (in bits) of the value returned by `analogRead()`. It defaults to 10 bits (returns values between 0-1023) for backward compatibility with AVR based boards.
 
 The *Zero, Due, MKR family and Nano 33 (BLE and IoT)* boards have 12-bit ADC capabilities that can be accessed by changing the resolution to 12. This will return values from `analogRead()` between 0 and 4095. +
+The *UNO R4 (Minima and WiFi)* boards have 14-bit ADC capabilities that can be accessed by changing the resolution to 14. This will return values from `analogRead()` between 0 and 16383. +
 The *Portenta H7* has a 16 bit ADC, which will allow values between 0 and 65535.
 [%hardbreaks]
 
