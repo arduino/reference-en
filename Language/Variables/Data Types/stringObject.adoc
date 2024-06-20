@@ -128,6 +128,7 @@ String stringOne = String(5.698, 3);                  // using a float and the d
 === Operators
 
 [role="language"]
+* #LANGUAGE# link:../string/operators/assignment[= (assignment)]
 * #LANGUAGE# link:../string/operators/elementaccess[[\] (element access)]
 * #LANGUAGE# link:../string/operators/concatenation[+ (concatenation)]
 * #LANGUAGE# link:../string/operators/append[+= (append)]
