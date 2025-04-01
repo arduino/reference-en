@@ -29,7 +29,7 @@ The function returns true if the target string is found, false if it times out.
 
 [float]
 === Parameters
-`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:https://www.arduino.cc/en/Reference/serial[Serial main page]. +
 `target`: the string to search for. Allowed data types: `char`. +
 `terminal`: the terminal string in the search. Allowed data types: `char`.
 

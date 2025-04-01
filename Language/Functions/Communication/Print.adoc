@@ -22,7 +22,7 @@ Print class is related to several libraries in Arduino that use the printing fun
 
 Some of the libraries that use the Print class are:
 
-* link:../serial[Serial]
+* link:https://www.arduino.cc/en/Reference/serial[Serial]
 * link:https://reference.arduino.cc/reference/en/libraries/liquidcrystal/[LiquidCrystal]
 * link:https://www.arduino.cc/en/Reference/Ethernet[Ethernet]
 * link:https://reference.arduino.cc/reference/en/libraries/wifi/wificlient/[Wifi]
@@ -41,8 +41,8 @@ Some of the libraries that use the Print class are:
 [float]
 === Functions
 link:https://www.arduino.cc/reference/en/language/functions/communication/wire/write/[write()] +
-link:https://www.arduino.cc/reference/en/language/functions/communication/serial/print/[print()] +
-link:https://www.arduino.cc/reference/en/language/functions/communication/serial/println/[println()]
+link:https://www.arduino.cc/en/Reference/serial/print/[print()] +
+link:https://www.arduino.cc/en/Reference/serial/println/[println()]
 
 '''
 

@@ -25,7 +25,7 @@ Get the number of bytes (characters) available for writing in the serial buffer 
 
 [float]
 === Parameters
-`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:https://www.arduino.cc/en/Reference/serial[Serial main page].
 
 
 [float]
