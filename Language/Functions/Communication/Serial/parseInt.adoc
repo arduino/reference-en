@@ -35,7 +35,7 @@ In particular:
 
 [float]
 === Parameters
-`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:https://www.arduino.cc/en/Reference/serial[Serial main page]. +
 `lookahead`: the mode used to look ahead in the stream for an integer. Allowed data types: `LookaheadMode`. Allowed `lookahead` values:
 
 * `SKIP_ALL`: all characters other than digits or a minus sign are ignored when scanning the stream for an integer. This is the default mode.

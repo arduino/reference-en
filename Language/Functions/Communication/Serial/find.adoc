@@ -28,7 +28,7 @@ title: Serial.find()
 
 [float]
 === Parameters
-`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:https://www.arduino.cc/en/Reference/serial[Serial main page]. +
 `target`: the string to search for. Allowed data types: `char`. +
 `length`: length of the target. Allowed data types: `size_t`.
 

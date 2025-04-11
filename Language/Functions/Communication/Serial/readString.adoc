@@ -27,7 +27,7 @@ title: Serial.readString()
 
 [float]
 === Parameters
-`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:https://www.arduino.cc/en/Reference/serial[Serial main page].
 
 
 [float]
@@ -85,7 +85,7 @@ The function does not terminate early if the data contains end of line character
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../serial[Serial]
+* #LANGUAGE# link:https://www.arduino.cc/en/Reference/serial[Serial]
 * #LANGUAGE# link:../begin[begin()]
 * #LANGUAGE# link:../end[end()]
 * #LANGUAGE# link:../available[available()]

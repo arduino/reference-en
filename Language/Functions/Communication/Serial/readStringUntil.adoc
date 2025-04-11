@@ -27,7 +27,7 @@ title: Serial.readStringUntil()
 
 [float]
 === Parameters
-`_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
+`_Serial_`: serial port object. See the list of available serial ports for each board on the link:https://www.arduino.cc/en/Reference/serial[Serial main page]. +
 `terminator`: the character to search for. Allowed data types: `char`.
 
 
@@ -62,7 +62,7 @@ If the terminator character can't be found, all read characters will be discarde
 === See also
 
 [role="language"]
-* #LANGUAGE# link:../../serial[Serial]
+* #LANGUAGE# link:https://www.arduino.cc/en/Reference/serial[Serial]
 * #LANGUAGE# link:../begin[begin()]
 * #LANGUAGE# link:../end[end()]
 * #LANGUAGE# link:../available[available()]

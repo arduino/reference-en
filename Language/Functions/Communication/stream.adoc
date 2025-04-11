@@ -22,8 +22,8 @@ Stream defines the reading functions in Arduino. When using any core functionali
 
 Some of the libraries that rely on Stream include :
 
-* link:../serial[Serial]
-* link:https://www.arduino.cc/en/Reference/Wire[Wire]
+* link:https://www.arduino.cc/en/Reference/serial[Serial]
+* link:https://www.arduino.cc/en/Reference/wire[Wire]
 * link:https://www.arduino.cc/en/Reference/Ethernet[Ethernet]
 * link:https://www.arduino.cc/en/Reference/SD[SD]
 
