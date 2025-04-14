@@ -62,6 +62,15 @@ int y = 14;
 int result = x << y;  // binary: 0100000000000000 - the first 1 in 101 was discarded
 ----
 
+Attention: Left-shifting a constant (like e.g. "1") means left-shifting a two-byte integer! If you want to shift it more than 14 steps to the left (e. g. for the use with a set of 4 daisy-chained shift registers), you will have to cast it, otherwise you won't get reasonable resluts:
+[source,arduino]
+----
+uint32_t x1 = 1 << 14;  // binary: 100000000000000
+uint32_t x2 = 1 << 15;  // binary: 11111111111111111000000000000000 
+uint32_t y1 = uint32_t(1) << 14;  // binary: 100000000000000
+uint32_t y2 = uint32_t(1) << 15;  // binary: 1000000000000000 
+----
+
 If you are certain that none of the ones in a value are being shifted into oblivion, a simple way to think of the left-shift operator is that it multiplies the left operand by 2 raised to the right operand power. For example, to generate powers of 2, the following expressions can be employed:
 
 [source,arduino]
