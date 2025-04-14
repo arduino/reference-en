@@ -18,7 +18,7 @@ Timeouts might not be enabled by default. See the documentation for `Wire.setWir
 [float]
 === Syntax
 
-`Wire.clearTimeout()`
+`Wire.clearTimeoutFlag()`
 
 [float]
 === Parameters
