@@ -74,6 +74,24 @@ void loop() {
 ----
 [%hardbreaks]
 
+
+[float]
+=== Notes and Warnings
+Note that interrupts can affect the measured time reported by this function. When measuring relatively short pulses, you may need to temporarily disable interrupts (see link:../Interrupts/noInterrupts[noInterrupts()]) to obtain accurate and consistent results. For example, 
+
+[source,arduino]
+----
+void loop() {
+  noInterrupts();
+  duration = pulseIn(pin, HIGH);
+  interrupts();
+
+  Serial.println(duration);
+}
+----
+[%hardbreaks]
+
+
 --
 // HOW TO USE SECTION ENDS
 
