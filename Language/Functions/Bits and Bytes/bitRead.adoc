@@ -87,7 +87,31 @@ void readBit(String direction, long counter) {
 
 --
 // OVERVIEW SECTION ENDS
+=== Example Code
+// Describe what the example code is all about and add relevant code
+Reads the bit at the specified position and returns the value. In this example the binary representation of 6 is 0110, since `n=1` the value of the second bit from the right (which is 1 in this case) will be read and printed. 
+[source,arduino]
+----
+void setup() 
+{
+  Serial.begin(9600); 
+}
 
+void loop() 
+{
+  int x = 6; int n = 1;       //setting the value of x and n
+  Serial.print(bitRead(x,n)); //reading the bit at position n and printing the value
+}
+----
+[%hardbreaks]
+
+[float]
+=== Notes and Warnings
+The indexing of the rightmost bit starts from 0, so `n=1` reads the second bit from the right.
+
+Both `x` and `n` must be integer type.
+
+--
 
 // SEE ALSO SECTION
 [#see_also]
