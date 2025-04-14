@@ -54,6 +54,7 @@ while (var < 200) {
   // do something repetitive 200 times
   var++;
 }
+// Here, do whatever comes after the while loop ends
 ----
 
 --
@@ -69,7 +70,7 @@ while (var < 200) {
 === See also
 
 [role="language"]
-
+ https://www.arduino.cc/reference/en/language/structure/control-structure/break/[Break^]
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples/WhileStatementConditional[While Loop^]
 
