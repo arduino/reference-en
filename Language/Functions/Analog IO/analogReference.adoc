@@ -45,7 +45,7 @@ Arduino SAMD Boards (Zero, etc.)
 * AR_INTERNAL2V23: a built-in 2.23V reference
 * AR_EXTERNAL: the voltage applied to the AREF pin is used as the reference
 
-Arduino megaAVR Boards (Uno WiFi Rev2)
+Arduino megaAVR Boards (Uno WiFi Rev2, Arduino Nano Every)
 
 * DEFAULT: a built-in 0.55V reference
 * INTERNAL: a built-in 0.55V reference
