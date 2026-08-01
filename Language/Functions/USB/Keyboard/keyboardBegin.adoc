@@ -37,9 +37,11 @@ Currently, the library supports the following national keyboard layouts:
 * `KeyboardLayout_de_DE`: Germany
 * `KeyboardLayout_en_US`: USA
 * `KeyboardLayout_es_ES`: Spain
+* `KeyboardLayout_es_LATAM`: Spanish-speaking Latin America
 * `KeyboardLayout_fr_FR`: France
 * `KeyboardLayout_hu_HU`: Hungary
 * `KeyboardLayout_it_IT`: Italy
+* `KeyboardLayout_pt_BR`: Brazil
 * `KeyboardLayout_pt_PT`: Portugal
 * `KeyboardLayout_sv_SE`: Sweden
 
