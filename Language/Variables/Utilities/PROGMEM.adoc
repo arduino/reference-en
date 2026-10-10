@@ -28,9 +28,8 @@ While `PROGMEM` could be used on a single variable, it is really only worth the 
 
 Using `PROGMEM` is a two-step procedure. Once a variable has been defined with `PROGMEM`, it cannot be read like a regular SRAM-based variable: you have to read it using specific functions, also defined in link:http://www.nongnu.org/avr-libc/user-manual/group\__avr__pgmspace.html[pgmspace.h].
 
-==== Important Note!
 
-`PROGMEM` is useful _only_ when working with AVR boards (Uno Rev3, Leonardo etc.). Newer boards (Due, MKR WiFi 1010, GIGA R1 WiFi etc.) automatically use the program space when a variable is declared as a `const`. However, for retro compatibility, `PROGMEM` can still be used with newer boards. This implementation currently lives link:https://github.com/arduino/ArduinoCore-API/blob/master/api/deprecated-avr-comp/avr/pgmspace.h[here].
+IMPORTANT: `PROGMEM` is useful *only* when working with AVR boards (Uno Rev3, Leonardo etc.). Newer boards (Due, MKR WiFi 1010, GIGA R1 WiFi etc.) automatically use the program space when a variable is declared as a `const`. However, for retro compatibility, `PROGMEM` can still be used with newer boards. This implementation currently lives link:https://github.com/arduino/ArduinoCore-API/blob/master/api/deprecated-avr-comp/avr/pgmspace.h[here].
 
 
 [%hardbreaks]
