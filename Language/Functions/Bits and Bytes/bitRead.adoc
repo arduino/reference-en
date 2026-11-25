@@ -41,7 +41,7 @@ The value of the bit (0 or 1).
 
 This example code demonstrates how to read two variables, one increasing counter, one decreasing counter, and print out both the binary and decimal values of the variables.
 
-The `readBit()` function loops through each bit of the variable (starting from the rightmost bit), and prints it out.
+The `readBit()` function loops through each bit of the variable (starting from the leftmost, most significant bit), and prints it out.
 
 [source,arduino]
 ----
@@ -71,7 +71,7 @@ void loop() {
   delay(1000);
 }
 
-/*this function takes a variable, prints it out bit by bit (starting from the right)
+/*this function takes a variable, prints it out bit by bit (starting from the left)
 then prints the decimal number for comparison.*/
 void readBit(String direction, long counter) {
   Serial.print(direction + "Binary Number: ");
