@@ -94,7 +94,7 @@ Note that this timeout can also trigger while waiting for clock stretching or wa
 [float]
 === Portability Notes
 
-This function was not available in the original version of the Wire library and might still not be available on all platforms. Code that needs to be portable across platforms and versions can use the `WIRE_HAS_TIMEOUT` macro, which is only defined when `Wire.setWireTimeout()`, `Wire.getWireTimeoutFlag()` and `Wire.clearWireTimeout()` are all available.
+This function was not available in the original version of the Wire library and might still not be available on all platforms. Code that needs to be portable across platforms and versions can use the `WIRE_HAS_TIMEOUT` macro, which is only defined when `Wire.setWireTimeout()`, `Wire.getWireTimeoutFlag()` and `Wire.clearWireTimeoutFlag()` are all available.
 
 When this timeout feature was introduced on the AVR platform, it was initially kept disabled by default for compatibility, expecting it to become enabled at a later point. This means the default value of the timeout can vary between (versions of) platforms. The default timeout settings are available from the `WIRE_DEFAULT_TIMEOUT` and `WIRE_DEFAULT_RESET_WITH_TIMEOUT` macro.
 
